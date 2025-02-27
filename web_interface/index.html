@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chat Template</title>
-  <!-- Link to Bootstrap 4 CDN -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Link to Custom CSS (Optional for additional styling) -->
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversational Interface</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <div class="container mt-5">
-    <div class="chat-container shadow rounded">
-      <div class="chat-header bg-info text-white text-center py-3">
-        Chat with Us
-      </div>
-      
-      <div class="chat-messages p-3" id="chat-messages">
-        <!-- User and Bot messages will go here -->
-        <div class="message user-message bg-success text-white p-3 mb-2 rounded">
-          <p>How can I help you today?</p>
-          <small class="text-muted d-block text-right">10:00 AM</small>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title">Welcome To Employee Onboarding Chatbot</h1>
+                <p class="description">Welcome to our chat! I'm here to help you with your questions.</p>
+            </div>
         </div>
-        <div class="message bot-message bg-light text-dark p-3 mb-2 rounded">
-          <p>Sure! What are you looking for?</p>
-          <small class="text-muted d-block text-left">10:01 AM</small>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="subtitle">What can I help you with?</h2>
+                <ul class="options">
+                    <li><a href="#" class="option">Option 1: Learn more about our product</a></li>
+                    <li><a href="#" class="option">Option 2: Get help with a technical issue</a></li>
+                    <li><a href="#" class="option">Option 3: Provide feedback</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-
-      <div class="chat-input d-flex p-3 bg-light">
-        <input type="text" class="form-control mr-2" id="message-input" placeholder="Type your message here...">
-        <button class="btn btn-info" id="send-btn">Send</button>
-      </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="code-title">Code Example</h3>
+                <pre class="code-block">
+                    <code>
+                      # convert all items of dataset that have string represented to list or dict
+                      list_ds = []
+                      for item in records:
+                          convert_item = convert_string_to_list_or_dict(item)
+                          list_ds.append(convert_item)
+                    </code>
+                </pre>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="next-steps-title">Next Steps</h4>
+                <ol class="next-steps">
+                    <li><a href="#" class="next-step">Ask a question: Ask me a question about our product</a></li>
+                    <li><a href="#" class="next-step">Provide feedback: Share your thoughts on our product</a></li>
+                    <li><a href="#" class="next-step">Learn more: Learn more about our product and its features</a></li>
+                </ol>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <!-- Bootstrap 4 JS and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
-  <!-- Custom JS (Optional for functionality like sending messages) -->
-  <script src="script.js"></script>
 </body>
 </html>
