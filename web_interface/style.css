@@ -1,0 +1,40 @@
+/* Custom styles */
+.chat-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.chat-messages {
+  height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-input {
+  border-top: 1px solid #ddd;
+}
+
+.message {
+  max-width: 80%;
+}
+
+.user-message {
+  align-self: flex-start;
+}
+
+.bot-message {
+  align-self: flex-end;
+}
+
+#send-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+#message-input {
+  font-size: 16px;
+}

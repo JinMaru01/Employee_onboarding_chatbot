@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Template</title>
+  <!-- Link to Bootstrap 4 CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Link to Custom CSS (Optional for additional styling) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="chat-container shadow rounded">
+      <div class="chat-header bg-info text-white text-center py-3">
+        Chat with Us
+      </div>
+      
+      <div class="chat-messages p-3" id="chat-messages">
+        <!-- User and Bot messages will go here -->
+        <div class="message user-message bg-success text-white p-3 mb-2 rounded">
+          <p>How can I help you today?</p>
+          <small class="text-muted d-block text-right">10:00 AM</small>
+        </div>
+        <div class="message bot-message bg-light text-dark p-3 mb-2 rounded">
+          <p>Sure! What are you looking for?</p>
+          <small class="text-muted d-block text-left">10:01 AM</small>
+        </div>
+      </div>
+
+      <div class="chat-input d-flex p-3 bg-light">
+        <input type="text" class="form-control mr-2" id="message-input" placeholder="Type your message here...">
+        <button class="btn btn-info" id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 4 JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <!-- Custom JS (Optional for functionality like sending messages) -->
+  <script src="script.js"></script>
+</body>
+</html>
