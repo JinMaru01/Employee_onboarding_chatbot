@@ -11,6 +11,17 @@ def convert_string_to_list_or_dict(data_item):
     
     return data_item
 
+
+# Function to attempt conversion using ast.literal_eval
+def convert_string_to_list_or_dict_dataframe_column(data):
+    if isinstance(data, str) and (data.startswith('[') or data.startswith('{')):
+        try:
+            return ast.literal_eval(data)
+        except (ValueError, SyntaxError):
+            return data  # if conversion fails, return the original string
+    return data
+
+
 # Function to convert single-element lists to strings
 def convert_list_to_str(input_list):
     if isinstance(input_list, builtins.list) and len(input_list) == 1:

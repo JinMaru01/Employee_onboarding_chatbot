@@ -1,91 +1,181 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .option {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .option:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .code-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .code-block {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .code-block code {
+    font-family: monospace;
+    font-size: 14px;
+  }
+  
+  .next-steps-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .next-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .next-step {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+/* Chat Container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    overflow: hidden;
 }
 
-.container {
-  max-width: 90%;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Chat History */
+#chat-history {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    height: 410px;
+    display: none; /* Hide initially */
+    flex-direction: column;
+    gap: 10px;
+    background: #f5f4f4;
+    transition: background 1s ease-in-out;
 }
 
-.title {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-align: center;
+
+/* Chat Messages */
+.chat-bubble {
+    max-width: 55%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 16px;
+    word-wrap: break-word;
 }
 
-.description {
-  font-size: 1rem;
-  margin-bottom: 20px;
+/* User Message (Right Side) */
+.user-message {
+    background: #007bff;
+    color: white;
+    align-self: flex-end;
+    border-radius: 15px 15px 0 15px;
 }
 
-.subtitle {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
+/* Bot Response (Left Side) */
+.bot-message {
+    background: #e0e0e0;
+    color: black;
+    align-self: flex-start;
+    border-radius: 15px 15px 15px 0;
 }
 
-.options {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+/* Input Area */
+.input-container {
+    display: flex;
+    padding: 10px;
+    background: white;
+    border-top: 1px solid #ddd;
 }
 
-.option {
-  display: block;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-  text-decoration: none;
-  color: #337ab7;
+/* Input Box */
+#chat-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    max-height: 100px;
+    overflow-y: auto;
 }
 
-.option:hover {
-  background-color: #f5f5f5;
+  /* Send Button */
+#send-btn {
+    border: none;
+    background: #007bff;
+    color: white;
+    width: 50px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
-.code-title {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  
+#send-btn:hover {
+    background: #0056b3;
 }
 
-.code-block {
-  background-color: #f5f5f5;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
 
-.code-block code {
-  font-family: monospace;
-  font-size: 14px;
-}
 
-.next-steps-title {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.next-steps {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.next-step {
-  display: block;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-  text-decoration: none;
-  color: #337ab7;
-}
-
-.next-step:hover {
-  background-color: #f5f5f5;
-}

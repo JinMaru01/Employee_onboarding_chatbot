@@ -18,37 +18,17 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 class="subtitle">What can I help you with?</h2>
-                <ul class="options">
-                    <li><a href="#" class="option">Option 1: Learn more about our product</a></li>
-                    <li><a href="#" class="option">Option 2: Get help with a technical issue</a></li>
-                    <li><a href="#" class="option">Option 3: Provide feedback</a></li>
-                </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="code-title">Code Example</h3>
-                <pre class="code-block">
-                    <code>
-                      # convert all items of dataset that have string represented to list or dict
-                      list_ds = []
-                      for item in records:
-                          convert_item = convert_string_to_list_or_dict(item)
-                          list_ds.append(convert_item)
-                    </code>
-                </pre>
+        <div id="chat-history"></div> <!-- Chat history area -->
+        <br>
+        <div class="chat-container">
+            <div class="input-container">
+                <textarea id="chat-input" placeholder="Ask Anything?" rows="1"></textarea>
+                <button id="send-btn">➤</button>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <h4 class="next-steps-title">Next Steps</h4>
-                <ol class="next-steps">
-                    <li><a href="#" class="next-step">Ask a question: Ask me a question about our product</a></li>
-                    <li><a href="#" class="next-step">Provide feedback: Share your thoughts on our product</a></li>
-                    <li><a href="#" class="next-step">Learn more: Learn more about our product and its features</a></li>
-                </ol>
-            </div>
-        </div>
+        </div>        
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
