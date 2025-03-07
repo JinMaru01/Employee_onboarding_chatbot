@@ -27,3 +27,28 @@ def convert_list_to_str(input_list):
     if isinstance(input_list, builtins.list) and len(input_list) == 1:
         return input_list[0]
     return input_list
+
+
+# Function to extract entities from a column
+def extract_entities(intent_data):
+    entities = {}
+    for entity_dict in intent_data:
+        for key, value in entity_dict.items():
+            entities[key] = value
+    return entities
+
+
+# Funciton to extract entities from intent
+def get_entities_per_intent(df):
+    entity_dict = {}
+
+    for _, row in df.iterrows():
+        service = row["service"]
+        entities = row["entities"]
+
+        if isinstance(entities, dict):
+            if service not in entity_dict:
+                entity_dict[service] = []
+            entity_dict[service].extend(entities.items())  # Convert dict to list of tuples
+
+    return entity_dict
