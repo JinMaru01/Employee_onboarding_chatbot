@@ -52,3 +52,19 @@ def get_entities_per_intent(df):
             entity_dict[service].extend(entities.items())  # Convert dict to list of tuples
 
     return entity_dict
+
+
+# Funciton to update message by removing "HR Assistant" and "Enployee" in the Prefix
+def update_messages_df(df, intent):
+    intent_df = df[intent].copy()
+    # Clean the HR_message column: remove the "HR Assistant:" prefix from every message in the list
+    intent_df["HR_message"] = intent_df["HR_message"].apply(
+        lambda messages: [msg.split("HR Assistant:")[-1].strip() for msg in messages]
+    )
+    
+    # Clean the Employee_message column: remove the "Employee:" prefix from every message in the list
+    intent_df["Employee_message"] = intent_df["Employee_message"].apply(
+        lambda messages: [msg.split("Employee:")[-1].strip() for msg in messages]
+    )
+    
+    return intent_df
