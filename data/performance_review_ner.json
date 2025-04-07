@@ -1,0 +1,3842 @@
+[
+    {
+        "content": "review period: the past year. overall performance rating: 4. areas for improvement: time management. employee name: Amir Khaled. goal achievement: 4. additional training needed: pastry skills. leadership qualities: I mentor junior chefs. job role: chef. next review goals: Learning new cuisines. team contribution: 5. skill development: I have improved my cooking skills.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 28,
+                "label": "review_period"
+            },
+            {
+                "start": 58,
+                "end": 59,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 84,
+                "end": 99,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 116,
+                "end": 127,
+                "label": "employee_name"
+            },
+            {
+                "start": 58,
+                "end": 59,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 178,
+                "end": 191,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 215,
+                "end": 236,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 231,
+                "end": 235,
+                "label": "job_role"
+            },
+            {
+                "start": 273,
+                "end": 294,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 315,
+                "end": 316,
+                "label": "team_contribution"
+            },
+            {
+                "start": 337,
+                "end": 370,
+                "label": "skill_development"
+            }
+        ]
+    },
+    {
+        "content": "additional training needed: any additional training is needed. overall performance rating: 4. employee name: Priya Singh. leadership qualities: I've helped mentor some of the junior developers. goal achievement: 4. team contribution: 5. review period: January 2023 to December 2023. areas for improvement: time management skills. job role: Software Developer. skill development: I've learned some new programming languages. next review goals: to complete my certification by December 2023.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 61,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 91,
+                "end": 92,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 109,
+                "end": 120,
+                "label": "employee_name"
+            },
+            {
+                "start": 144,
+                "end": 192,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 91,
+                "end": 92,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 234,
+                "end": 235,
+                "label": "team_contribution"
+            },
+            {
+                "start": 252,
+                "end": 281,
+                "label": "review_period"
+            },
+            {
+                "start": 306,
+                "end": 328,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 340,
+                "end": 358,
+                "label": "job_role"
+            },
+            {
+                "start": 379,
+                "end": 422,
+                "label": "skill_development"
+            },
+            {
+                "start": 443,
+                "end": 488,
+                "label": "next_review_goals"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: publishing two papers and further developing my research skills. skill development: research skills. overall performance rating: exceeded expectations. additional training needed: grants and publications. employee name: Henry Kim. goal achievement: most. leadership qualities: I try to mentor some of the junior scientists. team contribution: very collaborative. job role: Scientist. areas for improvement: Time management. review period: the past year.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 82,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 67,
+                "end": 82,
+                "label": "skill_development"
+            },
+            {
+                "start": 148,
+                "end": 169,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 199,
+                "end": 222,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 239,
+                "end": 248,
+                "label": "employee_name"
+            },
+            {
+                "start": 268,
+                "end": 272,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 296,
+                "end": 341,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 362,
+                "end": 380,
+                "label": "team_contribution"
+            },
+            {
+                "start": 392,
+                "end": 401,
+                "label": "job_role"
+            },
+            {
+                "start": 426,
+                "end": 441,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 458,
+                "end": 471,
+                "label": "review_period"
+            }
+        ]
+    },
+    {
+        "content": "review period: January 2023 to December 2023. additional training needed: cloud architecture. skill development: I learned new frameworks. employee name: Priya Singh. leadership qualities: She guided junior developers. areas for improvement: Time management skills. overall performance rating: 4. goal achievement: 4. next review goals: to complete cloud architecture certification. job role: Software Developer. team contribution: 5.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 44,
+                "label": "review_period"
+            },
+            {
+                "start": 74,
+                "end": 92,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 113,
+                "end": 137,
+                "label": "skill_development"
+            },
+            {
+                "start": 154,
+                "end": 165,
+                "label": "employee_name"
+            },
+            {
+                "start": 189,
+                "end": 217,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 242,
+                "end": 264,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 294,
+                "end": 295,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 294,
+                "end": 295,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 337,
+                "end": 381,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 393,
+                "end": 411,
+                "label": "job_role"
+            },
+            {
+                "start": 432,
+                "end": 433,
+                "label": "team_contribution"
+            }
+        ]
+    },
+    {
+        "content": "leadership qualities: He mentors the junior scientists. additional training needed: leadership. team contribution: very collaborative. skill development: He has learned a few new techniques that have expanded his abilities. employee name: Henry Kim. overall performance rating: he exceeds expectations. areas for improvement: time management. job role: scientist. goal achievement: fully. next review goals: publishing research papers. review period: 2020-01-01 to 2021-01-01.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 54,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 0,
+                "end": 10,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 115,
+                "end": 133,
+                "label": "team_contribution"
+            },
+            {
+                "start": 154,
+                "end": 222,
+                "label": "skill_development"
+            },
+            {
+                "start": 239,
+                "end": 248,
+                "label": "employee_name"
+            },
+            {
+                "start": 278,
+                "end": 301,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 326,
+                "end": 341,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 44,
+                "end": 53,
+                "label": "job_role"
+            },
+            {
+                "start": 382,
+                "end": 387,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 408,
+                "end": 434,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 451,
+                "end": 475,
+                "label": "review_period"
+            }
+        ]
+    },
+    {
+        "content": "job role: musician. next review goals: releasing my first album and doing a tour to promote it. skill development: improved significantly. team contribution: 5. goal achievement: 4. overall performance rating: 4. review period: January 2023 to December 2023. areas for improvement: time management and leadership skills. employee name: Elijah Barnes. additional training needed: music production. leadership qualities: help motivate those around me.",
+        "entities": [
+            {
+                "start": 10,
+                "end": 18,
+                "label": "job_role"
+            },
+            {
+                "start": 39,
+                "end": 94,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 115,
+                "end": 137,
+                "label": "skill_development"
+            },
+            {
+                "start": 158,
+                "end": 159,
+                "label": "team_contribution"
+            },
+            {
+                "start": 179,
+                "end": 180,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 179,
+                "end": 180,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 228,
+                "end": 257,
+                "label": "review_period"
+            },
+            {
+                "start": 282,
+                "end": 319,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 336,
+                "end": 349,
+                "label": "employee_name"
+            },
+            {
+                "start": 379,
+                "end": 395,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 419,
+                "end": 448,
+                "label": "leadership_qualities"
+            }
+        ]
+    },
+    {
+        "content": "team contribution: four. goal achievement: very well. job role: artist. employee name: Alex Jordan. additional training needed: Alex doesn't. next review goals: increasing their output. overall performance rating: five. leadership qualities: very creative and innovative. areas for improvement: time management. review period: January 1st, 2023 to December 31st, 2023. skill development: improved their digital art skills over the past year.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 23,
+                "label": "team_contribution"
+            },
+            {
+                "start": 43,
+                "end": 52,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 64,
+                "end": 70,
+                "label": "job_role"
+            },
+            {
+                "start": 87,
+                "end": 98,
+                "label": "employee_name"
+            },
+            {
+                "start": 128,
+                "end": 140,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 161,
+                "end": 184,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 214,
+                "end": 218,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 242,
+                "end": 270,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 295,
+                "end": 310,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 327,
+                "end": 367,
+                "label": "review_period"
+            },
+            {
+                "start": 388,
+                "end": 440,
+                "label": "skill_development"
+            }
+        ]
+    },
+    {
+        "content": "goal achievement: 4. team contribution: 5. overall performance rating: 4. job role: Teacher. areas for improvement: time management. employee name: Angela Thomas. review period: January 2023 to December 2023. additional training needed: classroom management. skill development: improved in classroom management over this time. leadership qualities: Angela mentored some new teachers. next review goals: to publish a research paper.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 19,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 40,
+                "end": 41,
+                "label": "team_contribution"
+            },
+            {
+                "start": 18,
+                "end": 19,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 84,
+                "end": 91,
+                "label": "job_role"
+            },
+            {
+                "start": 116,
+                "end": 131,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 148,
+                "end": 161,
+                "label": "employee_name"
+            },
+            {
+                "start": 178,
+                "end": 207,
+                "label": "review_period"
+            },
+            {
+                "start": 237,
+                "end": 257,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 278,
+                "end": 325,
+                "label": "skill_development"
+            },
+            {
+                "start": 349,
+                "end": 382,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 403,
+                "end": 430,
+                "label": "next_review_goals"
+            }
+        ]
+    },
+    {
+        "content": "employee name: Jordan Casey. review period: January 2023 to December 2023. job role: Photographer. areas for improvement: Time management. skill development: improved their lighting techniques and achieved their goals. goal achievement: 4. team contribution: 5. overall performance rating: 4. next review goals: improving their timeliness. leadership qualities: creative and organizational skills. additional training needed: Advanced camera techniques.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 27,
+                "label": "employee_name"
+            },
+            {
+                "start": 44,
+                "end": 73,
+                "label": "review_period"
+            },
+            {
+                "start": 85,
+                "end": 97,
+                "label": "job_role"
+            },
+            {
+                "start": 122,
+                "end": 137,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 158,
+                "end": 217,
+                "label": "skill_development"
+            },
+            {
+                "start": 237,
+                "end": 238,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 259,
+                "end": 260,
+                "label": "team_contribution"
+            },
+            {
+                "start": 237,
+                "end": 238,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 312,
+                "end": 338,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 362,
+                "end": 396,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 426,
+                "end": 452,
+                "label": "additional_training_needed"
+            }
+        ]
+    },
+    {
+        "content": "skill development: learned some new skills. additional training needed: no. areas for improvement: Time management. overall performance rating: excellent. goal achievement: fully. next review goals: maintaining this high level of performance. leadership qualities: Dr. Li Wei is a good leader. review period: 2021-01-01 to 2022-01-01. team contribution: very helpful. job role: doctor. employee name: Dr. Li Wei.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 42,
+                "label": "skill_development"
+            },
+            {
+                "start": 72,
+                "end": 74,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 99,
+                "end": 114,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 144,
+                "end": 153,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 173,
+                "end": 178,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 199,
+                "end": 241,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 265,
+                "end": 292,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 309,
+                "end": 333,
+                "label": "review_period"
+            },
+            {
+                "start": 354,
+                "end": 366,
+                "label": "team_contribution"
+            },
+            {
+                "start": 378,
+                "end": 384,
+                "label": "job_role"
+            },
+            {
+                "start": 265,
+                "end": 275,
+                "label": "employee_name"
+            }
+        ]
+    },
+    {
+        "content": "goal achievement: 4. job role: scientist. additional training needed: leadership. team contribution: excellent. employee name: Henry Kim. areas for improvement: time management. skill development: learned some new skills. overall performance rating: 4. leadership qualities: Henry is good at motivating his teammates. next review goals: to publish some research. review period: 2020-01-01 to 2021-01-01.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 19,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 31,
+                "end": 40,
+                "label": "job_role"
+            },
+            {
+                "start": 70,
+                "end": 80,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 101,
+                "end": 110,
+                "label": "team_contribution"
+            },
+            {
+                "start": 127,
+                "end": 136,
+                "label": "employee_name"
+            },
+            {
+                "start": 161,
+                "end": 176,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 197,
+                "end": 220,
+                "label": "skill_development"
+            },
+            {
+                "start": 18,
+                "end": 19,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 275,
+                "end": 316,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 337,
+                "end": 361,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 378,
+                "end": 402,
+                "label": "review_period"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: completing projects on time. goal achievement: 4. skill development: I have learned some new skills in leadership. additional training needed: leadership. job role: engineer. team contribution: 5. review period: the past 12 months. areas for improvement: time management. employee name: Carlos Mendez. leadership qualities: mentoring junior engineers. overall performance rating: 4.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 46,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 66,
+                "end": 67,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 88,
+                "end": 132,
+                "label": "skill_development"
+            },
+            {
+                "start": 122,
+                "end": 132,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 184,
+                "end": 192,
+                "label": "job_role"
+            },
+            {
+                "start": 213,
+                "end": 214,
+                "label": "team_contribution"
+            },
+            {
+                "start": 231,
+                "end": 249,
+                "label": "review_period"
+            },
+            {
+                "start": 274,
+                "end": 289,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 306,
+                "end": 319,
+                "label": "employee_name"
+            },
+            {
+                "start": 343,
+                "end": 369,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 66,
+                "end": 67,
+                "label": "overall_performance_rating"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: increasing my output and productivity. overall performance rating: 4. leadership qualities: I try to be creative and come up with innovative ideas. additional training needed: Not. employee name: Alex Jordan. review period: January 1st, 2023 to December 31st, 2023. job role: artist. skill development: improved my digital art skills. areas for improvement: Time management. goal achievement: 4. team contribution: 3.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 56,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 86,
+                "end": 87,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 111,
+                "end": 165,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 195,
+                "end": 198,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 215,
+                "end": 226,
+                "label": "employee_name"
+            },
+            {
+                "start": 243,
+                "end": 283,
+                "label": "review_period"
+            },
+            {
+                "start": 295,
+                "end": 301,
+                "label": "job_role"
+            },
+            {
+                "start": 322,
+                "end": 352,
+                "label": "skill_development"
+            },
+            {
+                "start": 377,
+                "end": 392,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 86,
+                "end": 87,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 259,
+                "end": 260,
+                "label": "team_contribution"
+            }
+        ]
+    },
+    {
+        "content": "employee name: Alex Jordan's. overall performance rating: 4. job role: artist. review period: 2022-01-01 to 2022-12-31. team contribution: 3. areas for improvement: time management. leadership qualities: creative influencer. skill development: artistic skills have improved. goal achievement: 4. next review goals: increase output. additional training needed: No.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 28,
+                "label": "employee_name"
+            },
+            {
+                "start": 58,
+                "end": 59,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 71,
+                "end": 77,
+                "label": "job_role"
+            },
+            {
+                "start": 94,
+                "end": 118,
+                "label": "review_period"
+            },
+            {
+                "start": 116,
+                "end": 117,
+                "label": "team_contribution"
+            },
+            {
+                "start": 165,
+                "end": 180,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 204,
+                "end": 223,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 244,
+                "end": 273,
+                "label": "skill_development"
+            },
+            {
+                "start": 58,
+                "end": 59,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 315,
+                "end": 330,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 360,
+                "end": 362,
+                "label": "additional_training_needed"
+            }
+        ]
+    },
+    {
+        "content": "goal achievement: 4. job role: photographer. next review goals: expanding her client base. overall performance rating: 4. employee name: Jordan Casey. skill development: lighting techniques. additional training needed: business management. review period: January 2023 to December 2023. areas for improvement: time management. team contribution: 5. leadership qualities: Jordan shows a lot of creativity and independence.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 19,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 31,
+                "end": 43,
+                "label": "job_role"
+            },
+            {
+                "start": 64,
+                "end": 89,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 18,
+                "end": 19,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 137,
+                "end": 149,
+                "label": "employee_name"
+            },
+            {
+                "start": 170,
+                "end": 189,
+                "label": "skill_development"
+            },
+            {
+                "start": 219,
+                "end": 238,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 255,
+                "end": 284,
+                "label": "review_period"
+            },
+            {
+                "start": 309,
+                "end": 324,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 345,
+                "end": 346,
+                "label": "team_contribution"
+            },
+            {
+                "start": 370,
+                "end": 419,
+                "label": "leadership_qualities"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: release my first album and do a tour to promote it. goal achievement: 4. overall performance rating: 4 for achieving my goals and also about a 4. additional training needed: music production skills. review period: January 2023 to December 2023. job role: musician. leadership qualities: creativity and drive. team contribution: 5. skill development: improving my guitar playing. employee name: Elijah Barnes. areas for improvement: managing my time more efficiently.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 69,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 89,
+                "end": 90,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 120,
+                "end": 163,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 193,
+                "end": 216,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 233,
+                "end": 262,
+                "label": "review_period"
+            },
+            {
+                "start": 274,
+                "end": 282,
+                "label": "job_role"
+            },
+            {
+                "start": 306,
+                "end": 326,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 347,
+                "end": 348,
+                "label": "team_contribution"
+            },
+            {
+                "start": 369,
+                "end": 396,
+                "label": "skill_development"
+            },
+            {
+                "start": 413,
+                "end": 426,
+                "label": "employee_name"
+            },
+            {
+                "start": 451,
+                "end": 484,
+                "label": "areas_for_improvement"
+            }
+        ]
+    },
+    {
+        "content": "leadership qualities: I've mentored some of the younger teachers. team contribution: 4. review period: January 2023 to December 2023. skill development: improved my skills with technology. overall performance rating: 5. additional training needed: I don't think any additional training is needed at this time. job role: teacher. next review goals: teacher. One goal I have is to publish a research paper. areas for improvement: time management. goal achievement: 4 or 5. employee name: Angela Thomas.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 64,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 85,
+                "end": 86,
+                "label": "team_contribution"
+            },
+            {
+                "start": 103,
+                "end": 132,
+                "label": "review_period"
+            },
+            {
+                "start": 153,
+                "end": 187,
+                "label": "skill_development"
+            },
+            {
+                "start": 217,
+                "end": 218,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 248,
+                "end": 308,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 56,
+                "end": 63,
+                "label": "job_role"
+            },
+            {
+                "start": 348,
+                "end": 403,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 428,
+                "end": 443,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 463,
+                "end": 469,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 486,
+                "end": 499,
+                "label": "employee_name"
+            }
+        ]
+    },
+    {
+        "content": "areas for improvement: time management skills. additional training needed: music production skills. goal achievement: 5. team contribution: 4. job role: musician. employee name: Elijah Barnes. leadership qualities: creativity and passion. next review goals: release his album. skill development: He improved his guitar skills. overall performance rating: 5. review period: January 2023 to December 2023.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 45,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 75,
+                "end": 98,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 118,
+                "end": 119,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 140,
+                "end": 141,
+                "label": "team_contribution"
+            },
+            {
+                "start": 153,
+                "end": 161,
+                "label": "job_role"
+            },
+            {
+                "start": 178,
+                "end": 191,
+                "label": "employee_name"
+            },
+            {
+                "start": 215,
+                "end": 237,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 258,
+                "end": 275,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 296,
+                "end": 325,
+                "label": "skill_development"
+            },
+            {
+                "start": 118,
+                "end": 119,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 373,
+                "end": 402,
+                "label": "review_period"
+            }
+        ]
+    },
+    {
+        "content": "team contribution: 5. skill development: leadership skills. overall performance rating: excellent. next review goals: growing our client base. goal achievement: fully. areas for improvement: time management. additional training needed: contract negotiation. employee name: Sofia Alvarez. review period: 2020-01-01 to 2021-01-01. job role: lawyer. leadership qualities: strategic thinker.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 20,
+                "label": "team_contribution"
+            },
+            {
+                "start": 41,
+                "end": 58,
+                "label": "skill_development"
+            },
+            {
+                "start": 88,
+                "end": 97,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 118,
+                "end": 141,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 161,
+                "end": 166,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 191,
+                "end": 206,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 236,
+                "end": 256,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 273,
+                "end": 286,
+                "label": "employee_name"
+            },
+            {
+                "start": 303,
+                "end": 327,
+                "label": "review_period"
+            },
+            {
+                "start": 339,
+                "end": 345,
+                "label": "job_role"
+            },
+            {
+                "start": 369,
+                "end": 386,
+                "label": "leadership_qualities"
+            }
+        ]
+    },
+    {
+        "content": "areas for improvement: managing his time better. skill development: He's gotten better at researching new topics. employee name: Henry Kim. goal achievement: fully. team contribution: very good. overall performance rating: A 5. additional training needed: No, I don't think Henry needs any more training. job role: scientist. leadership qualities: helps train and guide the other junior scientists. review period: the past year. next review goals: publishing some research papers.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 47,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 68,
+                "end": 112,
+                "label": "skill_development"
+            },
+            {
+                "start": 129,
+                "end": 138,
+                "label": "employee_name"
+            },
+            {
+                "start": 158,
+                "end": 163,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 184,
+                "end": 193,
+                "label": "team_contribution"
+            },
+            {
+                "start": 223,
+                "end": 226,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 256,
+                "end": 303,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 315,
+                "end": 324,
+                "label": "job_role"
+            },
+            {
+                "start": 348,
+                "end": 397,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 414,
+                "end": 427,
+                "label": "review_period"
+            },
+            {
+                "start": 448,
+                "end": 479,
+                "label": "next_review_goals"
+            }
+        ]
+    },
+    {
+        "content": "review period: 2021 to 2022. skill development: research skills. overall performance rating: 5. additional training needed: I don't. job role: scientist. goal achievement: fully. next review goals: publish two papers. team contribution: 5. employee name: Henry Kim. leadership qualities: I try to mentor some of the junior scientists. areas for improvement: managing my time more efficiently.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 27,
+                "label": "review_period"
+            },
+            {
+                "start": 48,
+                "end": 63,
+                "label": "skill_development"
+            },
+            {
+                "start": 93,
+                "end": 94,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 124,
+                "end": 131,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 143,
+                "end": 152,
+                "label": "job_role"
+            },
+            {
+                "start": 172,
+                "end": 177,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 198,
+                "end": 216,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 93,
+                "end": 94,
+                "label": "team_contribution"
+            },
+            {
+                "start": 255,
+                "end": 264,
+                "label": "employee_name"
+            },
+            {
+                "start": 288,
+                "end": 333,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 358,
+                "end": 391,
+                "label": "areas_for_improvement"
+            }
+        ]
+    },
+    {
+        "content": "goal achievement: 4. overall performance rating: 4. additional training needed: leadership. employee name: Henry Kim. team contribution: 5. next review goals: for Henry to publish some research papers. review period: the past year. leadership qualities: Henry has shown that he is able to mentor some of the junior scientists. skill development: learned some new skills. areas for improvement: time management. job role: One area Henry could work on is his time management.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 19,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 18,
+                "end": 19,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 80,
+                "end": 90,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 107,
+                "end": 116,
+                "label": "employee_name"
+            },
+            {
+                "start": 137,
+                "end": 138,
+                "label": "team_contribution"
+            },
+            {
+                "start": 159,
+                "end": 200,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 217,
+                "end": 230,
+                "label": "review_period"
+            },
+            {
+                "start": 254,
+                "end": 325,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 346,
+                "end": 369,
+                "label": "skill_development"
+            },
+            {
+                "start": 394,
+                "end": 409,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 421,
+                "end": 472,
+                "label": "job_role"
+            }
+        ]
+    },
+    {
+        "content": "overall performance rating: 5 out of 5. areas for improvement: time management skills. review period: the past 12 months. team contribution: 5 out of 5. employee name: Carlos Mendez. goal achievement: 4. job role: Engineer. leadership qualities: He mentored some of the junior engineers on our team. next review goals: he should lead one of our project teams. additional training needed: leadership. skill development: technical skills.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 38,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 63,
+                "end": 85,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 102,
+                "end": 120,
+                "label": "review_period"
+            },
+            {
+                "start": 28,
+                "end": 38,
+                "label": "team_contribution"
+            },
+            {
+                "start": 168,
+                "end": 181,
+                "label": "employee_name"
+            },
+            {
+                "start": 201,
+                "end": 202,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 214,
+                "end": 222,
+                "label": "job_role"
+            },
+            {
+                "start": 246,
+                "end": 298,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 319,
+                "end": 358,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 224,
+                "end": 234,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 419,
+                "end": 435,
+                "label": "skill_development"
+            }
+        ]
+    },
+    {
+        "content": "leadership qualities: independent research skills. review period: January 2022. additional training needed: No, the employee does not. goal achievement: 4. skill development: continuous learning. employee name: Henry Kim. job role: Scientist. areas for improvement: time management. next review goals: to publish research. overall performance rating: 5. team contribution: 5.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 49,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 66,
+                "end": 78,
+                "label": "review_period"
+            },
+            {
+                "start": 108,
+                "end": 133,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 153,
+                "end": 154,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 175,
+                "end": 194,
+                "label": "skill_development"
+            },
+            {
+                "start": 211,
+                "end": 220,
+                "label": "employee_name"
+            },
+            {
+                "start": 232,
+                "end": 241,
+                "label": "job_role"
+            },
+            {
+                "start": 266,
+                "end": 281,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 302,
+                "end": 321,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 351,
+                "end": 352,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 351,
+                "end": 352,
+                "label": "team_contribution"
+            }
+        ]
+    },
+    {
+        "content": "additional training needed: any additional training. skill development: My artistic skills have improved. team contribution: 3. goal achievement: 4. areas for improvement: time management. leadership qualities: I try to be creative and passionate in my work. review period: 2022-01-01 to 2022-12-31. job role: Artist. next review goals: increasing my productivity. employee name: Alex Jordan. overall performance rating: 4.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 51,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 72,
+                "end": 104,
+                "label": "skill_development"
+            },
+            {
+                "start": 125,
+                "end": 126,
+                "label": "team_contribution"
+            },
+            {
+                "start": 146,
+                "end": 147,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 172,
+                "end": 187,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 211,
+                "end": 257,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 274,
+                "end": 298,
+                "label": "review_period"
+            },
+            {
+                "start": 310,
+                "end": 316,
+                "label": "job_role"
+            },
+            {
+                "start": 337,
+                "end": 363,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 380,
+                "end": 391,
+                "label": "employee_name"
+            },
+            {
+                "start": 146,
+                "end": 147,
+                "label": "overall_performance_rating"
+            }
+        ]
+    },
+    {
+        "content": "team contribution: very collaborative. skill development: learn some new recipes. employee name: Amir Khaled. goal achievement: fully. job role: chef. next review goals: mentoring our junior chefs. leadership qualities: mentors the junior chefs well. overall performance rating: 5. areas for improvement: time management skills. review period: 2020-01-01 to 2020-12-31. additional training needed: pastry skills.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 37,
+                "label": "team_contribution"
+            },
+            {
+                "start": 58,
+                "end": 80,
+                "label": "skill_development"
+            },
+            {
+                "start": 97,
+                "end": 108,
+                "label": "employee_name"
+            },
+            {
+                "start": 128,
+                "end": 133,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 145,
+                "end": 149,
+                "label": "job_role"
+            },
+            {
+                "start": 170,
+                "end": 196,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 220,
+                "end": 249,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 279,
+                "end": 280,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 305,
+                "end": 327,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 344,
+                "end": 368,
+                "label": "review_period"
+            },
+            {
+                "start": 398,
+                "end": 411,
+                "label": "additional_training_needed"
+            }
+        ]
+    },
+    {
+        "content": "skill development: improved my guitar playing skills. overall performance rating: 4 out of 5. next review goals: release my first album and go on a small tour. additional training needed: music production. employee name: Elijah Barnes. areas for improvement: managing my time better. leadership qualities: I hope I come across as creative and passionate. job role: musician. review period: January 2023 to December 2023. team contribution: 4. goal achievement: 3.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 52,
+                "label": "skill_development"
+            },
+            {
+                "start": 82,
+                "end": 92,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 113,
+                "end": 158,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 188,
+                "end": 204,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 221,
+                "end": 234,
+                "label": "employee_name"
+            },
+            {
+                "start": 259,
+                "end": 282,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 306,
+                "end": 353,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 365,
+                "end": 373,
+                "label": "job_role"
+            },
+            {
+                "start": 390,
+                "end": 419,
+                "label": "review_period"
+            },
+            {
+                "start": 82,
+                "end": 83,
+                "label": "team_contribution"
+            },
+            {
+                "start": 401,
+                "end": 402,
+                "label": "goal_achievement"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: maintaining my current level of performance. areas for improvement: time management skills. job role: Managing my time more efficiently would help me in my role. employee name: Sofia Alvarez. review period: 2021-2022. team contribution: 4. additional training needed: No, I don't think any additional training is needed at this time. skill development: legal research skills. leadership qualities: mentoring junior lawyers. overall performance rating: 5. goal achievement: 5.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 62,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 87,
+                "end": 109,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 121,
+                "end": 179,
+                "label": "job_role"
+            },
+            {
+                "start": 196,
+                "end": 209,
+                "label": "employee_name"
+            },
+            {
+                "start": 226,
+                "end": 235,
+                "label": "review_period"
+            },
+            {
+                "start": 256,
+                "end": 257,
+                "label": "team_contribution"
+            },
+            {
+                "start": 287,
+                "end": 351,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 372,
+                "end": 393,
+                "label": "skill_development"
+            },
+            {
+                "start": 417,
+                "end": 441,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 471,
+                "end": 472,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 471,
+                "end": 472,
+                "label": "goal_achievement"
+            }
+        ]
+    },
+    {
+        "content": "areas for improvement: managing his time. job role: engineer. employee name: Carlos Mendez. goal achievement: 4. skill development: He learned some new skills. team contribution: 5. leadership qualities: He mentored some of the junior engineers. additional training needed: leadership. next review goals: to complete his current projects. overall performance rating: 4. review period: the past 12 months.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 40,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 52,
+                "end": 60,
+                "label": "job_role"
+            },
+            {
+                "start": 77,
+                "end": 90,
+                "label": "employee_name"
+            },
+            {
+                "start": 110,
+                "end": 111,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 132,
+                "end": 158,
+                "label": "skill_development"
+            },
+            {
+                "start": 179,
+                "end": 180,
+                "label": "team_contribution"
+            },
+            {
+                "start": 204,
+                "end": 244,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 182,
+                "end": 192,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 305,
+                "end": 337,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 110,
+                "end": 111,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 385,
+                "end": 403,
+                "label": "review_period"
+            }
+        ]
+    },
+    {
+        "content": "goal achievement: most. additional training needed: pastry skills. overall performance rating: 4. team contribution: 5. areas for improvement: time management skills. job role: chef. skill development: I learned how to make some new dishes. employee name: Amir Khaled. leadership qualities: I feel like I've been able to mentor some of the junior chefs. review period: 2021-01-01 to 2022-01-01. next review goals: I'd like to lead a team for an upcoming event.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 22,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 52,
+                "end": 65,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 95,
+                "end": 96,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 117,
+                "end": 118,
+                "label": "team_contribution"
+            },
+            {
+                "start": 143,
+                "end": 165,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 177,
+                "end": 181,
+                "label": "job_role"
+            },
+            {
+                "start": 202,
+                "end": 239,
+                "label": "skill_development"
+            },
+            {
+                "start": 256,
+                "end": 267,
+                "label": "employee_name"
+            },
+            {
+                "start": 291,
+                "end": 352,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 369,
+                "end": 393,
+                "label": "review_period"
+            },
+            {
+                "start": 414,
+                "end": 459,
+                "label": "next_review_goals"
+            }
+        ]
+    },
+    {
+        "content": "review period: 2021-01-01 to 2022-01-01. skill development: Angela learned some new technologies to help with her teaching. leadership qualities: Angela mentored some of the younger teachers. areas for improvement: time management. overall performance rating: exceeding expectations. next review goals: publishing a research paper. team contribution: Angela helped her team often. goal achievement: Angela met all the goals from her last review period. job role: Teacher. additional training needed: technology integration. employee name: Angela Thomas.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 39,
+                "label": "review_period"
+            },
+            {
+                "start": 60,
+                "end": 122,
+                "label": "skill_development"
+            },
+            {
+                "start": 146,
+                "end": 190,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 215,
+                "end": 230,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 260,
+                "end": 282,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 303,
+                "end": 330,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 351,
+                "end": 379,
+                "label": "team_contribution"
+            },
+            {
+                "start": 399,
+                "end": 451,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 463,
+                "end": 470,
+                "label": "job_role"
+            },
+            {
+                "start": 500,
+                "end": 522,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 539,
+                "end": 552,
+                "label": "employee_name"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: Growing my client base. team contribution: 5. leadership qualities: creative and inspiring. job role: Photographer. review period: January 2023 to January 2024. employee name: Jordan Casey. areas for improvement: Time management skills. additional training needed: Business skills. overall performance rating: 4. skill development: improved their lighting skills. goal achievement: 4.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 41,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 62,
+                "end": 63,
+                "label": "team_contribution"
+            },
+            {
+                "start": 87,
+                "end": 109,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 121,
+                "end": 133,
+                "label": "job_role"
+            },
+            {
+                "start": 150,
+                "end": 178,
+                "label": "review_period"
+            },
+            {
+                "start": 195,
+                "end": 207,
+                "label": "employee_name"
+            },
+            {
+                "start": 232,
+                "end": 254,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 284,
+                "end": 299,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 177,
+                "end": 178,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 351,
+                "end": 381,
+                "label": "skill_development"
+            },
+            {
+                "start": 177,
+                "end": 178,
+                "label": "goal_achievement"
+            }
+        ]
+    },
+    {
+        "content": "overall performance rating: 4 out of 5. areas for improvement: time management. next review goals: try and publish a research paper. team contribution: 5 out of 5. review period: January 2023 to December 2023. job role: Teacher. additional training needed: I don't think she needs any additional training. goal achievement: 4. skill development: She's gotten much better with technology. leadership qualities: Angela also mentors some of the younger teachers. employee name: Angela Thomas.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 38,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 63,
+                "end": 78,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 99,
+                "end": 131,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 152,
+                "end": 162,
+                "label": "team_contribution"
+            },
+            {
+                "start": 179,
+                "end": 208,
+                "label": "review_period"
+            },
+            {
+                "start": 220,
+                "end": 227,
+                "label": "job_role"
+            },
+            {
+                "start": 257,
+                "end": 304,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 28,
+                "end": 29,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 346,
+                "end": 386,
+                "label": "skill_development"
+            },
+            {
+                "start": 410,
+                "end": 458,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 475,
+                "end": 488,
+                "label": "employee_name"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: Growing my client base. skill development: improved my technical skills. overall performance rating: 4. team contribution: 5. employee name: Jordan Casey. job role: Photographer. additional training needed: business skills. goal achievement: 4. areas for improvement: time management. leadership qualities: creative and inspiring. review period: January 2023 to December 2023.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 41,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 62,
+                "end": 90,
+                "label": "skill_development"
+            },
+            {
+                "start": 120,
+                "end": 121,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 142,
+                "end": 143,
+                "label": "team_contribution"
+            },
+            {
+                "start": 160,
+                "end": 172,
+                "label": "employee_name"
+            },
+            {
+                "start": 184,
+                "end": 196,
+                "label": "job_role"
+            },
+            {
+                "start": 226,
+                "end": 241,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 120,
+                "end": 121,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 287,
+                "end": 302,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 326,
+                "end": 348,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 365,
+                "end": 394,
+                "label": "review_period"
+            }
+        ]
+    },
+    {
+        "content": "team contribution: very high level. additional training needed: leadership. job role: scientist. next review goals: publishing research papers. review period: the past year. goal achievement: 4. areas for improvement: time management skills. skill development: Henry has learned some new skills and has been mentoring some of the junior scientists. leadership qualities: mentoring some of the junior scientists. overall performance rating: 4. employee name: Henry Kim's.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 34,
+                "label": "team_contribution"
+            },
+            {
+                "start": 64,
+                "end": 74,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 86,
+                "end": 95,
+                "label": "job_role"
+            },
+            {
+                "start": 116,
+                "end": 142,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 159,
+                "end": 172,
+                "label": "review_period"
+            },
+            {
+                "start": 192,
+                "end": 193,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 218,
+                "end": 240,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 261,
+                "end": 347,
+                "label": "skill_development"
+            },
+            {
+                "start": 308,
+                "end": 347,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 192,
+                "end": 193,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 458,
+                "end": 469,
+                "label": "employee_name"
+            }
+        ]
+    },
+    {
+        "content": "employee name: Elijah Barnes. team contribution: 5. areas for improvement: time management. job role: musician. next review goals: release an album and tour. leadership qualities: creative and passionate. skill development: Elijah has improved his guitar skills. overall performance rating: 4 out of 5. additional training needed: Music production. goal achievement: 4. review period: January 2023 to December 2023.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 28,
+                "label": "employee_name"
+            },
+            {
+                "start": 49,
+                "end": 50,
+                "label": "team_contribution"
+            },
+            {
+                "start": 75,
+                "end": 90,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 102,
+                "end": 110,
+                "label": "job_role"
+            },
+            {
+                "start": 131,
+                "end": 156,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 180,
+                "end": 203,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 224,
+                "end": 261,
+                "label": "skill_development"
+            },
+            {
+                "start": 291,
+                "end": 301,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 331,
+                "end": 347,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 291,
+                "end": 292,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 385,
+                "end": 414,
+                "label": "review_period"
+            }
+        ]
+    },
+    {
+        "content": "goal achievement: 5. employee name: Sofia Alvarez. next review goals: maintaining her current level of performance. overall performance rating: level 5. job role: lawyer. skill development: strong leadership skills. review period: 2021-01-01 to 2021-12-31. team contribution: 5. leadership qualities: strong. areas for improvement: maintaining a better work life balance. additional training needed: no.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 19,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 36,
+                "end": 49,
+                "label": "employee_name"
+            },
+            {
+                "start": 70,
+                "end": 114,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 144,
+                "end": 151,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 163,
+                "end": 169,
+                "label": "job_role"
+            },
+            {
+                "start": 190,
+                "end": 214,
+                "label": "skill_development"
+            },
+            {
+                "start": 231,
+                "end": 255,
+                "label": "review_period"
+            },
+            {
+                "start": 18,
+                "end": 19,
+                "label": "team_contribution"
+            },
+            {
+                "start": 190,
+                "end": 196,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 332,
+                "end": 370,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 400,
+                "end": 402,
+                "label": "additional_training_needed"
+            }
+        ]
+    },
+    {
+        "content": "review period: the past year. employee name: Carlos Mendez's. overall performance rating: 5. goal achievement: 4. next review goals: for him to lead a project. leadership qualities: Carlos mentored junior engineers. team contribution: 5. job role: engineer. areas for improvement: time management. additional training needed: leadership. skill development: He has learned new skills.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 28,
+                "label": "review_period"
+            },
+            {
+                "start": 45,
+                "end": 60,
+                "label": "employee_name"
+            },
+            {
+                "start": 90,
+                "end": 91,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 111,
+                "end": 112,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 133,
+                "end": 158,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 182,
+                "end": 214,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 90,
+                "end": 91,
+                "label": "team_contribution"
+            },
+            {
+                "start": 205,
+                "end": 213,
+                "label": "job_role"
+            },
+            {
+                "start": 281,
+                "end": 296,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 160,
+                "end": 170,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 357,
+                "end": 382,
+                "label": "skill_development"
+            }
+        ]
+    },
+    {
+        "content": "review period: January 2023 to December 2023. skill development: classroom management skills. team contribution: 5. job role: teacher. areas for improvement: time management. additional training needed: not. next review goals: improve her time management skills. goal achievement: 4. overall performance rating: 4. leadership qualities: has mentored new teachers. employee name: Angela Thomas.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 44,
+                "label": "review_period"
+            },
+            {
+                "start": 65,
+                "end": 92,
+                "label": "skill_development"
+            },
+            {
+                "start": 113,
+                "end": 114,
+                "label": "team_contribution"
+            },
+            {
+                "start": 126,
+                "end": 133,
+                "label": "job_role"
+            },
+            {
+                "start": 158,
+                "end": 173,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 203,
+                "end": 206,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 227,
+                "end": 261,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 281,
+                "end": 282,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 281,
+                "end": 282,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 337,
+                "end": 362,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 379,
+                "end": 392,
+                "label": "employee_name"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: publish one or two research papers. skill development: data analysis techniques. job role: scientist. team contribution: 5. goal achievement: 4. additional training needed: Leadership. overall performance rating: 5. areas for improvement: time management. employee name: Henry Kim. review period: 2021-01-01 to 2022-01-01. leadership qualities: Henry mentored some of the junior scientists.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 53,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 74,
+                "end": 98,
+                "label": "skill_development"
+            },
+            {
+                "start": 110,
+                "end": 119,
+                "label": "job_role"
+            },
+            {
+                "start": 140,
+                "end": 141,
+                "label": "team_contribution"
+            },
+            {
+                "start": 161,
+                "end": 162,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 192,
+                "end": 202,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 140,
+                "end": 141,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 258,
+                "end": 273,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 290,
+                "end": 299,
+                "label": "employee_name"
+            },
+            {
+                "start": 316,
+                "end": 340,
+                "label": "review_period"
+            },
+            {
+                "start": 364,
+                "end": 408,
+                "label": "leadership_qualities"
+            }
+        ]
+    },
+    {
+        "content": "additional training needed: doesn't require any additional training. employee name: Sofia Alvarez. job role: lawyer. skill development: strong leadership skills. team contribution: 5. areas for improvement: maintaining a good work-life balance. review period: the past year. overall performance rating: 5. goal achievement: fully. next review goals: to maintain her strong performance. leadership qualities: shows strategic thinking and is good at motivating others.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 67,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 84,
+                "end": 97,
+                "label": "employee_name"
+            },
+            {
+                "start": 109,
+                "end": 115,
+                "label": "job_role"
+            },
+            {
+                "start": 136,
+                "end": 160,
+                "label": "skill_development"
+            },
+            {
+                "start": 181,
+                "end": 182,
+                "label": "team_contribution"
+            },
+            {
+                "start": 207,
+                "end": 243,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 260,
+                "end": 273,
+                "label": "review_period"
+            },
+            {
+                "start": 181,
+                "end": 182,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 324,
+                "end": 329,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 350,
+                "end": 384,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 408,
+                "end": 465,
+                "label": "leadership_qualities"
+            }
+        ]
+    },
+    {
+        "content": "team contribution: 4. areas for improvement: time management skills. goal achievement: 5. employee name: Sofia. overall performance rating: 5. job role: lawyer. skill development: Sofia learned some new skills to expand her legal knowledge and abilities. next review goals: Maintaining her excellent performance level. review period: 2022-01-01 to 2023-01-01. additional training needed: not require any additional training at this time. leadership qualities: strong leadership skills.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 20,
+                "label": "team_contribution"
+            },
+            {
+                "start": 45,
+                "end": 67,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 87,
+                "end": 88,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 105,
+                "end": 110,
+                "label": "employee_name"
+            },
+            {
+                "start": 87,
+                "end": 88,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 153,
+                "end": 159,
+                "label": "job_role"
+            },
+            {
+                "start": 180,
+                "end": 253,
+                "label": "skill_development"
+            },
+            {
+                "start": 274,
+                "end": 317,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 334,
+                "end": 358,
+                "label": "review_period"
+            },
+            {
+                "start": 388,
+                "end": 436,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 460,
+                "end": 484,
+                "label": "leadership_qualities"
+            }
+        ]
+    },
+    {
+        "content": "areas for improvement: managing his time. goal achievement: 4. team contribution: 5. additional training needed: leadership. leadership qualities: mentoring the junior scientists on our team. skill development: learned some new techniques. review period: 2021-01-01 to 2021-12-31. employee name: Henry Kim. overall performance rating: 5. job role: . next review goals: to publish two papers.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 40,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 60,
+                "end": 61,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 82,
+                "end": 83,
+                "label": "team_contribution"
+            },
+            {
+                "start": 113,
+                "end": 123,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 147,
+                "end": 190,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 211,
+                "end": 238,
+                "label": "skill_development"
+            },
+            {
+                "start": 255,
+                "end": 279,
+                "label": "review_period"
+            },
+            {
+                "start": 296,
+                "end": 305,
+                "label": "employee_name"
+            },
+            {
+                "start": 82,
+                "end": 83,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "job_role"
+            },
+            {
+                "start": 369,
+                "end": 390,
+                "label": "next_review_goals"
+            }
+        ]
+    },
+    {
+        "content": "leadership qualities: Carlos has mentored junior engineers. employee name: Carlos Mendez. team contribution: 5. overall performance rating: 4. skill development: Carlos has learned some new skills. areas for improvement: time management. review period: the past 12 months. next review goals: to complete his current projects. job role: Engineer. additional training needed: Leadership. goal achievement: 4.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 58,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 75,
+                "end": 88,
+                "label": "employee_name"
+            },
+            {
+                "start": 109,
+                "end": 110,
+                "label": "team_contribution"
+            },
+            {
+                "start": 140,
+                "end": 141,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 162,
+                "end": 196,
+                "label": "skill_development"
+            },
+            {
+                "start": 221,
+                "end": 236,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 253,
+                "end": 271,
+                "label": "review_period"
+            },
+            {
+                "start": 292,
+                "end": 324,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 336,
+                "end": 344,
+                "label": "job_role"
+            },
+            {
+                "start": 374,
+                "end": 384,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 140,
+                "end": 141,
+                "label": "goal_achievement"
+            }
+        ]
+    },
+    {
+        "content": "review period: the past 12 months. employee name: Amir Khaled. additional training needed: pastry skills. team contribution: 5. next review goals: to lead the kitchen team. goal achievement: fully. overall performance rating: 5. areas for improvement: time management skills. leadership qualities: He mentors and guides the junior chefs. skill development: learned several new recipes and techniques. job role: chef.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 33,
+                "label": "review_period"
+            },
+            {
+                "start": 50,
+                "end": 61,
+                "label": "employee_name"
+            },
+            {
+                "start": 91,
+                "end": 104,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 125,
+                "end": 126,
+                "label": "team_contribution"
+            },
+            {
+                "start": 147,
+                "end": 171,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 191,
+                "end": 196,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 125,
+                "end": 126,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 252,
+                "end": 274,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 298,
+                "end": 336,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 357,
+                "end": 399,
+                "label": "skill_development"
+            },
+            {
+                "start": 331,
+                "end": 335,
+                "label": "job_role"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: publishing a research paper. review period: 2021-01-01 to 2022-01-01. job role: Teacher. overall performance rating: 5. team contribution: 5. employee name: Angela Thomas. goal achievement: 5. additional training needed: classroom management training. areas for improvement: time management. leadership qualities: I have mentored some of the younger teachers. skill development: I have learned how to use some new educational technologies.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 46,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 63,
+                "end": 87,
+                "label": "review_period"
+            },
+            {
+                "start": 99,
+                "end": 106,
+                "label": "job_role"
+            },
+            {
+                "start": 136,
+                "end": 137,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 136,
+                "end": 137,
+                "label": "team_contribution"
+            },
+            {
+                "start": 176,
+                "end": 189,
+                "label": "employee_name"
+            },
+            {
+                "start": 136,
+                "end": 137,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 240,
+                "end": 269,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 294,
+                "end": 309,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 333,
+                "end": 377,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 398,
+                "end": 457,
+                "label": "skill_development"
+            }
+        ]
+    },
+    {
+        "content": "areas for improvement: time management skills. additional training needed: No. next review goals: Increasing their output. team contribution: 4. leadership qualities: can influence others. goal achievement: very well. employee name: Alex Jordan. skill development: artistic skills. job role: Artist. review period: January 1st, 2023 to December 31st, 2023. overall performance rating: 5.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 45,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 75,
+                "end": 77,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 98,
+                "end": 121,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 142,
+                "end": 143,
+                "label": "team_contribution"
+            },
+            {
+                "start": 167,
+                "end": 187,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 207,
+                "end": 216,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 233,
+                "end": 244,
+                "label": "employee_name"
+            },
+            {
+                "start": 265,
+                "end": 280,
+                "label": "skill_development"
+            },
+            {
+                "start": 292,
+                "end": 298,
+                "label": "job_role"
+            },
+            {
+                "start": 315,
+                "end": 355,
+                "label": "review_period"
+            },
+            {
+                "start": 385,
+                "end": 386,
+                "label": "overall_performance_rating"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: lead a project. overall performance rating: 4. job role: software developer. skill development: I learned some new frameworks. review period: 2021 to 2022. areas for improvement: time management. goal achievement: 4. additional training needed: mentoring some of the more junior developers. leadership qualities: mentoring some of the more junior developers. employee name: Priya Singh. team contribution: 5.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 33,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 63,
+                "end": 64,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 76,
+                "end": 94,
+                "label": "job_role"
+            },
+            {
+                "start": 115,
+                "end": 144,
+                "label": "skill_development"
+            },
+            {
+                "start": 161,
+                "end": 173,
+                "label": "review_period"
+            },
+            {
+                "start": 198,
+                "end": 213,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 63,
+                "end": 64,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 264,
+                "end": 308,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 264,
+                "end": 308,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 393,
+                "end": 404,
+                "label": "employee_name"
+            },
+            {
+                "start": 425,
+                "end": 426,
+                "label": "team_contribution"
+            }
+        ]
+    },
+    {
+        "content": "team contribution: greatly. employee name: Amir Khaled. goal achievement: 4. job role: chef. skill development: learned new cooking dishes. additional training needed: pastry skills. leadership qualities: mentored junior chefs. review period: year. next review goals: A goal could be for Amir to lead the team for an upcoming event. areas for improvement: time management skills. overall performance rating: 4.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 26,
+                "label": "team_contribution"
+            },
+            {
+                "start": 43,
+                "end": 54,
+                "label": "employee_name"
+            },
+            {
+                "start": 74,
+                "end": 75,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 87,
+                "end": 91,
+                "label": "job_role"
+            },
+            {
+                "start": 112,
+                "end": 138,
+                "label": "skill_development"
+            },
+            {
+                "start": 168,
+                "end": 181,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 205,
+                "end": 226,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 243,
+                "end": 247,
+                "label": "review_period"
+            },
+            {
+                "start": 268,
+                "end": 331,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 356,
+                "end": 378,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 74,
+                "end": 75,
+                "label": "overall_performance_rating"
+            }
+        ]
+    },
+    {
+        "content": "overall performance rating: 5. areas for improvement: time management skills. next review goals: improve her time management skills. employee name: Sofia Alvarez. job role: lawyer. leadership qualities: good leader and mentor. goal achievement: fully. review period: January 2023 to December 2023. skill development: great ability to learn. team contribution: 5. additional training needed: contract negotiation skills.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 29,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 54,
+                "end": 76,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 97,
+                "end": 131,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 148,
+                "end": 161,
+                "label": "employee_name"
+            },
+            {
+                "start": 173,
+                "end": 179,
+                "label": "job_role"
+            },
+            {
+                "start": 203,
+                "end": 225,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 245,
+                "end": 250,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 267,
+                "end": 296,
+                "label": "review_period"
+            },
+            {
+                "start": 317,
+                "end": 339,
+                "label": "skill_development"
+            },
+            {
+                "start": 28,
+                "end": 29,
+                "label": "team_contribution"
+            },
+            {
+                "start": 391,
+                "end": 418,
+                "label": "additional_training_needed"
+            }
+        ]
+    },
+    {
+        "content": "team contribution: 5. employee name: Carlos. overall performance rating: 4. additional training needed: leadership. leadership qualities: Carlos mentored junior engineers and achieved his set goals at a 4 rating. goal achievement: 4. skill development: learned new skills. review period: the past 12 months. next review goals: for Carlos to complete his certification. areas for improvement: time management skills. job role: Engineer.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 20,
+                "label": "team_contribution"
+            },
+            {
+                "start": 37,
+                "end": 43,
+                "label": "employee_name"
+            },
+            {
+                "start": 73,
+                "end": 74,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 104,
+                "end": 114,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 138,
+                "end": 211,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 73,
+                "end": 74,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 253,
+                "end": 271,
+                "label": "skill_development"
+            },
+            {
+                "start": 288,
+                "end": 306,
+                "label": "review_period"
+            },
+            {
+                "start": 327,
+                "end": 367,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 392,
+                "end": 414,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 426,
+                "end": 434,
+                "label": "job_role"
+            }
+        ]
+    },
+    {
+        "content": "additional training needed: contract negotiations. areas for improvement: learning to maintain a better work life balance. next review goals: Leading more pro bono cases. review period: the past year. job role: lawyer. employee name: Sofia Alvarez. leadership qualities: I mentored some of the junior lawyers, and I believe I exceeded expectations. overall performance rating: exceeded expectations. skill development: I developed my litigation skills. goal achievement: fully. team contribution: led some major cases.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 49,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 74,
+                "end": 121,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 142,
+                "end": 169,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 186,
+                "end": 199,
+                "label": "review_period"
+            },
+            {
+                "start": 211,
+                "end": 217,
+                "label": "job_role"
+            },
+            {
+                "start": 234,
+                "end": 247,
+                "label": "employee_name"
+            },
+            {
+                "start": 271,
+                "end": 347,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 326,
+                "end": 347,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 419,
+                "end": 451,
+                "label": "skill_development"
+            },
+            {
+                "start": 471,
+                "end": 476,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 497,
+                "end": 517,
+                "label": "team_contribution"
+            }
+        ]
+    },
+    {
+        "content": "goal achievement: extremely well. skill development: technical skills. overall performance rating: excellent. additional training needed: leadership. employee name: Carlos Mendez. job role: Engineer. team contribution: 5. next review goals: leading a project. areas for improvement: time management. leadership qualities: Carlos is a good communicator. review period: the past year.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 32,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 53,
+                "end": 69,
+                "label": "skill_development"
+            },
+            {
+                "start": 99,
+                "end": 108,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 138,
+                "end": 148,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 165,
+                "end": 178,
+                "label": "employee_name"
+            },
+            {
+                "start": 190,
+                "end": 198,
+                "label": "job_role"
+            },
+            {
+                "start": 219,
+                "end": 220,
+                "label": "team_contribution"
+            },
+            {
+                "start": 241,
+                "end": 258,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 283,
+                "end": 298,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 322,
+                "end": 351,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 368,
+                "end": 381,
+                "label": "review_period"
+            }
+        ]
+    },
+    {
+        "content": "leadership qualities: Henry has mentored junior scientists on our team. team contribution: 5. skill development: learned some new skills. goal achievement: 5. review period: 2021-01-01 to 2022-01-01. overall performance rating: excellent. job role: scientist. areas for improvement: managing his time more efficiently. additional training needed: Leadership. next review goals: to publish one of our research papers. employee name: Henry Kim.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 70,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 91,
+                "end": 92,
+                "label": "team_contribution"
+            },
+            {
+                "start": 113,
+                "end": 136,
+                "label": "skill_development"
+            },
+            {
+                "start": 91,
+                "end": 92,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 174,
+                "end": 198,
+                "label": "review_period"
+            },
+            {
+                "start": 228,
+                "end": 237,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 48,
+                "end": 57,
+                "label": "job_role"
+            },
+            {
+                "start": 283,
+                "end": 317,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 347,
+                "end": 357,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 378,
+                "end": 415,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 432,
+                "end": 441,
+                "label": "employee_name"
+            }
+        ]
+    },
+    {
+        "content": "areas for improvement: time management. skill development: improved their digital art abilities. next review goals: increase their output. review period: January 1st, 2023 to December 31st, 2023. employee name: Alex Jordan. additional training needed: No. goal achievement: 5. team contribution: 4. job role: Artist. overall performance rating: 5. leadership qualities: creative and innovative.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 38,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 59,
+                "end": 95,
+                "label": "skill_development"
+            },
+            {
+                "start": 116,
+                "end": 137,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 154,
+                "end": 194,
+                "label": "review_period"
+            },
+            {
+                "start": 211,
+                "end": 222,
+                "label": "employee_name"
+            },
+            {
+                "start": 252,
+                "end": 254,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 274,
+                "end": 275,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 296,
+                "end": 297,
+                "label": "team_contribution"
+            },
+            {
+                "start": 309,
+                "end": 315,
+                "label": "job_role"
+            },
+            {
+                "start": 274,
+                "end": 275,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 370,
+                "end": 393,
+                "label": "leadership_qualities"
+            }
+        ]
+    },
+    {
+        "content": "skill development: improved my pastry skills. additional training needed: pastry skills. employee name: Amir Khaled. team contribution: very collaborative. leadership qualities: I have mentored some of the junior chefs. next review goals: to open my own restaurant. review period: the past year. goal achievement: 5. overall performance rating: excellent. areas for improvement: time management. job role: chef.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 44,
+                "label": "skill_development"
+            },
+            {
+                "start": 31,
+                "end": 44,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 104,
+                "end": 115,
+                "label": "employee_name"
+            },
+            {
+                "start": 136,
+                "end": 154,
+                "label": "team_contribution"
+            },
+            {
+                "start": 178,
+                "end": 218,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 239,
+                "end": 264,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 281,
+                "end": 294,
+                "label": "review_period"
+            },
+            {
+                "start": 314,
+                "end": 315,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 345,
+                "end": 354,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 379,
+                "end": 394,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 213,
+                "end": 217,
+                "label": "job_role"
+            }
+        ]
+    },
+    {
+        "content": "leadership qualities: I've tried to be creative and passionate. skill development: better. review period: January 1st, 2023 to December 31st, 2023. job role: music production. additional training needed: music production. overall performance rating: 4 out of 5. next review goals: Releasing an album. team contribution: 3. goal achievement: 4. areas for improvement: Time management. employee name: Elijah Barnes.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 62,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 83,
+                "end": 89,
+                "label": "skill_development"
+            },
+            {
+                "start": 106,
+                "end": 146,
+                "label": "review_period"
+            },
+            {
+                "start": 158,
+                "end": 174,
+                "label": "job_role"
+            },
+            {
+                "start": 158,
+                "end": 174,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 250,
+                "end": 260,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 281,
+                "end": 299,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 122,
+                "end": 123,
+                "label": "team_contribution"
+            },
+            {
+                "start": 250,
+                "end": 251,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 367,
+                "end": 382,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 399,
+                "end": 412,
+                "label": "employee_name"
+            }
+        ]
+    },
+    {
+        "content": "overall performance rating: 4. next review goals: to lead the team for an upcoming event. goal achievement: 4. areas for improvement: time management skills. team contribution: 5. employee name: Amir Khaled. job role: chef. skill development: has learned new dishes and has mentored some of the junior chefs. leadership qualities: has learned new dishes and has mentored some of the junior chefs. additional training needed: pastry skills. review period: 2020-01-01 to 2021-01-01.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 29,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 50,
+                "end": 88,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 28,
+                "end": 29,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 134,
+                "end": 156,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 177,
+                "end": 178,
+                "label": "team_contribution"
+            },
+            {
+                "start": 195,
+                "end": 206,
+                "label": "employee_name"
+            },
+            {
+                "start": 218,
+                "end": 222,
+                "label": "job_role"
+            },
+            {
+                "start": 243,
+                "end": 307,
+                "label": "skill_development"
+            },
+            {
+                "start": 243,
+                "end": 307,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 425,
+                "end": 438,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 455,
+                "end": 479,
+                "label": "review_period"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: release a new album and go on a tour. employee name: Elijah Barnes. goal achievement: 4. additional training needed: music production skills. leadership qualities: creative and passionate. review period: January 2023 to December 2023. team contribution: 3. skill development: I've gotten better at playing the guitar. areas for improvement: managing my time better. job role: musician. overall performance rating: 4.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 55,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 72,
+                "end": 85,
+                "label": "employee_name"
+            },
+            {
+                "start": 105,
+                "end": 106,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 136,
+                "end": 159,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 183,
+                "end": 206,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 223,
+                "end": 252,
+                "label": "review_period"
+            },
+            {
+                "start": 234,
+                "end": 235,
+                "label": "team_contribution"
+            },
+            {
+                "start": 295,
+                "end": 335,
+                "label": "skill_development"
+            },
+            {
+                "start": 360,
+                "end": 383,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 395,
+                "end": 403,
+                "label": "job_role"
+            },
+            {
+                "start": 105,
+                "end": 106,
+                "label": "overall_performance_rating"
+            }
+        ]
+    },
+    {
+        "content": "areas for improvement: time management. leadership qualities: He's been mentoring some of the junior engineers. team contribution: 5. additional training needed: leadership. job role: Engineer. employee name: Carlos Mendez. overall performance rating: 4. skill development: He's learned some new skills. goal achievement: 4. review period: the past 12 months. next review goals: completing projects on time.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 38,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 62,
+                "end": 110,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 131,
+                "end": 132,
+                "label": "team_contribution"
+            },
+            {
+                "start": 40,
+                "end": 50,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 184,
+                "end": 192,
+                "label": "job_role"
+            },
+            {
+                "start": 209,
+                "end": 222,
+                "label": "employee_name"
+            },
+            {
+                "start": 252,
+                "end": 253,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 274,
+                "end": 302,
+                "label": "skill_development"
+            },
+            {
+                "start": 252,
+                "end": 253,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 340,
+                "end": 358,
+                "label": "review_period"
+            },
+            {
+                "start": 379,
+                "end": 406,
+                "label": "next_review_goals"
+            }
+        ]
+    },
+    {
+        "content": "areas for improvement: Time management. overall performance rating: excellent. review period: 2021-01-01 to 2022-01-01. goal achievement: fully achieved all their goals. employee name: Amir Khaled. additional training needed: pastry skills. next review goals: Leading some team projects. team contribution: 5. skill development: learned some new dish techniques. leadership qualities: They mentor the junior chefs. job role: chef.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 38,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 68,
+                "end": 77,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 94,
+                "end": 118,
+                "label": "review_period"
+            },
+            {
+                "start": 138,
+                "end": 168,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 185,
+                "end": 196,
+                "label": "employee_name"
+            },
+            {
+                "start": 226,
+                "end": 239,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 260,
+                "end": 286,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 307,
+                "end": 308,
+                "label": "team_contribution"
+            },
+            {
+                "start": 329,
+                "end": 361,
+                "label": "skill_development"
+            },
+            {
+                "start": 385,
+                "end": 413,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 408,
+                "end": 412,
+                "label": "job_role"
+            }
+        ]
+    },
+    {
+        "content": "overall performance rating: 4. goal achievement: 4. next review goals: Growing their client base. areas for improvement: time management. employee name: Jordan Casey. team contribution: 5. leadership qualities: They take initiative and have strong business management skills. additional training needed: business management. skill development: improved their technical skills. job role: Photographer. review period: the past year.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 29,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 28,
+                "end": 29,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 71,
+                "end": 96,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 121,
+                "end": 136,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 153,
+                "end": 165,
+                "label": "employee_name"
+            },
+            {
+                "start": 186,
+                "end": 187,
+                "label": "team_contribution"
+            },
+            {
+                "start": 211,
+                "end": 274,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 248,
+                "end": 267,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 344,
+                "end": 375,
+                "label": "skill_development"
+            },
+            {
+                "start": 387,
+                "end": 399,
+                "label": "job_role"
+            },
+            {
+                "start": 416,
+                "end": 429,
+                "label": "review_period"
+            }
+        ]
+    },
+    {
+        "content": "next review goals: release my first album. skill development: improved. review period: January 2022 to December 2022. leadership qualities: passionate. employee name: Elijah Barnes. job role: musician. goal achievement: 5. areas for improvement: managing my time. team contribution: 4. overall performance rating: 5. additional training needed: music production skills.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 41,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 62,
+                "end": 70,
+                "label": "skill_development"
+            },
+            {
+                "start": 87,
+                "end": 116,
+                "label": "review_period"
+            },
+            {
+                "start": 140,
+                "end": 150,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 167,
+                "end": 180,
+                "label": "employee_name"
+            },
+            {
+                "start": 192,
+                "end": 200,
+                "label": "job_role"
+            },
+            {
+                "start": 220,
+                "end": 221,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 246,
+                "end": 262,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 283,
+                "end": 284,
+                "label": "team_contribution"
+            },
+            {
+                "start": 220,
+                "end": 221,
+                "label": "overall_performance_rating"
+            },
+            {
+                "start": 345,
+                "end": 368,
+                "label": "additional_training_needed"
+            }
+        ]
+    },
+    {
+        "content": "additional training needed: music production skills. skill development: I've gotten better at playing guitar over this past year. areas for improvement: managing my time better. team contribution: 3. next review goals: releasing an album and going on tour. employee name: Elijah Barnes. goal achievement: 4. leadership qualities: being creative and passionate about my work. review period: January 2023 to December 2023. job role: musician. overall performance rating: 4.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 51,
+                "label": "additional_training_needed"
+            },
+            {
+                "start": 72,
+                "end": 128,
+                "label": "skill_development"
+            },
+            {
+                "start": 153,
+                "end": 176,
+                "label": "areas_for_improvement"
+            },
+            {
+                "start": 197,
+                "end": 198,
+                "label": "team_contribution"
+            },
+            {
+                "start": 219,
+                "end": 255,
+                "label": "next_review_goals"
+            },
+            {
+                "start": 272,
+                "end": 285,
+                "label": "employee_name"
+            },
+            {
+                "start": 305,
+                "end": 306,
+                "label": "goal_achievement"
+            },
+            {
+                "start": 330,
+                "end": 373,
+                "label": "leadership_qualities"
+            },
+            {
+                "start": 390,
+                "end": 419,
+                "label": "review_period"
+            },
+            {
+                "start": 431,
+                "end": 439,
+                "label": "job_role"
+            },
+            {
+                "start": 305,
+                "end": 306,
+                "label": "overall_performance_rating"
+            }
+        ]
+    }
+]

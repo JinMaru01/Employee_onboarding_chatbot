@@ -1,0 +1,2472 @@
+[
+    {
+        "content": "additional information: it just started happening after the last update. steps taken to resolve: restarting my phone. issue severity: medium. affected device or application: iPhone. user location: Nashville, Tennessee. preferred contact method: email. issue category: software. recurring issue: a lot. error messages: there aren't any messages. specific problem description: The app just crashes and closes out whenever I open it. first occurrence time: February 15th around 3pm. impact on work: It's making it hard for me to work on my music.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 71,
+                "label": "additional_information"
+            },
+            {
+                "start": 97,
+                "end": 116,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 134,
+                "end": 140,
+                "label": "issue_severity"
+            },
+            {
+                "start": 174,
+                "end": 180,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 197,
+                "end": 217,
+                "label": "user_location"
+            },
+            {
+                "start": 245,
+                "end": 250,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 268,
+                "end": 276,
+                "label": "issue_category"
+            },
+            {
+                "start": 295,
+                "end": 300,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 318,
+                "end": 343,
+                "label": "error_messages"
+            },
+            {
+                "start": 375,
+                "end": 429,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 454,
+                "end": 478,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 496,
+                "end": 542,
+                "label": "impact_on_work"
+            }
+        ]
+    },
+    {
+        "content": "first occurrence time: February 15th. additional information: Gmail. recurring issue: first. specific problem description: Email just won't load at all. affected device or application: laptop. impact on work: hard to get my work done. error messages: No, there haven't been any error messages. user location: Chicago. issue category: software. issue severity: high. steps taken to resolve: restarted my laptop. preferred contact method: Email.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 36,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 62,
+                "end": 67,
+                "label": "additional_information"
+            },
+            {
+                "start": 0,
+                "end": 5,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 123,
+                "end": 151,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 185,
+                "end": 191,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 209,
+                "end": 233,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 251,
+                "end": 292,
+                "label": "error_messages"
+            },
+            {
+                "start": 309,
+                "end": 316,
+                "label": "user_location"
+            },
+            {
+                "start": 334,
+                "end": 342,
+                "label": "issue_category"
+            },
+            {
+                "start": 360,
+                "end": 364,
+                "label": "issue_severity"
+            },
+            {
+                "start": 390,
+                "end": 409,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 123,
+                "end": 128,
+                "label": "preferred_contact_method"
+            }
+        ]
+    },
+    {
+        "content": "first occurrence time: February 15th at 10 AM. error messages: there weren't any error messages. issue severity: high. user location: Seattle. issue category: software. recurring issue: frequent. additional information: it only occurs on my iOS devices. steps taken to resolve: uninstalled and reinstalled the app. affected device or application: CRM mobile app. preferred contact method: Email. impact on work: It's slowing me down. specific problem description: The app keeps crashing unexpectedly.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 45,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 63,
+                "end": 95,
+                "label": "error_messages"
+            },
+            {
+                "start": 113,
+                "end": 117,
+                "label": "issue_severity"
+            },
+            {
+                "start": 134,
+                "end": 141,
+                "label": "user_location"
+            },
+            {
+                "start": 159,
+                "end": 167,
+                "label": "issue_category"
+            },
+            {
+                "start": 186,
+                "end": 194,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 220,
+                "end": 252,
+                "label": "additional_information"
+            },
+            {
+                "start": 278,
+                "end": 313,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 347,
+                "end": 361,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 389,
+                "end": 394,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 412,
+                "end": 432,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 464,
+                "end": 499,
+                "label": "specific_problem_description"
+            }
+        ]
+    },
+    {
+        "content": "impact on work: It's blocking me from completing some critical tasks. steps taken to resolve: uninstalled and reinstalled the app. additional information: there are no error messages. error messages: no error messages. first occurrence time: February 15th at 9:00 AM. preferred contact method: Email. issue category: software. issue severity: high. recurring issue: frequently. affected device or application: iPhone app. specific problem description: The app keeps crashing when I try to open it. user location: .",
+        "entities": [
+            {
+                "start": 16,
+                "end": 68,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 94,
+                "end": 129,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 155,
+                "end": 182,
+                "label": "additional_information"
+            },
+            {
+                "start": 165,
+                "end": 182,
+                "label": "error_messages"
+            },
+            {
+                "start": 242,
+                "end": 266,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 294,
+                "end": 299,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 317,
+                "end": 325,
+                "label": "issue_category"
+            },
+            {
+                "start": 343,
+                "end": 347,
+                "label": "issue_severity"
+            },
+            {
+                "start": 366,
+                "end": 376,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 410,
+                "end": 420,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 452,
+                "end": 496,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "user_location"
+            }
+        ]
+    },
+    {
+        "content": "steps taken to resolve: uninstalled and reinstalled the app. affected device or application: iPhone. user location: Austin, Texas. issue category: software. specific problem description: the app keeps crashing out unexpectedly. preferred contact method: email. error messages: You can email me. first occurrence time: 9am on February 15th. impact on work: It's really slowing me down. issue severity: high priority. additional information: It started right after the last app update. recurring issue: it's crashing multiple times a day.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 59,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 93,
+                "end": 99,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 116,
+                "end": 129,
+                "label": "user_location"
+            },
+            {
+                "start": 147,
+                "end": 155,
+                "label": "issue_category"
+            },
+            {
+                "start": 187,
+                "end": 226,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 254,
+                "end": 259,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 277,
+                "end": 293,
+                "label": "error_messages"
+            },
+            {
+                "start": 318,
+                "end": 338,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 356,
+                "end": 383,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 401,
+                "end": 414,
+                "label": "issue_severity"
+            },
+            {
+                "start": 440,
+                "end": 482,
+                "label": "additional_information"
+            },
+            {
+                "start": 501,
+                "end": 535,
+                "label": "recurring_issue"
+            }
+        ]
+    },
+    {
+        "content": "impact on work: It's preventing me from doing my job properly. recurring issue: first. error messages: No, there aren't any error messages. issue category: software. issue severity: high priority. specific problem description: My email client isn't opening at all. preferred contact method: Email. user location: Chicago. additional information: No, I've only restarted my laptop. steps taken to resolve: restarted my laptop. first occurrence time: yesterday morning on February 15th at 9am. affected device or application: laptop.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 61,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 80,
+                "end": 85,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 103,
+                "end": 138,
+                "label": "error_messages"
+            },
+            {
+                "start": 156,
+                "end": 164,
+                "label": "issue_category"
+            },
+            {
+                "start": 182,
+                "end": 195,
+                "label": "issue_severity"
+            },
+            {
+                "start": 227,
+                "end": 263,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 291,
+                "end": 296,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 313,
+                "end": 320,
+                "label": "user_location"
+            },
+            {
+                "start": 346,
+                "end": 379,
+                "label": "additional_information"
+            },
+            {
+                "start": 360,
+                "end": 379,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 449,
+                "end": 490,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 373,
+                "end": 379,
+                "label": "affected_device_or_application"
+            }
+        ]
+    },
+    {
+        "content": "first occurrence time: February 15th at around 9:00am. additional information: No error messages have appeared. It just started happening after the latest app update. error messages: No error messages have appeared. specific problem description: The app keeps crashing frequently. steps taken to resolve: uninstalled it and reinstalled it. impact on work: It's slowing me down a lot. issue severity: high. user location: Austin. preferred contact method: Email. issue category: software. recurring issue: frequently. affected device or application: iPhone app.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 53,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 79,
+                "end": 165,
+                "label": "additional_information"
+            },
+            {
+                "start": 79,
+                "end": 110,
+                "label": "error_messages"
+            },
+            {
+                "start": 246,
+                "end": 279,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 305,
+                "end": 338,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 356,
+                "end": 382,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 400,
+                "end": 404,
+                "label": "issue_severity"
+            },
+            {
+                "start": 421,
+                "end": 427,
+                "label": "user_location"
+            },
+            {
+                "start": 455,
+                "end": 460,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 478,
+                "end": 486,
+                "label": "issue_category"
+            },
+            {
+                "start": 269,
+                "end": 279,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 549,
+                "end": 559,
+                "label": "affected_device_or_application"
+            }
+        ]
+    },
+    {
+        "content": "affected device or application: company phone. recurring issue: recurring. specific problem description: The app keeps shutting down unexpectedly. impact on work: slowing down my productivity. first occurrence time: February 15th around 3pm. issue category: software. steps taken to resolve: uninstalled and reinstalled the app. additional information: It started a few days ago. user location: New York City. issue severity: high. error messages: no error messages appear. preferred contact method: Email.",
+        "entities": [
+            {
+                "start": 32,
+                "end": 45,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 47,
+                "end": 56,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 105,
+                "end": 145,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 163,
+                "end": 191,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 216,
+                "end": 240,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 258,
+                "end": 266,
+                "label": "issue_category"
+            },
+            {
+                "start": 292,
+                "end": 327,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 353,
+                "end": 378,
+                "label": "additional_information"
+            },
+            {
+                "start": 395,
+                "end": 408,
+                "label": "user_location"
+            },
+            {
+                "start": 426,
+                "end": 430,
+                "label": "issue_severity"
+            },
+            {
+                "start": 448,
+                "end": 472,
+                "label": "error_messages"
+            },
+            {
+                "start": 500,
+                "end": 505,
+                "label": "preferred_contact_method"
+            }
+        ]
+    },
+    {
+        "content": "steps taken to resolve: I restarted my laptop. first occurrence time: this morning around 9 AM. impact on work: unable to work at all. issue category: network. issue severity: high. preferred contact method: Email. specific problem description: unable to access any of the company servers. user location: Portland office. additional information: I'm in the Portland office. The issue started today. error messages: The only message I'm seeing is a timeout error. affected device or application: laptop. recurring issue: first time.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 45,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 70,
+                "end": 94,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 112,
+                "end": 133,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 151,
+                "end": 158,
+                "label": "issue_category"
+            },
+            {
+                "start": 176,
+                "end": 180,
+                "label": "issue_severity"
+            },
+            {
+                "start": 208,
+                "end": 213,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 245,
+                "end": 288,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 305,
+                "end": 320,
+                "label": "user_location"
+            },
+            {
+                "start": 346,
+                "end": 397,
+                "label": "additional_information"
+            },
+            {
+                "start": 415,
+                "end": 461,
+                "label": "error_messages"
+            },
+            {
+                "start": 39,
+                "end": 45,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 520,
+                "end": 530,
+                "label": "recurring_issue"
+            }
+        ]
+    },
+    {
+        "content": "additional information: . impact on work: whenever I try to record music, the app crashes and interrupts my recording. user location: Nashville. preferred contact method: email. recurring issue: frequent. issue category: software. first occurrence time: February 15th around 3pm. error messages: no error messages pop up when it crashes. affected device or application: iPhone music recording app. specific problem description: the app randomly crashes whenever I try to record music. issue severity: medium. steps taken to resolve: uninstalling and reinstalling the app.",
+        "entities": [
+            {
+                "start": 0,
+                "end": 0,
+                "label": "additional_information"
+            },
+            {
+                "start": 42,
+                "end": 117,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 134,
+                "end": 143,
+                "label": "user_location"
+            },
+            {
+                "start": 171,
+                "end": 176,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 195,
+                "end": 203,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 221,
+                "end": 229,
+                "label": "issue_category"
+            },
+            {
+                "start": 254,
+                "end": 278,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 296,
+                "end": 336,
+                "label": "error_messages"
+            },
+            {
+                "start": 370,
+                "end": 396,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 428,
+                "end": 483,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 501,
+                "end": 507,
+                "label": "issue_severity"
+            },
+            {
+                "start": 533,
+                "end": 570,
+                "label": "steps_taken_to_resolve"
+            }
+        ]
+    },
+    {
+        "content": "user location: Seattle office. additional information: The issue only seems to happen when I use the app on my iPhone. steps taken to resolve: uninstalled and reinstalled the app. error messages: nothing. issue severity: high. affected device or application: mobile app. first occurrence time: February 15th at around 10:00am. impact on work: It's really slowing me down. specific problem description: The app just crashes out of the blue frequently. preferred contact method: Email. recurring issue: frequent. issue category: software.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 29,
+                "label": "user_location"
+            },
+            {
+                "start": 55,
+                "end": 117,
+                "label": "additional_information"
+            },
+            {
+                "start": 143,
+                "end": 178,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 196,
+                "end": 203,
+                "label": "error_messages"
+            },
+            {
+                "start": 221,
+                "end": 225,
+                "label": "issue_severity"
+            },
+            {
+                "start": 259,
+                "end": 269,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 294,
+                "end": 325,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 343,
+                "end": 370,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 402,
+                "end": 449,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 477,
+                "end": 482,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 439,
+                "end": 447,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 527,
+                "end": 535,
+                "label": "issue_category"
+            }
+        ]
+    },
+    {
+        "content": "user location: Nashville, Tennessee. issue category: The app keeps crashing randomly when I try to access my playlists. impact on work: The app keeps crashing randomly when I try to access my playlists. affected device or application: iPhone. recurring issue: frequent. issue severity: medium. error messages: There aren't any error messages. specific problem description: the app just crashes randomly when I try to access my playlists. steps taken to resolve: uninstalled and reinstalled the app. first occurrence time: February 15th, 2022. additional information: The issue did seem to start after the latest app update. preferred contact method: Email.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 35,
+                "label": "user_location"
+            },
+            {
+                "start": 53,
+                "end": 118,
+                "label": "issue_category"
+            },
+            {
+                "start": 53,
+                "end": 118,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 235,
+                "end": 241,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 260,
+                "end": 268,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 286,
+                "end": 292,
+                "label": "issue_severity"
+            },
+            {
+                "start": 310,
+                "end": 341,
+                "label": "error_messages"
+            },
+            {
+                "start": 373,
+                "end": 436,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 462,
+                "end": 497,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 522,
+                "end": 541,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 567,
+                "end": 622,
+                "label": "additional_information"
+            },
+            {
+                "start": 650,
+                "end": 655,
+                "label": "preferred_contact_method"
+            }
+        ]
+    },
+    {
+        "content": "user location: Seattle office. first occurrence time: February 15th around 10:00AM. impact on work: slowing me down. specific problem description: the app is crashing frequently. error messages: There aren't any error messages. affected device or application: mobile app. additional information: It started after the latest update to the app. issue category: software. steps taken to resolve: I uninstalled and reinstalled the app. preferred contact method: email. recurring issue: all the time. issue severity: high.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 29,
+                "label": "user_location"
+            },
+            {
+                "start": 54,
+                "end": 82,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 100,
+                "end": 115,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 147,
+                "end": 177,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 195,
+                "end": 226,
+                "label": "error_messages"
+            },
+            {
+                "start": 260,
+                "end": 270,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 296,
+                "end": 341,
+                "label": "additional_information"
+            },
+            {
+                "start": 359,
+                "end": 367,
+                "label": "issue_category"
+            },
+            {
+                "start": 393,
+                "end": 430,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 458,
+                "end": 463,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 482,
+                "end": 494,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 512,
+                "end": 516,
+                "label": "issue_severity"
+            }
+        ]
+    },
+    {
+        "content": "recurring issue: frequently. specific problem description: the program keeps crashing randomly. steps taken to resolve: restarted my laptop. issue severity: high priority. additional information: it started happening after the latest software update. affected device or application: laptop. preferred contact method: Email. error messages: There haven't been any error messages. first occurrence time: February 15th around 9am. user location: Boston office. impact on work: It's slowing me down. issue category: software.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 27,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 59,
+                "end": 94,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 120,
+                "end": 139,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 157,
+                "end": 170,
+                "label": "issue_severity"
+            },
+            {
+                "start": 196,
+                "end": 249,
+                "label": "additional_information"
+            },
+            {
+                "start": 133,
+                "end": 139,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 317,
+                "end": 322,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 340,
+                "end": 377,
+                "label": "error_messages"
+            },
+            {
+                "start": 402,
+                "end": 426,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 443,
+                "end": 456,
+                "label": "user_location"
+            },
+            {
+                "start": 474,
+                "end": 494,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 234,
+                "end": 242,
+                "label": "issue_category"
+            }
+        ]
+    },
+    {
+        "content": "user location: Austin office. impact on work: It's really slowing me down. additional information: It started after the latest app update. error messages: No. specific problem description: The app is crashing frequently when I try to open it. recurring issue: frequently. first occurrence time: February 15th at 9:00am. issue category: software. issue severity: high. preferred contact method: Email. steps taken to resolve: uninstalled and reinstalled the app. affected device or application: iPhone.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 28,
+                "label": "user_location"
+            },
+            {
+                "start": 46,
+                "end": 73,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 99,
+                "end": 137,
+                "label": "additional_information"
+            },
+            {
+                "start": 155,
+                "end": 157,
+                "label": "error_messages"
+            },
+            {
+                "start": 189,
+                "end": 241,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 209,
+                "end": 219,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 295,
+                "end": 318,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 336,
+                "end": 344,
+                "label": "issue_category"
+            },
+            {
+                "start": 362,
+                "end": 366,
+                "label": "issue_severity"
+            },
+            {
+                "start": 394,
+                "end": 399,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 425,
+                "end": 460,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 494,
+                "end": 500,
+                "label": "affected_device_or_application"
+            }
+        ]
+    },
+    {
+        "content": "impact on work: slowing down. issue severity: high. preferred contact method: Email. affected device or application: iPhone app. user location: Portland. additional information: I'm located in Portland. steps taken to resolve: I've uninstalled and reinstalled the app. error messages: no error messages have shown up. specific problem description: The app is crashing frequently. issue category: software. first occurrence time: February 15th at 3pm. recurring issue: frequently.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 28,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 46,
+                "end": 50,
+                "label": "issue_severity"
+            },
+            {
+                "start": 78,
+                "end": 83,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 117,
+                "end": 127,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 144,
+                "end": 152,
+                "label": "user_location"
+            },
+            {
+                "start": 178,
+                "end": 201,
+                "label": "additional_information"
+            },
+            {
+                "start": 227,
+                "end": 267,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 285,
+                "end": 316,
+                "label": "error_messages"
+            },
+            {
+                "start": 348,
+                "end": 378,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 396,
+                "end": 404,
+                "label": "issue_category"
+            },
+            {
+                "start": 429,
+                "end": 449,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 368,
+                "end": 378,
+                "label": "recurring_issue"
+            }
+        ]
+    },
+    {
+        "content": "recurring issue: The app has been crashing quite a bit. user location: Austin, Texas. issue severity: high priority. steps taken to resolve: uninstalled and reinstalled the app. additional information: It started happening after the latest app update. first occurrence time: February 15th at 9:00 AM. affected device or application: iPhone. error messages: no error message pops up. preferred contact method: Email. specific problem description: The app crashes and closes without letting me access any data. impact on work: . issue category: .",
+        "entities": [
+            {
+                "start": 17,
+                "end": 54,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 71,
+                "end": 84,
+                "label": "user_location"
+            },
+            {
+                "start": 102,
+                "end": 115,
+                "label": "issue_severity"
+            },
+            {
+                "start": 141,
+                "end": 176,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 202,
+                "end": 250,
+                "label": "additional_information"
+            },
+            {
+                "start": 275,
+                "end": 299,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 333,
+                "end": 339,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 357,
+                "end": 381,
+                "label": "error_messages"
+            },
+            {
+                "start": 409,
+                "end": 414,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 446,
+                "end": 507,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "issue_category"
+            }
+        ]
+    },
+    {
+        "content": "first occurrence time: February 15th at around 9am. error messages: There aren't any error messages. affected device or application: laptop. preferred contact method: Email. recurring issue: frequent. issue severity: high priority. specific problem description: the program keeps crashing unexpectedly. additional information: It started after the last update and has really slowed me down. impact on work: really slowed me down. issue category: software. user location: Boston office. steps taken to resolve: restarted my laptop.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 50,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 68,
+                "end": 99,
+                "label": "error_messages"
+            },
+            {
+                "start": 133,
+                "end": 139,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 167,
+                "end": 172,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 191,
+                "end": 199,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 217,
+                "end": 230,
+                "label": "issue_severity"
+            },
+            {
+                "start": 262,
+                "end": 301,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 327,
+                "end": 389,
+                "label": "additional_information"
+            },
+            {
+                "start": 368,
+                "end": 389,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 446,
+                "end": 454,
+                "label": "issue_category"
+            },
+            {
+                "start": 471,
+                "end": 484,
+                "label": "user_location"
+            },
+            {
+                "start": 510,
+                "end": 529,
+                "label": "steps_taken_to_resolve"
+            }
+        ]
+    },
+    {
+        "content": "steps taken to resolve: uninstalled and reinstalled the app. first occurrence time: February 15th at 10:00am. recurring issue: recurring problem. affected device or application: phone. specific problem description: The CRM mobile app keeps crashing. impact on work: slowing me down. error messages: There's no error message. preferred contact method: Email. issue severity: high priority. additional information: It started happening after the last app update. issue category: software. user location: Seattle office.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 59,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 84,
+                "end": 108,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 127,
+                "end": 144,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 178,
+                "end": 183,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 215,
+                "end": 248,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 266,
+                "end": 281,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 299,
+                "end": 323,
+                "label": "error_messages"
+            },
+            {
+                "start": 351,
+                "end": 356,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 374,
+                "end": 387,
+                "label": "issue_severity"
+            },
+            {
+                "start": 413,
+                "end": 459,
+                "label": "additional_information"
+            },
+            {
+                "start": 477,
+                "end": 485,
+                "label": "issue_category"
+            },
+            {
+                "start": 502,
+                "end": 516,
+                "label": "user_location"
+            }
+        ]
+    },
+    {
+        "content": "affected device or application: phone. additional information: . preferred contact method: email. specific problem description: The app just suddenly closes out frequently for no clear reason. issue severity: high. recurring issue: No. error messages: There aren't any messages that appear. issue category: software. first occurrence time: 2022-02-15 at around 10:00 AM. steps taken to resolve: restarting my phone. user location: Portland, Oregon. impact on work: It's really slowing me down.",
+        "entities": [
+            {
+                "start": 32,
+                "end": 37,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "additional_information"
+            },
+            {
+                "start": 91,
+                "end": 96,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 128,
+                "end": 191,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 209,
+                "end": 213,
+                "label": "issue_severity"
+            },
+            {
+                "start": 232,
+                "end": 234,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 252,
+                "end": 289,
+                "label": "error_messages"
+            },
+            {
+                "start": 307,
+                "end": 315,
+                "label": "issue_category"
+            },
+            {
+                "start": 340,
+                "end": 369,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 395,
+                "end": 414,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 431,
+                "end": 447,
+                "label": "user_location"
+            },
+            {
+                "start": 465,
+                "end": 492,
+                "label": "impact_on_work"
+            }
+        ]
+    },
+    {
+        "content": "recurring issue: frequent occurrence. impact on work: slowing down my productivity. additional information: I'm located in Los Angeles, California. user location: Los Angeles, California. affected device or application: iPhone. preferred contact method: Email. specific problem description: The app closes out unexpectedly. steps taken to resolve: uninstalled and reinstalled the app. error messages: No. issue category: software. issue severity: high. first occurrence time: January 15, 2023.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 36,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 54,
+                "end": 82,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 108,
+                "end": 146,
+                "label": "additional_information"
+            },
+            {
+                "start": 123,
+                "end": 146,
+                "label": "user_location"
+            },
+            {
+                "start": 220,
+                "end": 226,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 254,
+                "end": 259,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 291,
+                "end": 322,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 348,
+                "end": 383,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 401,
+                "end": 403,
+                "label": "error_messages"
+            },
+            {
+                "start": 421,
+                "end": 429,
+                "label": "issue_category"
+            },
+            {
+                "start": 447,
+                "end": 451,
+                "label": "issue_severity"
+            },
+            {
+                "start": 476,
+                "end": 492,
+                "label": "first_occurrence_time"
+            }
+        ]
+    },
+    {
+        "content": "first occurrence time: February 15th around 9:00am. user location: Miami. issue severity: high. impact on work: unable to communicate with clients. issue category: email. affected device or application: laptop. error messages: No, there haven't been any error messages. additional information: there haven't been any error messages. recurring issue: frequently. specific problem description: When I try to send emails. steps taken to resolve: restarted my laptop. preferred contact method: Email.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 50,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 67,
+                "end": 72,
+                "label": "user_location"
+            },
+            {
+                "start": 90,
+                "end": 94,
+                "label": "issue_severity"
+            },
+            {
+                "start": 112,
+                "end": 146,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 164,
+                "end": 169,
+                "label": "issue_category"
+            },
+            {
+                "start": 203,
+                "end": 209,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 227,
+                "end": 268,
+                "label": "error_messages"
+            },
+            {
+                "start": 231,
+                "end": 268,
+                "label": "additional_information"
+            },
+            {
+                "start": 350,
+                "end": 360,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 392,
+                "end": 417,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 443,
+                "end": 462,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 490,
+                "end": 495,
+                "label": "preferred_contact_method"
+            }
+        ]
+    },
+    {
+        "content": "additional information: my laptop screen cracked yesterday. preferred contact method: phone call. recurring issue: first time this has happened. affected device or application: laptop. issue category: hardware. first occurrence time: February 15th at 10am. steps taken to resolve: No, I haven't tried anything. error messages: There aren't any error messages. impact on work: preventing me from doing any work. specific problem description: The screen is cracked so I can't see anything on it. user location: Portland, Oregon. issue severity: high.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 58,
+                "label": "additional_information"
+            },
+            {
+                "start": 86,
+                "end": 96,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 115,
+                "end": 143,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 27,
+                "end": 33,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 201,
+                "end": 209,
+                "label": "issue_category"
+            },
+            {
+                "start": 234,
+                "end": 255,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 281,
+                "end": 309,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 327,
+                "end": 358,
+                "label": "error_messages"
+            },
+            {
+                "start": 376,
+                "end": 409,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 441,
+                "end": 492,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 509,
+                "end": 525,
+                "label": "user_location"
+            },
+            {
+                "start": 543,
+                "end": 547,
+                "label": "issue_severity"
+            }
+        ]
+    },
+    {
+        "content": "recurring issue: frequently. issue severity: The app has been crashing frequently. preferred contact method: Email. impact on work: difficult to get work done. specific problem description: The music app on my iPhone is crashing frequently. affected device or application: iPhone. issue category: software. first occurrence time: February 15th, 2022. additional information: I'm located in Nashville, TN. user location: Nashville, TN. steps taken to resolve: uninstalled and reinstalled the app. error messages: There aren't any error messages.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 27,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 45,
+                "end": 81,
+                "label": "issue_severity"
+            },
+            {
+                "start": 109,
+                "end": 114,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 132,
+                "end": 158,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 190,
+                "end": 239,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 210,
+                "end": 216,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 297,
+                "end": 305,
+                "label": "issue_category"
+            },
+            {
+                "start": 330,
+                "end": 349,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 375,
+                "end": 403,
+                "label": "additional_information"
+            },
+            {
+                "start": 390,
+                "end": 403,
+                "label": "user_location"
+            },
+            {
+                "start": 459,
+                "end": 494,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 512,
+                "end": 543,
+                "label": "error_messages"
+            }
+        ]
+    },
+    {
+        "content": "user location: New York City. error messages: nothing. impact on work: It's really blocking me from being productive. first occurrence time: February 15th around 10am. recurring issue: frequent. additional information: . preferred contact method: Email. specific problem description: The app keeps crashing frequently. steps taken to resolve: restarted my phone. issue category: software. issue severity: high. affected device or application: work phone app.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 28,
+                "label": "user_location"
+            },
+            {
+                "start": 46,
+                "end": 53,
+                "label": "error_messages"
+            },
+            {
+                "start": 71,
+                "end": 116,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 141,
+                "end": 166,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 185,
+                "end": 193,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "additional_information"
+            },
+            {
+                "start": 247,
+                "end": 252,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 284,
+                "end": 317,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 343,
+                "end": 361,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 379,
+                "end": 387,
+                "label": "issue_category"
+            },
+            {
+                "start": 405,
+                "end": 409,
+                "label": "issue_severity"
+            },
+            {
+                "start": 443,
+                "end": 457,
+                "label": "affected_device_or_application"
+            }
+        ]
+    },
+    {
+        "content": "specific problem description: The app has been crashing a lot lately. preferred contact method: email. impact on work: It's slowing my work down. recurring issue: frequently. affected device or application: iPhone. additional information: The company iPhone app started crashing more after the last update. steps taken to resolve: uninstalled and reinstalled the app. user location: Los Angeles office. error messages: no error messages. issue category: software. issue severity: high priority. first occurrence time: February 15th at 9am.",
+        "entities": [
+            {
+                "start": 30,
+                "end": 68,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 96,
+                "end": 101,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 119,
+                "end": 144,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 163,
+                "end": 173,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 207,
+                "end": 213,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 239,
+                "end": 305,
+                "label": "additional_information"
+            },
+            {
+                "start": 331,
+                "end": 366,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 383,
+                "end": 401,
+                "label": "user_location"
+            },
+            {
+                "start": 419,
+                "end": 436,
+                "label": "error_messages"
+            },
+            {
+                "start": 454,
+                "end": 462,
+                "label": "issue_category"
+            },
+            {
+                "start": 480,
+                "end": 493,
+                "label": "issue_severity"
+            },
+            {
+                "start": 518,
+                "end": 538,
+                "label": "first_occurrence_time"
+            }
+        ]
+    },
+    {
+        "content": "error messages: No, there are no error messages. specific problem description: It just closes out randomly. issue category: software. preferred contact method: Email. affected device or application: iPhone. steps taken to resolve: uninstalling and reinstalling the app. additional information: It started happening after the most recent app update. issue severity: high. user location: Los Angeles office. first occurrence time: February 15th at 9:00am. recurring issue: frequently. impact on work: slowing me down.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 47,
+                "label": "error_messages"
+            },
+            {
+                "start": 79,
+                "end": 106,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 124,
+                "end": 132,
+                "label": "issue_category"
+            },
+            {
+                "start": 160,
+                "end": 165,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 199,
+                "end": 205,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 231,
+                "end": 268,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 294,
+                "end": 347,
+                "label": "additional_information"
+            },
+            {
+                "start": 365,
+                "end": 369,
+                "label": "issue_severity"
+            },
+            {
+                "start": 386,
+                "end": 404,
+                "label": "user_location"
+            },
+            {
+                "start": 429,
+                "end": 452,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 471,
+                "end": 481,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 499,
+                "end": 514,
+                "label": "impact_on_work"
+            }
+        ]
+    },
+    {
+        "content": "issue category: software. steps taken to resolve: restarted my computer. user location: Boston office. additional information: The problem started today. error messages: No, nothing. specific problem description: My email isn't working. first occurrence time: February 15th at 9:00 AM. issue severity: high impact. affected device or application: laptop. preferred contact method: email. impact on work: preventing me from doing my job. recurring issue: first.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 24,
+                "label": "issue_category"
+            },
+            {
+                "start": 50,
+                "end": 71,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 88,
+                "end": 101,
+                "label": "user_location"
+            },
+            {
+                "start": 127,
+                "end": 152,
+                "label": "additional_information"
+            },
+            {
+                "start": 170,
+                "end": 181,
+                "label": "error_messages"
+            },
+            {
+                "start": 213,
+                "end": 235,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 260,
+                "end": 284,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 302,
+                "end": 313,
+                "label": "issue_severity"
+            },
+            {
+                "start": 347,
+                "end": 353,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 216,
+                "end": 221,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 404,
+                "end": 435,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 237,
+                "end": 242,
+                "label": "recurring_issue"
+            }
+        ]
+    },
+    {
+        "content": "first occurrence time: February 15th at around 9am. issue severity: pretty serious. issue category: software. error messages: No. affected device or application: laptop. impact on work: I can't access any of my emails. additional information: This only started happening recently. specific problem description: Email just isn't working at all, it won't load. user location: Miami office. preferred contact method: email. steps taken to resolve: restarted my computer. recurring issue: all the time.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 50,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 68,
+                "end": 82,
+                "label": "issue_severity"
+            },
+            {
+                "start": 100,
+                "end": 108,
+                "label": "issue_category"
+            },
+            {
+                "start": 126,
+                "end": 128,
+                "label": "error_messages"
+            },
+            {
+                "start": 162,
+                "end": 168,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 186,
+                "end": 217,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 243,
+                "end": 279,
+                "label": "additional_information"
+            },
+            {
+                "start": 311,
+                "end": 357,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 374,
+                "end": 386,
+                "label": "user_location"
+            },
+            {
+                "start": 211,
+                "end": 216,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 445,
+                "end": 466,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 485,
+                "end": 497,
+                "label": "recurring_issue"
+            }
+        ]
+    },
+    {
+        "content": "first occurrence time: February 15th at around 9 am. issue category: email. affected device or application: Outlook on my laptop. specific problem description: unable to send any emails. user location: Miami. error messages: No. steps taken to resolve: restarted my laptop. preferred contact method: Email. recurring issue: first. issue severity: highly disruptive. impact on work: unable to communicate with clients via email which is blocking my work. additional information: The issue started today.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 51,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 69,
+                "end": 74,
+                "label": "issue_category"
+            },
+            {
+                "start": 108,
+                "end": 128,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 160,
+                "end": 185,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 202,
+                "end": 207,
+                "label": "user_location"
+            },
+            {
+                "start": 225,
+                "end": 227,
+                "label": "error_messages"
+            },
+            {
+                "start": 253,
+                "end": 272,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 300,
+                "end": 305,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 0,
+                "end": 5,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 347,
+                "end": 364,
+                "label": "issue_severity"
+            },
+            {
+                "start": 382,
+                "end": 452,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 478,
+                "end": 501,
+                "label": "additional_information"
+            }
+        ]
+    },
+    {
+        "content": "affected device or application: phone. additional information: It just started happening recently. user location: Portland, Oregon. first occurrence time: February 15th, 2022 at 9:00 am. recurring issue: frequently. specific problem description: The app is crashing a lot. steps taken to resolve: restarted my phone. preferred contact method: Email. issue category: software. error messages: No. impact on work: It's blocking important work data. issue severity: high.",
+        "entities": [
+            {
+                "start": 32,
+                "end": 37,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 63,
+                "end": 97,
+                "label": "additional_information"
+            },
+            {
+                "start": 114,
+                "end": 130,
+                "label": "user_location"
+            },
+            {
+                "start": 155,
+                "end": 185,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 204,
+                "end": 214,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 246,
+                "end": 271,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 297,
+                "end": 315,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 343,
+                "end": 348,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 366,
+                "end": 374,
+                "label": "issue_category"
+            },
+            {
+                "start": 392,
+                "end": 394,
+                "label": "error_messages"
+            },
+            {
+                "start": 412,
+                "end": 445,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 463,
+                "end": 467,
+                "label": "issue_severity"
+            }
+        ]
+    },
+    {
+        "content": "issue category: software. impact on work: I can't access some important data I need. recurring issue: Unfortunately it's been a recurring problem. affected device or application: company phone. user location: Portland office. first occurrence time: February 15th at 10:00 AM. error messages: nothing is showing up when it crashes. steps taken to resolve: uninstalled and reinstalled the app. issue severity: high level. specific problem description: It just closes out unexpectedly. additional information: . preferred contact method: Email.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 24,
+                "label": "issue_category"
+            },
+            {
+                "start": 42,
+                "end": 83,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 102,
+                "end": 145,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 179,
+                "end": 192,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 209,
+                "end": 224,
+                "label": "user_location"
+            },
+            {
+                "start": 249,
+                "end": 274,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 292,
+                "end": 329,
+                "label": "error_messages"
+            },
+            {
+                "start": 355,
+                "end": 390,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 408,
+                "end": 418,
+                "label": "issue_severity"
+            },
+            {
+                "start": 450,
+                "end": 481,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "additional_information"
+            },
+            {
+                "start": 535,
+                "end": 540,
+                "label": "preferred_contact_method"
+            }
+        ]
+    },
+    {
+        "content": "user location: New York City. error messages: No, there aren't any error messages showing unfortunately. issue category: software. affected device or application: phone. additional information: I don't have any other information to provide. impact on work: slowing me down. first occurrence time: February 15th at 3:00pm. steps taken to resolve: restarted my phone. specific problem description: The app is crashing frequently. preferred contact method: Email. issue severity: high. recurring issue: frequently.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 28,
+                "label": "user_location"
+            },
+            {
+                "start": 46,
+                "end": 103,
+                "label": "error_messages"
+            },
+            {
+                "start": 121,
+                "end": 129,
+                "label": "issue_category"
+            },
+            {
+                "start": 163,
+                "end": 168,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 194,
+                "end": 239,
+                "label": "additional_information"
+            },
+            {
+                "start": 257,
+                "end": 272,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 297,
+                "end": 320,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 346,
+                "end": 364,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 396,
+                "end": 426,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 454,
+                "end": 459,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 477,
+                "end": 481,
+                "label": "issue_severity"
+            },
+            {
+                "start": 416,
+                "end": 426,
+                "label": "recurring_issue"
+            }
+        ]
+    },
+    {
+        "content": "steps taken to resolve: restarted my computer. affected device or application: work computer. recurring issue: first. additional information: This is the first time I've had a problem getting my email. user location: San Francisco. first occurrence time: this morning around 9am. issue category: software. impact on work: hard for me to communicate with others. error messages: There aren't any error messages that I can see. specific problem description: Email. preferred contact method: Email. issue severity: high priority.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 45,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 79,
+                "end": 92,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 111,
+                "end": 116,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 142,
+                "end": 200,
+                "label": "additional_information"
+            },
+            {
+                "start": 217,
+                "end": 230,
+                "label": "user_location"
+            },
+            {
+                "start": 255,
+                "end": 278,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 296,
+                "end": 304,
+                "label": "issue_category"
+            },
+            {
+                "start": 322,
+                "end": 360,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 378,
+                "end": 424,
+                "label": "error_messages"
+            },
+            {
+                "start": 456,
+                "end": 461,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 456,
+                "end": 461,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 512,
+                "end": 525,
+                "label": "issue_severity"
+            }
+        ]
+    },
+    {
+        "content": "affected device or application: Outlook email. issue category: software. impact on work: emails. first occurrence time: Monday, February 15th around 9am. issue severity: pretty high. recurring issue: frequent. user location: Miami, Florida. preferred contact method: Email. additional information: the issue does seem to be a recent development. error messages: No. steps taken to resolve: restarting my computer. specific problem description: my inbox is empty and I'm unable to send or receive any emails.",
+        "entities": [
+            {
+                "start": 32,
+                "end": 45,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 63,
+                "end": 71,
+                "label": "issue_category"
+            },
+            {
+                "start": 89,
+                "end": 95,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 120,
+                "end": 152,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 170,
+                "end": 181,
+                "label": "issue_severity"
+            },
+            {
+                "start": 200,
+                "end": 208,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 225,
+                "end": 239,
+                "label": "user_location"
+            },
+            {
+                "start": 267,
+                "end": 272,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 298,
+                "end": 344,
+                "label": "additional_information"
+            },
+            {
+                "start": 362,
+                "end": 364,
+                "label": "error_messages"
+            },
+            {
+                "start": 390,
+                "end": 412,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 444,
+                "end": 506,
+                "label": "specific_problem_description"
+            }
+        ]
+    },
+    {
+        "content": "user location: Los Angeles. impact on work: It's really slowing me down. affected device or application: iPhone. error messages: There aren't any error messages though. issue category: software. first occurrence time: February 15th at 9am. additional information: It started happening more after the latest update. recurring issue: It's becoming a regular frustration. preferred contact method: Email. steps taken to resolve: uninstalled and reinstalled the app. specific problem description: The app keeps crashing out of the blue. issue severity: high.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 26,
+                "label": "user_location"
+            },
+            {
+                "start": 44,
+                "end": 71,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 105,
+                "end": 111,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 129,
+                "end": 167,
+                "label": "error_messages"
+            },
+            {
+                "start": 185,
+                "end": 193,
+                "label": "issue_category"
+            },
+            {
+                "start": 218,
+                "end": 238,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 264,
+                "end": 313,
+                "label": "additional_information"
+            },
+            {
+                "start": 332,
+                "end": 367,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 395,
+                "end": 400,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 426,
+                "end": 461,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 493,
+                "end": 531,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 549,
+                "end": 553,
+                "label": "issue_severity"
+            }
+        ]
+    },
+    {
+        "content": "issue severity: things keep crashing. first occurrence time: around the 15th of this month. recurring issue: frequently. issue category: software. impact on work: slowing me down. steps taken to resolve: restarted my laptop. specific problem description: A program keeps crashing. affected device or application: laptop. user location: Boston. additional information: I'm in Boston. error messages: No error messages pop up. preferred contact method: Email.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 36,
+                "label": "issue_severity"
+            },
+            {
+                "start": 61,
+                "end": 90,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 109,
+                "end": 119,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 137,
+                "end": 145,
+                "label": "issue_category"
+            },
+            {
+                "start": 163,
+                "end": 178,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 204,
+                "end": 223,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 255,
+                "end": 279,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 217,
+                "end": 223,
+                "label": "affected_device_or_application"
+            },
+            {
+                "start": 336,
+                "end": 342,
+                "label": "user_location"
+            },
+            {
+                "start": 368,
+                "end": 381,
+                "label": "additional_information"
+            },
+            {
+                "start": 399,
+                "end": 423,
+                "label": "error_messages"
+            },
+            {
+                "start": 451,
+                "end": 456,
+                "label": "preferred_contact_method"
+            }
+        ]
+    },
+    {
+        "content": "specific problem description: the app has been crashing a lot recently ever since the last update. additional information: the app has been crashing a lot recently ever since the last update. preferred contact method: email. first occurrence time: February 15th at 9am. issue severity: high. user location: Austin, Texas. steps taken to resolve: uninstalled and reinstalled the app. issue category: software. impact on work: It's blocking me from completing critical tasks. recurring issue: very frequently. error messages: No. affected device or application: iPhone app.",
+        "entities": [
+            {
+                "start": 30,
+                "end": 97,
+                "label": "specific_problem_description"
+            },
+            {
+                "start": 30,
+                "end": 97,
+                "label": "additional_information"
+            },
+            {
+                "start": 218,
+                "end": 223,
+                "label": "preferred_contact_method"
+            },
+            {
+                "start": 248,
+                "end": 268,
+                "label": "first_occurrence_time"
+            },
+            {
+                "start": 286,
+                "end": 290,
+                "label": "issue_severity"
+            },
+            {
+                "start": 307,
+                "end": 320,
+                "label": "user_location"
+            },
+            {
+                "start": 346,
+                "end": 381,
+                "label": "steps_taken_to_resolve"
+            },
+            {
+                "start": 399,
+                "end": 407,
+                "label": "issue_category"
+            },
+            {
+                "start": 425,
+                "end": 472,
+                "label": "impact_on_work"
+            },
+            {
+                "start": 491,
+                "end": 506,
+                "label": "recurring_issue"
+            },
+            {
+                "start": 524,
+                "end": 526,
+                "label": "error_messages"
+            },
+            {
+                "start": 560,
+                "end": 570,
+                "label": "affected_device_or_application"
+            }
+        ]
+    }
+]
