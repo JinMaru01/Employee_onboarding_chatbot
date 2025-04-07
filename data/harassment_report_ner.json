@@ -1,0 +1,3187 @@
+[
+    {
+        "content": "incident time: 9:30 this morning. witnesses: no one else was there to witness it. type of harassment: verbal. incident location: the office kitchen. additional notes: It happened in the office kitchen. It made me feel really uncomfortable. desired outcome: An apology from my manager and some workplace training. impact on victim: very upset and embarrassed. description of incident: My manager yelled insults at me. incident date: May 15th, 2020. individuals involved: my manager, Amir Khaled. previous incidents: No. reporter contact info: No.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 32,
+                "label": "incident_time"
+            },
+            {
+                "start": 45,
+                "end": 80,
+                "label": "witnesses"
+            },
+            {
+                "start": 102,
+                "end": 108,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 129,
+                "end": 147,
+                "label": "incident_location"
+            },
+            {
+                "start": 167,
+                "end": 238,
+                "label": "additional_notes"
+            },
+            {
+                "start": 257,
+                "end": 311,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 331,
+                "end": 357,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 384,
+                "end": 415,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 432,
+                "end": 446,
+                "label": "incident_date"
+            },
+            {
+                "start": 470,
+                "end": 493,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 515,
+                "end": 517,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 515,
+                "end": 517,
+                "label": "reporter_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: Unfortunately there weren't any witnesses around. witnesses: Unfortunately there weren't any witnesses around. incident time: 1:45pm. previous incidents: No. impact on victim: I've been feeling quite upset and embarrassed. description of incident: During a heated argument in the kitchen, my colleague started yelling insults at me. incident location: the kitchen area. type of harassment: verbal. desired outcome: an apology from my colleague and some workplace training to prevent future issues. incident date: March 15th, 2021. reporter contact info: 555-0345. individuals involved: my colleague James.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 66,
+                "label": "additional_notes"
+            },
+            {
+                "start": 18,
+                "end": 66,
+                "label": "witnesses"
+            },
+            {
+                "start": 144,
+                "end": 150,
+                "label": "incident_time"
+            },
+            {
+                "start": 172,
+                "end": 174,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 194,
+                "end": 239,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 266,
+                "end": 349,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 370,
+                "end": 386,
+                "label": "incident_location"
+            },
+            {
+                "start": 408,
+                "end": 414,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 433,
+                "end": 514,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 531,
+                "end": 547,
+                "label": "incident_date"
+            },
+            {
+                "start": 572,
+                "end": 580,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 604,
+                "end": 622,
+                "label": "individuals_involved"
+            }
+        ]
+    },
+    {
+        "content": "impact on victim: It really upset and embarrassed me. incident location: the office conference room. incident date: February 15th, 2022. individuals involved: The manager. additional notes: I'm hoping for an apology and some counseling. desired outcome: an apology and some counseling. incident time: 9:30 AM. type of harassment: verbal. witnesses: No, there were no other witnesses. description of incident: He started yelling and using profanity towards me. previous incidents: No, this was the first time. reporter contact info: No, this was the first time. My name is Priya Singh.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 52,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 73,
+                "end": 99,
+                "label": "incident_location"
+            },
+            {
+                "start": 116,
+                "end": 135,
+                "label": "incident_date"
+            },
+            {
+                "start": 159,
+                "end": 170,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 190,
+                "end": 235,
+                "label": "additional_notes"
+            },
+            {
+                "start": 205,
+                "end": 235,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 301,
+                "end": 308,
+                "label": "incident_time"
+            },
+            {
+                "start": 330,
+                "end": 336,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 349,
+                "end": 382,
+                "label": "witnesses"
+            },
+            {
+                "start": 409,
+                "end": 458,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 480,
+                "end": 507,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 532,
+                "end": 583,
+                "label": "reporter_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "description of incident: Someone was posting offensive tweets. reporter contact info: alex@email.com or 555-1234. impact on victim: It made me feel very upset and angry. individuals involved: It was a troll Twitter account. incident location: Twitter. previous incidents: No. desired outcome: deleted. type of harassment: online. incident time: 3:30pm. additional notes: No, that's all. It was very upsetting. incident date: No, there were no witnesses. witnesses: No, there were no witnesses.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 61,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 86,
+                "end": 112,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 132,
+                "end": 168,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 192,
+                "end": 222,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 207,
+                "end": 214,
+                "label": "incident_location"
+            },
+            {
+                "start": 272,
+                "end": 274,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 293,
+                "end": 300,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 322,
+                "end": 328,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 345,
+                "end": 351,
+                "label": "incident_time"
+            },
+            {
+                "start": 371,
+                "end": 408,
+                "label": "additional_notes"
+            },
+            {
+                "start": 425,
+                "end": 452,
+                "label": "incident_date"
+            },
+            {
+                "start": 425,
+                "end": 452,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "incident location: in our law firm office. description of incident: in our law firm office during a meeting. previous incidents: No, this was the first incident. reporter contact info: 555-1234. impact on victim: very upsetting. witnesses: No, there were no other witnesses. incident date: May 15, 2020. incident time: 3:30 PM. desired outcome: an apology from my colleague and some workplace training. additional notes: It was a very unprofessional situation. type of harassment: verbal. individuals involved: colleagues.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 41,
+                "label": "incident_location"
+            },
+            {
+                "start": 68,
+                "end": 107,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 129,
+                "end": 160,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 185,
+                "end": 193,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 213,
+                "end": 227,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 240,
+                "end": 273,
+                "label": "witnesses"
+            },
+            {
+                "start": 290,
+                "end": 302,
+                "label": "incident_date"
+            },
+            {
+                "start": 319,
+                "end": 326,
+                "label": "incident_time"
+            },
+            {
+                "start": 345,
+                "end": 401,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 421,
+                "end": 459,
+                "label": "additional_notes"
+            },
+            {
+                "start": 481,
+                "end": 487,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 511,
+                "end": 521,
+                "label": "individuals_involved"
+            }
+        ]
+    },
+    {
+        "content": "individuals involved: . incident location: on Twitter. witnesses: no other witnesses. additional notes: disturbing tweet. desired outcome: suspended. impact on victim: angry and frustrated. reporter contact info: Alex Jordan. incident date: February 15, 2023. type of harassment: online. incident time: 3:30pm. description of incident: The harassing tweet contained offensive language. previous incidents: not been any previous incidents.",
+        "entities": [
+            {
+                "start": 0,
+                "end": 0,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 43,
+                "end": 53,
+                "label": "incident_location"
+            },
+            {
+                "start": 66,
+                "end": 84,
+                "label": "witnesses"
+            },
+            {
+                "start": 104,
+                "end": 120,
+                "label": "additional_notes"
+            },
+            {
+                "start": 139,
+                "end": 148,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 168,
+                "end": 188,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 213,
+                "end": 224,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 241,
+                "end": 258,
+                "label": "incident_date"
+            },
+            {
+                "start": 280,
+                "end": 286,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 303,
+                "end": 309,
+                "label": "incident_time"
+            },
+            {
+                "start": 336,
+                "end": 384,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 406,
+                "end": 437,
+                "label": "previous_incidents"
+            }
+        ]
+    },
+    {
+        "content": "desired outcome: an apology from the person involved and some workplace training. incident date: May 15th, 2021. description of incident: He was yelling insults at me. impact on victim: It made me feel very upset and embarrassed. reporter contact info: 555-0102. individuals involved: The other person involved was John Smith. type of harassment: verbal. additional notes: No. witnesses: Jane Doe witnessed it. It happened at around 3:30pm. incident time: 3:30pm. incident location: the office conference room. previous incidents: It happened in the office conference room.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 80,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 97,
+                "end": 111,
+                "label": "incident_date"
+            },
+            {
+                "start": 138,
+                "end": 166,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 186,
+                "end": 228,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 253,
+                "end": 261,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 285,
+                "end": 325,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 347,
+                "end": 353,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 373,
+                "end": 375,
+                "label": "additional_notes"
+            },
+            {
+                "start": 388,
+                "end": 439,
+                "label": "witnesses"
+            },
+            {
+                "start": 433,
+                "end": 439,
+                "label": "incident_time"
+            },
+            {
+                "start": 483,
+                "end": 509,
+                "label": "incident_location"
+            },
+            {
+                "start": 531,
+                "end": 572,
+                "label": "previous_incidents"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: Sure. reporter contact info: @elijahmusic. incident date: March 15th, 2021. individuals involved: some online trolls. witnesses: No, I was alone online. type of harassment: online. impact on victim: angry and frustrated. incident location: Twitter. desired outcome: their accounts get suspended. description of incident: The tweets were very offensive. previous incidents: No, this was the first time. It happened around 2:30pm. incident time: 2:30pm.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 22,
+                "label": "additional_notes"
+            },
+            {
+                "start": 47,
+                "end": 59,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 76,
+                "end": 92,
+                "label": "incident_date"
+            },
+            {
+                "start": 116,
+                "end": 134,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 147,
+                "end": 169,
+                "label": "witnesses"
+            },
+            {
+                "start": 121,
+                "end": 127,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 217,
+                "end": 237,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 258,
+                "end": 265,
+                "label": "incident_location"
+            },
+            {
+                "start": 284,
+                "end": 312,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 339,
+                "end": 369,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 391,
+                "end": 445,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 439,
+                "end": 445,
+                "label": "incident_time"
+            }
+        ]
+    },
+    {
+        "content": "incident location: Twitter. desired outcome: the harasser's account gets deleted. incident date: February 15, 2023. witnesses: no witnesses. incident time: 3:30pm. type of harassment: online. reporter contact info: Elijah Barnes. description of incident: offensive tweets. additional notes: No, there's no other additional information. individuals involved: I don't know who the user was. previous incidents: I don't know who the user was. impact on victim: angry and frustrated.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 26,
+                "label": "incident_location"
+            },
+            {
+                "start": 45,
+                "end": 80,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 97,
+                "end": 114,
+                "label": "incident_date"
+            },
+            {
+                "start": 127,
+                "end": 139,
+                "label": "witnesses"
+            },
+            {
+                "start": 156,
+                "end": 162,
+                "label": "incident_time"
+            },
+            {
+                "start": 184,
+                "end": 190,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 215,
+                "end": 228,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 255,
+                "end": 271,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 291,
+                "end": 334,
+                "label": "additional_notes"
+            },
+            {
+                "start": 358,
+                "end": 387,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 358,
+                "end": 387,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 458,
+                "end": 478,
+                "label": "impact_on_victim"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: It was a very disturbing experience. incident date: January 15th, 2020. incident time: 3:30pm. individuals involved: \"Trolls. witnesses: There didn't appear to be any other witnesses. incident location: Twitter. description of incident: Offensive tweets were sent which caused me to feel anger and frustration. impact on victim: anger and frustration. reporter contact info: @elijahmusic. desired outcome: hoping the offending accounts get suspended. type of harassment: online. previous incidents: No.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 53,
+                "label": "additional_notes"
+            },
+            {
+                "start": 70,
+                "end": 88,
+                "label": "incident_date"
+            },
+            {
+                "start": 105,
+                "end": 111,
+                "label": "incident_time"
+            },
+            {
+                "start": 135,
+                "end": 142,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 155,
+                "end": 200,
+                "label": "witnesses"
+            },
+            {
+                "start": 221,
+                "end": 228,
+                "label": "incident_location"
+            },
+            {
+                "start": 255,
+                "end": 327,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 306,
+                "end": 327,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 393,
+                "end": 405,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 424,
+                "end": 467,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 489,
+                "end": 495,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 517,
+                "end": 519,
+                "label": "previous_incidents"
+            }
+        ]
+    },
+    {
+        "content": "individuals involved: anonymous troll account. description of incident: threatening direct messages. incident location: Twitter. reporter contact info: alex@email.com. previous incidents: No. type of harassment: online. desired outcome: the account can be deleted. witnesses: no other witnesses. additional notes: there were no other witnesses. incident date: February 15, 2023. incident time: 2:30 PM. impact on victim: I've been feeling quite unsafe.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 45,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 72,
+                "end": 99,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 120,
+                "end": 127,
+                "label": "incident_location"
+            },
+            {
+                "start": 152,
+                "end": 166,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 188,
+                "end": 190,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 212,
+                "end": 218,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 237,
+                "end": 263,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 276,
+                "end": 294,
+                "label": "witnesses"
+            },
+            {
+                "start": 314,
+                "end": 343,
+                "label": "additional_notes"
+            },
+            {
+                "start": 360,
+                "end": 377,
+                "label": "incident_date"
+            },
+            {
+                "start": 394,
+                "end": 401,
+                "label": "incident_time"
+            },
+            {
+                "start": 421,
+                "end": 451,
+                "label": "impact_on_victim"
+            }
+        ]
+    },
+    {
+        "content": "individuals involved: my colleague Dr. Smith. incident time: 9:30 this morning. description of incident: Dr. Smith yelled at me. desired outcome: Dr. Smith will apologize. incident date: May 15, 2020. impact on victim: I felt embarrassed and was very upset. additional notes: I felt embarrassed and was very upset by it. incident location: in the hospital emergency room. reporter contact info: Dr. Li Wei. previous incidents: No. type of harassment: verbal. witnesses: no other witnesses.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 44,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 61,
+                "end": 78,
+                "label": "incident_time"
+            },
+            {
+                "start": 105,
+                "end": 127,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 146,
+                "end": 170,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 187,
+                "end": 199,
+                "label": "incident_date"
+            },
+            {
+                "start": 219,
+                "end": 256,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 276,
+                "end": 319,
+                "label": "additional_notes"
+            },
+            {
+                "start": 340,
+                "end": 370,
+                "label": "incident_location"
+            },
+            {
+                "start": 395,
+                "end": 405,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 427,
+                "end": 429,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 451,
+                "end": 457,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 470,
+                "end": 488,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "incident time: 3:00 PM. additional notes: 3:00 PM yesterday. It really made me feel uncomfortable. individuals involved: my manager. incident location: the office kitchen. type of harassment: verbal. reporter contact info: Amir Khaled. previous incidents: No, there have not been any previous incidents. description of incident: He yelled insults at me. desired outcome: An apology from him and some counseling. incident date: February 15th, 2022. impact on victim: It really made me feel threatened. witnesses: No, there were no other witnesses.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 22,
+                "label": "incident_time"
+            },
+            {
+                "start": 42,
+                "end": 97,
+                "label": "additional_notes"
+            },
+            {
+                "start": 121,
+                "end": 131,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 152,
+                "end": 170,
+                "label": "incident_location"
+            },
+            {
+                "start": 192,
+                "end": 198,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 223,
+                "end": 234,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 256,
+                "end": 302,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 329,
+                "end": 352,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 371,
+                "end": 410,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 427,
+                "end": 446,
+                "label": "incident_date"
+            },
+            {
+                "start": 466,
+                "end": 499,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 512,
+                "end": 545,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "individuals involved: an offensive troll account. additional notes: I would like the account to be deleted. desired outcome: the account to be deleted. type of harassment: online. impact on victim: . incident time: 2:30 pm. previous incidents: No, this was the first incident. reporter contact info: Alex Jordan. description of incident: offensive tweets. witnesses: no. incident location: Twitter. incident date: February 15, 2023.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 48,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 68,
+                "end": 106,
+                "label": "additional_notes"
+            },
+            {
+                "start": 81,
+                "end": 106,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 172,
+                "end": 178,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 215,
+                "end": 222,
+                "label": "incident_time"
+            },
+            {
+                "start": 244,
+                "end": 275,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 300,
+                "end": 311,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 338,
+                "end": 354,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 61,
+                "end": 63,
+                "label": "witnesses"
+            },
+            {
+                "start": 390,
+                "end": 397,
+                "label": "incident_location"
+            },
+            {
+                "start": 414,
+                "end": 431,
+                "label": "incident_date"
+            }
+        ]
+    },
+    {
+        "content": "incident date: February 15th, 2023. previous incidents: No, there have not been any previous incidents. impact on victim: This incident has made me feel angry and frustrated. incident time: 3:30 PM. individuals involved: an unknown Twitter user. desired outcome: suspended. description of incident: offensive tweets directed at me. incident location: Twitter. witnesses: no. type of harassment: online. reporter contact info: My name is Elijah Barnes. additional notes: I do not have any other notes to add.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 34,
+                "label": "incident_date"
+            },
+            {
+                "start": 56,
+                "end": 102,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 122,
+                "end": 173,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 190,
+                "end": 197,
+                "label": "incident_time"
+            },
+            {
+                "start": 221,
+                "end": 244,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 263,
+                "end": 272,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 299,
+                "end": 330,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 232,
+                "end": 239,
+                "label": "incident_location"
+            },
+            {
+                "start": 71,
+                "end": 73,
+                "label": "witnesses"
+            },
+            {
+                "start": 395,
+                "end": 401,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 426,
+                "end": 450,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 470,
+                "end": 506,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "incident location: in the research lab conference room. individuals involved: My manager. incident time: 9:30 in the morning. impact on victim: embarrassed and upset. previous incidents: This was the first time. witnesses: No, there were no other witnesses. additional notes: No, I don't have any other notes. desired outcome: An apology from my manager and some additional workplace harassment training would help. type of harassment: verbal. reporter contact info: Henry Kim. incident date: May 15, 2020. description of incident: My manager yelled at me in front of others during a team meeting.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 54,
+                "label": "incident_location"
+            },
+            {
+                "start": 78,
+                "end": 88,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 105,
+                "end": 124,
+                "label": "incident_time"
+            },
+            {
+                "start": 144,
+                "end": 165,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 187,
+                "end": 210,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 223,
+                "end": 256,
+                "label": "witnesses"
+            },
+            {
+                "start": 276,
+                "end": 308,
+                "label": "additional_notes"
+            },
+            {
+                "start": 327,
+                "end": 414,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 436,
+                "end": 442,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 467,
+                "end": 476,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 493,
+                "end": 505,
+                "label": "incident_date"
+            },
+            {
+                "start": 532,
+                "end": 596,
+                "label": "description_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "incident location: Twitter. previous incidents: No. additional notes: No. desired outcome: their account to be deleted. incident time: 2:30pm. reporter contact info: Elijah Barnes, my Twitter handle is @elijahmusic. description of incident: The tweets were offensive in nature. type of harassment: online. witnesses: No, I was the only one involved. incident date: March 15th, 2021. individuals involved: John Doe. impact on victim: angry and frustrated.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 26,
+                "label": "incident_location"
+            },
+            {
+                "start": 48,
+                "end": 50,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 48,
+                "end": 50,
+                "label": "additional_notes"
+            },
+            {
+                "start": 91,
+                "end": 118,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 135,
+                "end": 141,
+                "label": "incident_time"
+            },
+            {
+                "start": 166,
+                "end": 214,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 241,
+                "end": 276,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 298,
+                "end": 304,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 317,
+                "end": 348,
+                "label": "witnesses"
+            },
+            {
+                "start": 365,
+                "end": 381,
+                "label": "incident_date"
+            },
+            {
+                "start": 405,
+                "end": 413,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 433,
+                "end": 453,
+                "label": "impact_on_victim"
+            }
+        ]
+    },
+    {
+        "content": "incident date: May 15th, 2020. witnesses: May 15th, 2020. incident time: 9:30 in the morning. impact on victim: It left me feeling humiliated and anxious. type of harassment: verbal. incident location: in the law firm office. description of incident: verbal insults. desired outcome: An apology and training. additional notes: It was a very traumatic experience. reporter contact info: Sofia Alvarez. individuals involved: John. previous incidents: No.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 29,
+                "label": "incident_date"
+            },
+            {
+                "start": 15,
+                "end": 29,
+                "label": "witnesses"
+            },
+            {
+                "start": 73,
+                "end": 92,
+                "label": "incident_time"
+            },
+            {
+                "start": 112,
+                "end": 153,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 175,
+                "end": 181,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 202,
+                "end": 224,
+                "label": "incident_location"
+            },
+            {
+                "start": 251,
+                "end": 265,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 284,
+                "end": 307,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 327,
+                "end": 361,
+                "label": "additional_notes"
+            },
+            {
+                "start": 386,
+                "end": 399,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 423,
+                "end": 427,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 449,
+                "end": 451,
+                "label": "previous_incidents"
+            }
+        ]
+    },
+    {
+        "content": "witnesses: No, unfortunately I was the only one who saw it. description of incident: someone was posting really offensive tweets about me on Twitter. reporter contact info: Elijah Barnes. incident location: Twitter. type of harassment: online. incident time: around 3:30 PM. desired outcome: the person's Twitter account can be deleted. previous incidents: No. individuals involved: The Twitter handle was Troll123. additional notes: February 15th, 2023. incident date: February 15th, 2023. impact on victim: angry and frustrated.",
+        "entities": [
+            {
+                "start": 11,
+                "end": 58,
+                "label": "witnesses"
+            },
+            {
+                "start": 85,
+                "end": 148,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 173,
+                "end": 186,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 141,
+                "end": 148,
+                "label": "incident_location"
+            },
+            {
+                "start": 236,
+                "end": 242,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 259,
+                "end": 273,
+                "label": "incident_time"
+            },
+            {
+                "start": 292,
+                "end": 335,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 11,
+                "end": 13,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 383,
+                "end": 414,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 434,
+                "end": 453,
+                "label": "additional_notes"
+            },
+            {
+                "start": 434,
+                "end": 453,
+                "label": "incident_date"
+            },
+            {
+                "start": 509,
+                "end": 529,
+                "label": "impact_on_victim"
+            }
+        ]
+    },
+    {
+        "content": "incident date: March 15th. incident time: 3:30 in the afternoon. impact on victim: It made me feel very humiliated. incident location: in my office cubicle area. individuals involved: My manager. additional notes: My manager was involved. It was a very upsetting experience. desired outcome: An apology from my manager and harassment training. witnesses: no witnesses to my knowledge. reporter contact info: 555-0102. type of harassment: verbal. description of incident: My manager yelled at me. previous incidents: No.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 25,
+                "label": "incident_date"
+            },
+            {
+                "start": 42,
+                "end": 63,
+                "label": "incident_time"
+            },
+            {
+                "start": 83,
+                "end": 114,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 135,
+                "end": 160,
+                "label": "incident_location"
+            },
+            {
+                "start": 184,
+                "end": 194,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 214,
+                "end": 273,
+                "label": "additional_notes"
+            },
+            {
+                "start": 292,
+                "end": 342,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 355,
+                "end": 383,
+                "label": "witnesses"
+            },
+            {
+                "start": 408,
+                "end": 416,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 438,
+                "end": 444,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 471,
+                "end": 494,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 516,
+                "end": 518,
+                "label": "previous_incidents"
+            }
+        ]
+    },
+    {
+        "content": "previous incidents: No. desired outcome: An apology and some training for my coworkers would help resolve this situation. witnesses: No, I was alone in the kitchen. incident location: office kitchen. type of harassment: verbal. description of incident: My manager yelled insults at me. incident date: March 15th, 2020. individuals involved: My manager. additional notes: It really made me feel uncomfortable. reporter contact info: Amir Khaled. incident time: 3:30pm. impact on victim: I've felt quite upset and embarrassed.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 22,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 41,
+                "end": 120,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 133,
+                "end": 163,
+                "label": "witnesses"
+            },
+            {
+                "start": 184,
+                "end": 198,
+                "label": "incident_location"
+            },
+            {
+                "start": 220,
+                "end": 226,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 253,
+                "end": 284,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 301,
+                "end": 317,
+                "label": "incident_date"
+            },
+            {
+                "start": 253,
+                "end": 263,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 371,
+                "end": 407,
+                "label": "additional_notes"
+            },
+            {
+                "start": 432,
+                "end": 443,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 460,
+                "end": 466,
+                "label": "incident_time"
+            },
+            {
+                "start": 486,
+                "end": 523,
+                "label": "impact_on_victim"
+            }
+        ]
+    },
+    {
+        "content": "incident location: in the office conference room. incident date: March 15, 2021. individuals involved: My supervisor, John Smith. description of incident: yelling insults at me during the meeting. desired outcome: an apology from my supervisor and for him to undergo some training. type of harassment: verbal. impact on victim: embarrassed and anxious. incident time: around 09:30 AM. additional notes: I just felt really uncomfortable during the interaction. reporter contact info: liwei@medicalemail.com. witnesses: No, there were no other witnesses. previous incidents: No, there were no other witnesses.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 48,
+                "label": "incident_location"
+            },
+            {
+                "start": 65,
+                "end": 79,
+                "label": "incident_date"
+            },
+            {
+                "start": 103,
+                "end": 128,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 155,
+                "end": 195,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 214,
+                "end": 280,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 302,
+                "end": 308,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 328,
+                "end": 351,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 368,
+                "end": 383,
+                "label": "incident_time"
+            },
+            {
+                "start": 403,
+                "end": 458,
+                "label": "additional_notes"
+            },
+            {
+                "start": 483,
+                "end": 505,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 518,
+                "end": 551,
+                "label": "witnesses"
+            },
+            {
+                "start": 518,
+                "end": 551,
+                "label": "previous_incidents"
+            }
+        ]
+    },
+    {
+        "content": "incident time: 3:30 pm. desired outcome: . incident location: the office kitchen area. impact on victim: upset and embarrassed. additional notes: Amir Khaled. reporter contact info: +1-555-0345. individuals involved: My manager. witnesses: My manager was involved. There were no witnesses. description of incident: He was yelling insults. incident date: February 15th, 2022. type of harassment: verbal. previous incidents: No.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 22,
+                "label": "incident_time"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 62,
+                "end": 85,
+                "label": "incident_location"
+            },
+            {
+                "start": 105,
+                "end": 126,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 146,
+                "end": 157,
+                "label": "additional_notes"
+            },
+            {
+                "start": 182,
+                "end": 193,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 217,
+                "end": 227,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 240,
+                "end": 288,
+                "label": "witnesses"
+            },
+            {
+                "start": 315,
+                "end": 337,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 354,
+                "end": 373,
+                "label": "incident_date"
+            },
+            {
+                "start": 395,
+                "end": 401,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 423,
+                "end": 425,
+                "label": "previous_incidents"
+            }
+        ]
+    },
+    {
+        "content": "incident date: March 15th, 2021. previous incidents: March 15th, 2021. reporter contact info: 555-0234. witnesses: no other witnesses. desired outcome: an apology can be made and it doesn't happen again. incident time: 3:30pm. individuals involved: My manager. additional notes: My manager was involved. It was highly unprofessional conduct. impact on victim: it really upset and embarrassed me. incident location: in the office in Portland. description of incident: My manager yelled at me. type of harassment: verbal.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 31,
+                "label": "incident_date"
+            },
+            {
+                "start": 15,
+                "end": 31,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 94,
+                "end": 102,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 115,
+                "end": 133,
+                "label": "witnesses"
+            },
+            {
+                "start": 152,
+                "end": 202,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 219,
+                "end": 225,
+                "label": "incident_time"
+            },
+            {
+                "start": 249,
+                "end": 259,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 279,
+                "end": 340,
+                "label": "additional_notes"
+            },
+            {
+                "start": 360,
+                "end": 394,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 415,
+                "end": 440,
+                "label": "incident_location"
+            },
+            {
+                "start": 467,
+                "end": 490,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 512,
+                "end": 518,
+                "label": "type_of_harassment"
+            }
+        ]
+    },
+    {
+        "content": "type of harassment: verbal. witnesses: No, unfortunately I was the only one there at the time. incident time: 3:30 in the afternoon. reporter contact info: Dr. Li Wei. previous incidents: No. impact on victim: It really upset me and made it hard to focus on my work. incident location: the emergency room. desired outcome: An apology and some counseling would help me deal with this. individuals involved: The nurse and a patient. incident date: March 15th, 2020. description of incident: The patient started yelling insults at me. It was very distressing. additional notes: The patient started yelling insults at me. It was very distressing.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 26,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 39,
+                "end": 93,
+                "label": "witnesses"
+            },
+            {
+                "start": 110,
+                "end": 131,
+                "label": "incident_time"
+            },
+            {
+                "start": 156,
+                "end": 166,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 39,
+                "end": 41,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 210,
+                "end": 265,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 286,
+                "end": 304,
+                "label": "incident_location"
+            },
+            {
+                "start": 323,
+                "end": 382,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 406,
+                "end": 429,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 446,
+                "end": 462,
+                "label": "incident_date"
+            },
+            {
+                "start": 489,
+                "end": 555,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 489,
+                "end": 555,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "desired outcome: an apology from the individual. additional notes: I felt upset and embarrassed by what happened. impact on victim: upset and embarrassed. incident date: May 15th, 2020. reporter contact info: 555-0102. previous incidents: harassment happened in my cubicle at the office. incident location: in my cubicle at the office. type of harassment: verbal. witnesses: Mary Johnson. description of incident: He was yelling insults. incident time: around 3:00 pm. individuals involved: John Smith.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 47,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 67,
+                "end": 112,
+                "label": "additional_notes"
+            },
+            {
+                "start": 74,
+                "end": 95,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 170,
+                "end": 184,
+                "label": "incident_date"
+            },
+            {
+                "start": 209,
+                "end": 217,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 239,
+                "end": 286,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 259,
+                "end": 286,
+                "label": "incident_location"
+            },
+            {
+                "start": 356,
+                "end": 362,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 375,
+                "end": 387,
+                "label": "witnesses"
+            },
+            {
+                "start": 414,
+                "end": 436,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 453,
+                "end": 467,
+                "label": "incident_time"
+            },
+            {
+                "start": 491,
+                "end": 501,
+                "label": "individuals_involved"
+            }
+        ]
+    },
+    {
+        "content": "type of harassment: verbal. incident date: while I was at work in the office. previous incidents: It happened around 3:30 in the afternoon. incident time: 3:30 in the afternoon. incident location: in the office conference room. individuals involved: my manager. reporter contact info: Sofia Alvarez. witnesses: no other witnesses. desired outcome: an apology from my manager and some workplace harassment training. impact on victim: I felt really embarrassed and upset. additional notes: During our team meeting, my manager started yelling insults at me. description of incident: my manager started yelling insults at me in front of everyone.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 26,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 43,
+                "end": 76,
+                "label": "incident_date"
+            },
+            {
+                "start": 98,
+                "end": 138,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 117,
+                "end": 138,
+                "label": "incident_time"
+            },
+            {
+                "start": 197,
+                "end": 226,
+                "label": "incident_location"
+            },
+            {
+                "start": 250,
+                "end": 260,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 285,
+                "end": 298,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 311,
+                "end": 329,
+                "label": "witnesses"
+            },
+            {
+                "start": 348,
+                "end": 413,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 433,
+                "end": 468,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 488,
+                "end": 553,
+                "label": "additional_notes"
+            },
+            {
+                "start": 580,
+                "end": 641,
+                "label": "description_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "incident date: 2020-03-15. impact on victim: upset and embarrassed. incident location: in the hospital cafeteria. previous incidents: No. additional notes: A colleague named John was also involved. individuals involved: A colleague named John. incident time: 15:30. description of incident: He yelled insults at me during my lunch break. reporter contact info: Dr. Li Wei. type of harassment: verbal. witnesses: no other witnesses. desired outcome: An apology.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 25,
+                "label": "incident_date"
+            },
+            {
+                "start": 45,
+                "end": 66,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 87,
+                "end": 112,
+                "label": "incident_location"
+            },
+            {
+                "start": 134,
+                "end": 136,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 156,
+                "end": 196,
+                "label": "additional_notes"
+            },
+            {
+                "start": 156,
+                "end": 178,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 259,
+                "end": 264,
+                "label": "incident_time"
+            },
+            {
+                "start": 291,
+                "end": 336,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 361,
+                "end": 371,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 393,
+                "end": 399,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 412,
+                "end": 430,
+                "label": "witnesses"
+            },
+            {
+                "start": 449,
+                "end": 459,
+                "label": "desired_outcome"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: March 15th, 2021. incident date: March 15th, 2021. previous incidents: No. incident location: . incident time: 9:30 in the morning. type of harassment: workplace verbal. impact on victim: I felt very upset and embarrassed. desired outcome: an apology can be given and some training put in place. reporter contact info: Sofia Alvarez. witnesses: No, unfortunately there were no other witnesses. description of incident: My manager was yelling insults at me during our team meeting. individuals involved: My manager.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 34,
+                "label": "additional_notes"
+            },
+            {
+                "start": 18,
+                "end": 34,
+                "label": "incident_date"
+            },
+            {
+                "start": 89,
+                "end": 91,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "incident_location"
+            },
+            {
+                "start": 129,
+                "end": 148,
+                "label": "incident_time"
+            },
+            {
+                "start": 170,
+                "end": 186,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 206,
+                "end": 239,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 258,
+                "end": 312,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 337,
+                "end": 350,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 363,
+                "end": 410,
+                "label": "witnesses"
+            },
+            {
+                "start": 437,
+                "end": 497,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 437,
+                "end": 447,
+                "label": "individuals_involved"
+            }
+        ]
+    },
+    {
+        "content": "previous incidents: No. witnesses: no one else there to witness it. reporter contact info: 555-1234. desired outcome: an apology from my manager. impact on victim: This incident made me feel humiliated and anxious. individuals involved: my manager, John Smith. incident date: February 15th, 2022. additional notes: It made me cry in front of my coworkers. description of incident: My manager yelled at me during our team meeting. type of harassment: verbal. incident location: in our office conference room. incident time: 3:30pm.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 22,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 35,
+                "end": 66,
+                "label": "witnesses"
+            },
+            {
+                "start": 91,
+                "end": 99,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 118,
+                "end": 144,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 164,
+                "end": 213,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 237,
+                "end": 259,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 276,
+                "end": 295,
+                "label": "incident_date"
+            },
+            {
+                "start": 315,
+                "end": 354,
+                "label": "additional_notes"
+            },
+            {
+                "start": 381,
+                "end": 428,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 450,
+                "end": 456,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 477,
+                "end": 506,
+                "label": "incident_location"
+            },
+            {
+                "start": 523,
+                "end": 529,
+                "label": "incident_time"
+            }
+        ]
+    },
+    {
+        "content": "desired outcome: An apology and some counseling would help make this right. incident date: January 15th. impact on victim: It really upset me and made me cry. additional notes: It was a very traumatic experience for me. type of harassment: verbal. description of incident: yelled at me and used profanity. incident location: in the conference room at the office. reporter contact info: My name is Priya Singh. previous incidents: not been any previous incidents. witnesses: No, there were no other witnesses. incident time: 9:30am. individuals involved: John Smith and myself.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 74,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 91,
+                "end": 103,
+                "label": "incident_date"
+            },
+            {
+                "start": 123,
+                "end": 157,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 177,
+                "end": 218,
+                "label": "additional_notes"
+            },
+            {
+                "start": 240,
+                "end": 246,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 273,
+                "end": 304,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 325,
+                "end": 361,
+                "label": "incident_location"
+            },
+            {
+                "start": 386,
+                "end": 408,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 430,
+                "end": 461,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 474,
+                "end": 507,
+                "label": "witnesses"
+            },
+            {
+                "start": 524,
+                "end": 530,
+                "label": "incident_time"
+            },
+            {
+                "start": 554,
+                "end": 575,
+                "label": "individuals_involved"
+            }
+        ]
+    },
+    {
+        "content": "type of harassment: verbal. additional notes: There's no other details I need to provide. previous incidents: No. impact on victim: I felt upset and embarrassed by what happened. incident location: the kitchen area of our office. incident date: March 15, 2020. incident time: 3:30 in the afternoon. reporter contact info: Amir Khaled. desired outcome: an apology and harassment training. description of incident: He yelled insults at me. individuals involved: John Smith and Mary Johnson. witnesses: John Smith and Mary Johnson were there.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 26,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 46,
+                "end": 88,
+                "label": "additional_notes"
+            },
+            {
+                "start": 110,
+                "end": 112,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 132,
+                "end": 177,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 198,
+                "end": 228,
+                "label": "incident_location"
+            },
+            {
+                "start": 245,
+                "end": 259,
+                "label": "incident_date"
+            },
+            {
+                "start": 276,
+                "end": 297,
+                "label": "incident_time"
+            },
+            {
+                "start": 322,
+                "end": 333,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 352,
+                "end": 386,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 413,
+                "end": 436,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 460,
+                "end": 487,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 500,
+                "end": 538,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "impact on victim: I felt very humiliated. description of incident: the principal yelled at me in front of the whole class. individuals involved: The principal. type of harassment: verbally. incident time: 2:30 pm. reporter contact info: athomas@school.edu or 555-1234. additional notes: It really upset me a lot. witnesses: No. incident location: in my classroom. incident date: May 15, 2020. desired outcome: an apology. previous incidents: No.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 40,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 67,
+                "end": 121,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 145,
+                "end": 158,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 180,
+                "end": 188,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 205,
+                "end": 212,
+                "label": "incident_time"
+            },
+            {
+                "start": 237,
+                "end": 267,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 287,
+                "end": 311,
+                "label": "additional_notes"
+            },
+            {
+                "start": 324,
+                "end": 326,
+                "label": "witnesses"
+            },
+            {
+                "start": 347,
+                "end": 362,
+                "label": "incident_location"
+            },
+            {
+                "start": 379,
+                "end": 391,
+                "label": "incident_date"
+            },
+            {
+                "start": 410,
+                "end": 420,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 324,
+                "end": 326,
+                "label": "previous_incidents"
+            }
+        ]
+    },
+    {
+        "content": "desired outcome: suspended. incident location: Twitter. previous incidents: The harassment took place on Twitter. individuals involved: unknown. description of incident: The harassing user's identity was unknown. The offensive tweets targeted me. incident time: 3:30 pm. incident date: February 15th, 2023. impact on victim: It made me feel angry and frustrated. reporter contact info: Elijah Barnes. witnesses: no witnesses. additional notes: No additional notes. type of harassment: offensive tweets.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 26,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 47,
+                "end": 54,
+                "label": "incident_location"
+            },
+            {
+                "start": 76,
+                "end": 112,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 136,
+                "end": 143,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 170,
+                "end": 245,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 262,
+                "end": 269,
+                "label": "incident_time"
+            },
+            {
+                "start": 286,
+                "end": 305,
+                "label": "incident_date"
+            },
+            {
+                "start": 325,
+                "end": 361,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 386,
+                "end": 399,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 412,
+                "end": 424,
+                "label": "witnesses"
+            },
+            {
+                "start": 444,
+                "end": 463,
+                "label": "additional_notes"
+            },
+            {
+                "start": 217,
+                "end": 233,
+                "label": "type_of_harassment"
+            }
+        ]
+    },
+    {
+        "content": "description of incident: My manager yelled at me during our team meeting. previous incidents: My manager yelled at me during our team meeting. desired outcome: a formal apology. incident location: in our office conference room. incident time: 9:30 AM. individuals involved: manager involved was John Smith. incident date: January 15th, 2022. additional notes: No. reporter contact info: 555-1234. witnesses: No, there were no other witnesses. type of harassment: verbal. impact on victim: I've been feeling very anxious and stressed at work.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 72,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 25,
+                "end": 72,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 160,
+                "end": 176,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 197,
+                "end": 226,
+                "label": "incident_location"
+            },
+            {
+                "start": 243,
+                "end": 250,
+                "label": "incident_time"
+            },
+            {
+                "start": 274,
+                "end": 305,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 322,
+                "end": 340,
+                "label": "incident_date"
+            },
+            {
+                "start": 360,
+                "end": 362,
+                "label": "additional_notes"
+            },
+            {
+                "start": 387,
+                "end": 395,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 408,
+                "end": 441,
+                "label": "witnesses"
+            },
+            {
+                "start": 463,
+                "end": 469,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 489,
+                "end": 540,
+                "label": "impact_on_victim"
+            }
+        ]
+    },
+    {
+        "content": "description of incident: During our team meeting yesterday, John Smith was yelling insults at me. individuals involved: John Smith. desired outcome: An apology from John and some workplace training would help. additional notes: An apology from John and some workplace training would help. witnesses: Mary Johnson. previous incidents: No, this was my first experience. impact on victim: I felt very upset and embarrassed. incident location: in our main conference room at the office. incident time: 3:30pm. type of harassment: verbal. reporter contact info: Dr. Li Wei. incident date: March 15th, 2020.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 96,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 60,
+                "end": 70,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 149,
+                "end": 208,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 149,
+                "end": 208,
+                "label": "additional_notes"
+            },
+            {
+                "start": 300,
+                "end": 312,
+                "label": "witnesses"
+            },
+            {
+                "start": 334,
+                "end": 366,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 386,
+                "end": 419,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 440,
+                "end": 481,
+                "label": "incident_location"
+            },
+            {
+                "start": 498,
+                "end": 504,
+                "label": "incident_time"
+            },
+            {
+                "start": 526,
+                "end": 532,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 557,
+                "end": 567,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 584,
+                "end": 600,
+                "label": "incident_date"
+            }
+        ]
+    },
+    {
+        "content": "reporter contact info: 555-1234. description of incident: 555-1234. incident date: March 15th, 2020. previous incidents: No. individuals involved: John Smith. desired outcome: an apology and some training to prevent this from happening again. additional notes: Mary Johnson witnessed it but nobody else. witnesses: Mary Johnson. type of harassment: verbal. incident location: the 5th floor of our Seattle office. incident time: 3:30pm. impact on victim: I was very upset and crying after it happened.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 31,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 23,
+                "end": 31,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 83,
+                "end": 99,
+                "label": "incident_date"
+            },
+            {
+                "start": 121,
+                "end": 123,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 147,
+                "end": 157,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 176,
+                "end": 241,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 261,
+                "end": 302,
+                "label": "additional_notes"
+            },
+            {
+                "start": 261,
+                "end": 273,
+                "label": "witnesses"
+            },
+            {
+                "start": 349,
+                "end": 355,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 376,
+                "end": 411,
+                "label": "incident_location"
+            },
+            {
+                "start": 428,
+                "end": 434,
+                "label": "incident_time"
+            },
+            {
+                "start": 454,
+                "end": 499,
+                "label": "impact_on_victim"
+            }
+        ]
+    },
+    {
+        "content": "desired outcome: hoping the colleague who made the comments could apologize. individuals involved: It was a coworker in our office. impact on victim: it made me feel very embarrassed. incident location: in our law firm office. incident time: around 3:30pm. additional notes: Yes, it was verbal harassment. type of harassment: verbal. description of incident: offensive verbal comments towards me on May 15, 2020. incident date: May 15, 2020. reporter contact info: Sofia Alvarez. previous incidents: no other witnesses. witnesses: no other witnesses.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 75,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 99,
+                "end": 130,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 150,
+                "end": 182,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 203,
+                "end": 225,
+                "label": "incident_location"
+            },
+            {
+                "start": 242,
+                "end": 255,
+                "label": "incident_time"
+            },
+            {
+                "start": 275,
+                "end": 304,
+                "label": "additional_notes"
+            },
+            {
+                "start": 287,
+                "end": 293,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 359,
+                "end": 411,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 399,
+                "end": 411,
+                "label": "incident_date"
+            },
+            {
+                "start": 465,
+                "end": 478,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 500,
+                "end": 518,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 500,
+                "end": 518,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "incident location: in the research lab conference room. type of harassment: verbal. impact on victim: upset and embarrassed. desired outcome: an apology and some training. reporter contact info: Henry Kim. additional notes: The behavior was very unprofessional. incident time: 9:30 AM. description of incident: My manager was yelling insults at me. previous incidents: no one else witnessed it. witnesses: no one else witnessed it. individuals involved: My manager. incident date: May 15, 2020.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 54,
+                "label": "incident_location"
+            },
+            {
+                "start": 76,
+                "end": 82,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 102,
+                "end": 123,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 142,
+                "end": 170,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 195,
+                "end": 204,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 224,
+                "end": 260,
+                "label": "additional_notes"
+            },
+            {
+                "start": 277,
+                "end": 284,
+                "label": "incident_time"
+            },
+            {
+                "start": 311,
+                "end": 347,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 369,
+                "end": 393,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 369,
+                "end": 393,
+                "label": "witnesses"
+            },
+            {
+                "start": 311,
+                "end": 321,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 481,
+                "end": 493,
+                "label": "incident_date"
+            }
+        ]
+    },
+    {
+        "content": "type of harassment: verbal. individuals involved: John Smith. incident date: May 15th, 2020. additional notes: His behavior was highly unprofessional. description of incident: He was yelling insults at me during our team meeting. incident location: our office conference room. previous incidents: No. incident time: 3:00 pm. reporter contact info: XXX-XXX-XXXX. impact on victim: I've been feeling embarrassed and upset. desired outcome: an apology. witnesses: .",
+        "entities": [
+            {
+                "start": 20,
+                "end": 26,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 50,
+                "end": 60,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 77,
+                "end": 91,
+                "label": "incident_date"
+            },
+            {
+                "start": 111,
+                "end": 149,
+                "label": "additional_notes"
+            },
+            {
+                "start": 176,
+                "end": 228,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 249,
+                "end": 275,
+                "label": "incident_location"
+            },
+            {
+                "start": 297,
+                "end": 299,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 316,
+                "end": 323,
+                "label": "incident_time"
+            },
+            {
+                "start": 348,
+                "end": 360,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 380,
+                "end": 419,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 438,
+                "end": 448,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: It was a really upsetting situation. witnesses: no. impact on victim: I was hoping the person's account could be suspended. desired outcome: hoping the person's account could be suspended. previous incidents: It was from a troll account on Twitter. individuals involved: It was from a troll account on Twitter. incident date: February 15th, 2023. type of harassment: online. description of incident: They were sending offensive tweets. reporter contact info: Alex Jordan. incident time: 2:30pm. incident location: Twitter.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 53,
+                "label": "additional_notes"
+            },
+            {
+                "start": 11,
+                "end": 13,
+                "label": "witnesses"
+            },
+            {
+                "start": 88,
+                "end": 140,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 94,
+                "end": 140,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 227,
+                "end": 265,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 227,
+                "end": 265,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 344,
+                "end": 363,
+                "label": "incident_date"
+            },
+            {
+                "start": 385,
+                "end": 391,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 418,
+                "end": 452,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 477,
+                "end": 488,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 505,
+                "end": 511,
+                "label": "incident_time"
+            },
+            {
+                "start": 258,
+                "end": 265,
+                "label": "incident_location"
+            }
+        ]
+    },
+    {
+        "content": "incident location: the office conference room. witnesses: no one else there to witness it. additional notes: The experience really shook me up and it's been hard to focus since. reporter contact info: priya.dev@techcorp.com. previous incidents: No. incident time: 9:30 AM. impact on victim: upset and distracted. desired outcome: An apology and some counselling support would help me move past this situation. description of incident: John Smith yelled abusive language at me. individuals involved: John Smith. type of harassment: verbal. incident date: March 15, 2020.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 45,
+                "label": "incident_location"
+            },
+            {
+                "start": 58,
+                "end": 89,
+                "label": "witnesses"
+            },
+            {
+                "start": 109,
+                "end": 176,
+                "label": "additional_notes"
+            },
+            {
+                "start": 201,
+                "end": 223,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 245,
+                "end": 247,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 264,
+                "end": 271,
+                "label": "incident_time"
+            },
+            {
+                "start": 291,
+                "end": 311,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 330,
+                "end": 408,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 435,
+                "end": 475,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 435,
+                "end": 445,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 531,
+                "end": 537,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 554,
+                "end": 568,
+                "label": "incident_date"
+            }
+        ]
+    },
+    {
+        "content": "previous incidents: No, there haven't been any other issues. desired outcome: the student would apologize. reporter contact info: Angela Thomas. incident date: March 15, 2021. impact on victim: It made me feel really embarrassed. description of incident: The student yelled at me. incident time: 9:30 in the morning. incident location: in my classroom at school. witnesses: No one else saw it happen. additional notes: No. type of harassment: verbal. individuals involved: The student and I.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 59,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 78,
+                "end": 105,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 130,
+                "end": 143,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 160,
+                "end": 174,
+                "label": "incident_date"
+            },
+            {
+                "start": 194,
+                "end": 228,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 255,
+                "end": 279,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 296,
+                "end": 315,
+                "label": "incident_time"
+            },
+            {
+                "start": 336,
+                "end": 361,
+                "label": "incident_location"
+            },
+            {
+                "start": 374,
+                "end": 399,
+                "label": "witnesses"
+            },
+            {
+                "start": 20,
+                "end": 22,
+                "label": "additional_notes"
+            },
+            {
+                "start": 443,
+                "end": 449,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 473,
+                "end": 490,
+                "label": "individuals_involved"
+            }
+        ]
+    },
+    {
+        "content": "incident location: at my law firm office. reporter contact info: Sofia Alvarez. additional notes: I felt the comments made were highly inappropriate. type of harassment: verbal. impact on victim: very upset and distracted. desired outcome: an apology can be made and some training put in place. individuals involved: a colleague at my office. previous incidents: No, there haven't been any previous issues. incident time: 9:30 AM. witnesses: No. incident date: March 15th, 2021. description of incident: The colleague made some offensive verbal comments directed at me.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 40,
+                "label": "incident_location"
+            },
+            {
+                "start": 65,
+                "end": 78,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 98,
+                "end": 148,
+                "label": "additional_notes"
+            },
+            {
+                "start": 170,
+                "end": 176,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 196,
+                "end": 221,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 240,
+                "end": 293,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 317,
+                "end": 341,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 363,
+                "end": 405,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 422,
+                "end": 429,
+                "label": "incident_time"
+            },
+            {
+                "start": 363,
+                "end": 365,
+                "label": "witnesses"
+            },
+            {
+                "start": 461,
+                "end": 477,
+                "label": "incident_date"
+            },
+            {
+                "start": 504,
+                "end": 568,
+                "label": "description_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "incident date: February 15th, 2022. incident time: February 15th, 2022. reporter contact info: Amir Khaled. incident location: the office kitchen. type of harassment: verbal. impact on victim: upset and embarrassed. additional notes: my manager yelled insults at me. description of incident: my manager yelled insults at me. witnesses: no other witnesses. The incident only involved myself and my manager. individuals involved: myself and my manager. previous incidents: This was the first. desired outcome: an apology from my manager and for some additional training to take place.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 34,
+                "label": "incident_date"
+            },
+            {
+                "start": 15,
+                "end": 34,
+                "label": "incident_time"
+            },
+            {
+                "start": 95,
+                "end": 106,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 127,
+                "end": 145,
+                "label": "incident_location"
+            },
+            {
+                "start": 167,
+                "end": 173,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 193,
+                "end": 214,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 234,
+                "end": 265,
+                "label": "additional_notes"
+            },
+            {
+                "start": 234,
+                "end": 265,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 336,
+                "end": 404,
+                "label": "witnesses"
+            },
+            {
+                "start": 383,
+                "end": 404,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 471,
+                "end": 489,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 508,
+                "end": 581,
+                "label": "desired_outcome"
+            }
+        ]
+    },
+    {
+        "content": "impact on victim: The patient I was treating was also in a lot of pain. additional notes: The patient I was treating was also in a lot of pain. desired outcome: An apology from the patient would help. individuals involved: The nurse and patient. incident date: March 15th, 2020. incident time: 3:30 in the afternoon. description of incident: The patient was yelling inappropriate language at me. type of harassment: verbal. previous incidents: No. reporter contact info: Dr. Li Wei. incident location: in the hospital emergency room. witnesses: no other witnesses.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 70,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 18,
+                "end": 70,
+                "label": "additional_notes"
+            },
+            {
+                "start": 161,
+                "end": 199,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 223,
+                "end": 244,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 261,
+                "end": 277,
+                "label": "incident_date"
+            },
+            {
+                "start": 294,
+                "end": 315,
+                "label": "incident_time"
+            },
+            {
+                "start": 342,
+                "end": 394,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 416,
+                "end": 422,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 444,
+                "end": 446,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 471,
+                "end": 481,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 502,
+                "end": 532,
+                "label": "incident_location"
+            },
+            {
+                "start": 545,
+                "end": 563,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "witnesses: no one else was there to witness it. incident location: Portland office. description of incident: During the meeting my boss started yelling insults at me in a very unprofessional manner. additional notes: Jordan Casey and you can reach me at 555-0234. reporter contact info: 555-0234. desired outcome: my boss will apologize and agree not to behave that way again in the future. type of harassment: verbal. impact on victim: I was left feeling quite embarrassed and upset. individuals involved: my boss and a coworker. incident time: 3:00 PM. incident date: March 15th, 2020. previous incidents: this was the first time anything like this has happened.",
+        "entities": [
+            {
+                "start": 11,
+                "end": 46,
+                "label": "witnesses"
+            },
+            {
+                "start": 67,
+                "end": 82,
+                "label": "incident_location"
+            },
+            {
+                "start": 109,
+                "end": 197,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 217,
+                "end": 262,
+                "label": "additional_notes"
+            },
+            {
+                "start": 254,
+                "end": 262,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 314,
+                "end": 389,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 411,
+                "end": 417,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 437,
+                "end": 483,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 507,
+                "end": 529,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 546,
+                "end": 553,
+                "label": "incident_time"
+            },
+            {
+                "start": 570,
+                "end": 586,
+                "label": "incident_date"
+            },
+            {
+                "start": 608,
+                "end": 663,
+                "label": "previous_incidents"
+            }
+        ]
+    },
+    {
+        "content": "type of harassment: verbal. incident date: March 15th, 2021. additional notes: It really made me feel uncomfortable. individuals involved: It was my manager. witnesses: No, there were no witnesses. desired outcome: an apology and some workplace training. previous incidents: No. reporter contact info: Amir Khaled. incident location: the office kitchen. impact on victim: I felt really humiliated. incident time: 3:30pm. description of incident: My manager yelled insulting remarks at me in front of other coworkers.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 26,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 43,
+                "end": 59,
+                "label": "incident_date"
+            },
+            {
+                "start": 79,
+                "end": 115,
+                "label": "additional_notes"
+            },
+            {
+                "start": 139,
+                "end": 156,
+                "label": "individuals_involved"
+            },
+            {
+                "start": 169,
+                "end": 196,
+                "label": "witnesses"
+            },
+            {
+                "start": 215,
+                "end": 253,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 169,
+                "end": 171,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 302,
+                "end": 313,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 334,
+                "end": 352,
+                "label": "incident_location"
+            },
+            {
+                "start": 372,
+                "end": 396,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 413,
+                "end": 419,
+                "label": "incident_time"
+            },
+            {
+                "start": 446,
+                "end": 515,
+                "label": "description_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "witnesses: No, unfortunately there were no witnesses. incident time: around 9:30 in the morning. additional notes: no other context. previous incidents: No. incident location: in the research lab conference room. incident date: 2020-03-15. desired outcome: an apology. type of harassment: verbal. reporter contact info: hkim@researchlab.com or 555-1234. impact on victim: embarrassing and upsetting. description of incident: my manager yelled at me in front of everyone. individuals involved: My manager.",
+        "entities": [
+            {
+                "start": 11,
+                "end": 52,
+                "label": "witnesses"
+            },
+            {
+                "start": 69,
+                "end": 95,
+                "label": "incident_time"
+            },
+            {
+                "start": 115,
+                "end": 131,
+                "label": "additional_notes"
+            },
+            {
+                "start": 11,
+                "end": 13,
+                "label": "previous_incidents"
+            },
+            {
+                "start": 176,
+                "end": 211,
+                "label": "incident_location"
+            },
+            {
+                "start": 228,
+                "end": 238,
+                "label": "incident_date"
+            },
+            {
+                "start": 257,
+                "end": 267,
+                "label": "desired_outcome"
+            },
+            {
+                "start": 289,
+                "end": 295,
+                "label": "type_of_harassment"
+            },
+            {
+                "start": 320,
+                "end": 352,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 372,
+                "end": 398,
+                "label": "impact_on_victim"
+            },
+            {
+                "start": 425,
+                "end": 469,
+                "label": "description_of_incident"
+            },
+            {
+                "start": 493,
+                "end": 503,
+                "label": "individuals_involved"
+            }
+        ]
+    }
+]

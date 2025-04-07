@@ -1,0 +1,2822 @@
+[
+    {
+        "content": "purpose of access: required for my job responsibilities. additional notes: No, there are no additional notes needed. duration of access: ongoing basis. contact information: Amir Khaled. access type: system access. approval from supervisor: John Smith. security clearance status: 3. previous access: Yes, I had access approximately 3 years ago. specific resources needed: accounting software system. user identification: AK230981. required access level: full.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 55,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 75,
+                "end": 115,
+                "label": "additional_notes"
+            },
+            {
+                "start": 137,
+                "end": 150,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 173,
+                "end": 184,
+                "label": "contact_information"
+            },
+            {
+                "start": 199,
+                "end": 212,
+                "label": "access_type"
+            },
+            {
+                "start": 240,
+                "end": 250,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 279,
+                "end": 280,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 299,
+                "end": 342,
+                "label": "previous_access"
+            },
+            {
+                "start": 371,
+                "end": 397,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 420,
+                "end": 428,
+                "label": "user_identification"
+            },
+            {
+                "start": 453,
+                "end": 457,
+                "label": "required_access_level"
+            }
+        ]
+    },
+    {
+        "content": "specific resources needed: office space. additional notes: No. approval from supervisor: Unfortunately I don't have a supervisor. security clearance status: don't have any clearance. user identification: A123. required access level: full access. contact information: alexartistry@email.com. previous access: No, I haven't had any previous access. purpose of access: to create art. duration of access: 1 year. access type: full access to an office space.",
+        "entities": [
+            {
+                "start": 27,
+                "end": 39,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 59,
+                "end": 61,
+                "label": "additional_notes"
+            },
+            {
+                "start": 89,
+                "end": 128,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 157,
+                "end": 181,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 204,
+                "end": 208,
+                "label": "user_identification"
+            },
+            {
+                "start": 233,
+                "end": 244,
+                "label": "required_access_level"
+            },
+            {
+                "start": 267,
+                "end": 289,
+                "label": "contact_information"
+            },
+            {
+                "start": 308,
+                "end": 345,
+                "label": "previous_access"
+            },
+            {
+                "start": 366,
+                "end": 379,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 401,
+                "end": 407,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 422,
+                "end": 452,
+                "label": "access_type"
+            }
+        ]
+    },
+    {
+        "content": "contact information: Amir Khaled. required access level: full. specific resources needed: just the systems in general. access type: systems in general. purpose of access: for my work tasks. previous access: not had any previous access set up. approval from supervisor: supervisor. additional notes: nothing else to note. duration of access: ongoing. security clearance status: I do not have any security clearances. user identification: AK123.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 32,
+                "label": "contact_information"
+            },
+            {
+                "start": 57,
+                "end": 61,
+                "label": "required_access_level"
+            },
+            {
+                "start": 90,
+                "end": 117,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 99,
+                "end": 117,
+                "label": "access_type"
+            },
+            {
+                "start": 171,
+                "end": 188,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 207,
+                "end": 241,
+                "label": "previous_access"
+            },
+            {
+                "start": 257,
+                "end": 267,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 299,
+                "end": 319,
+                "label": "additional_notes"
+            },
+            {
+                "start": 341,
+                "end": 348,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 377,
+                "end": 414,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 437,
+                "end": 442,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "duration of access: about a year. previous access: No, I haven't had to request access previously. approval from supervisor: John Smith. required access level: full access. purpose of access: work purposes. access type: full access. user identification: A123. contact information: Alex Jordan. security clearance status: no security clearance needed. specific resources needed: office space. additional notes: No additional notes.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 32,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 51,
+                "end": 97,
+                "label": "previous_access"
+            },
+            {
+                "start": 125,
+                "end": 135,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 160,
+                "end": 171,
+                "label": "required_access_level"
+            },
+            {
+                "start": 192,
+                "end": 205,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 160,
+                "end": 171,
+                "label": "access_type"
+            },
+            {
+                "start": 254,
+                "end": 258,
+                "label": "user_identification"
+            },
+            {
+                "start": 281,
+                "end": 292,
+                "label": "contact_information"
+            },
+            {
+                "start": 321,
+                "end": 349,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 378,
+                "end": 390,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 410,
+                "end": 429,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "security clearance status: Top Secret. contact information: +1-555-0102. specific resources needed: engineering systems. user identification: CM101. approval from supervisor: John Smith. access type: system access. required access level: full access. duration of access: ongoing. additional notes: No, there are no additional notes. purpose of access: for my work duties. previous access: Yes, I have had the same level of access previously.",
+        "entities": [
+            {
+                "start": 27,
+                "end": 37,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 60,
+                "end": 71,
+                "label": "contact_information"
+            },
+            {
+                "start": 100,
+                "end": 119,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 142,
+                "end": 147,
+                "label": "user_identification"
+            },
+            {
+                "start": 175,
+                "end": 185,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 200,
+                "end": 213,
+                "label": "access_type"
+            },
+            {
+                "start": 238,
+                "end": 249,
+                "label": "required_access_level"
+            },
+            {
+                "start": 271,
+                "end": 278,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 298,
+                "end": 331,
+                "label": "additional_notes"
+            },
+            {
+                "start": 352,
+                "end": 370,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 389,
+                "end": 440,
+                "label": "previous_access"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: No, there aren't any additional notes. contact information: 555-1234. specific resources needed: lab computers and servers. duration of access: 6 months. previous access: I had access to these resources approximately 2 years ago for a previous research project. required access level: full. access type: system access. purpose of access: I need it for a new research project. approval from supervisor: Dr. Smith. security clearance status: 3. user identification: hk001.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 55,
+                "label": "additional_notes"
+            },
+            {
+                "start": 78,
+                "end": 86,
+                "label": "contact_information"
+            },
+            {
+                "start": 115,
+                "end": 140,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 162,
+                "end": 170,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 189,
+                "end": 278,
+                "label": "previous_access"
+            },
+            {
+                "start": 303,
+                "end": 307,
+                "label": "required_access_level"
+            },
+            {
+                "start": 322,
+                "end": 335,
+                "label": "access_type"
+            },
+            {
+                "start": 356,
+                "end": 392,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 420,
+                "end": 429,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 84,
+                "end": 85,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 482,
+                "end": 487,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "duration of access: ongoing. contact information: Amir Khaled. access type: system access. purpose of access: to complete my work tasks. approval from supervisor: supervisor. required access level: full. additional notes: access request. security clearance status: not applicable. previous access: Yes, I have had access to the same resources previously. specific resources needed: accounting software. user identification: AK123.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 27,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 50,
+                "end": 61,
+                "label": "contact_information"
+            },
+            {
+                "start": 76,
+                "end": 89,
+                "label": "access_type"
+            },
+            {
+                "start": 110,
+                "end": 135,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 151,
+                "end": 161,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 198,
+                "end": 202,
+                "label": "required_access_level"
+            },
+            {
+                "start": 222,
+                "end": 236,
+                "label": "additional_notes"
+            },
+            {
+                "start": 265,
+                "end": 279,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 298,
+                "end": 353,
+                "label": "previous_access"
+            },
+            {
+                "start": 382,
+                "end": 401,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 424,
+                "end": 429,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "contact information: my name is Priya Singh. purpose of access: completing my work tasks. specific resources needed: email, calendar, and files. access type: system access. previous access: email, calendar and files. approval from supervisor: manager. duration of access: one year. security clearance status: Security clearance isn't applicable. additional notes: I don't have any other notes. user identification: 12345. required access level: full access.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 43,
+                "label": "contact_information"
+            },
+            {
+                "start": 64,
+                "end": 88,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 117,
+                "end": 143,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 158,
+                "end": 171,
+                "label": "access_type"
+            },
+            {
+                "start": 190,
+                "end": 215,
+                "label": "previous_access"
+            },
+            {
+                "start": 243,
+                "end": 250,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 272,
+                "end": 280,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 309,
+                "end": 344,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 364,
+                "end": 392,
+                "label": "additional_notes"
+            },
+            {
+                "start": 415,
+                "end": 420,
+                "label": "user_identification"
+            },
+            {
+                "start": 445,
+                "end": 456,
+                "label": "required_access_level"
+            }
+        ]
+    },
+    {
+        "content": "specific resources needed: the file server. contact information: Jordan Casey and my phone number is 555-0234. access type: system access. previous access: yes, I had it about two years ago. purpose of access: to access work files and documents. security clearance status: level 2. additional notes: No other notes. approval from supervisor: John Smith. required access level: full. user identification: JC123. duration of access: 6 months.",
+        "entities": [
+            {
+                "start": 27,
+                "end": 42,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 65,
+                "end": 109,
+                "label": "contact_information"
+            },
+            {
+                "start": 124,
+                "end": 137,
+                "label": "access_type"
+            },
+            {
+                "start": 156,
+                "end": 189,
+                "label": "previous_access"
+            },
+            {
+                "start": 210,
+                "end": 244,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 273,
+                "end": 280,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 300,
+                "end": 314,
+                "label": "additional_notes"
+            },
+            {
+                "start": 342,
+                "end": 352,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 377,
+                "end": 381,
+                "label": "required_access_level"
+            },
+            {
+                "start": 404,
+                "end": 409,
+                "label": "user_identification"
+            },
+            {
+                "start": 431,
+                "end": 439,
+                "label": "duration_of_access"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: No. specific resources needed: lab computers. contact information: 555-1234. security clearance status: Level 3. duration of access: one year. access type: system. required access level: full access. approval from supervisor: Dr. Johnson. previous access: yes, I have had full access to the systems in the past. purpose of access: ongoing research work. user identification: hk001.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 20,
+                "label": "additional_notes"
+            },
+            {
+                "start": 49,
+                "end": 62,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 85,
+                "end": 93,
+                "label": "contact_information"
+            },
+            {
+                "start": 122,
+                "end": 129,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 151,
+                "end": 159,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 174,
+                "end": 180,
+                "label": "access_type"
+            },
+            {
+                "start": 205,
+                "end": 216,
+                "label": "required_access_level"
+            },
+            {
+                "start": 244,
+                "end": 255,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 274,
+                "end": 328,
+                "label": "previous_access"
+            },
+            {
+                "start": 349,
+                "end": 370,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 393,
+                "end": 398,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "required access level: full access. approval from supervisor: Dr. Johnson. specific resources needed: patient database. contact information: 987654. user identification: 987654. access type: system access. additional notes: No, there are no additional notes. security clearance status: My security clearance level is 3. duration of access: ongoing. previous access: patient records. purpose of access: patient records.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 34,
+                "label": "required_access_level"
+            },
+            {
+                "start": 62,
+                "end": 73,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 102,
+                "end": 118,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 141,
+                "end": 147,
+                "label": "contact_information"
+            },
+            {
+                "start": 141,
+                "end": 147,
+                "label": "user_identification"
+            },
+            {
+                "start": 191,
+                "end": 204,
+                "label": "access_type"
+            },
+            {
+                "start": 224,
+                "end": 257,
+                "label": "additional_notes"
+            },
+            {
+                "start": 286,
+                "end": 318,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 340,
+                "end": 347,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 366,
+                "end": 381,
+                "label": "previous_access"
+            },
+            {
+                "start": 366,
+                "end": 381,
+                "label": "purpose_of_access"
+            }
+        ]
+    },
+    {
+        "content": "contact information: +1-555-0345. security clearance status: top secret. specific resources needed: all systems. duration of access: ongoing. required access level: full access. additional notes: No additional notes. previous access: full access. user identification: AK123. approval from supervisor: John Smith. access type: Full system access. purpose of access: Full system access for my work tasks.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 32,
+                "label": "contact_information"
+            },
+            {
+                "start": 61,
+                "end": 71,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 100,
+                "end": 111,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 133,
+                "end": 140,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 165,
+                "end": 176,
+                "label": "required_access_level"
+            },
+            {
+                "start": 196,
+                "end": 215,
+                "label": "additional_notes"
+            },
+            {
+                "start": 165,
+                "end": 176,
+                "label": "previous_access"
+            },
+            {
+                "start": 268,
+                "end": 273,
+                "label": "user_identification"
+            },
+            {
+                "start": 301,
+                "end": 311,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 326,
+                "end": 344,
+                "label": "access_type"
+            },
+            {
+                "start": 365,
+                "end": 401,
+                "label": "purpose_of_access"
+            }
+        ]
+    },
+    {
+        "content": "access type: accounting system. user identification: EB001. approval from supervisor: supervisor. specific resources needed: the account database. security clearance status: I don't have any security clearance. purpose of access: check accounts. previous access: No, I haven't had any previous access. required access level: full access. contact information: Elijah Barnes. duration of access: a year. additional notes: That's all I needed.",
+        "entities": [
+            {
+                "start": 13,
+                "end": 30,
+                "label": "access_type"
+            },
+            {
+                "start": 53,
+                "end": 58,
+                "label": "user_identification"
+            },
+            {
+                "start": 74,
+                "end": 84,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 125,
+                "end": 145,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 174,
+                "end": 209,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 230,
+                "end": 244,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 263,
+                "end": 300,
+                "label": "previous_access"
+            },
+            {
+                "start": 325,
+                "end": 336,
+                "label": "required_access_level"
+            },
+            {
+                "start": 359,
+                "end": 372,
+                "label": "contact_information"
+            },
+            {
+                "start": 394,
+                "end": 400,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 420,
+                "end": 439,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "approval from supervisor: John Smith. duration of access: about a year. security clearance status: top secret. purpose of access: to do my work tasks. required access level: full access. previous access: Yes, I had access about a year ago. additional notes: No other notes. I need system access. access type: system access. specific resources needed: The file servers. contact information: Jordan Casey and my number is +1-555-0234. user identification: JC123.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 36,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 58,
+                "end": 70,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 99,
+                "end": 109,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 130,
+                "end": 149,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 174,
+                "end": 185,
+                "label": "required_access_level"
+            },
+            {
+                "start": 204,
+                "end": 238,
+                "label": "previous_access"
+            },
+            {
+                "start": 258,
+                "end": 294,
+                "label": "additional_notes"
+            },
+            {
+                "start": 281,
+                "end": 294,
+                "label": "access_type"
+            },
+            {
+                "start": 351,
+                "end": 367,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 390,
+                "end": 431,
+                "label": "contact_information"
+            },
+            {
+                "start": 454,
+                "end": 459,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "approval from supervisor: Unfortunately I don't have a supervisor. purpose of access: so I can do my job from home. specific resources needed: remote desktop. user identification: I'm afraid I don't have an ID number. duration of access: around a year. additional notes: There's nothing else. contact information: Alex Jordan and you can contact me at alexartistry@email.com. access type: full system access. required access level: full system access. previous access: I don't have any clearances. security clearance status: don't have any clearances.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 65,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 86,
+                "end": 114,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 143,
+                "end": 157,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 180,
+                "end": 216,
+                "label": "user_identification"
+            },
+            {
+                "start": 238,
+                "end": 251,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 271,
+                "end": 291,
+                "label": "additional_notes"
+            },
+            {
+                "start": 314,
+                "end": 374,
+                "label": "contact_information"
+            },
+            {
+                "start": 389,
+                "end": 407,
+                "label": "access_type"
+            },
+            {
+                "start": 389,
+                "end": 407,
+                "label": "required_access_level"
+            },
+            {
+                "start": 469,
+                "end": 496,
+                "label": "previous_access"
+            },
+            {
+                "start": 471,
+                "end": 496,
+                "label": "security_clearance_status"
+            }
+        ]
+    },
+    {
+        "content": "previous access: Yes, I've had access to the same resources previously. user identification: 12345. specific resources needed: servers and databases. access type: full system access. required access level: full system access. duration of access: six months. contact information: unlisted. approval from supervisor: John Smith. purpose of access: to complete work tasks. additional notes: no additional notes. security clearance status: Classified.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 70,
+                "label": "previous_access"
+            },
+            {
+                "start": 93,
+                "end": 98,
+                "label": "user_identification"
+            },
+            {
+                "start": 127,
+                "end": 148,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 163,
+                "end": 181,
+                "label": "access_type"
+            },
+            {
+                "start": 163,
+                "end": 181,
+                "label": "required_access_level"
+            },
+            {
+                "start": 246,
+                "end": 256,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 279,
+                "end": 287,
+                "label": "contact_information"
+            },
+            {
+                "start": 315,
+                "end": 325,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 346,
+                "end": 368,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 388,
+                "end": 407,
+                "label": "additional_notes"
+            },
+            {
+                "start": 436,
+                "end": 446,
+                "label": "security_clearance_status"
+            }
+        ]
+    },
+    {
+        "content": "required access level: full access. user identification: AT23456. security clearance status: No security clearances are required. previous access: last year I had system access. access type: system. approval from supervisor: Principal Jones. additional notes: No, there are no other notes. contact information: Angela Thomas. specific resources needed: student records system. duration of access: one year. purpose of access: to complete my teaching duties.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 34,
+                "label": "required_access_level"
+            },
+            {
+                "start": 57,
+                "end": 64,
+                "label": "user_identification"
+            },
+            {
+                "start": 93,
+                "end": 128,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 147,
+                "end": 176,
+                "label": "previous_access"
+            },
+            {
+                "start": 163,
+                "end": 169,
+                "label": "access_type"
+            },
+            {
+                "start": 225,
+                "end": 240,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 260,
+                "end": 288,
+                "label": "additional_notes"
+            },
+            {
+                "start": 311,
+                "end": 324,
+                "label": "contact_information"
+            },
+            {
+                "start": 353,
+                "end": 375,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 397,
+                "end": 405,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 426,
+                "end": 456,
+                "label": "purpose_of_access"
+            }
+        ]
+    },
+    {
+        "content": "security clearance status: Level 2. additional notes: No, there's no other information needed. user identification: JC123. previous access: two years ago I had access to the file server. specific resources needed: work documents. approval from supervisor: John Smith. purpose of access: I need access to work on documents for my job. contact information: Jordan Casey. required access level: full access. access type: system access. duration of access: 6 months.",
+        "entities": [
+            {
+                "start": 27,
+                "end": 34,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 54,
+                "end": 93,
+                "label": "additional_notes"
+            },
+            {
+                "start": 116,
+                "end": 121,
+                "label": "user_identification"
+            },
+            {
+                "start": 140,
+                "end": 185,
+                "label": "previous_access"
+            },
+            {
+                "start": 214,
+                "end": 228,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 256,
+                "end": 266,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 287,
+                "end": 332,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 355,
+                "end": 367,
+                "label": "contact_information"
+            },
+            {
+                "start": 392,
+                "end": 403,
+                "label": "required_access_level"
+            },
+            {
+                "start": 418,
+                "end": 431,
+                "label": "access_type"
+            },
+            {
+                "start": 453,
+                "end": 461,
+                "label": "duration_of_access"
+            }
+        ]
+    },
+    {
+        "content": "access type: full system access. required access level: full system access. previous access: No, I have not had any previous access. duration of access: ongoing. security clearance status: No, I do not have any security clearances. purpose of access: work tasks. approval from supervisor: supervisor approval. contact information: Elijah Barnes. additional notes: No additional notes. No specific resources. specific resources needed: No specific resources. user identification: I do not have an ID number.",
+        "entities": [
+            {
+                "start": 13,
+                "end": 31,
+                "label": "access_type"
+            },
+            {
+                "start": 13,
+                "end": 31,
+                "label": "required_access_level"
+            },
+            {
+                "start": 93,
+                "end": 131,
+                "label": "previous_access"
+            },
+            {
+                "start": 153,
+                "end": 160,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 189,
+                "end": 230,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 251,
+                "end": 261,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 289,
+                "end": 308,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 331,
+                "end": 344,
+                "label": "contact_information"
+            },
+            {
+                "start": 364,
+                "end": 406,
+                "label": "additional_notes"
+            },
+            {
+                "start": 385,
+                "end": 406,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 479,
+                "end": 505,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "required access level: Full. duration of access: a year. contact information: 555-1234. access type: full system access. approval from supervisor: I don't have a supervisor. additional notes: No, there's no other information. previous access: no other information and I've not had this level of access previously. specific resources needed: office space. security clearance status: I don't have any security clearances. purpose of access: for my work. user identification: I'm new so I don't have an employee ID number yet.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 27,
+                "label": "required_access_level"
+            },
+            {
+                "start": 49,
+                "end": 55,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 78,
+                "end": 86,
+                "label": "contact_information"
+            },
+            {
+                "start": 101,
+                "end": 119,
+                "label": "access_type"
+            },
+            {
+                "start": 147,
+                "end": 172,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 192,
+                "end": 224,
+                "label": "additional_notes"
+            },
+            {
+                "start": 243,
+                "end": 312,
+                "label": "previous_access"
+            },
+            {
+                "start": 341,
+                "end": 353,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 382,
+                "end": 418,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 439,
+                "end": 450,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 473,
+                "end": 522,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "required access level: full access to everything. security clearance status: top secret. approval from supervisor: John Smith. additional notes: No. user identification: 12345. previous access: Yes, I've had access to the same resources in the past. access type: system access. specific resources needed: our engineering software. duration of access: ongoing. purpose of access: Carlos Mendez. contact information: +1-555-0102.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 48,
+                "label": "required_access_level"
+            },
+            {
+                "start": 77,
+                "end": 87,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 115,
+                "end": 125,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 145,
+                "end": 147,
+                "label": "additional_notes"
+            },
+            {
+                "start": 170,
+                "end": 175,
+                "label": "user_identification"
+            },
+            {
+                "start": 194,
+                "end": 248,
+                "label": "previous_access"
+            },
+            {
+                "start": 263,
+                "end": 276,
+                "label": "access_type"
+            },
+            {
+                "start": 305,
+                "end": 329,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 351,
+                "end": 358,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 379,
+                "end": 392,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 415,
+                "end": 426,
+                "label": "contact_information"
+            }
+        ]
+    },
+    {
+        "content": "purpose of access: medical research. contact information: liwei@medicalemail.com. required access level: full. additional notes: no additional notes. previous access: No, I have not had any previous access. specific resources needed: patient records database. user identification: 123456. access type: system access. approval from supervisor: supervisor. security clearance status: I do not have any security clearance. duration of access: approximately one year.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 35,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 58,
+                "end": 80,
+                "label": "contact_information"
+            },
+            {
+                "start": 105,
+                "end": 109,
+                "label": "required_access_level"
+            },
+            {
+                "start": 129,
+                "end": 148,
+                "label": "additional_notes"
+            },
+            {
+                "start": 167,
+                "end": 205,
+                "label": "previous_access"
+            },
+            {
+                "start": 234,
+                "end": 258,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 281,
+                "end": 287,
+                "label": "user_identification"
+            },
+            {
+                "start": 302,
+                "end": 315,
+                "label": "access_type"
+            },
+            {
+                "start": 331,
+                "end": 341,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 382,
+                "end": 418,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 440,
+                "end": 462,
+                "label": "duration_of_access"
+            }
+        ]
+    },
+    {
+        "content": "purpose of access: need patient data. access type: system access. security clearance status: Level 3 clearance. duration of access: 6 months. previous access: Yes, I had similar access around 3 years ago for a previous project. user identification: 987654. additional notes: No other notes. specific resources needed: Patient Records database. required access level: full access. contact information: Dr. Li Wei. approval from supervisor: My supervisor.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 36,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 51,
+                "end": 64,
+                "label": "access_type"
+            },
+            {
+                "start": 93,
+                "end": 110,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 132,
+                "end": 140,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 159,
+                "end": 226,
+                "label": "previous_access"
+            },
+            {
+                "start": 249,
+                "end": 255,
+                "label": "user_identification"
+            },
+            {
+                "start": 275,
+                "end": 289,
+                "label": "additional_notes"
+            },
+            {
+                "start": 318,
+                "end": 342,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 367,
+                "end": 378,
+                "label": "required_access_level"
+            },
+            {
+                "start": 401,
+                "end": 411,
+                "label": "contact_information"
+            },
+            {
+                "start": 439,
+                "end": 452,
+                "label": "approval_from_supervisor"
+            }
+        ]
+    },
+    {
+        "content": "duration of access: ongoing. contact information: +1-555-0102. specific resources needed: engineering databases. user identification: C4567. access type: system access. purpose of access: for my work tasks. approval from supervisor: John Smith. additional notes: no other notes. previous access: engineering databases. required access level: full access. security clearance status: top secret.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 27,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 50,
+                "end": 61,
+                "label": "contact_information"
+            },
+            {
+                "start": 90,
+                "end": 111,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 134,
+                "end": 139,
+                "label": "user_identification"
+            },
+            {
+                "start": 154,
+                "end": 167,
+                "label": "access_type"
+            },
+            {
+                "start": 188,
+                "end": 205,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 233,
+                "end": 243,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 263,
+                "end": 277,
+                "label": "additional_notes"
+            },
+            {
+                "start": 90,
+                "end": 111,
+                "label": "previous_access"
+            },
+            {
+                "start": 342,
+                "end": 353,
+                "label": "required_access_level"
+            },
+            {
+                "start": 382,
+                "end": 392,
+                "label": "security_clearance_status"
+            }
+        ]
+    },
+    {
+        "content": "required access level: full access. security clearance status: I need full access but I don't have any clearances. duration of access: 6 months. contact information: +1-555-0234. access type: system. specific resources needed: system access to the file server. purpose of access: I need access to files remotely. approval from supervisor: John Smith. previous access: I have approval from John Smith. I have not had previous access. additional notes: No additional notes. user identification: JC123.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 34,
+                "label": "required_access_level"
+            },
+            {
+                "start": 63,
+                "end": 113,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 135,
+                "end": 143,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 166,
+                "end": 177,
+                "label": "contact_information"
+            },
+            {
+                "start": 192,
+                "end": 198,
+                "label": "access_type"
+            },
+            {
+                "start": 227,
+                "end": 259,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 280,
+                "end": 311,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 339,
+                "end": 349,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 368,
+                "end": 431,
+                "label": "previous_access"
+            },
+            {
+                "start": 451,
+                "end": 470,
+                "label": "additional_notes"
+            },
+            {
+                "start": 493,
+                "end": 498,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: No, there's no other notes needed. access type: full system access. user identification: employee number. approval from supervisor: No, I don't have a supervisor. specific resources needed: I need access to the account database. required access level: full access. purpose of access: manage accounts. contact information: Elijah Barnes. security clearance status: No, I don't have any clearances. previous access: No, I haven't had access previously. duration of access: about 1 year.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 51,
+                "label": "additional_notes"
+            },
+            {
+                "start": 66,
+                "end": 84,
+                "label": "access_type"
+            },
+            {
+                "start": 107,
+                "end": 122,
+                "label": "user_identification"
+            },
+            {
+                "start": 150,
+                "end": 179,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 208,
+                "end": 245,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 270,
+                "end": 281,
+                "label": "required_access_level"
+            },
+            {
+                "start": 302,
+                "end": 317,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 340,
+                "end": 353,
+                "label": "contact_information"
+            },
+            {
+                "start": 382,
+                "end": 413,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 432,
+                "end": 467,
+                "label": "previous_access"
+            },
+            {
+                "start": 489,
+                "end": 501,
+                "label": "duration_of_access"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: No, there aren't any additional notes. security clearance status: It doesn't apply. user identification: 987654. approval from supervisor: John Smith. previous access: about 5 years ago. required access level: full. contact information: Sofia Alvarez. purpose of access: legal research. specific resources needed: Westlaw database system. access type: ongoing basis. duration of access: ongoing.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 55,
+                "label": "additional_notes"
+            },
+            {
+                "start": 84,
+                "end": 100,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 123,
+                "end": 129,
+                "label": "user_identification"
+            },
+            {
+                "start": 157,
+                "end": 167,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 186,
+                "end": 203,
+                "label": "previous_access"
+            },
+            {
+                "start": 228,
+                "end": 232,
+                "label": "required_access_level"
+            },
+            {
+                "start": 255,
+                "end": 268,
+                "label": "contact_information"
+            },
+            {
+                "start": 289,
+                "end": 303,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 332,
+                "end": 355,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 370,
+                "end": 383,
+                "label": "access_type"
+            },
+            {
+                "start": 370,
+                "end": 377,
+                "label": "duration_of_access"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: No, there's no additional notes needed. required access level: full access. duration of access: ongoing. previous access: not had any previous access. contact information: Amir Khaled. security clearance status: top secret. purpose of access: for my job duties. user identification: AK123. specific resources needed: all systems. access type: full system access. approval from supervisor: John Smith.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 56,
+                "label": "additional_notes"
+            },
+            {
+                "start": 81,
+                "end": 92,
+                "label": "required_access_level"
+            },
+            {
+                "start": 114,
+                "end": 121,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 140,
+                "end": 167,
+                "label": "previous_access"
+            },
+            {
+                "start": 190,
+                "end": 201,
+                "label": "contact_information"
+            },
+            {
+                "start": 230,
+                "end": 240,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 261,
+                "end": 278,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 301,
+                "end": 306,
+                "label": "user_identification"
+            },
+            {
+                "start": 335,
+                "end": 346,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 361,
+                "end": 379,
+                "label": "access_type"
+            },
+            {
+                "start": 407,
+                "end": 417,
+                "label": "approval_from_supervisor"
+            }
+        ]
+    },
+    {
+        "content": "required access level: full. access type: full access. security clearance status: No clearances are required. specific resources needed: all student records. additional notes: No, there's no other information needed. duration of access: one year. previous access: I had access last year for my teaching duties. purpose of access: teaching duties. user identification: AT23456. approval from supervisor: Principal Jones. contact information: Angela Thomas.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 27,
+                "label": "required_access_level"
+            },
+            {
+                "start": 42,
+                "end": 53,
+                "label": "access_type"
+            },
+            {
+                "start": 82,
+                "end": 108,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 137,
+                "end": 156,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 176,
+                "end": 215,
+                "label": "additional_notes"
+            },
+            {
+                "start": 237,
+                "end": 245,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 264,
+                "end": 309,
+                "label": "previous_access"
+            },
+            {
+                "start": 294,
+                "end": 309,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 368,
+                "end": 375,
+                "label": "user_identification"
+            },
+            {
+                "start": 403,
+                "end": 418,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 441,
+                "end": 454,
+                "label": "contact_information"
+            }
+        ]
+    },
+    {
+        "content": "specific resources needed: engineering databases. security clearance status: top secret. duration of access: ongoing. user identification: C4567. contact information: +1-555-0102. access type: system access. purpose of access: for my work tasks. required access level: full access. approval from supervisor: supervisor. previous access: Yes, I have had the same level of access before. additional notes: no additional information needed.",
+        "entities": [
+            {
+                "start": 27,
+                "end": 48,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 77,
+                "end": 87,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 109,
+                "end": 116,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 139,
+                "end": 144,
+                "label": "user_identification"
+            },
+            {
+                "start": 167,
+                "end": 178,
+                "label": "contact_information"
+            },
+            {
+                "start": 193,
+                "end": 206,
+                "label": "access_type"
+            },
+            {
+                "start": 227,
+                "end": 244,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 269,
+                "end": 280,
+                "label": "required_access_level"
+            },
+            {
+                "start": 296,
+                "end": 306,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 337,
+                "end": 384,
+                "label": "previous_access"
+            },
+            {
+                "start": 404,
+                "end": 436,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "user identification: C4567. required access level: full access. contact information: +1-555-0102. previous access: Yes, I've had access to the same resources previously. purpose of access: for my work tasks. access type: system access. security clearance status: top secret. specific resources needed: engineering software. approval from supervisor: supervisor. additional notes: No other notes. duration of access: ongoing.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 26,
+                "label": "user_identification"
+            },
+            {
+                "start": 51,
+                "end": 62,
+                "label": "required_access_level"
+            },
+            {
+                "start": 85,
+                "end": 96,
+                "label": "contact_information"
+            },
+            {
+                "start": 115,
+                "end": 168,
+                "label": "previous_access"
+            },
+            {
+                "start": 189,
+                "end": 206,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 221,
+                "end": 234,
+                "label": "access_type"
+            },
+            {
+                "start": 263,
+                "end": 273,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 302,
+                "end": 322,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 338,
+                "end": 348,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 380,
+                "end": 394,
+                "label": "additional_notes"
+            },
+            {
+                "start": 416,
+                "end": 423,
+                "label": "duration_of_access"
+            }
+        ]
+    },
+    {
+        "content": "previous access: I had level 3 clearance about 5 years ago. security clearance status: level 3. approval from supervisor: Dr. Johnson. purpose of access: patient records and the patient database. specific resources needed: patient records and the patient database. additional notes: No. access type: system access. required access level: full access. duration of access: ongoing. contact information: 987654. user identification: 987654.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 58,
+                "label": "previous_access"
+            },
+            {
+                "start": 23,
+                "end": 30,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 122,
+                "end": 133,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 154,
+                "end": 194,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 154,
+                "end": 194,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 283,
+                "end": 285,
+                "label": "additional_notes"
+            },
+            {
+                "start": 300,
+                "end": 313,
+                "label": "access_type"
+            },
+            {
+                "start": 338,
+                "end": 349,
+                "label": "required_access_level"
+            },
+            {
+                "start": 371,
+                "end": 378,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 401,
+                "end": 407,
+                "label": "contact_information"
+            },
+            {
+                "start": 401,
+                "end": 407,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "purpose of access: view student records. contact information: 555-1234. duration of access: one year. user identification: AT456. previous access: I had access to view the student records last year. security clearance status: I recently completed a background check. required access level: full access. specific resources needed: entire student database. access type: system access to the student database. approval from supervisor: Thank you so much for your help. additional notes: .",
+        "entities": [
+            {
+                "start": 19,
+                "end": 39,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 62,
+                "end": 70,
+                "label": "contact_information"
+            },
+            {
+                "start": 92,
+                "end": 100,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 123,
+                "end": 128,
+                "label": "user_identification"
+            },
+            {
+                "start": 147,
+                "end": 197,
+                "label": "previous_access"
+            },
+            {
+                "start": 226,
+                "end": 265,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 290,
+                "end": 301,
+                "label": "required_access_level"
+            },
+            {
+                "start": 330,
+                "end": 353,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 368,
+                "end": 405,
+                "label": "access_type"
+            },
+            {
+                "start": 433,
+                "end": 464,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "contact information: elijahmusic@email.com. access type: full access to the company's account system. required access level: full access. purpose of access: to check some account details. duration of access: about a year. security clearance status: No, I don't have any security clearance. additional notes: No. approval from supervisor: No, I don't have a supervisor. previous access: I don't have a supervisor and I haven't had access. user identification: 12345. specific resources needed: the account database.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 42,
+                "label": "contact_information"
+            },
+            {
+                "start": 57,
+                "end": 100,
+                "label": "access_type"
+            },
+            {
+                "start": 57,
+                "end": 68,
+                "label": "required_access_level"
+            },
+            {
+                "start": 157,
+                "end": 186,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 208,
+                "end": 220,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 249,
+                "end": 288,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 249,
+                "end": 251,
+                "label": "additional_notes"
+            },
+            {
+                "start": 338,
+                "end": 367,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 386,
+                "end": 436,
+                "label": "previous_access"
+            },
+            {
+                "start": 459,
+                "end": 464,
+                "label": "user_identification"
+            },
+            {
+                "start": 493,
+                "end": 513,
+                "label": "specific_resources_needed"
+            }
+        ]
+    },
+    {
+        "content": "approval from supervisor: Principal Jones. contact information: xxx-xxx-xxxx. previous access: I had access to the system last year. access type: full system access. required access level: full system access. specific resources needed: student database. security clearance status: my background check is complete. duration of access: about a year. user identification: AT001. purpose of access: view student records. additional notes: No, there are no additional notes.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 41,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 64,
+                "end": 76,
+                "label": "contact_information"
+            },
+            {
+                "start": 95,
+                "end": 131,
+                "label": "previous_access"
+            },
+            {
+                "start": 146,
+                "end": 164,
+                "label": "access_type"
+            },
+            {
+                "start": 146,
+                "end": 164,
+                "label": "required_access_level"
+            },
+            {
+                "start": 236,
+                "end": 252,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 281,
+                "end": 312,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 334,
+                "end": 346,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 369,
+                "end": 374,
+                "label": "user_identification"
+            },
+            {
+                "start": 395,
+                "end": 415,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 435,
+                "end": 468,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "user identification: 987654. duration of access: 6 months. additional notes: No other notes. approval from supervisor: supervisor. contact information: salvarez@lawfirm.com or 555-1234. required access level: full system access. security clearance status: top secret. purpose of access: legal case research. specific resources needed: legal databases. access type: full system access. previous access: yes I had similar access about 5 years ago.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 27,
+                "label": "user_identification"
+            },
+            {
+                "start": 49,
+                "end": 57,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 77,
+                "end": 91,
+                "label": "additional_notes"
+            },
+            {
+                "start": 107,
+                "end": 117,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 152,
+                "end": 184,
+                "label": "contact_information"
+            },
+            {
+                "start": 209,
+                "end": 227,
+                "label": "required_access_level"
+            },
+            {
+                "start": 256,
+                "end": 266,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 287,
+                "end": 306,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 335,
+                "end": 350,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 209,
+                "end": 227,
+                "label": "access_type"
+            },
+            {
+                "start": 402,
+                "end": 444,
+                "label": "previous_access"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: No additional notes needed. contact information: Alex Jordan, you can reach me at alexartistry@email.com. purpose of access: an art project. required access level: Full. access type: full access. approval from supervisor: No, I don't have supervisor approval. previous access: I haven't had this level of access previously. security clearance status: I don't have any security clearance. specific resources needed: office space. user identification: I don't have an employee ID number. duration of access: around 6 months.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 44,
+                "label": "additional_notes"
+            },
+            {
+                "start": 67,
+                "end": 122,
+                "label": "contact_information"
+            },
+            {
+                "start": 143,
+                "end": 157,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 182,
+                "end": 186,
+                "label": "required_access_level"
+            },
+            {
+                "start": 201,
+                "end": 212,
+                "label": "access_type"
+            },
+            {
+                "start": 240,
+                "end": 276,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 295,
+                "end": 340,
+                "label": "previous_access"
+            },
+            {
+                "start": 369,
+                "end": 404,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 433,
+                "end": 445,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 468,
+                "end": 502,
+                "label": "user_identification"
+            },
+            {
+                "start": 524,
+                "end": 539,
+                "label": "duration_of_access"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: No, there's no other notes needed. contact information: Angela Thomas. access type: student database system. duration of access: one year. specific resources needed: student records. security clearance status: No, I don't have any clearances. purpose of access: to access student records for my job. previous access: not. required access level: full access. approval from supervisor: Principal Jones. user identification: AT001.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 51,
+                "label": "additional_notes"
+            },
+            {
+                "start": 74,
+                "end": 87,
+                "label": "contact_information"
+            },
+            {
+                "start": 102,
+                "end": 125,
+                "label": "access_type"
+            },
+            {
+                "start": 147,
+                "end": 155,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 184,
+                "end": 199,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 228,
+                "end": 259,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 280,
+                "end": 316,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 11,
+                "end": 14,
+                "label": "previous_access"
+            },
+            {
+                "start": 363,
+                "end": 374,
+                "label": "required_access_level"
+            },
+            {
+                "start": 402,
+                "end": 417,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 440,
+                "end": 445,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "purpose of access: to do my job. additional notes: There aren't any other details. access type: system. specific resources needed: student database. security clearance status: No, I don't have any clearances. duration of access: one year. contact information: Angela Thomas. user identification: AT001. required access level: full access. approval from supervisor: Principal Jones. previous access: Principal Jones approved it. And no, I have not had previous access.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 31,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 51,
+                "end": 81,
+                "label": "additional_notes"
+            },
+            {
+                "start": 96,
+                "end": 102,
+                "label": "access_type"
+            },
+            {
+                "start": 131,
+                "end": 147,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 176,
+                "end": 207,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 229,
+                "end": 237,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 260,
+                "end": 273,
+                "label": "contact_information"
+            },
+            {
+                "start": 296,
+                "end": 301,
+                "label": "user_identification"
+            },
+            {
+                "start": 326,
+                "end": 337,
+                "label": "required_access_level"
+            },
+            {
+                "start": 365,
+                "end": 380,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 399,
+                "end": 466,
+                "label": "previous_access"
+            }
+        ]
+    },
+    {
+        "content": "access type: engineering databases. user identification: C4567. additional notes: No additional notes, just the engineering databases. specific resources needed: just the engineering databases. duration of access: ongoing basis. approval from supervisor: supervisor. contact information: +1-555-0102. required access level: full access. previous access: I have had access to the same engineering resources previously. security clearance status: top secret. purpose of access: to complete work tasks.",
+        "entities": [
+            {
+                "start": 13,
+                "end": 34,
+                "label": "access_type"
+            },
+            {
+                "start": 57,
+                "end": 62,
+                "label": "user_identification"
+            },
+            {
+                "start": 82,
+                "end": 133,
+                "label": "additional_notes"
+            },
+            {
+                "start": 103,
+                "end": 133,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 214,
+                "end": 227,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 243,
+                "end": 253,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 288,
+                "end": 299,
+                "label": "contact_information"
+            },
+            {
+                "start": 324,
+                "end": 335,
+                "label": "required_access_level"
+            },
+            {
+                "start": 354,
+                "end": 416,
+                "label": "previous_access"
+            },
+            {
+                "start": 445,
+                "end": 455,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 476,
+                "end": 498,
+                "label": "purpose_of_access"
+            }
+        ]
+    },
+    {
+        "content": "contact information: 987654. user identification: 987654. access type: system access. additional notes: I don't have any other notes to add. duration of access: ongoing. approval from supervisor: Dr. Smith. previous access: patient medical records database. specific resources needed: the patient medical records database. purpose of access: patient record access. security clearance status: Level 3. required access level: Full.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 27,
+                "label": "contact_information"
+            },
+            {
+                "start": 21,
+                "end": 27,
+                "label": "user_identification"
+            },
+            {
+                "start": 71,
+                "end": 84,
+                "label": "access_type"
+            },
+            {
+                "start": 104,
+                "end": 139,
+                "label": "additional_notes"
+            },
+            {
+                "start": 161,
+                "end": 168,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 196,
+                "end": 205,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 224,
+                "end": 256,
+                "label": "previous_access"
+            },
+            {
+                "start": 285,
+                "end": 321,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 342,
+                "end": 363,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 392,
+                "end": 399,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 424,
+                "end": 428,
+                "label": "required_access_level"
+            }
+        ]
+    },
+    {
+        "content": "required access level: Full. additional notes: I don't have any other details to add. duration of access: 6 months. security clearance status: Level 3. specific resources needed: research databases. contact information: Henry Kim. user identification: hk001. purpose of access: a new research project. previous access: not. approval from supervisor: Dr. Anna Smith. access type: system access.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 27,
+                "label": "required_access_level"
+            },
+            {
+                "start": 47,
+                "end": 84,
+                "label": "additional_notes"
+            },
+            {
+                "start": 106,
+                "end": 114,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 143,
+                "end": 150,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 179,
+                "end": 197,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 220,
+                "end": 229,
+                "label": "contact_information"
+            },
+            {
+                "start": 252,
+                "end": 257,
+                "label": "user_identification"
+            },
+            {
+                "start": 278,
+                "end": 300,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 40,
+                "end": 43,
+                "label": "previous_access"
+            },
+            {
+                "start": 350,
+                "end": 364,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 379,
+                "end": 392,
+                "label": "access_type"
+            }
+        ]
+    },
+    {
+        "content": "duration of access: ongoing. required access level: full access. additional notes: No. contact information: +1-555-0234. user identification: JC123. specific resources needed: company databases. security clearance status: security clearance is not applicable. purpose of access: to perform my job duties. previous access: Yes, I've had access to the same resources previously. approval from supervisor: supervisor. access type: system access.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 27,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 52,
+                "end": 63,
+                "label": "required_access_level"
+            },
+            {
+                "start": 83,
+                "end": 85,
+                "label": "additional_notes"
+            },
+            {
+                "start": 108,
+                "end": 119,
+                "label": "contact_information"
+            },
+            {
+                "start": 142,
+                "end": 147,
+                "label": "user_identification"
+            },
+            {
+                "start": 176,
+                "end": 193,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 222,
+                "end": 258,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 279,
+                "end": 303,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 322,
+                "end": 375,
+                "label": "previous_access"
+            },
+            {
+                "start": 391,
+                "end": 401,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 428,
+                "end": 441,
+                "label": "access_type"
+            }
+        ]
+    },
+    {
+        "content": "duration of access: ongoing. previous access: Yes, about 5 years ago I had access. user identification: 987654. purpose of access: legal research purposes. security clearance status: I do not have any security clearances. specific resources needed: the Westlaw database. additional notes: No, there are no additional notes. access type: system access. contact information: salvarez@lawfirm.com. required access level: full access. approval from supervisor: John Smith.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 27,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 46,
+                "end": 81,
+                "label": "previous_access"
+            },
+            {
+                "start": 104,
+                "end": 110,
+                "label": "user_identification"
+            },
+            {
+                "start": 131,
+                "end": 154,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 183,
+                "end": 220,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 249,
+                "end": 269,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 289,
+                "end": 322,
+                "label": "additional_notes"
+            },
+            {
+                "start": 337,
+                "end": 350,
+                "label": "access_type"
+            },
+            {
+                "start": 373,
+                "end": 393,
+                "label": "contact_information"
+            },
+            {
+                "start": 418,
+                "end": 429,
+                "label": "required_access_level"
+            },
+            {
+                "start": 457,
+                "end": 467,
+                "label": "approval_from_supervisor"
+            }
+        ]
+    },
+    {
+        "content": "required access level: full access. approval from supervisor: John. purpose of access: to do my regular job tasks. duration of access: ongoing. access type: system access. user identification: AK2356. previous access: Yes, I've had access to the same resources previously. security clearance status: My security level is 3. contact information: Amir Khaled. specific resources needed: accounting software. additional notes: No other notes.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 34,
+                "label": "required_access_level"
+            },
+            {
+                "start": 62,
+                "end": 66,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 87,
+                "end": 113,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 135,
+                "end": 142,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 157,
+                "end": 170,
+                "label": "access_type"
+            },
+            {
+                "start": 193,
+                "end": 199,
+                "label": "user_identification"
+            },
+            {
+                "start": 218,
+                "end": 271,
+                "label": "previous_access"
+            },
+            {
+                "start": 300,
+                "end": 322,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 345,
+                "end": 356,
+                "label": "contact_information"
+            },
+            {
+                "start": 385,
+                "end": 404,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 424,
+                "end": 438,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "approval from supervisor: Dr. John Smith. duration of access: about a year. purpose of access: research work. access type: system access. security clearance status: Level 3. required access level: full access. contact information: Henry Kim. previous access: full access. specific resources needed: lab computers. additional notes: No other notes. user identification: hk001.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 40,
+                "label": "approval_from_supervisor"
+            },
+            {
+                "start": 62,
+                "end": 74,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 95,
+                "end": 108,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 123,
+                "end": 136,
+                "label": "access_type"
+            },
+            {
+                "start": 165,
+                "end": 172,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 197,
+                "end": 208,
+                "label": "required_access_level"
+            },
+            {
+                "start": 231,
+                "end": 240,
+                "label": "contact_information"
+            },
+            {
+                "start": 197,
+                "end": 208,
+                "label": "previous_access"
+            },
+            {
+                "start": 299,
+                "end": 312,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 332,
+                "end": 346,
+                "label": "additional_notes"
+            },
+            {
+                "start": 369,
+                "end": 374,
+                "label": "user_identification"
+            }
+        ]
+    },
+    {
+        "content": "duration of access: ongoing. specific resources needed: file servers. security clearance status: 3. contact information: +1-555-0234. required access level: full system access. access type: full system access. purpose of access: It will be used for my work tasks. user identification: JC123. additional notes: No, there's no other notes. previous access: Yes, I've had access to the same resources previously. approval from supervisor: supervisor.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 27,
+                "label": "duration_of_access"
+            },
+            {
+                "start": 56,
+                "end": 68,
+                "label": "specific_resources_needed"
+            },
+            {
+                "start": 97,
+                "end": 98,
+                "label": "security_clearance_status"
+            },
+            {
+                "start": 121,
+                "end": 132,
+                "label": "contact_information"
+            },
+            {
+                "start": 157,
+                "end": 175,
+                "label": "required_access_level"
+            },
+            {
+                "start": 157,
+                "end": 175,
+                "label": "access_type"
+            },
+            {
+                "start": 229,
+                "end": 262,
+                "label": "purpose_of_access"
+            },
+            {
+                "start": 285,
+                "end": 290,
+                "label": "user_identification"
+            },
+            {
+                "start": 310,
+                "end": 336,
+                "label": "additional_notes"
+            },
+            {
+                "start": 355,
+                "end": 408,
+                "label": "previous_access"
+            },
+            {
+                "start": 424,
+                "end": 434,
+                "label": "approval_from_supervisor"
+            }
+        ]
+    }
+]

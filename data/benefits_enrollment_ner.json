@@ -1,0 +1,3197 @@
+[
+    {
+        "content": "benefit plan selection: Plan A. personal information confirmation: Yes. type of benefit: health insurance. previous coverage duration: 10. estimated annual premium: $5,000. effective date: March 1st, 2023. contact preference: Email. number of dependents: 2.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 30,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 67,
+                "end": 70,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 89,
+                "end": 105,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 135,
+                "end": 137,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 165,
+                "end": 171,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 189,
+                "end": 204,
+                "label": "effective_date"
+            },
+            {
+                "start": 226,
+                "end": 231,
+                "label": "contact_preference"
+            },
+            {
+                "start": 200,
+                "end": 201,
+                "label": "number_of_dependents"
+            }
+        ]
+    },
+    {
+        "content": "benefit plan selection: Plan A. personal information confirmation: Yes. estimated annual premium: five thousand. effective date: March 1st, 2023. contact preference: phone. number of dependents: one. type of benefit: health insurance. previous coverage duration: zero.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 30,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 67,
+                "end": 70,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 98,
+                "end": 111,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 129,
+                "end": 144,
+                "label": "effective_date"
+            },
+            {
+                "start": 166,
+                "end": 171,
+                "label": "contact_preference"
+            },
+            {
+                "start": 168,
+                "end": 171,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 217,
+                "end": 233,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 263,
+                "end": 267,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "benefit plan selection: Plan A. type of benefit: health insurance. personal information confirmation: Yes. number of dependents: I won't be adding any dependents. effective date: March 1st, 2023. previous coverage duration: 2023. estimated annual premium: $5000. contact preference: social media.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 30,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 49,
+                "end": 65,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 102,
+                "end": 105,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 129,
+                "end": 161,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 179,
+                "end": 194,
+                "label": "effective_date"
+            },
+            {
+                "start": 190,
+                "end": 194,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 256,
+                "end": 261,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 283,
+                "end": 295,
+                "label": "contact_preference"
+            }
+        ]
+    },
+    {
+        "content": "estimated annual premium: around five thousand dollars. contact preference: email. type of benefit: health insurance. number of dependents: one. effective date: 2023-03-01. benefit plan selection: Plan A. personal information confirmation: Yes. previous coverage duration: I have not previously been covered under a health plan for any years.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 54,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 76,
+                "end": 81,
+                "label": "contact_preference"
+            },
+            {
+                "start": 100,
+                "end": 116,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 140,
+                "end": 143,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 161,
+                "end": 171,
+                "label": "effective_date"
+            },
+            {
+                "start": 197,
+                "end": 203,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 240,
+                "end": 243,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 273,
+                "end": 341,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "type of benefit: health insurance. contact preference: email. previous coverage duration: not had any health insurance before. personal information confirmation: Yes. number of dependents: 3. benefit plan selection: Plan A. estimated annual premium: $1000. effective date: January 1st, 2023.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 33,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 55,
+                "end": 60,
+                "label": "contact_preference"
+            },
+            {
+                "start": 90,
+                "end": 125,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 162,
+                "end": 165,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 189,
+                "end": 190,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 216,
+                "end": 222,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 250,
+                "end": 255,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 273,
+                "end": 290,
+                "label": "effective_date"
+            }
+        ]
+    },
+    {
+        "content": "benefit plan selection: Plan A. personal information confirmation: Yes. previous coverage duration: Yes, you have my updated information. I've actually never. effective date: March 1st, 2023. contact preference: Phone. number of dependents: one. type of benefit: Health insurance. estimated annual premium: $5000.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 30,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 67,
+                "end": 70,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 100,
+                "end": 157,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 175,
+                "end": 190,
+                "label": "effective_date"
+            },
+            {
+                "start": 212,
+                "end": 217,
+                "label": "contact_preference"
+            },
+            {
+                "start": 214,
+                "end": 217,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 263,
+                "end": 279,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 307,
+                "end": 312,
+                "label": "estimated_annual_premium"
+            }
+        ]
+    },
+    {
+        "content": "number of dependents: I would not like to add any dependents to the plan. previous coverage duration: Yes. effective date: March 1st, 2023. contact preference: social media. type of benefit: health insurance. personal information confirmation: yes. estimated annual premium: $85,000. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 72,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 102,
+                "end": 105,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 123,
+                "end": 138,
+                "label": "effective_date"
+            },
+            {
+                "start": 160,
+                "end": 172,
+                "label": "contact_preference"
+            },
+            {
+                "start": 191,
+                "end": 207,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 244,
+                "end": 247,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 275,
+                "end": 282,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 308,
+                "end": 314,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "effective date: March 1st, 2023. previous coverage duration: 0. benefit plan selection: Plan A. contact preference: Social media. number of dependents: 0. personal information confirmation: You should have my updated information on file already. estimated annual premium: $2000. type of benefit: health insurance.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 31,
+                "label": "effective_date"
+            },
+            {
+                "start": 28,
+                "end": 29,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 88,
+                "end": 94,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 116,
+                "end": 128,
+                "label": "contact_preference"
+            },
+            {
+                "start": 28,
+                "end": 29,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 190,
+                "end": 244,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 272,
+                "end": 277,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 296,
+                "end": 312,
+                "label": "type_of_benefit"
+            }
+        ]
+    },
+    {
+        "content": "effective date: March 1st, 2023. previous coverage duration: 10. type of benefit: health insurance. contact preference: Email. number of dependents: two. benefit plan selection: A. personal information confirmation: yes. estimated annual premium: $5,000.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 31,
+                "label": "effective_date"
+            },
+            {
+                "start": 61,
+                "end": 63,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 82,
+                "end": 98,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 120,
+                "end": 125,
+                "label": "contact_preference"
+            },
+            {
+                "start": 149,
+                "end": 152,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 178,
+                "end": 179,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 216,
+                "end": 219,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 247,
+                "end": 253,
+                "label": "estimated_annual_premium"
+            }
+        ]
+    },
+    {
+        "content": "estimated annual premium: $5000. contact preference: email. effective date: March 1st, 2023. previous coverage duration: March 1st, 2023. type of benefit: health insurance. personal information confirmation: Yes. benefit plan selection: Plan A. number of dependents: one.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 31,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 53,
+                "end": 58,
+                "label": "contact_preference"
+            },
+            {
+                "start": 76,
+                "end": 91,
+                "label": "effective_date"
+            },
+            {
+                "start": 76,
+                "end": 91,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 155,
+                "end": 171,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 208,
+                "end": 211,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 237,
+                "end": 243,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 267,
+                "end": 270,
+                "label": "number_of_dependents"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: 5. type of benefit: health insurance. number of dependents: 1. contact preference: phone. personal information confirmation: You have my updated personal information on file. effective date: 2023-03-01. estimated annual premium: $5000. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 29,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 48,
+                "end": 64,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 88,
+                "end": 89,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 111,
+                "end": 116,
+                "label": "contact_preference"
+            },
+            {
+                "start": 153,
+                "end": 201,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 219,
+                "end": 229,
+                "label": "effective_date"
+            },
+            {
+                "start": 257,
+                "end": 262,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 288,
+                "end": 294,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "effective date: March 1st, 2023. benefit plan selection: Plan A. estimated annual premium: $5,000. type of benefit: health insurance. personal information confirmation: yes. previous coverage duration: I have not previously been covered. number of dependents: Just one. contact preference: Email.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 31,
+                "label": "effective_date"
+            },
+            {
+                "start": 57,
+                "end": 63,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 91,
+                "end": 97,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 116,
+                "end": 132,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 169,
+                "end": 172,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 202,
+                "end": 236,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 260,
+                "end": 268,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 290,
+                "end": 295,
+                "label": "contact_preference"
+            }
+        ]
+    },
+    {
+        "content": "contact preference: call. previous coverage duration: . number of dependents: one. type of benefit: health insurance. personal information confirmation: yes. benefit plan selection: Plan A. effective date: March 1st, 2023. estimated annual premium: $65,000.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 24,
+                "label": "contact_preference"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 78,
+                "end": 81,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 100,
+                "end": 116,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 153,
+                "end": 156,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 182,
+                "end": 188,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 206,
+                "end": 221,
+                "label": "effective_date"
+            },
+            {
+                "start": 249,
+                "end": 256,
+                "label": "estimated_annual_premium"
+            }
+        ]
+    },
+    {
+        "content": "personal information confirmation: Yes. number of dependents: zero. effective date: March 1st, 2023. contact preference: Social media. type of benefit: health insurance. benefit plan selection: Plan A. estimated annual premium: $85,000. previous coverage duration: I have not previously been covered under a health plan for any years.",
+        "entities": [
+            {
+                "start": 35,
+                "end": 38,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 62,
+                "end": 66,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 84,
+                "end": 99,
+                "label": "effective_date"
+            },
+            {
+                "start": 121,
+                "end": 133,
+                "label": "contact_preference"
+            },
+            {
+                "start": 152,
+                "end": 168,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 194,
+                "end": 200,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 228,
+                "end": 235,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 265,
+                "end": 333,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "number of dependents: I would not like to add any dependents. type of benefit: health insurance. benefit plan selection: Plan A. estimated annual premium: $85,000. effective date: January 3rd, 2023. contact preference: social media. personal information confirmation: Yes. previous coverage duration: I have not previously been covered under a health plan for any years.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 60,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 79,
+                "end": 95,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 121,
+                "end": 127,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 155,
+                "end": 162,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 180,
+                "end": 197,
+                "label": "effective_date"
+            },
+            {
+                "start": 219,
+                "end": 231,
+                "label": "contact_preference"
+            },
+            {
+                "start": 268,
+                "end": 271,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 301,
+                "end": 369,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: I have not had any health insurance coverage before. type of benefit: health insurance. effective date: March 1st, 2023. personal information confirmation: Yes. benefit plan selection: Plan A. contact preference: social media. estimated annual premium: $3,500. number of dependents: $3,500.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 79,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 47,
+                "end": 63,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 132,
+                "end": 147,
+                "label": "effective_date"
+            },
+            {
+                "start": 184,
+                "end": 187,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 213,
+                "end": 219,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 241,
+                "end": 253,
+                "label": "contact_preference"
+            },
+            {
+                "start": 281,
+                "end": 287,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 281,
+                "end": 287,
+                "label": "number_of_dependents"
+            }
+        ]
+    },
+    {
+        "content": "type of benefit: health insurance. benefit plan selection: Plan A. number of dependents: 3. effective date: March 1st, 2023. contact preference: Email. previous coverage duration: 10. personal information confirmation: Yes. estimated annual premium: $15,000.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 33,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 59,
+                "end": 65,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 89,
+                "end": 90,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 108,
+                "end": 123,
+                "label": "effective_date"
+            },
+            {
+                "start": 145,
+                "end": 150,
+                "label": "contact_preference"
+            },
+            {
+                "start": 180,
+                "end": 182,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 219,
+                "end": 222,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 250,
+                "end": 257,
+                "label": "estimated_annual_premium"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: 10. estimated annual premium: 10 years. effective date: March 1st, 2023. personal information confirmation: Yes. benefit plan selection: Plan A. type of benefit: health insurance. contact preference: email. number of dependents: three.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 30,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 58,
+                "end": 66,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 84,
+                "end": 99,
+                "label": "effective_date"
+            },
+            {
+                "start": 136,
+                "end": 139,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 165,
+                "end": 171,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 190,
+                "end": 206,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 228,
+                "end": 233,
+                "label": "contact_preference"
+            },
+            {
+                "start": 257,
+                "end": 262,
+                "label": "number_of_dependents"
+            }
+        ]
+    },
+    {
+        "content": "type of benefit: health insurance. number of dependents: 3. estimated annual premium: $5000. previous coverage duration: 10. effective date: January 1st, 2023. contact preference: email. personal information confirmation: Yes. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 33,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 57,
+                "end": 58,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 86,
+                "end": 91,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 121,
+                "end": 123,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 141,
+                "end": 158,
+                "label": "effective_date"
+            },
+            {
+                "start": 180,
+                "end": 185,
+                "label": "contact_preference"
+            },
+            {
+                "start": 222,
+                "end": 225,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 251,
+                "end": 257,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "number of dependents: 2. estimated annual premium: $10,000. personal information confirmation: Yes. previous coverage duration: 5. type of benefit: health insurance. effective date: 2023-03-01. contact preference: phone. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 23,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 51,
+                "end": 58,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 95,
+                "end": 98,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 128,
+                "end": 129,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 148,
+                "end": 164,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 182,
+                "end": 192,
+                "label": "effective_date"
+            },
+            {
+                "start": 214,
+                "end": 219,
+                "label": "contact_preference"
+            },
+            {
+                "start": 245,
+                "end": 251,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: 5. effective date: 2023-03-01. contact preference: email. type of benefit: health insurance. number of dependents: 2. personal information confirmation: Yes. estimated annual premium: $15,000. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 29,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 47,
+                "end": 57,
+                "label": "effective_date"
+            },
+            {
+                "start": 79,
+                "end": 84,
+                "label": "contact_preference"
+            },
+            {
+                "start": 103,
+                "end": 119,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 47,
+                "end": 48,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 181,
+                "end": 184,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 212,
+                "end": 219,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 245,
+                "end": 251,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "estimated annual premium: $65,000. type of benefit: health insurance. benefit plan selection: Plan A. effective date: March 1st, 2023. number of dependents: one. personal information confirmation: Yes. contact preference: Phone. previous coverage duration: I have not been covered for any years previously.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 33,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 52,
+                "end": 68,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 94,
+                "end": 100,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 118,
+                "end": 133,
+                "label": "effective_date"
+            },
+            {
+                "start": 157,
+                "end": 160,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 197,
+                "end": 200,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 222,
+                "end": 227,
+                "label": "contact_preference"
+            },
+            {
+                "start": 257,
+                "end": 305,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "type of benefit: health insurance. effective date: January 1st, 2023. contact preference: email. personal information confirmation: yes. previous coverage duration: 5. benefit plan selection: Plan A. estimated annual premium: $15,000. number of dependents: 3.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 33,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 51,
+                "end": 68,
+                "label": "effective_date"
+            },
+            {
+                "start": 90,
+                "end": 95,
+                "label": "contact_preference"
+            },
+            {
+                "start": 132,
+                "end": 135,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 165,
+                "end": 166,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 192,
+                "end": 198,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 226,
+                "end": 233,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 67,
+                "end": 68,
+                "label": "number_of_dependents"
+            }
+        ]
+    },
+    {
+        "content": "effective date: March 1st, 2023. personal information confirmation: Yes. number of dependents: one. estimated annual premium: $5,000. type of benefit: health insurance. benefit plan selection: Plan A. previous coverage duration: first. contact preference: Email.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 31,
+                "label": "effective_date"
+            },
+            {
+                "start": 68,
+                "end": 71,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 95,
+                "end": 98,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 126,
+                "end": 132,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 151,
+                "end": 167,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 193,
+                "end": 199,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 229,
+                "end": 234,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 256,
+                "end": 261,
+                "label": "contact_preference"
+            }
+        ]
+    },
+    {
+        "content": "type of benefit: health insurance. benefit plan selection: Plan A. previous coverage duration: The plan code is Plan A, and I have not. personal information confirmation: Yes. contact preference: social media. estimated annual premium: $3,500. effective date: March 1st, 2023. number of dependents: No, I do not need to add any dependents.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 33,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 59,
+                "end": 65,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 95,
+                "end": 134,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 171,
+                "end": 174,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 196,
+                "end": 208,
+                "label": "contact_preference"
+            },
+            {
+                "start": 236,
+                "end": 242,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 260,
+                "end": 275,
+                "label": "effective_date"
+            },
+            {
+                "start": 299,
+                "end": 338,
+                "label": "number_of_dependents"
+            }
+        ]
+    },
+    {
+        "content": "number of dependents: 2. benefit plan selection: Plan A. type of benefit: health insurance. personal information confirmation: Yes. estimated annual premium: $10,000. previous coverage duration: 5. contact preference: Phone. effective date: 2023-03-01.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 23,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 49,
+                "end": 55,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 74,
+                "end": 90,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 127,
+                "end": 130,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 158,
+                "end": 165,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 195,
+                "end": 196,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 218,
+                "end": 223,
+                "label": "contact_preference"
+            },
+            {
+                "start": 241,
+                "end": 251,
+                "label": "effective_date"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: No, I have not. effective date: March 1st, 2023. number of dependents: one. estimated annual premium: $12,000. personal information confirmation: yes. contact preference: phone. type of benefit: health insurance. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 42,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 60,
+                "end": 75,
+                "label": "effective_date"
+            },
+            {
+                "start": 99,
+                "end": 102,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 130,
+                "end": 137,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 174,
+                "end": 177,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 199,
+                "end": 204,
+                "label": "contact_preference"
+            },
+            {
+                "start": 223,
+                "end": 239,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 265,
+                "end": 271,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: 10. estimated annual premium: $5,000. type of benefit: health insurance. personal information confirmation: Yes. effective date: March 1st, 2023. number of dependents: 2. benefit plan selection: A. contact preference: email.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 30,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 58,
+                "end": 64,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 83,
+                "end": 99,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 136,
+                "end": 139,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 157,
+                "end": 172,
+                "label": "effective_date"
+            },
+            {
+                "start": 168,
+                "end": 169,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 223,
+                "end": 224,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 246,
+                "end": 251,
+                "label": "contact_preference"
+            }
+        ]
+    },
+    {
+        "content": "personal information confirmation: Yes. estimated annual premium: $10,000. number of dependents: two. previous coverage duration: 5. effective date: March 1st, 2023. contact preference: phone. type of benefit: health insurance. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 35,
+                "end": 38,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 66,
+                "end": 73,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 97,
+                "end": 100,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 130,
+                "end": 131,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 149,
+                "end": 164,
+                "label": "effective_date"
+            },
+            {
+                "start": 186,
+                "end": 191,
+                "label": "contact_preference"
+            },
+            {
+                "start": 210,
+                "end": 226,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 252,
+                "end": 258,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "effective date: 2023-03-01. contact preference: social media. type of benefit: health insurance. personal information confirmation: Yes. estimated annual premium: $85,000. number of dependents: I would not like to add any dependents to the plan. previous coverage duration: I have not previously had health coverage. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 26,
+                "label": "effective_date"
+            },
+            {
+                "start": 48,
+                "end": 60,
+                "label": "contact_preference"
+            },
+            {
+                "start": 79,
+                "end": 95,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 132,
+                "end": 135,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 163,
+                "end": 170,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 194,
+                "end": 244,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 274,
+                "end": 315,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 341,
+                "end": 347,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "personal information confirmation: Yes. estimated annual premium: $65,000. type of benefit: health insurance. previous coverage duration: 0. benefit plan selection: Plan A. effective date: March 1st, 2023. number of dependents: One. contact preference: Phone.",
+        "entities": [
+            {
+                "start": 35,
+                "end": 38,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 66,
+                "end": 73,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 92,
+                "end": 108,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 70,
+                "end": 71,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 165,
+                "end": 171,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 189,
+                "end": 204,
+                "label": "effective_date"
+            },
+            {
+                "start": 228,
+                "end": 231,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 253,
+                "end": 258,
+                "label": "contact_preference"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: 5 years. benefit plan selection: Plan A. estimated annual premium: $5,000. contact preference: Phone. effective date: March 1st, 2023. number of dependents: 2. personal information confirmation: yes. type of benefit: health insurance.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 35,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 61,
+                "end": 67,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 95,
+                "end": 101,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 123,
+                "end": 128,
+                "label": "contact_preference"
+            },
+            {
+                "start": 146,
+                "end": 161,
+                "label": "effective_date"
+            },
+            {
+                "start": 157,
+                "end": 158,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 223,
+                "end": 226,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 245,
+                "end": 261,
+                "label": "type_of_benefit"
+            }
+        ]
+    },
+    {
+        "content": "estimated annual premium: $5,000. number of dependents: No, I don't have any dependents to add. effective date: March 1st, 2023. contact preference: social media. personal information confirmation: Yes. type of benefit: health insurance. previous coverage duration: I have not. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 32,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 56,
+                "end": 94,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 112,
+                "end": 127,
+                "label": "effective_date"
+            },
+            {
+                "start": 149,
+                "end": 161,
+                "label": "contact_preference"
+            },
+            {
+                "start": 198,
+                "end": 201,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 220,
+                "end": 236,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 266,
+                "end": 276,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 302,
+                "end": 308,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "effective date: March 1st, 2023. estimated annual premium: $65,000. previous coverage duration: I have not been covered under a health plan for any years. contact preference: phone. number of dependents: one. type of benefit: health insurance. benefit plan selection: plan A. personal information confirmation: Yes.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 31,
+                "label": "effective_date"
+            },
+            {
+                "start": 59,
+                "end": 66,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 96,
+                "end": 153,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 175,
+                "end": 180,
+                "label": "contact_preference"
+            },
+            {
+                "start": 177,
+                "end": 180,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 226,
+                "end": 242,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 268,
+                "end": 274,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 311,
+                "end": 314,
+                "label": "personal_information_confirmation"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: I've never been covered before. personal information confirmation: Yes. type of benefit: health insurance. benefit plan selection: Plan A. number of dependents: Zero. estimated annual premium: $5,000. effective date: 2023-03-01. contact preference: social media.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 58,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 95,
+                "end": 98,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 117,
+                "end": 133,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 159,
+                "end": 165,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 189,
+                "end": 193,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 221,
+                "end": 227,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 245,
+                "end": 255,
+                "label": "effective_date"
+            },
+            {
+                "start": 277,
+                "end": 289,
+                "label": "contact_preference"
+            }
+        ]
+    },
+    {
+        "content": "effective date: March 1st, 2023. benefit plan selection: Plan A. contact preference: Phone. personal information confirmation: yes. type of benefit: health insurance. estimated annual premium: $5,000. previous coverage duration: I have not been covered under a health plan before. number of dependents: one.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 31,
+                "label": "effective_date"
+            },
+            {
+                "start": 57,
+                "end": 63,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 85,
+                "end": 90,
+                "label": "contact_preference"
+            },
+            {
+                "start": 127,
+                "end": 130,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 149,
+                "end": 165,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 193,
+                "end": 199,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 229,
+                "end": 279,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 87,
+                "end": 90,
+                "label": "number_of_dependents"
+            }
+        ]
+    },
+    {
+        "content": "personal information confirmation: Yes. estimated annual premium: $5,000. benefit plan selection: Plan A. type of benefit: health insurance. previous coverage duration: March 1st, 2023. effective date: March 1st, 2023. number of dependents: I do not need to add any dependents. contact preference: social media.",
+        "entities": [
+            {
+                "start": 35,
+                "end": 38,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 66,
+                "end": 72,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 98,
+                "end": 104,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 123,
+                "end": 139,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 169,
+                "end": 184,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 169,
+                "end": 184,
+                "label": "effective_date"
+            },
+            {
+                "start": 241,
+                "end": 276,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 298,
+                "end": 310,
+                "label": "contact_preference"
+            }
+        ]
+    },
+    {
+        "content": "contact preference: Email. effective date: 2023-03-01. estimated annual premium: $5000. type of benefit: health insurance. personal information confirmation: Yes. benefit plan selection: Plan A. number of dependents: 2. previous coverage duration: 5.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 25,
+                "label": "contact_preference"
+            },
+            {
+                "start": 43,
+                "end": 53,
+                "label": "effective_date"
+            },
+            {
+                "start": 81,
+                "end": 86,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 105,
+                "end": 121,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 158,
+                "end": 161,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 187,
+                "end": 193,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 43,
+                "end": 44,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 82,
+                "end": 83,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "estimated annual premium: $5,000. type of benefit: health insurance. contact preference: email. number of dependents: Just one. personal information confirmation: Yes. benefit plan selection: Plan A. effective date: 2023-03-01. previous coverage duration: Zero.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 32,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 51,
+                "end": 67,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 89,
+                "end": 94,
+                "label": "contact_preference"
+            },
+            {
+                "start": 118,
+                "end": 126,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 163,
+                "end": 166,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 192,
+                "end": 198,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 216,
+                "end": 226,
+                "label": "effective_date"
+            },
+            {
+                "start": 256,
+                "end": 260,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "benefit plan selection: Plan A. personal information confirmation: Yes. type of benefit: health insurance. effective date: 2023-03-01. estimated annual premium: $5,000. number of dependents: 2. previous coverage duration: 5. contact preference: Email.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 30,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 67,
+                "end": 70,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 89,
+                "end": 105,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 123,
+                "end": 133,
+                "label": "effective_date"
+            },
+            {
+                "start": 161,
+                "end": 167,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 123,
+                "end": 124,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 162,
+                "end": 163,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 245,
+                "end": 250,
+                "label": "contact_preference"
+            }
+        ]
+    },
+    {
+        "content": "estimated annual premium: $2000. previous coverage duration: I have not had any previous health insurance coverage. personal information confirmation: Yes. benefit plan selection: Plan A. effective date: March 1st, 2023. contact preference: social media. type of benefit: health insurance. number of dependents: I would not like to add any dependents to the plan.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 31,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 61,
+                "end": 114,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 151,
+                "end": 154,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 180,
+                "end": 186,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 204,
+                "end": 219,
+                "label": "effective_date"
+            },
+            {
+                "start": 241,
+                "end": 253,
+                "label": "contact_preference"
+            },
+            {
+                "start": 89,
+                "end": 105,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 312,
+                "end": 362,
+                "label": "number_of_dependents"
+            }
+        ]
+    },
+    {
+        "content": "type of benefit: health insurance. number of dependents: three. previous coverage duration: five. benefit plan selection: Plan A. contact preference: Email. estimated annual premium: $5,000. effective date: March 1st, 2023. personal information confirmation: yes.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 33,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 57,
+                "end": 62,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 92,
+                "end": 96,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 122,
+                "end": 128,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 150,
+                "end": 155,
+                "label": "contact_preference"
+            },
+            {
+                "start": 183,
+                "end": 189,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 207,
+                "end": 222,
+                "label": "effective_date"
+            },
+            {
+                "start": 259,
+                "end": 262,
+                "label": "personal_information_confirmation"
+            }
+        ]
+    },
+    {
+        "content": "estimated annual premium: five thousand dollars. type of benefit: health insurance. effective date: March 1st, 2023. number of dependents: three. contact preference: email. personal information confirmation: Yes. previous coverage duration: five. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 47,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 66,
+                "end": 82,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 100,
+                "end": 115,
+                "label": "effective_date"
+            },
+            {
+                "start": 139,
+                "end": 144,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 166,
+                "end": 171,
+                "label": "contact_preference"
+            },
+            {
+                "start": 208,
+                "end": 211,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 26,
+                "end": 30,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 271,
+                "end": 277,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "number of dependents: I don't have any dependents to add. estimated annual premium: $85,000. type of benefit: health insurance. previous coverage duration: I have not. effective date: 2023-03-01. personal information confirmation: Yes. contact preference: social media. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 56,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 84,
+                "end": 91,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 110,
+                "end": 126,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 156,
+                "end": 166,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 184,
+                "end": 194,
+                "label": "effective_date"
+            },
+            {
+                "start": 231,
+                "end": 234,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 256,
+                "end": 268,
+                "label": "contact_preference"
+            },
+            {
+                "start": 294,
+                "end": 300,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "contact preference: Social media. effective date: 2023-03-01. type of benefit: health insurance. number of dependents: I don't need to add any dependents. personal information confirmation: Yes. benefit plan selection: Plan A. previous coverage duration: The plan code is Plan A and I have not. estimated annual premium: $5000.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 32,
+                "label": "contact_preference"
+            },
+            {
+                "start": 50,
+                "end": 60,
+                "label": "effective_date"
+            },
+            {
+                "start": 79,
+                "end": 95,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 119,
+                "end": 153,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 190,
+                "end": 193,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 219,
+                "end": 225,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 255,
+                "end": 293,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 321,
+                "end": 326,
+                "label": "estimated_annual_premium"
+            }
+        ]
+    },
+    {
+        "content": "number of dependents: I would not like to add any dependents to my health plan. personal information confirmation: Yes. benefit plan selection: Plan A. estimated annual premium: $85,000. contact preference: social media. effective date: March 1st, 2023. type of benefit: health insurance. previous coverage duration: I have not been previously covered under a health plan for any years.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 78,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 115,
+                "end": 118,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 144,
+                "end": 150,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 178,
+                "end": 185,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 207,
+                "end": 219,
+                "label": "contact_preference"
+            },
+            {
+                "start": 237,
+                "end": 252,
+                "label": "effective_date"
+            },
+            {
+                "start": 271,
+                "end": 287,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 317,
+                "end": 385,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "number of dependents: 3. previous coverage duration: not been covered for any years previously. type of benefit: health insurance. contact preference: email. benefit plan selection: Plan A. effective date: 2023-01-01. estimated annual premium: $1000. personal information confirmation: yes.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 23,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 53,
+                "end": 94,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 113,
+                "end": 129,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 151,
+                "end": 156,
+                "label": "contact_preference"
+            },
+            {
+                "start": 182,
+                "end": 188,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 206,
+                "end": 216,
+                "label": "effective_date"
+            },
+            {
+                "start": 244,
+                "end": 249,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 286,
+                "end": 289,
+                "label": "personal_information_confirmation"
+            }
+        ]
+    },
+    {
+        "content": "personal information confirmation: Yes. number of dependents: start date. benefit plan selection: start date. effective date: January 1, 2023. type of benefit: health insurance. estimated annual premium: $10,000. contact preference: phone. previous coverage duration: I have not had any previous health insurance coverage.",
+        "entities": [
+            {
+                "start": 35,
+                "end": 38,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 62,
+                "end": 72,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 62,
+                "end": 72,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 126,
+                "end": 141,
+                "label": "effective_date"
+            },
+            {
+                "start": 160,
+                "end": 176,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 204,
+                "end": 211,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 233,
+                "end": 238,
+                "label": "contact_preference"
+            },
+            {
+                "start": 268,
+                "end": 321,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "benefit plan selection: Plan A. personal information confirmation: yes. estimated annual premium: $7000. number of dependents: two. contact preference: Email. effective date: March 1st, 2023. previous coverage duration: 5. type of benefit: Health insurance.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 30,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 67,
+                "end": 70,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 98,
+                "end": 103,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 127,
+                "end": 130,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 152,
+                "end": 157,
+                "label": "contact_preference"
+            },
+            {
+                "start": 175,
+                "end": 190,
+                "label": "effective_date"
+            },
+            {
+                "start": 220,
+                "end": 221,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 240,
+                "end": 256,
+                "label": "type_of_benefit"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: around 5. personal information confirmation: Yes. estimated annual premium: $15,000. number of dependents: two. effective date: March 1st, 2023. contact preference: Email. type of benefit: health insurance. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 36,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 73,
+                "end": 76,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 104,
+                "end": 111,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 135,
+                "end": 138,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 156,
+                "end": 171,
+                "label": "effective_date"
+            },
+            {
+                "start": 193,
+                "end": 198,
+                "label": "contact_preference"
+            },
+            {
+                "start": 217,
+                "end": 233,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 259,
+                "end": 265,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: 5. contact preference: phone. benefit plan selection: Plan A. type of benefit: health insurance. estimated annual premium: $10,000. effective date: 2023-03-01. personal information confirmation: Yes. number of dependents: 2.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 29,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 51,
+                "end": 56,
+                "label": "contact_preference"
+            },
+            {
+                "start": 82,
+                "end": 88,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 107,
+                "end": 123,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 151,
+                "end": 158,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 176,
+                "end": 186,
+                "label": "effective_date"
+            },
+            {
+                "start": 223,
+                "end": 226,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 176,
+                "end": 177,
+                "label": "number_of_dependents"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: I have not had health insurance coverage for any years before. number of dependents: one. type of benefit: health insurance. estimated annual premium: $65,000. personal information confirmation: Yes. effective date: 2023-03-01. contact preference: phone. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 89,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 113,
+                "end": 116,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 43,
+                "end": 59,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 179,
+                "end": 186,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 223,
+                "end": 226,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 244,
+                "end": 254,
+                "label": "effective_date"
+            },
+            {
+                "start": 276,
+                "end": 281,
+                "label": "contact_preference"
+            },
+            {
+                "start": 307,
+                "end": 313,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "type of benefit: health insurance. personal information confirmation: Yes. estimated annual premium: $1000. benefit plan selection: Plan A. number of dependents: I don't need to add any dependents. previous coverage duration: zero. contact preference: Social media. effective date: March 1st, 2023.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 33,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 70,
+                "end": 73,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 101,
+                "end": 106,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 132,
+                "end": 138,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 162,
+                "end": 196,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 226,
+                "end": 230,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 252,
+                "end": 264,
+                "label": "contact_preference"
+            },
+            {
+                "start": 282,
+                "end": 297,
+                "label": "effective_date"
+            }
+        ]
+    },
+    {
+        "content": "personal information confirmation: Yes. type of benefit: health insurance. contact preference: Email. benefit plan selection: plan A. number of dependents: one. estimated annual premium: $5000. effective date: March 1st, 2023. previous coverage duration: This will actually be the first year I've had health insurance coverage.",
+        "entities": [
+            {
+                "start": 35,
+                "end": 38,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 57,
+                "end": 73,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 95,
+                "end": 100,
+                "label": "contact_preference"
+            },
+            {
+                "start": 126,
+                "end": 132,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 156,
+                "end": 159,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 187,
+                "end": 192,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 210,
+                "end": 225,
+                "label": "effective_date"
+            },
+            {
+                "start": 255,
+                "end": 326,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "contact preference: call. effective date: March 1st, 2023. personal information confirmation: Yes. previous coverage duration: I have not been covered for any years previously. number of dependents: one. benefit plan selection: Plan A. type of benefit: health insurance. estimated annual premium: $5,000.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 24,
+                "label": "contact_preference"
+            },
+            {
+                "start": 42,
+                "end": 57,
+                "label": "effective_date"
+            },
+            {
+                "start": 94,
+                "end": 97,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 127,
+                "end": 175,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 199,
+                "end": 202,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 228,
+                "end": 234,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 253,
+                "end": 269,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 297,
+                "end": 303,
+                "label": "estimated_annual_premium"
+            }
+        ]
+    },
+    {
+        "content": "benefit plan selection: Plan A. personal information confirmation: yes you have my updated personal info. type of benefit: health insurance. contact preference: email. number of dependents: 3. previous coverage duration: 10. effective date: March 1st, 2023. estimated annual premium: $15,000.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 30,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 67,
+                "end": 104,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 123,
+                "end": 139,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 161,
+                "end": 166,
+                "label": "contact_preference"
+            },
+            {
+                "start": 190,
+                "end": 191,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 221,
+                "end": 223,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 241,
+                "end": 256,
+                "label": "effective_date"
+            },
+            {
+                "start": 284,
+                "end": 291,
+                "label": "estimated_annual_premium"
+            }
+        ]
+    },
+    {
+        "content": "effective date: March 1st, 2023. type of benefit: health insurance. contact preference: phone. number of dependents: one. estimated annual premium: $5,000. personal information confirmation: Yes. previous coverage duration: 5. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 31,
+                "label": "effective_date"
+            },
+            {
+                "start": 50,
+                "end": 66,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 88,
+                "end": 93,
+                "label": "contact_preference"
+            },
+            {
+                "start": 90,
+                "end": 93,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 148,
+                "end": 154,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 191,
+                "end": 194,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 149,
+                "end": 150,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 251,
+                "end": 257,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "effective date: January 1st, 2023. contact preference: Email. benefit plan selection: Plan A. estimated annual premium: $1000. number of dependents: 3. previous coverage duration: 3. type of benefit: health insurance. personal information confirmation: yes.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 33,
+                "label": "effective_date"
+            },
+            {
+                "start": 55,
+                "end": 60,
+                "label": "contact_preference"
+            },
+            {
+                "start": 86,
+                "end": 92,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 120,
+                "end": 125,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 32,
+                "end": 33,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 32,
+                "end": 33,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 200,
+                "end": 216,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 253,
+                "end": 256,
+                "label": "personal_information_confirmation"
+            }
+        ]
+    },
+    {
+        "content": "number of dependents: one. effective date: 2023-03-01. previous coverage duration: 2023-03-01. benefit plan selection: Plan A. estimated annual premium: sixty-five thousand dollars. type of benefit: health insurance. contact preference: phone. personal information confirmation: Yes.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 25,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 43,
+                "end": 53,
+                "label": "effective_date"
+            },
+            {
+                "start": 43,
+                "end": 53,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 119,
+                "end": 125,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 153,
+                "end": 180,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 199,
+                "end": 215,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 237,
+                "end": 242,
+                "label": "contact_preference"
+            },
+            {
+                "start": 279,
+                "end": 282,
+                "label": "personal_information_confirmation"
+            }
+        ]
+    },
+    {
+        "content": "benefit plan selection: Plan A. number of dependents: one. contact preference: email. type of benefit: health insurance. estimated annual premium: $5000. effective date: March 1st, 2023. personal information confirmation: Yes. previous coverage duration: This would be my first.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 30,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 54,
+                "end": 57,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 79,
+                "end": 84,
+                "label": "contact_preference"
+            },
+            {
+                "start": 103,
+                "end": 119,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 147,
+                "end": 152,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 170,
+                "end": 185,
+                "label": "effective_date"
+            },
+            {
+                "start": 222,
+                "end": 225,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 255,
+                "end": 277,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "benefit plan selection: Plan A. personal information confirmation: Yes. previous coverage duration: 5. contact preference: email. number of dependents: 2. type of benefit: health insurance. estimated annual premium: $5000. effective date: March 1st, 2023.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 30,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 67,
+                "end": 70,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 100,
+                "end": 101,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 123,
+                "end": 128,
+                "label": "contact_preference"
+            },
+            {
+                "start": 152,
+                "end": 153,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 172,
+                "end": 188,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 216,
+                "end": 221,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 239,
+                "end": 254,
+                "label": "effective_date"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: I have not been covered under a health plan before. effective date: March 1st, 2023. personal information confirmation: Yes. estimated annual premium: $5,000. contact preference: phone. number of dependents: one. benefit plan selection: A. type of benefit: health insurance.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 78,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 96,
+                "end": 111,
+                "label": "effective_date"
+            },
+            {
+                "start": 148,
+                "end": 151,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 179,
+                "end": 185,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 207,
+                "end": 212,
+                "label": "contact_preference"
+            },
+            {
+                "start": 209,
+                "end": 212,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 265,
+                "end": 266,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 285,
+                "end": 301,
+                "label": "type_of_benefit"
+            }
+        ]
+    },
+    {
+        "content": "previous coverage duration: 5. effective date: March 1st, 2023. contact preference: email. type of benefit: health insurance. estimated annual premium: $7,000. number of dependents: two. personal information confirmation: Yes. benefit plan selection: Plan A.",
+        "entities": [
+            {
+                "start": 28,
+                "end": 29,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 47,
+                "end": 62,
+                "label": "effective_date"
+            },
+            {
+                "start": 84,
+                "end": 89,
+                "label": "contact_preference"
+            },
+            {
+                "start": 108,
+                "end": 124,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 152,
+                "end": 158,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 182,
+                "end": 185,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 222,
+                "end": 225,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 251,
+                "end": 257,
+                "label": "benefit_plan_selection"
+            }
+        ]
+    },
+    {
+        "content": "estimated annual premium: $85,000. previous coverage duration: first time with health coverage. contact preference: social media. type of benefit: health insurance. effective date: March 1st, 2023. number of dependents: March 1st, 2023 and I won't be adding any dependents. benefit plan selection: Plan A. personal information confirmation: yes.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 33,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 63,
+                "end": 94,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 116,
+                "end": 128,
+                "label": "contact_preference"
+            },
+            {
+                "start": 147,
+                "end": 163,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 181,
+                "end": 196,
+                "label": "effective_date"
+            },
+            {
+                "start": 220,
+                "end": 272,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 298,
+                "end": 304,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 341,
+                "end": 344,
+                "label": "personal_information_confirmation"
+            }
+        ]
+    },
+    {
+        "content": "number of dependents: 1. contact preference: email. previous coverage duration: 0. personal information confirmation: Yes. benefit plan selection: Plan A. effective date: March 1st, 2023. type of benefit: Health Insurance. estimated annual premium: $5,000.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 23,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 45,
+                "end": 50,
+                "label": "contact_preference"
+            },
+            {
+                "start": 80,
+                "end": 81,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 118,
+                "end": 121,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 147,
+                "end": 153,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 171,
+                "end": 186,
+                "label": "effective_date"
+            },
+            {
+                "start": 205,
+                "end": 221,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 249,
+                "end": 255,
+                "label": "estimated_annual_premium"
+            }
+        ]
+    },
+    {
+        "content": "estimated annual premium: $5,000. type of benefit: health insurance. benefit plan selection: Plan A. personal information confirmation: yes. effective date: March 15th, 2023. number of dependents: two. contact preference: email. previous coverage duration: five.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 32,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 51,
+                "end": 67,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 93,
+                "end": 99,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 136,
+                "end": 139,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 157,
+                "end": 173,
+                "label": "effective_date"
+            },
+            {
+                "start": 197,
+                "end": 200,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 222,
+                "end": 227,
+                "label": "contact_preference"
+            },
+            {
+                "start": 257,
+                "end": 261,
+                "label": "previous_coverage_duration"
+            }
+        ]
+    },
+    {
+        "content": "contact preference: email. effective date: 2023-03-01. type of benefit: health insurance. benefit plan selection: Plan A. number of dependents: three. previous coverage duration: 10. personal information confirmation: Yes. estimated annual premium: $5000.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 25,
+                "label": "contact_preference"
+            },
+            {
+                "start": 43,
+                "end": 53,
+                "label": "effective_date"
+            },
+            {
+                "start": 72,
+                "end": 88,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 114,
+                "end": 120,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 144,
+                "end": 149,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 179,
+                "end": 181,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 218,
+                "end": 221,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 249,
+                "end": 254,
+                "label": "estimated_annual_premium"
+            }
+        ]
+    },
+    {
+        "content": "estimated annual premium: $9500. number of dependents: two. effective date: 2023-03-01. contact preference: phone. personal information confirmation: Yes. previous coverage duration: Yes, you have my updated information. benefit plan selection: Plan A. type of benefit: health insurance.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 31,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 55,
+                "end": 58,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 76,
+                "end": 86,
+                "label": "effective_date"
+            },
+            {
+                "start": 108,
+                "end": 113,
+                "label": "contact_preference"
+            },
+            {
+                "start": 150,
+                "end": 153,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 183,
+                "end": 219,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 245,
+                "end": 251,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 270,
+                "end": 286,
+                "label": "type_of_benefit"
+            }
+        ]
+    },
+    {
+        "content": "personal information confirmation: Yes. effective date: March 1st, 2023. benefit plan selection: Plan A. previous coverage duration: 0. number of dependents: 1. contact preference: phone. estimated annual premium: $5000. type of benefit: health insurance.",
+        "entities": [
+            {
+                "start": 35,
+                "end": 38,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 56,
+                "end": 71,
+                "label": "effective_date"
+            },
+            {
+                "start": 97,
+                "end": 103,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 68,
+                "end": 69,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 62,
+                "end": 63,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 181,
+                "end": 186,
+                "label": "contact_preference"
+            },
+            {
+                "start": 214,
+                "end": 219,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 238,
+                "end": 254,
+                "label": "type_of_benefit"
+            }
+        ]
+    },
+    {
+        "content": "number of dependents: one. estimated annual premium: twelve thousand dollars. personal information confirmation: Yes. effective date: March 1st, 2023. type of benefit: health insurance. benefit plan selection: Plan A. previous coverage duration: 0. contact preference: Phone.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 25,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 53,
+                "end": 76,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 113,
+                "end": 116,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 134,
+                "end": 149,
+                "label": "effective_date"
+            },
+            {
+                "start": 168,
+                "end": 184,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 210,
+                "end": 216,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 146,
+                "end": 147,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 269,
+                "end": 274,
+                "label": "contact_preference"
+            }
+        ]
+    },
+    {
+        "content": "benefit plan selection: Plan A. effective date: 2023-03-01. type of benefit: health insurance. previous coverage duration: 0. personal information confirmation: Yes. number of dependents: 1. estimated annual premium: $5000. contact preference: email.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 30,
+                "label": "benefit_plan_selection"
+            },
+            {
+                "start": 48,
+                "end": 58,
+                "label": "effective_date"
+            },
+            {
+                "start": 77,
+                "end": 93,
+                "label": "type_of_benefit"
+            },
+            {
+                "start": 49,
+                "end": 50,
+                "label": "previous_coverage_duration"
+            },
+            {
+                "start": 161,
+                "end": 164,
+                "label": "personal_information_confirmation"
+            },
+            {
+                "start": 57,
+                "end": 58,
+                "label": "number_of_dependents"
+            },
+            {
+                "start": 217,
+                "end": 222,
+                "label": "estimated_annual_premium"
+            },
+            {
+                "start": 244,
+                "end": 249,
+                "label": "contact_preference"
+            }
+        ]
+    }
+]

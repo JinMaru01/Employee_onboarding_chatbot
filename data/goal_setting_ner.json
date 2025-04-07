@@ -1,0 +1,2732 @@
+[
+    {
+        "content": "desired completion date: December 31st, 2040. progress tracking method: review my account balances. measurable criteria: Reaching my target savings amount. personal motivation: I want to have a comfortable retirement. goal description: save enough money for a comfortable retirement. goal category: financial. required resources: income. accountability strategy: I'll review my progress with my spouse every few months. review intervals: Every three months. goal importance: ensure my financial security in retirement. action plan: automatically save a portion of each paycheck, and limit unnecessary spending. potential obstacles: Potential market downturns or overspending.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 44,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 72,
+                "end": 98,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 121,
+                "end": 154,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 177,
+                "end": 216,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 236,
+                "end": 282,
+                "label": "goal_description"
+            },
+            {
+                "start": 299,
+                "end": 308,
+                "label": "goal_category"
+            },
+            {
+                "start": 330,
+                "end": 336,
+                "label": "required_resources"
+            },
+            {
+                "start": 363,
+                "end": 418,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 438,
+                "end": 456,
+                "label": "review_intervals"
+            },
+            {
+                "start": 475,
+                "end": 517,
+                "label": "goal_importance"
+            },
+            {
+                "start": 532,
+                "end": 609,
+                "label": "action_plan"
+            },
+            {
+                "start": 632,
+                "end": 674,
+                "label": "potential_obstacles"
+            }
+        ]
+    },
+    {
+        "content": "goal category: financial. desired completion date: by the end of 2040. review intervals: quarterly. required resources: Income, investments, and saving up the target amount. measurable criteria: Reaching the saved target amount. goal description: save money for retirement. personal motivation: I want to retire comfortably and have financial security. goal importance: financial security for the future. potential obstacles: A market downturn or overspending. accountability strategy: have a financial advisor. action plan: automate my savings, limit discretionary spending, and regularly review my account balances. progress tracking method: automate my savings, limit discretionary spending, and regularly review my account balances.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 24,
+                "label": "goal_category"
+            },
+            {
+                "start": 51,
+                "end": 69,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 89,
+                "end": 98,
+                "label": "review_intervals"
+            },
+            {
+                "start": 120,
+                "end": 172,
+                "label": "required_resources"
+            },
+            {
+                "start": 195,
+                "end": 227,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 247,
+                "end": 272,
+                "label": "goal_description"
+            },
+            {
+                "start": 295,
+                "end": 351,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 370,
+                "end": 403,
+                "label": "goal_importance"
+            },
+            {
+                "start": 426,
+                "end": 459,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 486,
+                "end": 510,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 525,
+                "end": 616,
+                "label": "action_plan"
+            },
+            {
+                "start": 525,
+                "end": 616,
+                "label": "progress_tracking_method"
+            }
+        ]
+    },
+    {
+        "content": "potential obstacles: Market crashes. goal category: financial. desired completion date: December 31st, 2040. personal motivation: I want to feel comfortable and secure in my retirement years. review intervals: monthly. required resources: steady income and successful investments. accountability strategy: My spouse and I will review my progress together regularly. goal description: to save enough money to retire securely. goal importance: Achieving financial security in my later years is very important to me. action plan: I will save and invest a portion of my income each month. measurable criteria: when I have accumulated the desired savings amount. progress tracking method: check my investment and savings accounts on a monthly basis.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 35,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 52,
+                "end": 61,
+                "label": "goal_category"
+            },
+            {
+                "start": 88,
+                "end": 107,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 130,
+                "end": 190,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 210,
+                "end": 217,
+                "label": "review_intervals"
+            },
+            {
+                "start": 239,
+                "end": 279,
+                "label": "required_resources"
+            },
+            {
+                "start": 306,
+                "end": 364,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 384,
+                "end": 423,
+                "label": "goal_description"
+            },
+            {
+                "start": 442,
+                "end": 512,
+                "label": "goal_importance"
+            },
+            {
+                "start": 527,
+                "end": 583,
+                "label": "action_plan"
+            },
+            {
+                "start": 606,
+                "end": 656,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 684,
+                "end": 743,
+                "label": "progress_tracking_method"
+            }
+        ]
+    },
+    {
+        "content": "required resources: time in the studio and to work with some musicians. measurable criteria: If I can release an album. personal motivation: I really love making music. action plan: First I'll write some songs. accountability strategy: I'll set deadlines. review intervals: once a month. potential obstacles: Finding funding could also be difficult. desired completion date: December 31st, 2023. goal category: professional. goal importance: advancing my career as a musician. goal description: to release a new album. progress tracking method: by tracking how many songs I've written, recorded, and ultimately released.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 70,
+                "label": "required_resources"
+            },
+            {
+                "start": 93,
+                "end": 118,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 141,
+                "end": 167,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 182,
+                "end": 209,
+                "label": "action_plan"
+            },
+            {
+                "start": 236,
+                "end": 254,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 274,
+                "end": 286,
+                "label": "review_intervals"
+            },
+            {
+                "start": 309,
+                "end": 348,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 375,
+                "end": 394,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 411,
+                "end": 423,
+                "label": "goal_category"
+            },
+            {
+                "start": 442,
+                "end": 475,
+                "label": "goal_importance"
+            },
+            {
+                "start": 495,
+                "end": 517,
+                "label": "goal_description"
+            },
+            {
+                "start": 545,
+                "end": 619,
+                "label": "progress_tracking_method"
+            }
+        ]
+    },
+    {
+        "content": "personal motivation: my love for creating and sharing music. action plan: write some new songs, record them in the studio. goal description: to release a new album by the end of the year. accountability strategy: I'll stay committed to my fans by providing regular updates on my progress. progress tracking method: by counting the number of songs written, recorded, and released. measurable criteria: Finishing and distributing the full album by December. required resources: time in the studio, support from other musicians, and funding to cover costs. potential obstacles: writer's block or not having enough money. review intervals: monthly. goal importance: Releasing this album is important for advancing my music career. goal category: professional. desired completion date: December 31st, 2023.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 59,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 74,
+                "end": 121,
+                "label": "action_plan"
+            },
+            {
+                "start": 141,
+                "end": 186,
+                "label": "goal_description"
+            },
+            {
+                "start": 213,
+                "end": 287,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 315,
+                "end": 378,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 401,
+                "end": 454,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 476,
+                "end": 552,
+                "label": "required_resources"
+            },
+            {
+                "start": 575,
+                "end": 616,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 636,
+                "end": 643,
+                "label": "review_intervals"
+            },
+            {
+                "start": 662,
+                "end": 725,
+                "label": "goal_importance"
+            },
+            {
+                "start": 742,
+                "end": 754,
+                "label": "goal_category"
+            },
+            {
+                "start": 781,
+                "end": 800,
+                "label": "desired_completion_date"
+            }
+        ]
+    },
+    {
+        "content": "action plan: create, post and promote my artwork. personal motivation: Finding creative fulfillment. goal category: professional. required resources: skills and an online platform to display and sell it. potential obstacles: Low demand for my art and competition from other artists. goal importance: Increasing my income and audience. goal description: Increasing my income. review intervals: weekly. desired completion date: December 31st, 2023. accountability strategy: goal tracking app. progress tracking method: check my sales reports and analytics. measurable criteria: if my artwork sales amounts are increasing over time.",
+        "entities": [
+            {
+                "start": 13,
+                "end": 48,
+                "label": "action_plan"
+            },
+            {
+                "start": 71,
+                "end": 99,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 116,
+                "end": 128,
+                "label": "goal_category"
+            },
+            {
+                "start": 150,
+                "end": 202,
+                "label": "required_resources"
+            },
+            {
+                "start": 225,
+                "end": 281,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 300,
+                "end": 333,
+                "label": "goal_importance"
+            },
+            {
+                "start": 300,
+                "end": 320,
+                "label": "goal_description"
+            },
+            {
+                "start": 393,
+                "end": 399,
+                "label": "review_intervals"
+            },
+            {
+                "start": 426,
+                "end": 445,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 472,
+                "end": 489,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 517,
+                "end": 553,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 576,
+                "end": 628,
+                "label": "measurable_criteria"
+            }
+        ]
+    },
+    {
+        "content": "measurable criteria: tracking how much I'm able to save each month. accountability strategy: tracking how much I'm able to save each month. potential obstacles: financially independent. personal motivation: Being able to retire comfortably and financially independent. goal description: to save enough money to retire securely. review intervals: yearly. progress tracking method: review my retirement accounts annually. desired completion date: 2040-12-31. required resources: My income and potential investment returns. goal importance: it will allow me to be financially secure in retirement. goal category: financial. action plan: to save and invest a set amount each month towards my retirement goal.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 66,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 21,
+                "end": 66,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 161,
+                "end": 184,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 207,
+                "end": 267,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 287,
+                "end": 326,
+                "label": "goal_description"
+            },
+            {
+                "start": 346,
+                "end": 352,
+                "label": "review_intervals"
+            },
+            {
+                "start": 380,
+                "end": 418,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 445,
+                "end": 455,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 477,
+                "end": 519,
+                "label": "required_resources"
+            },
+            {
+                "start": 538,
+                "end": 593,
+                "label": "goal_importance"
+            },
+            {
+                "start": 161,
+                "end": 170,
+                "label": "goal_category"
+            },
+            {
+                "start": 634,
+                "end": 703,
+                "label": "action_plan"
+            }
+        ]
+    },
+    {
+        "content": "measurable criteria: a certain amount of money saved. goal category: financial. goal importance: I plan to review my progress yearly to see how I'm doing. review intervals: yearly. personal motivation: Having a comfortable retirement. required resources: income and investments. progress tracking method: review my retirement accounts annually. accountability strategy: self-evaluate yearly and make adjustments if needed. potential obstacles: Market fluctuations. action plan: I will contribute regularly to my savings and investment accounts. desired completion date: December 31st, 2040. goal description: By December 31st, 2040.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 52,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 69,
+                "end": 78,
+                "label": "goal_category"
+            },
+            {
+                "start": 97,
+                "end": 153,
+                "label": "goal_importance"
+            },
+            {
+                "start": 126,
+                "end": 132,
+                "label": "review_intervals"
+            },
+            {
+                "start": 202,
+                "end": 233,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 255,
+                "end": 277,
+                "label": "required_resources"
+            },
+            {
+                "start": 305,
+                "end": 343,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 370,
+                "end": 421,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 444,
+                "end": 463,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 478,
+                "end": 543,
+                "label": "action_plan"
+            },
+            {
+                "start": 570,
+                "end": 589,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 609,
+                "end": 631,
+                "label": "goal_description"
+            }
+        ]
+    },
+    {
+        "content": "action plan: work hard, network with others in my field, and continuously learn new skills. goal category: advancing my career professionally. review intervals: every three months. potential obstacles: office politics or unsupportive management. desired completion date: December 31st, 2023. goal description: a promotion. measurable criteria: If I receive a promotion. progress tracking method: get feedback from my boss. accountability strategy: regularly self-reflect on my progress and get support from colleagues. goal importance: Career growth is important for my professional development. personal motivation: the potential for more money and increased status. required resources: luck.",
+        "entities": [
+            {
+                "start": 13,
+                "end": 90,
+                "label": "action_plan"
+            },
+            {
+                "start": 107,
+                "end": 141,
+                "label": "goal_category"
+            },
+            {
+                "start": 161,
+                "end": 179,
+                "label": "review_intervals"
+            },
+            {
+                "start": 202,
+                "end": 244,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 271,
+                "end": 290,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 310,
+                "end": 321,
+                "label": "goal_description"
+            },
+            {
+                "start": 344,
+                "end": 368,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 396,
+                "end": 421,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 448,
+                "end": 517,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 536,
+                "end": 594,
+                "label": "goal_importance"
+            },
+            {
+                "start": 617,
+                "end": 666,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 688,
+                "end": 692,
+                "label": "required_resources"
+            }
+        ]
+    },
+    {
+        "content": "personal motivation: love of music and songwriting. progress tracking method: the number of songs I write each month. goal importance: advancing my career as a musician. desired completion date: December 31st, 2023. goal description: My goal is to have my debut album completed and officially released by then. action plan: I will write songs, record them in the studio, and work. accountability strategy: set smaller deadlines. required resources: time to write and record. review intervals: monthly. measurable criteria: once my album has been officially released. goal category: professional. potential obstacles: experiencing writer's block, or not having enough funding.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 50,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 78,
+                "end": 116,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 135,
+                "end": 168,
+                "label": "goal_importance"
+            },
+            {
+                "start": 195,
+                "end": 214,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 234,
+                "end": 309,
+                "label": "goal_description"
+            },
+            {
+                "start": 324,
+                "end": 379,
+                "label": "action_plan"
+            },
+            {
+                "start": 406,
+                "end": 427,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 449,
+                "end": 473,
+                "label": "required_resources"
+            },
+            {
+                "start": 493,
+                "end": 500,
+                "label": "review_intervals"
+            },
+            {
+                "start": 523,
+                "end": 565,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 582,
+                "end": 594,
+                "label": "goal_category"
+            },
+            {
+                "start": 617,
+                "end": 674,
+                "label": "potential_obstacles"
+            }
+        ]
+    },
+    {
+        "content": "review intervals: Every 3 months. accountability strategy: having a financial advisor. required resources: financial advisor oversee things and making sure I have enough income and investments. goal importance: I want to make sure I'm prepared for retirement. goal description: I want to make sure I'm prepared for retirement. desired completion date: December 31st, 2040. action plan: set up automatic savings each month and invest my money carefully over the long term. potential obstacles: The stock market going down. goal category: financial. personal motivation: Seeing my retirement account balance grow. measurable criteria: Reaching my target savings amount. progress tracking method: review my account balances on a regular basis.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 32,
+                "label": "review_intervals"
+            },
+            {
+                "start": 59,
+                "end": 85,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 107,
+                "end": 192,
+                "label": "required_resources"
+            },
+            {
+                "start": 211,
+                "end": 258,
+                "label": "goal_importance"
+            },
+            {
+                "start": 211,
+                "end": 258,
+                "label": "goal_description"
+            },
+            {
+                "start": 352,
+                "end": 371,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 386,
+                "end": 470,
+                "label": "action_plan"
+            },
+            {
+                "start": 493,
+                "end": 520,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 68,
+                "end": 77,
+                "label": "goal_category"
+            },
+            {
+                "start": 569,
+                "end": 610,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 633,
+                "end": 666,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 694,
+                "end": 739,
+                "label": "progress_tracking_method"
+            }
+        ]
+    },
+    {
+        "content": "review intervals: monthly. progress tracking method: I can look at my sales records and social media metrics. required resources: time each day to paint and supplies like paints. goal description: sell more of my paintings this year. accountability strategy: set monthly sales targets. personal motivation: monthly sales targets. action plan: I will paint every day, market my work online. measurable criteria: sales target. goal importance: to expand my art career. desired completion date: December 31st, 2023. potential obstacles: inspiration. goal category: professional.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 25,
+                "label": "review_intervals"
+            },
+            {
+                "start": 53,
+                "end": 108,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 130,
+                "end": 177,
+                "label": "required_resources"
+            },
+            {
+                "start": 197,
+                "end": 232,
+                "label": "goal_description"
+            },
+            {
+                "start": 259,
+                "end": 284,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 263,
+                "end": 284,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 343,
+                "end": 388,
+                "label": "action_plan"
+            },
+            {
+                "start": 271,
+                "end": 283,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 442,
+                "end": 465,
+                "label": "goal_importance"
+            },
+            {
+                "start": 492,
+                "end": 511,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 534,
+                "end": 545,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 562,
+                "end": 574,
+                "label": "goal_category"
+            }
+        ]
+    },
+    {
+        "content": "action plan: save a portion of my income each month. progress tracking method: with my spouse. accountability strategy: I will check my account balance regularly and review my progress with my spouse. desired completion date: December 31st, 2040. measurable criteria: a specific amount of money. review intervals: yearly. goal description: a comfortable retirement. goal importance: Securing my future with a comfortable retirement. personal motivation: having a comfortable retirement. potential obstacles: Market downturns. goal category: financial. required resources: income and investing.",
+        "entities": [
+            {
+                "start": 13,
+                "end": 51,
+                "label": "action_plan"
+            },
+            {
+                "start": 79,
+                "end": 93,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 120,
+                "end": 199,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 226,
+                "end": 245,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 268,
+                "end": 294,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 314,
+                "end": 320,
+                "label": "review_intervals"
+            },
+            {
+                "start": 340,
+                "end": 364,
+                "label": "goal_description"
+            },
+            {
+                "start": 383,
+                "end": 431,
+                "label": "goal_importance"
+            },
+            {
+                "start": 454,
+                "end": 485,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 508,
+                "end": 524,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 541,
+                "end": 550,
+                "label": "goal_category"
+            },
+            {
+                "start": 572,
+                "end": 592,
+                "label": "required_resources"
+            }
+        ]
+    },
+    {
+        "content": "measurable criteria: The number of research papers I'm able to publish. goal category: professional. action plan: conduct experiments, analyze the resulting data, and write up papers reporting my findings. potential obstacles: Lack of necessary resources. goal description: increasing my publications. progress tracking method: I'll count the number of publications on my record each year. personal motivation: My intellectual curiosity. review intervals: yearly. required resources: time and funding. desired completion date: December 31st, 2025. goal importance: Personal growth. accountability strategy: self-discipline and effective time management.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 70,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 87,
+                "end": 99,
+                "label": "goal_category"
+            },
+            {
+                "start": 114,
+                "end": 204,
+                "label": "action_plan"
+            },
+            {
+                "start": 227,
+                "end": 254,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 274,
+                "end": 300,
+                "label": "goal_description"
+            },
+            {
+                "start": 328,
+                "end": 388,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 411,
+                "end": 436,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 456,
+                "end": 462,
+                "label": "review_intervals"
+            },
+            {
+                "start": 484,
+                "end": 500,
+                "label": "required_resources"
+            },
+            {
+                "start": 527,
+                "end": 546,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 565,
+                "end": 580,
+                "label": "goal_importance"
+            },
+            {
+                "start": 607,
+                "end": 652,
+                "label": "accountability_strategy"
+            }
+        ]
+    },
+    {
+        "content": "review intervals: weekly. goal category: This goal is related to my career as a musician. goal importance: for my career. accountability strategy: I'm committed to the band and our producer. goal description: to release a new album. measurable criteria: once the album is officially released. personal motivation: I love making music. required resources: time in the studio. action plan: my plan is to write songs, record them in the studio. desired completion date: December 31st, 2023. progress tracking method: I'll count the number of songs written and keep a recording schedule. potential obstacles: experiencing writer's block, or not having enough funding.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 24,
+                "label": "review_intervals"
+            },
+            {
+                "start": 41,
+                "end": 88,
+                "label": "goal_category"
+            },
+            {
+                "start": 107,
+                "end": 120,
+                "label": "goal_importance"
+            },
+            {
+                "start": 147,
+                "end": 189,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 209,
+                "end": 231,
+                "label": "goal_description"
+            },
+            {
+                "start": 254,
+                "end": 291,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 314,
+                "end": 333,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 355,
+                "end": 373,
+                "label": "required_resources"
+            },
+            {
+                "start": 388,
+                "end": 440,
+                "label": "action_plan"
+            },
+            {
+                "start": 467,
+                "end": 486,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 514,
+                "end": 582,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 605,
+                "end": 662,
+                "label": "potential_obstacles"
+            }
+        ]
+    },
+    {
+        "content": "personal motivation: so that I'm financially secure when I get older. goal description: save enough money for retirement. goal category: financial. goal importance: saved the target amount I've set. measurable criteria: when I've saved the target amount I've set. accountability strategy: check in with my spouse. review intervals: quarterly. potential obstacles: Market downturns or overspending. desired completion date: December 31st, 2040. action plan: I will automate my deposits and regularly review my investment accounts to track my progress. required resources: my income and access to my investment accounts. progress tracking method: check my account balances.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 68,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 88,
+                "end": 120,
+                "label": "goal_description"
+            },
+            {
+                "start": 33,
+                "end": 42,
+                "label": "goal_category"
+            },
+            {
+                "start": 165,
+                "end": 197,
+                "label": "goal_importance"
+            },
+            {
+                "start": 220,
+                "end": 262,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 289,
+                "end": 312,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 332,
+                "end": 341,
+                "label": "review_intervals"
+            },
+            {
+                "start": 364,
+                "end": 396,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 423,
+                "end": 442,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 457,
+                "end": 549,
+                "label": "action_plan"
+            },
+            {
+                "start": 571,
+                "end": 617,
+                "label": "required_resources"
+            },
+            {
+                "start": 645,
+                "end": 670,
+                "label": "progress_tracking_method"
+            }
+        ]
+    },
+    {
+        "content": "goal category: finances. goal importance: Securing my future finances with a comfortable retirement. personal motivation: Feeling comfortable in retirement. desired completion date: December 31st, 2040. goal description: $500,000 for retirement. progress tracking method: review my investment and savings accounts annually. action plan: save 20% of my income each year and invest it wisely in the market. measurable criteria: once I have saved $500,000. review intervals: yearly basis. accountability strategy: My spouse. required resources: steady income. potential obstacles: Potential market crashes or periods of overspending.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 23,
+                "label": "goal_category"
+            },
+            {
+                "start": 42,
+                "end": 99,
+                "label": "goal_importance"
+            },
+            {
+                "start": 122,
+                "end": 155,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 182,
+                "end": 201,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 221,
+                "end": 244,
+                "label": "goal_description"
+            },
+            {
+                "start": 272,
+                "end": 322,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 337,
+                "end": 403,
+                "label": "action_plan"
+            },
+            {
+                "start": 426,
+                "end": 452,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 472,
+                "end": 484,
+                "label": "review_intervals"
+            },
+            {
+                "start": 511,
+                "end": 520,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 542,
+                "end": 555,
+                "label": "required_resources"
+            },
+            {
+                "start": 578,
+                "end": 629,
+                "label": "potential_obstacles"
+            }
+        ]
+    },
+    {
+        "content": "goal category: financial. desired completion date: December 31st, 2025. action plan: market my services more, expand my client base, and continue developing new skills. goal importance: I want to better support my family financially. review intervals: monthly. measurable criteria: if I reach an annual income of $200,000. potential obstacles: economic changes, increased competition, or not finding enough new clients. accountability strategy: have my spouse review my progress with me each month. progress tracking method: review my monthly income. required resources: allocate time, continue developing new skills, and expand my professional network. goal description: increase my annual income. personal motivation: so I can better provide for my family.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 24,
+                "label": "goal_category"
+            },
+            {
+                "start": 51,
+                "end": 70,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 85,
+                "end": 167,
+                "label": "action_plan"
+            },
+            {
+                "start": 186,
+                "end": 232,
+                "label": "goal_importance"
+            },
+            {
+                "start": 252,
+                "end": 259,
+                "label": "review_intervals"
+            },
+            {
+                "start": 282,
+                "end": 321,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 344,
+                "end": 418,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 445,
+                "end": 497,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 525,
+                "end": 549,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 571,
+                "end": 652,
+                "label": "required_resources"
+            },
+            {
+                "start": 672,
+                "end": 697,
+                "label": "goal_description"
+            },
+            {
+                "start": 720,
+                "end": 757,
+                "label": "personal_motivation"
+            }
+        ]
+    },
+    {
+        "content": "review intervals: Yearly. desired completion date: December 31st 2040. accountability strategy: having my spouse review my progress with me annually. goal category: financial. personal motivation: so I can feel secure in my retirement. progress tracking method: review my retirement accounts annually. action plan: I will save a portion of my income each year and invest it. goal importance: so I can feel financially comfortable after I retire. measurable criteria: if I have saved the amount I am targeting by 2040. goal description: to save enough money for a comfortable retirement. potential obstacles: market downturns, unexpected expenses, or changes in my income. required resources: continued income, and resources for investing.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 24,
+                "label": "review_intervals"
+            },
+            {
+                "start": 51,
+                "end": 69,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 96,
+                "end": 148,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 165,
+                "end": 174,
+                "label": "goal_category"
+            },
+            {
+                "start": 197,
+                "end": 234,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 262,
+                "end": 300,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 315,
+                "end": 373,
+                "label": "action_plan"
+            },
+            {
+                "start": 392,
+                "end": 444,
+                "label": "goal_importance"
+            },
+            {
+                "start": 467,
+                "end": 516,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 536,
+                "end": 585,
+                "label": "goal_description"
+            },
+            {
+                "start": 608,
+                "end": 670,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 692,
+                "end": 737,
+                "label": "required_resources"
+            }
+        ]
+    },
+    {
+        "content": "goal category: professional. personal motivation: get a higher salary. desired completion date: end of 2023. goal importance: Getting a promotion is important to me so I can advance in my career. required resources: hard work. measurable criteria: hard work. progress tracking method: I'll ask my bosses for feedback each week. accountability strategy: I'll ask my bosses for feedback each week. potential obstacles: competition from my peers who want the same promotion. action plan: work extra hours. goal description: promotion. review intervals: every 3 months.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 27,
+                "label": "goal_category"
+            },
+            {
+                "start": 50,
+                "end": 69,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 96,
+                "end": 107,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 126,
+                "end": 194,
+                "label": "goal_importance"
+            },
+            {
+                "start": 216,
+                "end": 225,
+                "label": "required_resources"
+            },
+            {
+                "start": 216,
+                "end": 225,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 285,
+                "end": 326,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 285,
+                "end": 326,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 417,
+                "end": 470,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 485,
+                "end": 501,
+                "label": "action_plan"
+            },
+            {
+                "start": 136,
+                "end": 145,
+                "label": "goal_description"
+            },
+            {
+                "start": 550,
+                "end": 564,
+                "label": "review_intervals"
+            }
+        ]
+    },
+    {
+        "content": "desired completion date: December 31st, 2023. review intervals: monthly. required resources: access to a studio and musicians. goal category: professional. measurable criteria: once my new album has been released. goal description: to release a new album. action plan: write songs, record them in the studio, and release the finished album. goal importance: for my career and to deliver new music to my fans. accountability strategy: I am committed. potential obstacles: writers block or difficulties raising funds. progress tracking method: milestones. personal motivation: My love of making music.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 44,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 64,
+                "end": 71,
+                "label": "review_intervals"
+            },
+            {
+                "start": 93,
+                "end": 125,
+                "label": "required_resources"
+            },
+            {
+                "start": 142,
+                "end": 154,
+                "label": "goal_category"
+            },
+            {
+                "start": 177,
+                "end": 212,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 232,
+                "end": 254,
+                "label": "goal_description"
+            },
+            {
+                "start": 269,
+                "end": 339,
+                "label": "action_plan"
+            },
+            {
+                "start": 358,
+                "end": 407,
+                "label": "goal_importance"
+            },
+            {
+                "start": 434,
+                "end": 448,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 471,
+                "end": 514,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 542,
+                "end": 552,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 575,
+                "end": 598,
+                "label": "personal_motivation"
+            }
+        ]
+    },
+    {
+        "content": "goal importance: For my music career. review intervals: weekly. goal category: professional. measurable criteria: If I complete and release a new album. required resources: time in the studio, access to studio space and equipment. personal motivation: passionate about making music. progress tracking method: I'll track my songwriting and recording. accountability strategy: I'll track my songwriting and recording progress. goal description: to release a new album by the end of next year. action plan: I'll write songs, record the album in the studio. desired completion date: December 31st, 2023. potential obstacles: writers block or funding issues.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 36,
+                "label": "goal_importance"
+            },
+            {
+                "start": 56,
+                "end": 62,
+                "label": "review_intervals"
+            },
+            {
+                "start": 79,
+                "end": 91,
+                "label": "goal_category"
+            },
+            {
+                "start": 114,
+                "end": 151,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 173,
+                "end": 229,
+                "label": "required_resources"
+            },
+            {
+                "start": 252,
+                "end": 281,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 309,
+                "end": 348,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 375,
+                "end": 423,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 443,
+                "end": 489,
+                "label": "goal_description"
+            },
+            {
+                "start": 504,
+                "end": 552,
+                "label": "action_plan"
+            },
+            {
+                "start": 579,
+                "end": 598,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 621,
+                "end": 652,
+                "label": "potential_obstacles"
+            }
+        ]
+    },
+    {
+        "content": "desired completion date: By the end of 2045. goal importance: to secure my future finances and retire comfortably. progress tracking method: review my retirement accounts annually. personal motivation: Staying motivated to retire comfortably. action plan: automate my savings each month and invest wisely for long term growth. required resources: A stable income source and making the right investment choices. potential obstacles: market downturns. goal description: save one million dollars for retirement. accountability strategy: self-discipline. review intervals: yearly. measurable criteria: Reaching one million dollars saved. goal category: retirement planning.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 43,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 62,
+                "end": 113,
+                "label": "goal_importance"
+            },
+            {
+                "start": 141,
+                "end": 179,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 202,
+                "end": 241,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 256,
+                "end": 325,
+                "label": "action_plan"
+            },
+            {
+                "start": 347,
+                "end": 409,
+                "label": "required_resources"
+            },
+            {
+                "start": 432,
+                "end": 448,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 468,
+                "end": 507,
+                "label": "goal_description"
+            },
+            {
+                "start": 534,
+                "end": 549,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 569,
+                "end": 575,
+                "label": "review_intervals"
+            },
+            {
+                "start": 598,
+                "end": 632,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 649,
+                "end": 668,
+                "label": "goal_category"
+            }
+        ]
+    },
+    {
+        "content": "goal description: $1 million. accountability strategy: My spouse and I plan to review our progress together every few months. goal importance: so I can enjoy a comfortable lifestyle after I stop working. measurable criteria: Having enough financial security. personal motivation: I'm hoping to have it all saved by December 31st, 2040. desired completion date: December 31st, 2040. goal category: financial. required resources: income and contributions to investment accounts. review intervals: every 3 months. action plan: I'll automate my savings each month and watch my spending closely. potential obstacles: market downturns or overspending. progress tracking method: review my investment statements quarterly.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 28,
+                "label": "goal_description"
+            },
+            {
+                "start": 55,
+                "end": 124,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 143,
+                "end": 202,
+                "label": "goal_importance"
+            },
+            {
+                "start": 225,
+                "end": 257,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 280,
+                "end": 334,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 315,
+                "end": 334,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 239,
+                "end": 248,
+                "label": "goal_category"
+            },
+            {
+                "start": 428,
+                "end": 475,
+                "label": "required_resources"
+            },
+            {
+                "start": 495,
+                "end": 509,
+                "label": "review_intervals"
+            },
+            {
+                "start": 524,
+                "end": 589,
+                "label": "action_plan"
+            },
+            {
+                "start": 612,
+                "end": 644,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 672,
+                "end": 713,
+                "label": "progress_tracking_method"
+            }
+        ]
+    },
+    {
+        "content": "required resources: I'll need to dedicate some time each week to work on my art. goal category: . goal description: sell more of my artwork online. goal importance: Increasing my art sales will allow me to support myself fully through my creative work. accountability strategy: set monthly sales targets and share my progress with friends. action plan: I will market my artwork daily through my website and social media. review intervals: each month. potential obstacles: low customer demand or higher than expected business costs cutting into my profits. progress tracking method: monthly sales figures, expenses, and the total number of artworks sold. measurable criteria: monthly sales figures, expenses, and the total number of artworks sold. personal motivation: Finding fulfillment through my creative work. desired completion date: December 31st, 2023.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 79,
+                "label": "required_resources"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "goal_category"
+            },
+            {
+                "start": 116,
+                "end": 146,
+                "label": "goal_description"
+            },
+            {
+                "start": 165,
+                "end": 251,
+                "label": "goal_importance"
+            },
+            {
+                "start": 278,
+                "end": 338,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 353,
+                "end": 419,
+                "label": "action_plan"
+            },
+            {
+                "start": 439,
+                "end": 449,
+                "label": "review_intervals"
+            },
+            {
+                "start": 472,
+                "end": 554,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 582,
+                "end": 652,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 582,
+                "end": 652,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 768,
+                "end": 812,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 839,
+                "end": 858,
+                "label": "desired_completion_date"
+            }
+        ]
+    },
+    {
+        "content": "accountability strategy: I'll make sure to regularly review my progress. required resources: funding and access to the proper research equipment. action plan: conduct thorough research, author several papers in my area of study. goal category: professional. progress tracking method: the number of publications and citations my work receives. personal motivation: passionate about furthering scientific knowledge through discovery. potential obstacles: Funding may dry up or experiments could fail to produce meaningful results. goal description: elevate my status as a researcher in my field. goal importance: Personal growth. measurable criteria: published multiple papers, received citations and acquired additional grants for my research. desired completion date: December 31st, 2025. review intervals: once per year.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 71,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 93,
+                "end": 144,
+                "label": "required_resources"
+            },
+            {
+                "start": 159,
+                "end": 227,
+                "label": "action_plan"
+            },
+            {
+                "start": 244,
+                "end": 256,
+                "label": "goal_category"
+            },
+            {
+                "start": 284,
+                "end": 341,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 364,
+                "end": 430,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 453,
+                "end": 527,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 547,
+                "end": 592,
+                "label": "goal_description"
+            },
+            {
+                "start": 611,
+                "end": 626,
+                "label": "goal_importance"
+            },
+            {
+                "start": 649,
+                "end": 741,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 768,
+                "end": 787,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 807,
+                "end": 820,
+                "label": "review_intervals"
+            }
+        ]
+    },
+    {
+        "content": "review intervals: Every three months. required resources: income and investment accounts. measurable criteria: once I've saved the target amount. goal description: to save enough money to retire comfortably. goal category: financial. personal motivation: I want to have a comfortable lifestyle when I retire. accountability strategy: I'll have my spouse check in on my progress. action plan: set up automatic contributions from each paycheck towards my retirement savings. potential obstacles: Market downturns. progress tracking method: review my account balances regularly. desired completion date: December 31st, 2045. goal importance: Retirement is important so I can relax and enjoy my later years without money worries.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 36,
+                "label": "review_intervals"
+            },
+            {
+                "start": 58,
+                "end": 88,
+                "label": "required_resources"
+            },
+            {
+                "start": 111,
+                "end": 144,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 164,
+                "end": 206,
+                "label": "goal_description"
+            },
+            {
+                "start": 223,
+                "end": 232,
+                "label": "goal_category"
+            },
+            {
+                "start": 255,
+                "end": 307,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 334,
+                "end": 377,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 392,
+                "end": 471,
+                "label": "action_plan"
+            },
+            {
+                "start": 494,
+                "end": 510,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 538,
+                "end": 574,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 601,
+                "end": 620,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 639,
+                "end": 724,
+                "label": "goal_importance"
+            }
+        ]
+    },
+    {
+        "content": "goal category: retirement savings. action plan: automating monthly contributions and watching my spending closely. personal motivation: Being able to retire comfortably without financial worries. measurable criteria: Reaching a target balance in my savings account by a certain date. accountability strategy: I plan to review my progress with my spouse each month. goal description: to save enough money for a comfortable retirement by the year 2040. progress tracking method: review my retirement savings account balance each month. review intervals: each month. goal importance: I'll have the means to support myself after I stop working. required resources: steady income. potential obstacles: Market downturns could affect my investments and slow my progress. desired completion date: December 31st, 2040.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 33,
+                "label": "goal_category"
+            },
+            {
+                "start": 48,
+                "end": 113,
+                "label": "action_plan"
+            },
+            {
+                "start": 136,
+                "end": 194,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 217,
+                "end": 282,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 309,
+                "end": 363,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 383,
+                "end": 449,
+                "label": "goal_description"
+            },
+            {
+                "start": 477,
+                "end": 532,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 353,
+                "end": 363,
+                "label": "review_intervals"
+            },
+            {
+                "start": 581,
+                "end": 639,
+                "label": "goal_importance"
+            },
+            {
+                "start": 661,
+                "end": 674,
+                "label": "required_resources"
+            },
+            {
+                "start": 697,
+                "end": 762,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 789,
+                "end": 808,
+                "label": "desired_completion_date"
+            }
+        ]
+    },
+    {
+        "content": "progress tracking method: I'll check in with my boss for feedback on my performance. goal category: related to my job. personal motivation: I want to support my family financially. goal importance: provide for my family. potential obstacles: Office politics and a difficult boss. review intervals: Every three months. goal description: a promotion. required resources: hard work and a bit of luck. action plan: work hard, network within the company, and talk to my boss. desired completion date: 2023-12-31. measurable criteria: If I receive a promotion. accountability strategy: I'll also check in with my spouse.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 83,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 100,
+                "end": 117,
+                "label": "goal_category"
+            },
+            {
+                "start": 140,
+                "end": 179,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 198,
+                "end": 219,
+                "label": "goal_importance"
+            },
+            {
+                "start": 242,
+                "end": 278,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 298,
+                "end": 316,
+                "label": "review_intervals"
+            },
+            {
+                "start": 336,
+                "end": 347,
+                "label": "goal_description"
+            },
+            {
+                "start": 369,
+                "end": 396,
+                "label": "required_resources"
+            },
+            {
+                "start": 411,
+                "end": 469,
+                "label": "action_plan"
+            },
+            {
+                "start": 496,
+                "end": 506,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 529,
+                "end": 553,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 580,
+                "end": 613,
+                "label": "accountability_strategy"
+            }
+        ]
+    },
+    {
+        "content": "potential obstacles: A market downturn could affect my investments. personal motivation: peace of mind. action plan: set aside a portion of each paycheck and put it into low-risk funds. required resources: A steady income stream and choosing the right investment options. goal importance: Securing my financial future will give me independence and flexibility. goal description: to save enough to retire at age 67 with $1,000,000. accountability strategy: I'll review my balances monthly with my spouse. progress tracking method: I'll review my balances monthly with my spouse. measurable criteria: When I've saved $1,000,000 by 2040. goal category: financial. desired completion date: December 31st, 2040. review intervals: yearly.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 66,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 89,
+                "end": 102,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 117,
+                "end": 184,
+                "label": "action_plan"
+            },
+            {
+                "start": 206,
+                "end": 270,
+                "label": "required_resources"
+            },
+            {
+                "start": 289,
+                "end": 359,
+                "label": "goal_importance"
+            },
+            {
+                "start": 379,
+                "end": 429,
+                "label": "goal_description"
+            },
+            {
+                "start": 456,
+                "end": 502,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 456,
+                "end": 502,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 599,
+                "end": 633,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 301,
+                "end": 310,
+                "label": "goal_category"
+            },
+            {
+                "start": 686,
+                "end": 705,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 725,
+                "end": 731,
+                "label": "review_intervals"
+            }
+        ]
+    },
+    {
+        "content": "personal motivation: I'm really interested in continuing my intellectual growth. accountability strategy: regularly review my own progress and get feedback from my peers. action plan: conduct thorough research, author several papers, and apply for grant funding. goal category: professional. required resources: dedicated time, potential funding, and access to a lab. progress tracking method: quantify my annual outputs. goal description: further develop my scientific career through publications, patents, and potential promotions. review intervals: yearly. measurable criteria: achieving publications, patents and being promoted by 2025. desired completion date: December 31st, 2025. goal importance: personal growth and development in my field. potential obstacles: lack of resources or failed experiments.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 79,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 106,
+                "end": 169,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 184,
+                "end": 261,
+                "label": "action_plan"
+            },
+            {
+                "start": 278,
+                "end": 290,
+                "label": "goal_category"
+            },
+            {
+                "start": 312,
+                "end": 366,
+                "label": "required_resources"
+            },
+            {
+                "start": 394,
+                "end": 420,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 440,
+                "end": 532,
+                "label": "goal_description"
+            },
+            {
+                "start": 552,
+                "end": 558,
+                "label": "review_intervals"
+            },
+            {
+                "start": 581,
+                "end": 639,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 666,
+                "end": 685,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 704,
+                "end": 747,
+                "label": "goal_importance"
+            },
+            {
+                "start": 770,
+                "end": 809,
+                "label": "potential_obstacles"
+            }
+        ]
+    },
+    {
+        "content": "action plan: save a portion of my income each paycheck and invest it wisely. review intervals: on a yearly basis. personal motivation: Having a comfortable retirement. accountability strategy: I'll review my progress with my spouse each year. desired completion date: December 31st, 2040. progress tracking method: review my investment accounts annually. goal category: financial planning. potential obstacles: a down market or overspending. measurable criteria: when I've saved enough for a secure retirement. goal importance: will give me peace of mind in my later years. required resources: regular income and guidance on wise investments. goal description: to feel on track for retirement by 2030.",
+        "entities": [
+            {
+                "start": 13,
+                "end": 75,
+                "label": "action_plan"
+            },
+            {
+                "start": 95,
+                "end": 112,
+                "label": "review_intervals"
+            },
+            {
+                "start": 135,
+                "end": 166,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 193,
+                "end": 241,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 268,
+                "end": 287,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 315,
+                "end": 353,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 370,
+                "end": 388,
+                "label": "goal_category"
+            },
+            {
+                "start": 411,
+                "end": 440,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 463,
+                "end": 509,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 528,
+                "end": 572,
+                "label": "goal_importance"
+            },
+            {
+                "start": 594,
+                "end": 641,
+                "label": "required_resources"
+            },
+            {
+                "start": 661,
+                "end": 700,
+                "label": "goal_description"
+            }
+        ]
+    },
+    {
+        "content": "potential obstacles: Market downturns, emergencies, or unexpected expenses. measurable criteria: save a target amount by retirement. goal category: financial. desired completion date: December 31st, 2040. action plan: set up automatic contributions from each paycheck to my retirement account. goal description: to save enough for a comfortable retirement. progress tracking method: I will review the balance in my retirement account on a quarterly basis. goal importance: Reaching this goal will help ensure my financial security in retirement. required resources: regular income and investment accounts. personal motivation: I want to enjoy an comfortable lifestyle when I stop working. accountability strategy: My spouse and I will review my retirement savings progress every three months. review intervals: every three months.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 74,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 97,
+                "end": 131,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 148,
+                "end": 157,
+                "label": "goal_category"
+            },
+            {
+                "start": 184,
+                "end": 203,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 218,
+                "end": 292,
+                "label": "action_plan"
+            },
+            {
+                "start": 312,
+                "end": 355,
+                "label": "goal_description"
+            },
+            {
+                "start": 383,
+                "end": 454,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 473,
+                "end": 544,
+                "label": "goal_importance"
+            },
+            {
+                "start": 566,
+                "end": 604,
+                "label": "required_resources"
+            },
+            {
+                "start": 627,
+                "end": 687,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 714,
+                "end": 791,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 773,
+                "end": 791,
+                "label": "review_intervals"
+            }
+        ]
+    },
+    {
+        "content": "progress tracking method: review my retirement accounts annually. desired completion date: December 31st, 2040. measurable criteria: if I have a sufficient amount saved by the target date. goal importance: so that I can feel secure in my finances for my future. goal description: to save enough money for a comfortable retirement. goal category: financial. accountability strategy: through self-discipline. required resources: a steady income and investing my savings regularly. action plan: save and invest portions of my income consistently over the years. review intervals: yearly. personal motivation: Staying on track for a comfortable retirement. potential obstacles: market crashes.",
+        "entities": [
+            {
+                "start": 26,
+                "end": 64,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 91,
+                "end": 110,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 133,
+                "end": 187,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 206,
+                "end": 260,
+                "label": "goal_importance"
+            },
+            {
+                "start": 280,
+                "end": 329,
+                "label": "goal_description"
+            },
+            {
+                "start": 346,
+                "end": 355,
+                "label": "goal_category"
+            },
+            {
+                "start": 382,
+                "end": 405,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 427,
+                "end": 477,
+                "label": "required_resources"
+            },
+            {
+                "start": 492,
+                "end": 557,
+                "label": "action_plan"
+            },
+            {
+                "start": 577,
+                "end": 583,
+                "label": "review_intervals"
+            },
+            {
+                "start": 606,
+                "end": 651,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 674,
+                "end": 688,
+                "label": "potential_obstacles"
+            }
+        ]
+    },
+    {
+        "content": "potential obstacles: Low demand for my artwork and the high costs associated with marketing and selling. goal importance: increase my sales revenue and grow my business financially. goal description: increase my sales revenue. review intervals: monthly. goal category: professional. action plan: market my artwork online, attend local art shows. required resources: time. accountability strategy: set sales targets and deadlines. measurable criteria: artwork sales revenue. progress tracking method: My passion for creative expression and growing my business. personal motivation: My passion for creative expression and growing my business. desired completion date: December 31st, 2023.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 103,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 122,
+                "end": 180,
+                "label": "goal_importance"
+            },
+            {
+                "start": 122,
+                "end": 147,
+                "label": "goal_description"
+            },
+            {
+                "start": 245,
+                "end": 252,
+                "label": "review_intervals"
+            },
+            {
+                "start": 269,
+                "end": 281,
+                "label": "goal_category"
+            },
+            {
+                "start": 296,
+                "end": 344,
+                "label": "action_plan"
+            },
+            {
+                "start": 366,
+                "end": 370,
+                "label": "required_resources"
+            },
+            {
+                "start": 397,
+                "end": 428,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 451,
+                "end": 472,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 500,
+                "end": 558,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 500,
+                "end": 558,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 666,
+                "end": 685,
+                "label": "desired_completion_date"
+            }
+        ]
+    },
+    {
+        "content": "goal importance: Career growth. progress tracking method: getting feedback from my colleagues on my work. accountability strategy: touching base with my mentor. required resources: put in a lot of hard work and dedicate my time. goal category: professional. goal description: a higher position. desired completion date: December 31st, 2025. personal motivation: higher income. action plan: I will work very hard. review intervals: every 6 months. potential obstacles: Finding a good work life balance. measurable criteria: if I am promoted to a higher position at the firm.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 30,
+                "label": "goal_importance"
+            },
+            {
+                "start": 58,
+                "end": 104,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 131,
+                "end": 159,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 181,
+                "end": 227,
+                "label": "required_resources"
+            },
+            {
+                "start": 244,
+                "end": 256,
+                "label": "goal_category"
+            },
+            {
+                "start": 276,
+                "end": 293,
+                "label": "goal_description"
+            },
+            {
+                "start": 320,
+                "end": 339,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 362,
+                "end": 375,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 390,
+                "end": 411,
+                "label": "action_plan"
+            },
+            {
+                "start": 431,
+                "end": 445,
+                "label": "review_intervals"
+            },
+            {
+                "start": 468,
+                "end": 500,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 523,
+                "end": 572,
+                "label": "measurable_criteria"
+            }
+        ]
+    },
+    {
+        "content": "potential obstacles: Market downturns. goal category: financial. measurable criteria: save enough money for retirement. required resources: steady income. progress tracking method: Each year I plan to review my retirement accounts. goal description: save money to retire comfortably. review intervals: annually. goal importance: so I don't have to worry about money when I'm older. personal motivation: Being able to retire comfortably by 2040. desired completion date: December 31st, 2040. action plan: I will save 20% of my income each year and invest it wisely. accountability strategy: My spouse and I will review my retirement accounts yearly.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 37,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 54,
+                "end": 63,
+                "label": "goal_category"
+            },
+            {
+                "start": 86,
+                "end": 118,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 140,
+                "end": 153,
+                "label": "required_resources"
+            },
+            {
+                "start": 181,
+                "end": 230,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 250,
+                "end": 282,
+                "label": "goal_description"
+            },
+            {
+                "start": 302,
+                "end": 310,
+                "label": "review_intervals"
+            },
+            {
+                "start": 329,
+                "end": 380,
+                "label": "goal_importance"
+            },
+            {
+                "start": 403,
+                "end": 443,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 470,
+                "end": 489,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 504,
+                "end": 563,
+                "label": "action_plan"
+            },
+            {
+                "start": 590,
+                "end": 647,
+                "label": "accountability_strategy"
+            }
+        ]
+    },
+    {
+        "content": "action plan: sharing my progress with some friends so we can motivate each other. accountability strategy: sharing my progress with some friends. review intervals: weekly. progress tracking method: Stepping on the scale and comparing photos. goal importance: I want to feel better and be in better shape. desired completion date: December 31st, 2023. personal motivation: Seeing improvements in how I look and feel. measurable criteria: motivation. potential obstacles: motivation. required resources: make time. goal description: improve my health and wellbeing through regular exercise. goal category: personal health.",
+        "entities": [
+            {
+                "start": 13,
+                "end": 80,
+                "label": "action_plan"
+            },
+            {
+                "start": 13,
+                "end": 50,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 164,
+                "end": 170,
+                "label": "review_intervals"
+            },
+            {
+                "start": 198,
+                "end": 240,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 259,
+                "end": 303,
+                "label": "goal_importance"
+            },
+            {
+                "start": 330,
+                "end": 349,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 372,
+                "end": 414,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 360,
+                "end": 370,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 360,
+                "end": 370,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 502,
+                "end": 511,
+                "label": "required_resources"
+            },
+            {
+                "start": 531,
+                "end": 587,
+                "label": "goal_description"
+            },
+            {
+                "start": 604,
+                "end": 619,
+                "label": "goal_category"
+            }
+        ]
+    },
+    {
+        "content": "required resources: Time to take courses and read books. personal motivation: I want to help my students succeed. measurable criteria: if my students' test scores. goal category: professional. action plan: take some teaching courses. review intervals: every three months. potential obstacles: Finding the time and money for courses. goal description: enhance my teaching abilities. accountability strategy: set reminders in my calendar and get feedback from colleagues. goal importance: I want to help students learn. progress tracking method: student evaluations and test score data. desired completion date: December 31st, 2023.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 55,
+                "label": "required_resources"
+            },
+            {
+                "start": 78,
+                "end": 112,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 135,
+                "end": 162,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 179,
+                "end": 191,
+                "label": "goal_category"
+            },
+            {
+                "start": 206,
+                "end": 232,
+                "label": "action_plan"
+            },
+            {
+                "start": 252,
+                "end": 270,
+                "label": "review_intervals"
+            },
+            {
+                "start": 293,
+                "end": 331,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 351,
+                "end": 380,
+                "label": "goal_description"
+            },
+            {
+                "start": 407,
+                "end": 468,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 487,
+                "end": 516,
+                "label": "goal_importance"
+            },
+            {
+                "start": 544,
+                "end": 583,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 610,
+                "end": 629,
+                "label": "desired_completion_date"
+            }
+        ]
+    },
+    {
+        "content": "accountability strategy: regularly discuss my progress with my colleagues. review intervals: Every 6 months. desired completion date: December 31st, 2025. action plan: conducted experiments, analyzed data, and written papers. goal category: professional. progress tracking method: by counting the number of publications. potential obstacles: lack of necessary resources. measurable criteria: If I have published research papers. personal motivation: intellectual curiosity. goal description: advance my scientific career. required resources: time and funding. goal importance: personal growth and development.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 73,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 93,
+                "end": 107,
+                "label": "review_intervals"
+            },
+            {
+                "start": 134,
+                "end": 153,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 168,
+                "end": 224,
+                "label": "action_plan"
+            },
+            {
+                "start": 241,
+                "end": 253,
+                "label": "goal_category"
+            },
+            {
+                "start": 281,
+                "end": 319,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 342,
+                "end": 369,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 392,
+                "end": 427,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 450,
+                "end": 472,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 492,
+                "end": 520,
+                "label": "goal_description"
+            },
+            {
+                "start": 542,
+                "end": 558,
+                "label": "required_resources"
+            },
+            {
+                "start": 577,
+                "end": 608,
+                "label": "goal_importance"
+            }
+        ]
+    },
+    {
+        "content": "goal category: professional. desired completion date: December 31st, 2023. progress tracking method: check job postings and apply for higher positions. goal description: promotion. goal importance: promotions. action plan: work hard, network with others in my department, and apply for promotions. measurable criteria: If I receive a new job title. personal motivation: higher salary. required resources: time and effort. accountability strategy: discuss my goals regularly with my manager and review my progress every three months. review intervals: every three months. potential obstacles: office politics or facing competition for promotions.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 27,
+                "label": "goal_category"
+            },
+            {
+                "start": 54,
+                "end": 73,
+                "label": "desired_completion_date"
+            },
+            {
+                "start": 101,
+                "end": 150,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 170,
+                "end": 179,
+                "label": "goal_description"
+            },
+            {
+                "start": 198,
+                "end": 208,
+                "label": "goal_importance"
+            },
+            {
+                "start": 223,
+                "end": 296,
+                "label": "action_plan"
+            },
+            {
+                "start": 319,
+                "end": 347,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 370,
+                "end": 383,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 405,
+                "end": 420,
+                "label": "required_resources"
+            },
+            {
+                "start": 447,
+                "end": 531,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 513,
+                "end": 531,
+                "label": "review_intervals"
+            },
+            {
+                "start": 592,
+                "end": 644,
+                "label": "potential_obstacles"
+            }
+        ]
+    },
+    {
+        "content": "accountability strategy: discuss my goals regularly with my mentor. measurable criteria: if I earn a promotion. goal description: take on more responsibility and develop new skills. goal importance: I want to take on more responsibility and develop new skills. required resources: time. action plan: continue studying my field, and look for opportunities to contribute to my profession. review intervals: every 6 months. potential obstacles: Finding a good work-life balance could be challenging at times. progress tracking method: use my performance reviews. personal motivation: Higher compensation. goal category: professional. desired completion date: December 31st, 2023.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 66,
+                "label": "accountability_strategy"
+            },
+            {
+                "start": 89,
+                "end": 110,
+                "label": "measurable_criteria"
+            },
+            {
+                "start": 130,
+                "end": 180,
+                "label": "goal_description"
+            },
+            {
+                "start": 199,
+                "end": 259,
+                "label": "goal_importance"
+            },
+            {
+                "start": 281,
+                "end": 285,
+                "label": "required_resources"
+            },
+            {
+                "start": 300,
+                "end": 385,
+                "label": "action_plan"
+            },
+            {
+                "start": 405,
+                "end": 419,
+                "label": "review_intervals"
+            },
+            {
+                "start": 442,
+                "end": 504,
+                "label": "potential_obstacles"
+            },
+            {
+                "start": 532,
+                "end": 558,
+                "label": "progress_tracking_method"
+            },
+            {
+                "start": 581,
+                "end": 600,
+                "label": "personal_motivation"
+            },
+            {
+                "start": 617,
+                "end": 629,
+                "label": "goal_category"
+            },
+            {
+                "start": 656,
+                "end": 675,
+                "label": "desired_completion_date"
+            }
+        ]
+    }
+]

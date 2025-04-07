@@ -1,0 +1,3512 @@
+[
+    {
+        "content": "additional notes: No, there were no additional notes. incident type: workplace injury. reporter contact info: Carlos Mendez. immediate actions taken: First aid. affected individuals: one. incident date: 2023-02-15. injuries sustained: sprained my ankle. property damage: No. incident location: in the office. incident time: 10:00 AM. severity of incident: moderate. witnesses: no witnesses.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 52,
+                "label": "additional_notes"
+            },
+            {
+                "start": 69,
+                "end": 85,
+                "label": "incident_type"
+            },
+            {
+                "start": 110,
+                "end": 123,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 150,
+                "end": 159,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 183,
+                "end": 186,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 203,
+                "end": 213,
+                "label": "incident_date"
+            },
+            {
+                "start": 235,
+                "end": 252,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 18,
+                "end": 20,
+                "label": "property_damage"
+            },
+            {
+                "start": 294,
+                "end": 307,
+                "label": "incident_location"
+            },
+            {
+                "start": 324,
+                "end": 332,
+                "label": "incident_time"
+            },
+            {
+                "start": 356,
+                "end": 364,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 377,
+                "end": 389,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "reporter contact info: Sofia Alvarez. injuries sustained: sprained my ankle. immediate actions taken: first aid. property damage: no. incident type: workplace injury. affected individuals: only I was affected. incident date: February 15, 2023. incident time: 10:30 AM. severity of incident: moderate. witnesses: No, there were no witnesses. additional notes: We need better floor mats in the office. incident location: the office.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 36,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 58,
+                "end": 75,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 102,
+                "end": 111,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 130,
+                "end": 132,
+                "label": "property_damage"
+            },
+            {
+                "start": 149,
+                "end": 165,
+                "label": "incident_type"
+            },
+            {
+                "start": 189,
+                "end": 208,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 225,
+                "end": 242,
+                "label": "incident_date"
+            },
+            {
+                "start": 259,
+                "end": 267,
+                "label": "incident_time"
+            },
+            {
+                "start": 291,
+                "end": 299,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 312,
+                "end": 339,
+                "label": "witnesses"
+            },
+            {
+                "start": 359,
+                "end": 398,
+                "label": "additional_notes"
+            },
+            {
+                "start": 388,
+                "end": 398,
+                "label": "incident_location"
+            }
+        ]
+    },
+    {
+        "content": "immediate actions taken: First aid was administered. affected individuals: one. severity of incident: moderate. incident type: workplace injury. witnesses: John Smith was there. incident date: February 15th, 2023. additional notes: I think we may need some better floor mats in the office. incident location: in the office. incident time: 10:00 AM. property damage: No. reporter contact info: 555-1234. injuries sustained: sprained my ankle.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 51,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 75,
+                "end": 78,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 102,
+                "end": 110,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 127,
+                "end": 143,
+                "label": "incident_type"
+            },
+            {
+                "start": 156,
+                "end": 176,
+                "label": "witnesses"
+            },
+            {
+                "start": 193,
+                "end": 212,
+                "label": "incident_date"
+            },
+            {
+                "start": 232,
+                "end": 288,
+                "label": "additional_notes"
+            },
+            {
+                "start": 275,
+                "end": 288,
+                "label": "incident_location"
+            },
+            {
+                "start": 339,
+                "end": 347,
+                "label": "incident_time"
+            },
+            {
+                "start": 366,
+                "end": 368,
+                "label": "property_damage"
+            },
+            {
+                "start": 393,
+                "end": 401,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 423,
+                "end": 440,
+                "label": "injuries_sustained"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: need better safety equipment. severity of incident: moderate. incident time: 14:30. injuries sustained: a cut on my hand. affected individuals: one. incident location: Lab room 23B. reporter contact info: 555-1234. incident type: workplace injury. immediate actions taken: first aid. incident date: 2023-02-15. property damage: no. witnesses: no.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 46,
+                "label": "additional_notes"
+            },
+            {
+                "start": 70,
+                "end": 78,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 95,
+                "end": 100,
+                "label": "incident_time"
+            },
+            {
+                "start": 122,
+                "end": 138,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 162,
+                "end": 165,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 186,
+                "end": 198,
+                "label": "incident_location"
+            },
+            {
+                "start": 223,
+                "end": 231,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 248,
+                "end": 264,
+                "label": "incident_type"
+            },
+            {
+                "start": 291,
+                "end": 300,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 317,
+                "end": 327,
+                "label": "incident_date"
+            },
+            {
+                "start": 11,
+                "end": 13,
+                "label": "property_damage"
+            },
+            {
+                "start": 11,
+                "end": 13,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: We need better floor mats to prevent slips. property damage: Nothing. severity of incident: moderate. incident time: 2:30 pm. incident date: February 15th, 2023. injuries sustained: sprained my ankle. affected individuals: Just me. incident location: on the warehouse floor. witnesses: John Smith witnessed it. incident type: workplace injury. immediate actions taken: first aid. reporter contact info: jcasey@email.com and phone number is 555-0234.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 60,
+                "label": "additional_notes"
+            },
+            {
+                "start": 79,
+                "end": 86,
+                "label": "property_damage"
+            },
+            {
+                "start": 110,
+                "end": 118,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 135,
+                "end": 142,
+                "label": "incident_time"
+            },
+            {
+                "start": 159,
+                "end": 178,
+                "label": "incident_date"
+            },
+            {
+                "start": 200,
+                "end": 217,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 241,
+                "end": 248,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 269,
+                "end": 291,
+                "label": "incident_location"
+            },
+            {
+                "start": 304,
+                "end": 327,
+                "label": "witnesses"
+            },
+            {
+                "start": 344,
+                "end": 360,
+                "label": "incident_type"
+            },
+            {
+                "start": 387,
+                "end": 396,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 421,
+                "end": 466,
+                "label": "reporter_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "incident type: workplace injury. property damage: No, there was no property damage. It happened at 2:30pm. incident time: 2:30pm. incident location: in the warehouse. severity of incident: moderate. injuries sustained: sprained my ankle. witnesses: John Smith. immediate actions taken: First aid was administered. reporter contact info: 555-0234. incident date: February 15, 2023. affected individuals: Just me. additional notes: Just me, and there needs to be better lighting in the warehouse.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 31,
+                "label": "incident_type"
+            },
+            {
+                "start": 50,
+                "end": 105,
+                "label": "property_damage"
+            },
+            {
+                "start": 99,
+                "end": 105,
+                "label": "incident_time"
+            },
+            {
+                "start": 149,
+                "end": 165,
+                "label": "incident_location"
+            },
+            {
+                "start": 189,
+                "end": 197,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 219,
+                "end": 236,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 249,
+                "end": 259,
+                "label": "witnesses"
+            },
+            {
+                "start": 286,
+                "end": 312,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 337,
+                "end": 345,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 362,
+                "end": 379,
+                "label": "incident_date"
+            },
+            {
+                "start": 403,
+                "end": 410,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 430,
+                "end": 493,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "injuries sustained: Thankfully. incident time: 2:30 in the afternoon. incident date: 2:30 in the afternoon. severity of incident: moderate. witnesses: The recording engineer. incident type: equipment malfunction. reporter contact info: elijahmusic@gmail.com or 555-1234. affected individuals: one. immediate actions taken: We had to stop the recording session. property damage: Luckily there was no property damage. additional notes: The equipment was repaired the next day. incident location: recording studio.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 30,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 47,
+                "end": 68,
+                "label": "incident_time"
+            },
+            {
+                "start": 47,
+                "end": 68,
+                "label": "incident_date"
+            },
+            {
+                "start": 130,
+                "end": 138,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 151,
+                "end": 173,
+                "label": "witnesses"
+            },
+            {
+                "start": 190,
+                "end": 211,
+                "label": "incident_type"
+            },
+            {
+                "start": 236,
+                "end": 269,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 293,
+                "end": 296,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 323,
+                "end": 359,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 378,
+                "end": 414,
+                "label": "property_damage"
+            },
+            {
+                "start": 434,
+                "end": 473,
+                "label": "additional_notes"
+            },
+            {
+                "start": 494,
+                "end": 510,
+                "label": "incident_location"
+            }
+        ]
+    },
+    {
+        "content": "property damage: February 15th, 2023. incident date: February 15th, 2023. incident time: 10:30 AM. incident location: office floor 2. severity of incident: moderate. immediate actions taken: First aid. injuries sustained: sprained my ankle. witnesses: John Smith and Priya Singh. reporter contact info: Priya Dev, priya.dev@techcorp.com. additional notes: We may need better floor mats in the office. affected individuals: one. incident type: workplace injury.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 36,
+                "label": "property_damage"
+            },
+            {
+                "start": 17,
+                "end": 36,
+                "label": "incident_date"
+            },
+            {
+                "start": 89,
+                "end": 97,
+                "label": "incident_time"
+            },
+            {
+                "start": 118,
+                "end": 132,
+                "label": "incident_location"
+            },
+            {
+                "start": 156,
+                "end": 164,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 191,
+                "end": 200,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 222,
+                "end": 239,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 252,
+                "end": 278,
+                "label": "witnesses"
+            },
+            {
+                "start": 303,
+                "end": 336,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 356,
+                "end": 399,
+                "label": "additional_notes"
+            },
+            {
+                "start": 423,
+                "end": 426,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 443,
+                "end": 459,
+                "label": "incident_type"
+            }
+        ]
+    },
+    {
+        "content": "reporter contact info: Jordan Casey and my phone number is 555-0234. injuries sustained: sprained my ankle. incident time: 2:30 pm. incident type: workplace injury. witnesses: John Smith witnessed it. property damage: no property damage. additional notes: We could use better lighting in the warehouse. incident date: February 15th, 2023. incident location: on the warehouse floor. immediate actions taken: Basic first aid. affected individuals: It was just me who was affected. severity of incident: moderate.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 67,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 89,
+                "end": 106,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 123,
+                "end": 130,
+                "label": "incident_time"
+            },
+            {
+                "start": 147,
+                "end": 163,
+                "label": "incident_type"
+            },
+            {
+                "start": 176,
+                "end": 199,
+                "label": "witnesses"
+            },
+            {
+                "start": 218,
+                "end": 236,
+                "label": "property_damage"
+            },
+            {
+                "start": 256,
+                "end": 301,
+                "label": "additional_notes"
+            },
+            {
+                "start": 318,
+                "end": 337,
+                "label": "incident_date"
+            },
+            {
+                "start": 358,
+                "end": 380,
+                "label": "incident_location"
+            },
+            {
+                "start": 407,
+                "end": 422,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 446,
+                "end": 477,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 501,
+                "end": 509,
+                "label": "severity_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: I noticed we need better floor mats. incident date: February 15th, 2023. reporter contact info: 555-0102. affected individuals: It was just me that was affected. immediate actions taken: first aid. incident time: 10:30 AM. incident type: workplace injury. witnesses: John Smith. property damage: It happened in office room 302. incident location: office room 302. injuries sustained: sprained my ankle. severity of incident: moderate.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 53,
+                "label": "additional_notes"
+            },
+            {
+                "start": 70,
+                "end": 89,
+                "label": "incident_date"
+            },
+            {
+                "start": 114,
+                "end": 122,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 146,
+                "end": 178,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 205,
+                "end": 214,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 231,
+                "end": 239,
+                "label": "incident_time"
+            },
+            {
+                "start": 256,
+                "end": 272,
+                "label": "incident_type"
+            },
+            {
+                "start": 285,
+                "end": 295,
+                "label": "witnesses"
+            },
+            {
+                "start": 314,
+                "end": 344,
+                "label": "property_damage"
+            },
+            {
+                "start": 329,
+                "end": 344,
+                "label": "incident_location"
+            },
+            {
+                "start": 402,
+                "end": 419,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 443,
+                "end": 451,
+                "label": "severity_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "incident location: in my office. reporter contact info: 555-0102. property damage: no. additional notes: There was no property damage. immediate actions taken: First aid. severity of incident: moderate. incident date: 2023-02-15. injuries sustained: sprained my ankle. affected individuals: Only myself. witnesses: no witnesses. incident type: workplace injury. incident time: 10:00 AM.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 31,
+                "label": "incident_location"
+            },
+            {
+                "start": 56,
+                "end": 64,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 83,
+                "end": 85,
+                "label": "property_damage"
+            },
+            {
+                "start": 105,
+                "end": 133,
+                "label": "additional_notes"
+            },
+            {
+                "start": 160,
+                "end": 169,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 193,
+                "end": 201,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 218,
+                "end": 228,
+                "label": "incident_date"
+            },
+            {
+                "start": 250,
+                "end": 267,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 291,
+                "end": 302,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 315,
+                "end": 327,
+                "label": "witnesses"
+            },
+            {
+                "start": 344,
+                "end": 360,
+                "label": "incident_type"
+            },
+            {
+                "start": 377,
+                "end": 385,
+                "label": "incident_time"
+            }
+        ]
+    },
+    {
+        "content": "injuries sustained: sprained my ankle. property damage: no. affected individuals: one. incident date: February 15th, 2023. incident type: workplace injury. witnesses: John Smith. incident location: office floor 2. severity of incident: moderate. immediate actions taken: First aid was administered. reporter contact info: Priya Singh. incident time: 10:30 AM. additional notes: no additional notes.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 37,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 56,
+                "end": 58,
+                "label": "property_damage"
+            },
+            {
+                "start": 82,
+                "end": 85,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 102,
+                "end": 121,
+                "label": "incident_date"
+            },
+            {
+                "start": 138,
+                "end": 154,
+                "label": "incident_type"
+            },
+            {
+                "start": 167,
+                "end": 177,
+                "label": "witnesses"
+            },
+            {
+                "start": 198,
+                "end": 212,
+                "label": "incident_location"
+            },
+            {
+                "start": 236,
+                "end": 244,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 271,
+                "end": 297,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 322,
+                "end": 333,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 350,
+                "end": 358,
+                "label": "incident_time"
+            },
+            {
+                "start": 378,
+                "end": 397,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "severity of incident: moderate. incident date: February 15th, 2023. incident time: 10:00 AM. incident type: workplace injury. affected individuals: Only I was affected. injuries sustained: sprained my ankle. immediate actions taken: first aid treatment. incident location: in the office. property damage: no witnesses. witnesses: no witnesses. additional notes: no additional notes. reporter contact info: 555-1234.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 30,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 47,
+                "end": 66,
+                "label": "incident_date"
+            },
+            {
+                "start": 83,
+                "end": 91,
+                "label": "incident_time"
+            },
+            {
+                "start": 108,
+                "end": 124,
+                "label": "incident_type"
+            },
+            {
+                "start": 148,
+                "end": 167,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 189,
+                "end": 206,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 233,
+                "end": 252,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 273,
+                "end": 286,
+                "label": "incident_location"
+            },
+            {
+                "start": 305,
+                "end": 317,
+                "label": "property_damage"
+            },
+            {
+                "start": 305,
+                "end": 317,
+                "label": "witnesses"
+            },
+            {
+                "start": 362,
+                "end": 381,
+                "label": "additional_notes"
+            },
+            {
+                "start": 406,
+                "end": 414,
+                "label": "reporter_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: We could really use some new floor mats in the office. incident time: 2:30pm. reporter contact info: Sofia Alvarez. witnesses: no one else there to see it. incident date: February 15th, 2023. immediate actions taken: First aid. affected individuals: Only myself. incident location: our office space. property damage: No. incident type: workplace injury. injuries sustained: sprained my ankle. severity of incident: moderate.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 71,
+                "label": "additional_notes"
+            },
+            {
+                "start": 88,
+                "end": 94,
+                "label": "incident_time"
+            },
+            {
+                "start": 119,
+                "end": 132,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 145,
+                "end": 172,
+                "label": "witnesses"
+            },
+            {
+                "start": 189,
+                "end": 208,
+                "label": "incident_date"
+            },
+            {
+                "start": 235,
+                "end": 244,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 268,
+                "end": 279,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 300,
+                "end": 316,
+                "label": "incident_location"
+            },
+            {
+                "start": 335,
+                "end": 337,
+                "label": "property_damage"
+            },
+            {
+                "start": 354,
+                "end": 370,
+                "label": "incident_type"
+            },
+            {
+                "start": 392,
+                "end": 409,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 433,
+                "end": 441,
+                "label": "severity_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "incident type: workplace injury. injuries sustained: sprained my ankle. severity of incident: moderate. additional notes: I think we need better floor mats in the area. immediate actions taken: provided first aid. reporter contact info: Li Wei, my email is liwei@medicalemail.com. witnesses: No, there were no other witnesses. incident date: February 15th, 2023. incident location: hospital room. affected individuals: one. property damage: no. incident time: 2:30pm.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 31,
+                "label": "incident_type"
+            },
+            {
+                "start": 53,
+                "end": 70,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 94,
+                "end": 102,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 122,
+                "end": 167,
+                "label": "additional_notes"
+            },
+            {
+                "start": 194,
+                "end": 212,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 237,
+                "end": 279,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 292,
+                "end": 325,
+                "label": "witnesses"
+            },
+            {
+                "start": 342,
+                "end": 361,
+                "label": "incident_date"
+            },
+            {
+                "start": 382,
+                "end": 395,
+                "label": "incident_location"
+            },
+            {
+                "start": 419,
+                "end": 422,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 115,
+                "end": 117,
+                "label": "property_damage"
+            },
+            {
+                "start": 460,
+                "end": 466,
+                "label": "incident_time"
+            }
+        ]
+    },
+    {
+        "content": "reporter contact info: 555-0345. witnesses: No, I was by myself. severity of incident: serious. additional notes: We could also use some better knives in the kitchen. incident time: 11:30. injuries sustained: I cut my hand. property damage: I cut my hand. incident type: workplace injury. incident location: kitchen. incident date: February 15th, 2023. affected individuals: only I was affected. immediate actions taken: first aid.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 31,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 44,
+                "end": 63,
+                "label": "witnesses"
+            },
+            {
+                "start": 87,
+                "end": 94,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 114,
+                "end": 165,
+                "label": "additional_notes"
+            },
+            {
+                "start": 182,
+                "end": 187,
+                "label": "incident_time"
+            },
+            {
+                "start": 209,
+                "end": 222,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 209,
+                "end": 222,
+                "label": "property_damage"
+            },
+            {
+                "start": 271,
+                "end": 287,
+                "label": "incident_type"
+            },
+            {
+                "start": 158,
+                "end": 165,
+                "label": "incident_location"
+            },
+            {
+                "start": 332,
+                "end": 351,
+                "label": "incident_date"
+            },
+            {
+                "start": 375,
+                "end": 394,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 421,
+                "end": 430,
+                "label": "immediate_actions_taken"
+            }
+        ]
+    },
+    {
+        "content": "property damage: No. incident location: office room 305. immediate actions taken: First aid was administered. incident time: 10:30 AM. reporter contact info: 1. affected individuals: 1. severity of incident: moderate. additional notes: We may need better floor mats. incident date: February 15th, 2023. injuries sustained: sprained my ankle. incident type: workplace injury. witnesses: John Smith.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 19,
+                "label": "property_damage"
+            },
+            {
+                "start": 40,
+                "end": 55,
+                "label": "incident_location"
+            },
+            {
+                "start": 82,
+                "end": 108,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 125,
+                "end": 133,
+                "label": "incident_time"
+            },
+            {
+                "start": 125,
+                "end": 126,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 125,
+                "end": 126,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 208,
+                "end": 216,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 236,
+                "end": 265,
+                "label": "additional_notes"
+            },
+            {
+                "start": 282,
+                "end": 301,
+                "label": "incident_date"
+            },
+            {
+                "start": 323,
+                "end": 340,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 357,
+                "end": 373,
+                "label": "incident_type"
+            },
+            {
+                "start": 386,
+                "end": 396,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "property damage: No. witnesses: I was by myself. additional notes: I administered first aid after the incident. immediate actions taken: first aid. incident time: 2:30 pm. incident location: in the studio. reporter contact info: Alex Jordan, my email is alexartistry. incident type: workplace injury. affected individuals: February 15, 2023. incident date: February 15, 2023. injuries sustained: sprained my wrist. severity of incident: moderate.",
+        "entities": [
+            {
+                "start": 17,
+                "end": 19,
+                "label": "property_damage"
+            },
+            {
+                "start": 32,
+                "end": 47,
+                "label": "witnesses"
+            },
+            {
+                "start": 67,
+                "end": 110,
+                "label": "additional_notes"
+            },
+            {
+                "start": 82,
+                "end": 91,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 163,
+                "end": 170,
+                "label": "incident_time"
+            },
+            {
+                "start": 191,
+                "end": 204,
+                "label": "incident_location"
+            },
+            {
+                "start": 229,
+                "end": 266,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 283,
+                "end": 299,
+                "label": "incident_type"
+            },
+            {
+                "start": 323,
+                "end": 340,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 323,
+                "end": 340,
+                "label": "incident_date"
+            },
+            {
+                "start": 396,
+                "end": 413,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 437,
+                "end": 445,
+                "label": "severity_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "incident date: February 15th, 2023. severity of incident: moderate. property damage: no. incident location: in the office. witnesses: no. immediate actions taken: First aid was administered. incident time: 10:00 AM. reporter contact info: Sofia Alvarez. injuries sustained: I sprained my ankle. additional notes: I think we need better floor mats. affected individuals: One. incident type: workplace injury.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 34,
+                "label": "incident_date"
+            },
+            {
+                "start": 58,
+                "end": 66,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 85,
+                "end": 87,
+                "label": "property_damage"
+            },
+            {
+                "start": 108,
+                "end": 121,
+                "label": "incident_location"
+            },
+            {
+                "start": 85,
+                "end": 87,
+                "label": "witnesses"
+            },
+            {
+                "start": 163,
+                "end": 189,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 206,
+                "end": 214,
+                "label": "incident_time"
+            },
+            {
+                "start": 239,
+                "end": 252,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 274,
+                "end": 293,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 313,
+                "end": 346,
+                "label": "additional_notes"
+            },
+            {
+                "start": 370,
+                "end": 373,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 390,
+                "end": 406,
+                "label": "incident_type"
+            }
+        ]
+    },
+    {
+        "content": "incident date: February 15th, 2023. additional notes: We could really use some better floor mats in that area. witnesses: No one else witnessed it. property damage: nothing was damaged. immediate actions taken: I gave myself first aid. reporter contact info: Dr. Li Wei. injuries sustained: sprained my ankle. incident time: 2:30pm. incident location: hospital room 305. affected individuals: the only one affected. severity of incident: moderate. incident type: workplace injury.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 34,
+                "label": "incident_date"
+            },
+            {
+                "start": 54,
+                "end": 109,
+                "label": "additional_notes"
+            },
+            {
+                "start": 122,
+                "end": 146,
+                "label": "witnesses"
+            },
+            {
+                "start": 165,
+                "end": 184,
+                "label": "property_damage"
+            },
+            {
+                "start": 211,
+                "end": 234,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 259,
+                "end": 269,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 291,
+                "end": 308,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 325,
+                "end": 331,
+                "label": "incident_time"
+            },
+            {
+                "start": 352,
+                "end": 369,
+                "label": "incident_location"
+            },
+            {
+                "start": 393,
+                "end": 414,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 438,
+                "end": 446,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 463,
+                "end": 479,
+                "label": "incident_type"
+            }
+        ]
+    },
+    {
+        "content": "incident location: office room 305. property damage: office room 305. incident date: 2023-02-15. injuries sustained: sprained my ankle. additional notes: We also need better floor mats in the office. incident time: 10:30 AM. reporter contact info: Carlos Mendez. severity of incident: moderate. affected individuals: one. witnesses: John Smith witnessed the incident. immediate actions taken: First aid was administered. incident type: workplace injury.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 34,
+                "label": "incident_location"
+            },
+            {
+                "start": 19,
+                "end": 34,
+                "label": "property_damage"
+            },
+            {
+                "start": 85,
+                "end": 95,
+                "label": "incident_date"
+            },
+            {
+                "start": 117,
+                "end": 134,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 154,
+                "end": 198,
+                "label": "additional_notes"
+            },
+            {
+                "start": 215,
+                "end": 223,
+                "label": "incident_time"
+            },
+            {
+                "start": 248,
+                "end": 261,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 285,
+                "end": 293,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 317,
+                "end": 320,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 333,
+                "end": 366,
+                "label": "witnesses"
+            },
+            {
+                "start": 393,
+                "end": 419,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 436,
+                "end": 452,
+                "label": "incident_type"
+            }
+        ]
+    },
+    {
+        "content": "immediate actions taken: First aid. severity of incident: moderate. affected individuals: only affected me. additional notes: We could use some better floor mats in the office. incident date: February 15, 2023. property damage: No. incident type: workplace injury. incident location: office room 302. incident time: 10:30 AM. reporter contact info: 555-0102. injuries sustained: sprained my ankle. witnesses: John Smith.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 34,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 58,
+                "end": 66,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 90,
+                "end": 106,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 126,
+                "end": 175,
+                "label": "additional_notes"
+            },
+            {
+                "start": 192,
+                "end": 209,
+                "label": "incident_date"
+            },
+            {
+                "start": 228,
+                "end": 230,
+                "label": "property_damage"
+            },
+            {
+                "start": 247,
+                "end": 263,
+                "label": "incident_type"
+            },
+            {
+                "start": 284,
+                "end": 299,
+                "label": "incident_location"
+            },
+            {
+                "start": 316,
+                "end": 324,
+                "label": "incident_time"
+            },
+            {
+                "start": 349,
+                "end": 357,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 379,
+                "end": 396,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 409,
+                "end": 419,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "incident date: February 15th, 2023. injuries sustained: sprained my ankle. incident location: classrooms. reporter contact info: athomas@school.edu or 555-1234. property damage: No. immediate actions taken: first aid. incident time: 2:30 PM. incident type: workplace injury. affected individuals: one. severity of incident: moderate. additional notes: There were no witnesses. witnesses: no witnesses.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 34,
+                "label": "incident_date"
+            },
+            {
+                "start": 56,
+                "end": 73,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 94,
+                "end": 104,
+                "label": "incident_location"
+            },
+            {
+                "start": 129,
+                "end": 159,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 178,
+                "end": 180,
+                "label": "property_damage"
+            },
+            {
+                "start": 207,
+                "end": 216,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 233,
+                "end": 240,
+                "label": "incident_time"
+            },
+            {
+                "start": 257,
+                "end": 273,
+                "label": "incident_type"
+            },
+            {
+                "start": 297,
+                "end": 300,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 324,
+                "end": 332,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 352,
+                "end": 375,
+                "label": "additional_notes"
+            },
+            {
+                "start": 363,
+                "end": 375,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: I think we need better knives in the kitchen. incident date: February 15th, 2023. immediate actions taken: first aid. injuries sustained: cut my hand. incident time: 2:30 pm. incident type: workplace injury. affected individuals: I was the only one affected. reporter contact info: Amir Khaled. severity of incident: moderate. incident location: in the kitchen. witnesses: John Smith witnessed it. property damage: No.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 62,
+                "label": "additional_notes"
+            },
+            {
+                "start": 79,
+                "end": 98,
+                "label": "incident_date"
+            },
+            {
+                "start": 125,
+                "end": 134,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 156,
+                "end": 167,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 184,
+                "end": 191,
+                "label": "incident_time"
+            },
+            {
+                "start": 208,
+                "end": 224,
+                "label": "incident_type"
+            },
+            {
+                "start": 248,
+                "end": 275,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 300,
+                "end": 311,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 335,
+                "end": 343,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 48,
+                "end": 62,
+                "label": "incident_location"
+            },
+            {
+                "start": 391,
+                "end": 414,
+                "label": "witnesses"
+            },
+            {
+                "start": 433,
+                "end": 435,
+                "label": "property_damage"
+            }
+        ]
+    },
+    {
+        "content": "severity of incident: moderate. affected individuals: just involving me. reporter contact info: Amir Khaled. witnesses: No, I was alone. injuries sustained: a cut on my hand. immediate actions taken: first aid. incident time: 11:30. incident type: workplace injury. incident date: February 15th, 2023. additional notes: I think we need better knives in the kitchen to prevent future injuries. property damage: It occurred in the kitchen. incident location: the kitchen.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 30,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 54,
+                "end": 71,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 96,
+                "end": 107,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 120,
+                "end": 135,
+                "label": "witnesses"
+            },
+            {
+                "start": 157,
+                "end": 173,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 200,
+                "end": 209,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 226,
+                "end": 231,
+                "label": "incident_time"
+            },
+            {
+                "start": 248,
+                "end": 264,
+                "label": "incident_type"
+            },
+            {
+                "start": 281,
+                "end": 300,
+                "label": "incident_date"
+            },
+            {
+                "start": 320,
+                "end": 391,
+                "label": "additional_notes"
+            },
+            {
+                "start": 410,
+                "end": 436,
+                "label": "property_damage"
+            },
+            {
+                "start": 353,
+                "end": 364,
+                "label": "incident_location"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: I administered first aid to myself. immediate actions taken: first aid. affected individuals: it was just me. incident time: 10:00 AM. witnesses: No, there was no one else there and nothing was broken. property damage: nothing was broken. incident type: workplace injury. injuries sustained: sprained my ankle. reporter contact info: Alex Jordan, my email is alexartistry@email.com. incident location: in the office. incident date: February 15th, 2023. severity of incident: moderate.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 52,
+                "label": "additional_notes"
+            },
+            {
+                "start": 33,
+                "end": 42,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 112,
+                "end": 126,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 143,
+                "end": 151,
+                "label": "incident_time"
+            },
+            {
+                "start": 164,
+                "end": 218,
+                "label": "witnesses"
+            },
+            {
+                "start": 200,
+                "end": 218,
+                "label": "property_damage"
+            },
+            {
+                "start": 272,
+                "end": 288,
+                "label": "incident_type"
+            },
+            {
+                "start": 310,
+                "end": 327,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 352,
+                "end": 399,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 420,
+                "end": 433,
+                "label": "incident_location"
+            },
+            {
+                "start": 450,
+                "end": 469,
+                "label": "incident_date"
+            },
+            {
+                "start": 493,
+                "end": 501,
+                "label": "severity_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "affected individuals: One. property damage: There was no. incident time: 11:30. injuries sustained: a cut on my hand. incident date: February 15th, 2023. witnesses: no other witnesses. immediate actions taken: First aid. incident type: workplace injury. severity of incident: moderate. additional notes: I think we need better knives in the kitchen. My name is Amir Khaled. reporter contact info: +1-555-0345. incident location: in the kitchen.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 25,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 44,
+                "end": 56,
+                "label": "property_damage"
+            },
+            {
+                "start": 73,
+                "end": 78,
+                "label": "incident_time"
+            },
+            {
+                "start": 100,
+                "end": 116,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 133,
+                "end": 152,
+                "label": "incident_date"
+            },
+            {
+                "start": 165,
+                "end": 183,
+                "label": "witnesses"
+            },
+            {
+                "start": 210,
+                "end": 219,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 236,
+                "end": 252,
+                "label": "incident_type"
+            },
+            {
+                "start": 276,
+                "end": 284,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 304,
+                "end": 372,
+                "label": "additional_notes"
+            },
+            {
+                "start": 397,
+                "end": 408,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 334,
+                "end": 348,
+                "label": "incident_location"
+            }
+        ]
+    },
+    {
+        "content": "injuries sustained: cut my hand. immediate actions taken: A coworker helped bandage it up. property damage: No, there wasn't any other damage. My name is Amir Khaled. reporter contact info: +1-555-0345. additional notes: I think we could use some sharper knives in the kitchen. witnesses: No, I was alone in the kitchen. incident location: in our company kitchen. affected individuals: one. incident date: February 15, 2023. incident time: 11:30 in the morning. incident type: workplace injury. severity of incident: moderate.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 31,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 58,
+                "end": 89,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 108,
+                "end": 165,
+                "label": "property_damage"
+            },
+            {
+                "start": 190,
+                "end": 201,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 221,
+                "end": 276,
+                "label": "additional_notes"
+            },
+            {
+                "start": 289,
+                "end": 319,
+                "label": "witnesses"
+            },
+            {
+                "start": 340,
+                "end": 362,
+                "label": "incident_location"
+            },
+            {
+                "start": 301,
+                "end": 304,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 406,
+                "end": 423,
+                "label": "incident_date"
+            },
+            {
+                "start": 440,
+                "end": 460,
+                "label": "incident_time"
+            },
+            {
+                "start": 477,
+                "end": 493,
+                "label": "incident_type"
+            },
+            {
+                "start": 517,
+                "end": 525,
+                "label": "severity_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: The floor mats in the office could use replacing. It happened there. incident location: floor mats in the office. incident date: February 15th, 2023. affected individuals: it was just me. severity of incident: moderate. witnesses: no one else saw it. injuries sustained: sprained my ankle. immediate actions taken: I gave myself first aid. property damage: No, there was no other damage. incident type: workplace injury. reporter contact info: Alex Jordan. incident time: 10:30 AM.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 85,
+                "label": "additional_notes"
+            },
+            {
+                "start": 22,
+                "end": 46,
+                "label": "incident_location"
+            },
+            {
+                "start": 147,
+                "end": 166,
+                "label": "incident_date"
+            },
+            {
+                "start": 190,
+                "end": 204,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 228,
+                "end": 236,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 249,
+                "end": 267,
+                "label": "witnesses"
+            },
+            {
+                "start": 289,
+                "end": 306,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 333,
+                "end": 356,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 375,
+                "end": 404,
+                "label": "property_damage"
+            },
+            {
+                "start": 421,
+                "end": 437,
+                "label": "incident_type"
+            },
+            {
+                "start": 462,
+                "end": 473,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 490,
+                "end": 498,
+                "label": "incident_time"
+            }
+        ]
+    },
+    {
+        "content": "immediate actions taken: first aid treatment. severity of incident: moderate. reporter contact info: Angela Thomas. property damage: no witnesses. witnesses: no witnesses. incident date: February 15, 2023. injuries sustained: I sprained my ankle. incident time: 10:30 AM. additional notes: The student tripped and fell. incident type: workplace injury. incident location: in a classroom. affected individuals: one.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 44,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 68,
+                "end": 76,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 101,
+                "end": 114,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 133,
+                "end": 145,
+                "label": "property_damage"
+            },
+            {
+                "start": 133,
+                "end": 145,
+                "label": "witnesses"
+            },
+            {
+                "start": 187,
+                "end": 204,
+                "label": "incident_date"
+            },
+            {
+                "start": 226,
+                "end": 245,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 262,
+                "end": 270,
+                "label": "incident_time"
+            },
+            {
+                "start": 290,
+                "end": 318,
+                "label": "additional_notes"
+            },
+            {
+                "start": 335,
+                "end": 351,
+                "label": "incident_type"
+            },
+            {
+                "start": 372,
+                "end": 386,
+                "label": "incident_location"
+            },
+            {
+                "start": 410,
+                "end": 413,
+                "label": "affected_individuals"
+            }
+        ]
+    },
+    {
+        "content": "affected individuals: One. additional notes: First aid was administered after the incident. immediate actions taken: First aid. incident location: in the office. incident date: February 15, 2023. property damage: sprained ankle. injuries sustained: sprained ankle. severity of incident: moderate. witnesses: John Smith. reporter contact info: 555-1234. incident type: workplace injury. incident time: 2:30PM.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 25,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 45,
+                "end": 90,
+                "label": "additional_notes"
+            },
+            {
+                "start": 45,
+                "end": 54,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 147,
+                "end": 160,
+                "label": "incident_location"
+            },
+            {
+                "start": 177,
+                "end": 194,
+                "label": "incident_date"
+            },
+            {
+                "start": 213,
+                "end": 227,
+                "label": "property_damage"
+            },
+            {
+                "start": 213,
+                "end": 227,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 287,
+                "end": 295,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 308,
+                "end": 318,
+                "label": "witnesses"
+            },
+            {
+                "start": 343,
+                "end": 351,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 368,
+                "end": 384,
+                "label": "incident_type"
+            },
+            {
+                "start": 401,
+                "end": 407,
+                "label": "incident_time"
+            }
+        ]
+    },
+    {
+        "content": "incident location: in the kitchen. additional notes: The knives we have aren't very sharp. reporter contact info: Amir Khaled. incident time: 2:30pm. affected individuals: It happened at 2:30pm and I was the only one involved. severity of incident: moderate. injuries sustained: it cut my hand. immediate actions taken: First aid. incident type: workplace injury. witnesses: Yes, John Smith was there. incident date: February 15th, 2023. property damage: No.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 33,
+                "label": "incident_location"
+            },
+            {
+                "start": 53,
+                "end": 89,
+                "label": "additional_notes"
+            },
+            {
+                "start": 114,
+                "end": 125,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 142,
+                "end": 148,
+                "label": "incident_time"
+            },
+            {
+                "start": 172,
+                "end": 225,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 249,
+                "end": 257,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 279,
+                "end": 293,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 320,
+                "end": 329,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 346,
+                "end": 362,
+                "label": "incident_type"
+            },
+            {
+                "start": 375,
+                "end": 400,
+                "label": "witnesses"
+            },
+            {
+                "start": 417,
+                "end": 436,
+                "label": "incident_date"
+            },
+            {
+                "start": 455,
+                "end": 457,
+                "label": "property_damage"
+            }
+        ]
+    },
+    {
+        "content": "incident time: 2:30 pm. property damage: There was no. additional notes: There was no property damage. reporter contact info: Elijah Barnes. witnesses: no witnesses. incident type: workplace injury. injuries sustained: sprained my ankle. severity of incident: moderate. incident location: Studio B. affected individuals: one. incident date: February 15th, 2023. immediate actions taken: Basic first aid was administered.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 22,
+                "label": "incident_time"
+            },
+            {
+                "start": 41,
+                "end": 53,
+                "label": "property_damage"
+            },
+            {
+                "start": 73,
+                "end": 101,
+                "label": "additional_notes"
+            },
+            {
+                "start": 126,
+                "end": 139,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 152,
+                "end": 164,
+                "label": "witnesses"
+            },
+            {
+                "start": 181,
+                "end": 197,
+                "label": "incident_type"
+            },
+            {
+                "start": 219,
+                "end": 236,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 260,
+                "end": 268,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 289,
+                "end": 297,
+                "label": "incident_location"
+            },
+            {
+                "start": 321,
+                "end": 324,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 341,
+                "end": 360,
+                "label": "incident_date"
+            },
+            {
+                "start": 387,
+                "end": 419,
+                "label": "immediate_actions_taken"
+            }
+        ]
+    },
+    {
+        "content": "affected individuals: One. property damage: no. witnesses: John Smith witnessed the incident. reporter contact info: Carlos Mendez. incident date: February 15th, 2023. immediate actions taken: First aid was administered. incident location: office room 302. injuries sustained: sprained my ankle. severity of incident: moderate. incident time: 10:30 AM. additional notes: I think better floor mats are needed. incident type: workplace injury.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 25,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 44,
+                "end": 46,
+                "label": "property_damage"
+            },
+            {
+                "start": 59,
+                "end": 92,
+                "label": "witnesses"
+            },
+            {
+                "start": 117,
+                "end": 130,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 147,
+                "end": 166,
+                "label": "incident_date"
+            },
+            {
+                "start": 193,
+                "end": 219,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 240,
+                "end": 255,
+                "label": "incident_location"
+            },
+            {
+                "start": 277,
+                "end": 294,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 318,
+                "end": 326,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 343,
+                "end": 351,
+                "label": "incident_time"
+            },
+            {
+                "start": 371,
+                "end": 407,
+                "label": "additional_notes"
+            },
+            {
+                "start": 424,
+                "end": 440,
+                "label": "incident_type"
+            }
+        ]
+    },
+    {
+        "content": "incident date: 2023-02-15. injuries sustained: I cut my hand. witnesses: John Smith. affected individuals: just me. reporter contact info: +1-555-0345. incident type: workplace injury. incident location: in the kitchen. immediate actions taken: first aid to myself. property damage: no. additional notes: I think we could use better knives for safety. This one was moderate. severity of incident: moderate. incident time: 11:30.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 25,
+                "label": "incident_date"
+            },
+            {
+                "start": 47,
+                "end": 60,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 73,
+                "end": 83,
+                "label": "witnesses"
+            },
+            {
+                "start": 107,
+                "end": 114,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 139,
+                "end": 150,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 167,
+                "end": 183,
+                "label": "incident_type"
+            },
+            {
+                "start": 204,
+                "end": 218,
+                "label": "incident_location"
+            },
+            {
+                "start": 245,
+                "end": 264,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 283,
+                "end": 285,
+                "label": "property_damage"
+            },
+            {
+                "start": 305,
+                "end": 373,
+                "label": "additional_notes"
+            },
+            {
+                "start": 365,
+                "end": 373,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 422,
+                "end": 427,
+                "label": "incident_time"
+            }
+        ]
+    },
+    {
+        "content": "injuries sustained: a cut on my hand. incident location: in the lab room number 23. witnesses: Jane Smith. additional notes: The equipment in the lab needs to be safer. reporter contact info: hkim@researchlab.com. severity of incident: moderate. affected individuals: only I was affected. property damage: No. incident time: 2:30pm. incident date: February 15, 2023. incident type: workplace injury. immediate actions taken: Basic first aid.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 36,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 57,
+                "end": 82,
+                "label": "incident_location"
+            },
+            {
+                "start": 95,
+                "end": 105,
+                "label": "witnesses"
+            },
+            {
+                "start": 125,
+                "end": 167,
+                "label": "additional_notes"
+            },
+            {
+                "start": 192,
+                "end": 212,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 236,
+                "end": 244,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 268,
+                "end": 287,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 306,
+                "end": 308,
+                "label": "property_damage"
+            },
+            {
+                "start": 325,
+                "end": 331,
+                "label": "incident_time"
+            },
+            {
+                "start": 348,
+                "end": 365,
+                "label": "incident_date"
+            },
+            {
+                "start": 382,
+                "end": 398,
+                "label": "incident_type"
+            },
+            {
+                "start": 425,
+                "end": 440,
+                "label": "immediate_actions_taken"
+            }
+        ]
+    },
+    {
+        "content": "witnesses: no one else there. incident time: 2:30pm. injuries sustained: sprained my ankle. property damage: sprained my ankle. severity of incident: moderate. affected individuals: Only myself was affected. incident type: workplace injury. immediate actions taken: first aid. incident location: in the office. additional notes: I think we need better floor mats in the office. reporter contact info: 555-1234. incident date: February 15, 2023.",
+        "entities": [
+            {
+                "start": 11,
+                "end": 28,
+                "label": "witnesses"
+            },
+            {
+                "start": 45,
+                "end": 51,
+                "label": "incident_time"
+            },
+            {
+                "start": 73,
+                "end": 90,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 73,
+                "end": 90,
+                "label": "property_damage"
+            },
+            {
+                "start": 150,
+                "end": 158,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 182,
+                "end": 206,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 223,
+                "end": 239,
+                "label": "incident_type"
+            },
+            {
+                "start": 266,
+                "end": 275,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 296,
+                "end": 309,
+                "label": "incident_location"
+            },
+            {
+                "start": 329,
+                "end": 376,
+                "label": "additional_notes"
+            },
+            {
+                "start": 401,
+                "end": 409,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 426,
+                "end": 443,
+                "label": "incident_date"
+            }
+        ]
+    },
+    {
+        "content": "incident location: in our office. incident date: February 15th, 2023. immediate actions taken: First aid. severity of incident: moderate. injuries sustained: sprained my ankle. property damage: no. affected individuals: One. incident time: 10:00 AM. witnesses: no witnesses. reporter contact info: Sofia Alvarez. incident type: workplace injury. additional notes: We may need better floor mats.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 32,
+                "label": "incident_location"
+            },
+            {
+                "start": 49,
+                "end": 68,
+                "label": "incident_date"
+            },
+            {
+                "start": 95,
+                "end": 104,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 128,
+                "end": 136,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 158,
+                "end": 175,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 194,
+                "end": 196,
+                "label": "property_damage"
+            },
+            {
+                "start": 220,
+                "end": 223,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 240,
+                "end": 248,
+                "label": "incident_time"
+            },
+            {
+                "start": 261,
+                "end": 273,
+                "label": "witnesses"
+            },
+            {
+                "start": 298,
+                "end": 311,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 328,
+                "end": 344,
+                "label": "incident_type"
+            },
+            {
+                "start": 364,
+                "end": 393,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "incident date: February 15th, 2023. reporter contact info: 555-1234. incident type: workplace injury. witnesses: no one else there to witness it. incident location: in my office. additional notes: I slipped on the wet floor. It was a moderate injury. severity of incident: moderate. injuries sustained: sprained my ankle. incident time: 10:30. property damage: No, there was no property damage. I received first aid. affected individuals: Thank you so much for your help. immediate actions taken: Thank you so much for your help.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 34,
+                "label": "incident_date"
+            },
+            {
+                "start": 59,
+                "end": 67,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 84,
+                "end": 100,
+                "label": "incident_type"
+            },
+            {
+                "start": 113,
+                "end": 144,
+                "label": "witnesses"
+            },
+            {
+                "start": 165,
+                "end": 177,
+                "label": "incident_location"
+            },
+            {
+                "start": 197,
+                "end": 249,
+                "label": "additional_notes"
+            },
+            {
+                "start": 234,
+                "end": 242,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 303,
+                "end": 320,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 337,
+                "end": 342,
+                "label": "incident_time"
+            },
+            {
+                "start": 361,
+                "end": 415,
+                "label": "property_damage"
+            },
+            {
+                "start": 439,
+                "end": 470,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 439,
+                "end": 470,
+                "label": "immediate_actions_taken"
+            }
+        ]
+    },
+    {
+        "content": "injuries sustained: sprained my ankle. incident time: 10:30. incident location: in one of the classrooms. property damage: nothing was broken. severity of incident: moderate. additional notes: It was moderate. We could really use some better floor mats in there. witnesses: No, I was alone. affected individuals: No, I was alone. It was just me. reporter contact info: 555-1234. incident type: workplace injury. immediate actions taken: some ice for my ankle. incident date: February 15, 2023.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 37,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 54,
+                "end": 59,
+                "label": "incident_time"
+            },
+            {
+                "start": 80,
+                "end": 104,
+                "label": "incident_location"
+            },
+            {
+                "start": 123,
+                "end": 141,
+                "label": "property_damage"
+            },
+            {
+                "start": 165,
+                "end": 173,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 193,
+                "end": 261,
+                "label": "additional_notes"
+            },
+            {
+                "start": 274,
+                "end": 289,
+                "label": "witnesses"
+            },
+            {
+                "start": 313,
+                "end": 344,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 369,
+                "end": 377,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 394,
+                "end": 410,
+                "label": "incident_type"
+            },
+            {
+                "start": 437,
+                "end": 458,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 475,
+                "end": 492,
+                "label": "incident_date"
+            }
+        ]
+    },
+    {
+        "content": "immediate actions taken: First aid was administered. incident type: workplace injury. affected individuals: One. additional notes: Just be careful when handling glass items. incident location: Lab room 567. incident time: 2:30pm. property damage: No. injuries sustained: a cut on my hand. reporter contact info: Henry Kim. severity of incident: moderate. incident date: February 15, 2023. witnesses: John Smith.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 51,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 68,
+                "end": 84,
+                "label": "incident_type"
+            },
+            {
+                "start": 108,
+                "end": 111,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 131,
+                "end": 172,
+                "label": "additional_notes"
+            },
+            {
+                "start": 193,
+                "end": 205,
+                "label": "incident_location"
+            },
+            {
+                "start": 222,
+                "end": 228,
+                "label": "incident_time"
+            },
+            {
+                "start": 247,
+                "end": 249,
+                "label": "property_damage"
+            },
+            {
+                "start": 271,
+                "end": 287,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 312,
+                "end": 321,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 345,
+                "end": 353,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 370,
+                "end": 387,
+                "label": "incident_date"
+            },
+            {
+                "start": 400,
+                "end": 410,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "affected individuals: Yes, it was just me. incident type: Yes, it was just me involved in the incident. witnesses: No. injuries sustained: sprained my ankle. severity of incident: moderate. incident time: 2:30 PM. additional notes: I think we need better safety measures in place in the studio. incident location: elijahmusic@gmail.com. reporter contact info: Elijah Barnes. property damage: No. immediate actions taken: first aid. incident date: February 15, 2023.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 41,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 58,
+                "end": 102,
+                "label": "incident_type"
+            },
+            {
+                "start": 115,
+                "end": 117,
+                "label": "witnesses"
+            },
+            {
+                "start": 139,
+                "end": 156,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 180,
+                "end": 188,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 205,
+                "end": 212,
+                "label": "incident_time"
+            },
+            {
+                "start": 232,
+                "end": 293,
+                "label": "additional_notes"
+            },
+            {
+                "start": 314,
+                "end": 335,
+                "label": "incident_location"
+            },
+            {
+                "start": 360,
+                "end": 373,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 115,
+                "end": 117,
+                "label": "property_damage"
+            },
+            {
+                "start": 421,
+                "end": 430,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 447,
+                "end": 464,
+                "label": "incident_date"
+            }
+        ]
+    },
+    {
+        "content": "severity of incident: moderate. property damage: no. incident time: 10:00 AM. incident location: in the office. immediate actions taken: First aid. incident date: February 15, 2023. injuries sustained: sprained my ankle. incident type: workplace injury. witnesses: John Doe witnessed it. additional notes: We may need better floor mats. reporter contact info: XXX-XXX-XXXX. affected individuals: One.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 30,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 49,
+                "end": 51,
+                "label": "property_damage"
+            },
+            {
+                "start": 68,
+                "end": 76,
+                "label": "incident_time"
+            },
+            {
+                "start": 97,
+                "end": 110,
+                "label": "incident_location"
+            },
+            {
+                "start": 137,
+                "end": 146,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 163,
+                "end": 180,
+                "label": "incident_date"
+            },
+            {
+                "start": 202,
+                "end": 219,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 236,
+                "end": 252,
+                "label": "incident_type"
+            },
+            {
+                "start": 265,
+                "end": 286,
+                "label": "witnesses"
+            },
+            {
+                "start": 306,
+                "end": 335,
+                "label": "additional_notes"
+            },
+            {
+                "start": 360,
+                "end": 372,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 396,
+                "end": 399,
+                "label": "affected_individuals"
+            }
+        ]
+    },
+    {
+        "content": "incident type: workplace injury. affected individuals: Just me. additional notes: No other details. reporter contact info: salvarez@lawfirm.com. witnesses: No, I was alone. severity of incident: moderate. incident date: February 15, 2023. incident time: 10:00 AM. property damage: It occurred in my office. incident location: in my office. immediate actions taken: First aid. injuries sustained: sprained my ankle.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 31,
+                "label": "incident_type"
+            },
+            {
+                "start": 55,
+                "end": 62,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 82,
+                "end": 98,
+                "label": "additional_notes"
+            },
+            {
+                "start": 123,
+                "end": 143,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 156,
+                "end": 171,
+                "label": "witnesses"
+            },
+            {
+                "start": 195,
+                "end": 203,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 220,
+                "end": 237,
+                "label": "incident_date"
+            },
+            {
+                "start": 254,
+                "end": 262,
+                "label": "incident_time"
+            },
+            {
+                "start": 281,
+                "end": 305,
+                "label": "property_damage"
+            },
+            {
+                "start": 293,
+                "end": 305,
+                "label": "incident_location"
+            },
+            {
+                "start": 365,
+                "end": 374,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 396,
+                "end": 413,
+                "label": "injuries_sustained"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: No, there weren't any additional notes. property damage: nothing. severity of incident: moderate. injuries sustained: sprained my ankle. witnesses: No, I was alone. immediate actions taken: first aid. incident time: 10:00 AM. affected individuals: only I was affected. incident type: workplace injury. incident location: in the office. incident date: February 15, 2023. reporter contact info: Sofia Alvarez.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 56,
+                "label": "additional_notes"
+            },
+            {
+                "start": 75,
+                "end": 82,
+                "label": "property_damage"
+            },
+            {
+                "start": 106,
+                "end": 114,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 136,
+                "end": 153,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 166,
+                "end": 181,
+                "label": "witnesses"
+            },
+            {
+                "start": 208,
+                "end": 217,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 234,
+                "end": 242,
+                "label": "incident_time"
+            },
+            {
+                "start": 266,
+                "end": 285,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 302,
+                "end": 318,
+                "label": "incident_type"
+            },
+            {
+                "start": 339,
+                "end": 352,
+                "label": "incident_location"
+            },
+            {
+                "start": 369,
+                "end": 386,
+                "label": "incident_date"
+            },
+            {
+                "start": 411,
+                "end": 424,
+                "label": "reporter_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "immediate actions taken: provided myself with some first aid. additional notes: We could really use some better floor mats in here. affected individuals: one. reporter contact info: Dr. Li Wei. incident date: February 15th, 2023. incident location: in one of the hospital rooms. incident type: workplace injury. property damage: No. witnesses: no. incident time: 2:30pm. injuries sustained: a sprained ankle. severity of incident: moderate.",
+        "entities": [
+            {
+                "start": 25,
+                "end": 60,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 80,
+                "end": 130,
+                "label": "additional_notes"
+            },
+            {
+                "start": 154,
+                "end": 157,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 182,
+                "end": 192,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 209,
+                "end": 228,
+                "label": "incident_date"
+            },
+            {
+                "start": 249,
+                "end": 277,
+                "label": "incident_location"
+            },
+            {
+                "start": 294,
+                "end": 310,
+                "label": "incident_type"
+            },
+            {
+                "start": 329,
+                "end": 331,
+                "label": "property_damage"
+            },
+            {
+                "start": 73,
+                "end": 75,
+                "label": "witnesses"
+            },
+            {
+                "start": 363,
+                "end": 369,
+                "label": "incident_time"
+            },
+            {
+                "start": 391,
+                "end": 407,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 431,
+                "end": 439,
+                "label": "severity_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "witnesses: No, there were no other witnesses. additional notes: I administered first aid to the student who had tripped. immediate actions taken: first aid. reporter contact info: Angela Thomas. affected individuals: 1. incident type: workplace injury. incident time: 2:30 pm. severity of incident: moderate. property damage: no. incident date: February 15, 2023. incident location: in one of the classrooms. injuries sustained: a sprained ankle.",
+        "entities": [
+            {
+                "start": 11,
+                "end": 44,
+                "label": "witnesses"
+            },
+            {
+                "start": 64,
+                "end": 119,
+                "label": "additional_notes"
+            },
+            {
+                "start": 79,
+                "end": 88,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 180,
+                "end": 193,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 217,
+                "end": 218,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 235,
+                "end": 251,
+                "label": "incident_type"
+            },
+            {
+                "start": 268,
+                "end": 275,
+                "label": "incident_time"
+            },
+            {
+                "start": 299,
+                "end": 307,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 26,
+                "end": 28,
+                "label": "property_damage"
+            },
+            {
+                "start": 345,
+                "end": 362,
+                "label": "incident_date"
+            },
+            {
+                "start": 383,
+                "end": 407,
+                "label": "incident_location"
+            },
+            {
+                "start": 429,
+                "end": 445,
+                "label": "injuries_sustained"
+            }
+        ]
+    },
+    {
+        "content": "incident location: in the office. injuries sustained: I sprained my ankle. affected individuals: I sprained my ankle and I was the only one affected. incident date: February 15th, 2023. property damage: no. immediate actions taken: first aid. incident type: workplace injury. severity of incident: moderate. reporter contact info: Alex Jordan, my email is alexartistry. additional notes: We may need better floor mats to prevent future injuries. incident time: 10:00 AM. witnesses: no other witnesses.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 32,
+                "label": "incident_location"
+            },
+            {
+                "start": 54,
+                "end": 73,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 97,
+                "end": 148,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 165,
+                "end": 184,
+                "label": "incident_date"
+            },
+            {
+                "start": 203,
+                "end": 205,
+                "label": "property_damage"
+            },
+            {
+                "start": 232,
+                "end": 241,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 258,
+                "end": 274,
+                "label": "incident_type"
+            },
+            {
+                "start": 298,
+                "end": 306,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 331,
+                "end": 368,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 388,
+                "end": 444,
+                "label": "additional_notes"
+            },
+            {
+                "start": 461,
+                "end": 469,
+                "label": "incident_time"
+            },
+            {
+                "start": 482,
+                "end": 500,
+                "label": "witnesses"
+            }
+        ]
+    },
+    {
+        "content": "incident date: February 15th, 2023. incident time: 2:30 pm. affected individuals: I was the only one affected. property damage: No equipment was damaged. immediate actions taken: First aid was administered. additional notes: I think we need better floor mats in the studio. incident type: workplace injury. incident location: in the studio. witnesses: no witnesses. injuries sustained: I sprained my ankle. reporter contact info: 555-1234. severity of incident: moderate.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 34,
+                "label": "incident_date"
+            },
+            {
+                "start": 51,
+                "end": 58,
+                "label": "incident_time"
+            },
+            {
+                "start": 82,
+                "end": 109,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 128,
+                "end": 152,
+                "label": "property_damage"
+            },
+            {
+                "start": 179,
+                "end": 205,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 225,
+                "end": 272,
+                "label": "additional_notes"
+            },
+            {
+                "start": 289,
+                "end": 305,
+                "label": "incident_type"
+            },
+            {
+                "start": 259,
+                "end": 272,
+                "label": "incident_location"
+            },
+            {
+                "start": 352,
+                "end": 364,
+                "label": "witnesses"
+            },
+            {
+                "start": 386,
+                "end": 405,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 430,
+                "end": 438,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 462,
+                "end": 470,
+                "label": "severity_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "incident time: 2:30pm. incident location: office room 234. injuries sustained: sprained my ankle. reporter contact info: 555-0102. additional notes: I think we need better floor mats in that area. incident date: February 15th, 2023. immediate actions taken: First aid. affected individuals: one. property damage: No. incident type: workplace injury. witnesses: John Smith witnessed the incident. severity of incident: moderate.",
+        "entities": [
+            {
+                "start": 15,
+                "end": 21,
+                "label": "incident_time"
+            },
+            {
+                "start": 42,
+                "end": 57,
+                "label": "incident_location"
+            },
+            {
+                "start": 79,
+                "end": 96,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 121,
+                "end": 129,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 149,
+                "end": 195,
+                "label": "additional_notes"
+            },
+            {
+                "start": 212,
+                "end": 231,
+                "label": "incident_date"
+            },
+            {
+                "start": 258,
+                "end": 267,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 291,
+                "end": 294,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 313,
+                "end": 315,
+                "label": "property_damage"
+            },
+            {
+                "start": 332,
+                "end": 348,
+                "label": "incident_type"
+            },
+            {
+                "start": 361,
+                "end": 394,
+                "label": "witnesses"
+            },
+            {
+                "start": 418,
+                "end": 426,
+                "label": "severity_of_incident"
+            }
+        ]
+    },
+    {
+        "content": "injuries sustained: cut my hand. incident location: lab room 23B. immediate actions taken: got it bandaged up. severity of incident: moderate. affected individuals: Just me. incident type: workplace injury. incident time: 2:30pm. additional notes: better gloves are needed for that job. reporter contact info: Henry Kim. witnesses: February 15th, 2023. incident date: February 15th, 2023. property damage: .",
+        "entities": [
+            {
+                "start": 20,
+                "end": 31,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 52,
+                "end": 64,
+                "label": "incident_location"
+            },
+            {
+                "start": 91,
+                "end": 109,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 133,
+                "end": 141,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 165,
+                "end": 172,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 189,
+                "end": 205,
+                "label": "incident_type"
+            },
+            {
+                "start": 222,
+                "end": 228,
+                "label": "incident_time"
+            },
+            {
+                "start": 248,
+                "end": 285,
+                "label": "additional_notes"
+            },
+            {
+                "start": 310,
+                "end": 319,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 332,
+                "end": 351,
+                "label": "witnesses"
+            },
+            {
+                "start": 332,
+                "end": 351,
+                "label": "incident_date"
+            },
+            {
+                "start": 0,
+                "end": 0,
+                "label": "property_damage"
+            }
+        ]
+    },
+    {
+        "content": "affected individuals: one. additional notes: The student tripped and fell. incident date: February 15, 2023. property damage: no. witnesses: no witnesses. reporter contact info: There were no witnesses. My name is Angela Thomas. incident time: 2:30pm. injuries sustained: sprained their ankle. severity of incident: moderate. incident type: moderate workplace injury. immediate actions taken: First aid. incident location: classroom.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 25,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 45,
+                "end": 73,
+                "label": "additional_notes"
+            },
+            {
+                "start": 90,
+                "end": 107,
+                "label": "incident_date"
+            },
+            {
+                "start": 38,
+                "end": 40,
+                "label": "property_damage"
+            },
+            {
+                "start": 141,
+                "end": 153,
+                "label": "witnesses"
+            },
+            {
+                "start": 178,
+                "end": 227,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 244,
+                "end": 250,
+                "label": "incident_time"
+            },
+            {
+                "start": 272,
+                "end": 292,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 316,
+                "end": 324,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 341,
+                "end": 366,
+                "label": "incident_type"
+            },
+            {
+                "start": 393,
+                "end": 402,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 423,
+                "end": 432,
+                "label": "incident_location"
+            }
+        ]
+    },
+    {
+        "content": "affected individuals: one. injuries sustained: sprained their ankle. incident type: workplace injury. incident location: Studio B. witnesses: no witnesses. severity of incident: moderate. incident time: 2:30PM. additional notes: We may need better safety measures in the studio. immediate actions taken: First aid. reporter contact info: Elijah Barnes. incident date: 2023-02-15. property damage: No.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 25,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 47,
+                "end": 67,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 84,
+                "end": 100,
+                "label": "incident_type"
+            },
+            {
+                "start": 121,
+                "end": 129,
+                "label": "incident_location"
+            },
+            {
+                "start": 142,
+                "end": 154,
+                "label": "witnesses"
+            },
+            {
+                "start": 178,
+                "end": 186,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 203,
+                "end": 209,
+                "label": "incident_time"
+            },
+            {
+                "start": 229,
+                "end": 277,
+                "label": "additional_notes"
+            },
+            {
+                "start": 304,
+                "end": 313,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 338,
+                "end": 351,
+                "label": "reporter_contact_info"
+            },
+            {
+                "start": 368,
+                "end": 378,
+                "label": "incident_date"
+            },
+            {
+                "start": 397,
+                "end": 399,
+                "label": "property_damage"
+            }
+        ]
+    },
+    {
+        "content": "severity of incident: moderate. witnesses: John Smith. incident time: 11:30. immediate actions taken: first aid. additional notes: I administered first aid. property damage: No. affected individuals: one. incident location: in the kitchen. injuries sustained: a cut on my hand. incident date: February 15th, 2023. incident type: workplace injury. reporter contact info: Amir Khaled.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 30,
+                "label": "severity_of_incident"
+            },
+            {
+                "start": 43,
+                "end": 53,
+                "label": "witnesses"
+            },
+            {
+                "start": 70,
+                "end": 75,
+                "label": "incident_time"
+            },
+            {
+                "start": 102,
+                "end": 111,
+                "label": "immediate_actions_taken"
+            },
+            {
+                "start": 131,
+                "end": 155,
+                "label": "additional_notes"
+            },
+            {
+                "start": 174,
+                "end": 176,
+                "label": "property_damage"
+            },
+            {
+                "start": 200,
+                "end": 203,
+                "label": "affected_individuals"
+            },
+            {
+                "start": 224,
+                "end": 238,
+                "label": "incident_location"
+            },
+            {
+                "start": 260,
+                "end": 276,
+                "label": "injuries_sustained"
+            },
+            {
+                "start": 293,
+                "end": 312,
+                "label": "incident_date"
+            },
+            {
+                "start": 329,
+                "end": 345,
+                "label": "incident_type"
+            },
+            {
+                "start": 370,
+                "end": 381,
+                "label": "reporter_contact_info"
+            }
+        ]
+    }
+]

@@ -1,0 +1,3907 @@
+[
+    {
+        "content": "total days off: 8. type of time off: vacation. contact availability: limited availability. reason for time off: planned vacation. additional notes: nothing else to note. emergency contact info: You can use my work email. work handover details: my coworkers. end date: June 22nd, 2023. previous time off: June 22nd, 2023. start date: June 15th, 2023.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 17,
+                "label": "total_days_off"
+            },
+            {
+                "start": 37,
+                "end": 45,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 69,
+                "end": 89,
+                "label": "contact_availability"
+            },
+            {
+                "start": 112,
+                "end": 128,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 148,
+                "end": 168,
+                "label": "additional_notes"
+            },
+            {
+                "start": 194,
+                "end": 219,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 244,
+                "end": 256,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 268,
+                "end": 283,
+                "label": "end_date"
+            },
+            {
+                "start": 268,
+                "end": 283,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 333,
+                "end": 348,
+                "label": "start_date"
+            }
+        ]
+    },
+    {
+        "content": "start date: June 1st, 2023. work handover details: My coworkers. type of time off: vacation. emergency contact info: email. total days off: 15. additional notes: no other information needed. reason for time off: I am taking this time to relax and recharge. contact availability: limited. previous time off: I have not taken any other time off recently. end date: June 15th, 2023.",
+        "entities": [
+            {
+                "start": 12,
+                "end": 26,
+                "label": "start_date"
+            },
+            {
+                "start": 51,
+                "end": 63,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 83,
+                "end": 91,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 117,
+                "end": 122,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 140,
+                "end": 142,
+                "label": "total_days_off"
+            },
+            {
+                "start": 162,
+                "end": 189,
+                "label": "additional_notes"
+            },
+            {
+                "start": 212,
+                "end": 255,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 279,
+                "end": 286,
+                "label": "contact_availability"
+            },
+            {
+                "start": 307,
+                "end": 351,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 363,
+                "end": 378,
+                "label": "end_date"
+            }
+        ]
+    },
+    {
+        "content": "end date: June 15th, 2023. previous time off: I have not taken any recent leave. work handover details: John will cover my responsibilities. emergency contact info: email. start date: June 1st, 2023. total days off: 15. type of time off: vacation leave. contact availability: limited. reason for time off: a family trip. additional notes: no.",
+        "entities": [
+            {
+                "start": 10,
+                "end": 25,
+                "label": "end_date"
+            },
+            {
+                "start": 46,
+                "end": 79,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 104,
+                "end": 139,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 165,
+                "end": 170,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 184,
+                "end": 198,
+                "label": "start_date"
+            },
+            {
+                "start": 15,
+                "end": 17,
+                "label": "total_days_off"
+            },
+            {
+                "start": 238,
+                "end": 252,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 276,
+                "end": 283,
+                "label": "contact_availability"
+            },
+            {
+                "start": 306,
+                "end": 319,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 53,
+                "end": 55,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "emergency contact info: email. total days off: 15. work handover details: John. start date: June 15th, 2023. contact availability: limited availability. additional notes: no other information needed. type of time off: vacation. previous time off: have not taken any other time off recently. reason for time off: a family trip. end date: June 30th, 2023.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 29,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 47,
+                "end": 49,
+                "label": "total_days_off"
+            },
+            {
+                "start": 74,
+                "end": 78,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 92,
+                "end": 107,
+                "label": "start_date"
+            },
+            {
+                "start": 131,
+                "end": 151,
+                "label": "contact_availability"
+            },
+            {
+                "start": 171,
+                "end": 198,
+                "label": "additional_notes"
+            },
+            {
+                "start": 218,
+                "end": 226,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 247,
+                "end": 289,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 312,
+                "end": 325,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 337,
+                "end": 352,
+                "label": "end_date"
+            }
+        ]
+    },
+    {
+        "content": "previous time off: June 1st, 2023. start date: June 1st, 2023. end date: June 15th, 2023. contact availability: limited. total days off: 15. work handover details: John. type of time off: vacation. additional notes: no other additional information needed. reason for time off: a family trip. emergency contact info: email.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 33,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 19,
+                "end": 33,
+                "label": "start_date"
+            },
+            {
+                "start": 73,
+                "end": 88,
+                "label": "end_date"
+            },
+            {
+                "start": 112,
+                "end": 119,
+                "label": "contact_availability"
+            },
+            {
+                "start": 78,
+                "end": 80,
+                "label": "total_days_off"
+            },
+            {
+                "start": 164,
+                "end": 168,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 188,
+                "end": 196,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 216,
+                "end": 254,
+                "label": "additional_notes"
+            },
+            {
+                "start": 277,
+                "end": 290,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 316,
+                "end": 321,
+                "label": "emergency_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "total days off: 15. emergency contact info: email. work handover details: Some of my colleagues. start date: June 1st, 2023. previous time off: I haven't needed to take any other time off lately. type of time off: vacation. contact availability: may be available with limited contact. reason for time off: family vacation. additional notes: No, I don't have any other notes. end date: No, I don't have any other notes.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 18,
+                "label": "total_days_off"
+            },
+            {
+                "start": 44,
+                "end": 49,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 74,
+                "end": 95,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 109,
+                "end": 123,
+                "label": "start_date"
+            },
+            {
+                "start": 144,
+                "end": 194,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 214,
+                "end": 222,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 246,
+                "end": 283,
+                "label": "contact_availability"
+            },
+            {
+                "start": 306,
+                "end": 321,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 341,
+                "end": 373,
+                "label": "additional_notes"
+            },
+            {
+                "start": 341,
+                "end": 373,
+                "label": "end_date"
+            }
+        ]
+    },
+    {
+        "content": "end date: June 15th, 2023. contact availability: limited. total days off: 15. type of time off: vacation. emergency contact info: email. reason for time off: family vacation. additional notes: no other notes. previous time off: I have not taken any other time off recently. work handover details: John. start date: June 1st, 2023.",
+        "entities": [
+            {
+                "start": 10,
+                "end": 25,
+                "label": "end_date"
+            },
+            {
+                "start": 49,
+                "end": 56,
+                "label": "contact_availability"
+            },
+            {
+                "start": 15,
+                "end": 17,
+                "label": "total_days_off"
+            },
+            {
+                "start": 96,
+                "end": 104,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 130,
+                "end": 135,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 158,
+                "end": 173,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 193,
+                "end": 207,
+                "label": "additional_notes"
+            },
+            {
+                "start": 228,
+                "end": 272,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 297,
+                "end": 301,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 315,
+                "end": 329,
+                "label": "start_date"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: planned vacation. end date: June 15th, 2023. work handover details: coworkers. contact availability: limited. additional notes: no other information needed. type of time off: vacation. start date: June 1st, 2023. previous time off: 15 days. total days off: 15 days. emergency contact info: email.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 37,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 49,
+                "end": 64,
+                "label": "end_date"
+            },
+            {
+                "start": 89,
+                "end": 98,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 122,
+                "end": 129,
+                "label": "contact_availability"
+            },
+            {
+                "start": 149,
+                "end": 176,
+                "label": "additional_notes"
+            },
+            {
+                "start": 29,
+                "end": 37,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 218,
+                "end": 232,
+                "label": "start_date"
+            },
+            {
+                "start": 253,
+                "end": 260,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 253,
+                "end": 260,
+                "label": "total_days_off"
+            },
+            {
+                "start": 311,
+                "end": 316,
+                "label": "emergency_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "type of time off: vacation. total days off: 15. reason for time off: I'm taking my family on a trip. start date: June 15th, 2023. end date: June 30th, 2023. work handover details: John. previous time off: Please contact me by email only. emergency contact info: email. contact availability: limited availability. additional notes: no additional information.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 26,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 44,
+                "end": 46,
+                "label": "total_days_off"
+            },
+            {
+                "start": 69,
+                "end": 99,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 113,
+                "end": 128,
+                "label": "start_date"
+            },
+            {
+                "start": 140,
+                "end": 155,
+                "label": "end_date"
+            },
+            {
+                "start": 180,
+                "end": 184,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 205,
+                "end": 236,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 226,
+                "end": 231,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 291,
+                "end": 311,
+                "label": "contact_availability"
+            },
+            {
+                "start": 331,
+                "end": 356,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "total days off: 8. contact availability: email. emergency contact info: myname@email.com. additional notes: No. type of time off: vacation leave. end date: June 22nd, 2023. reason for time off: It's for a family trip. work handover details: John. start date: June 15th, 2023. previous time off: No, this will be my first time off this year.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 17,
+                "label": "total_days_off"
+            },
+            {
+                "start": 41,
+                "end": 46,
+                "label": "contact_availability"
+            },
+            {
+                "start": 72,
+                "end": 88,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 108,
+                "end": 110,
+                "label": "additional_notes"
+            },
+            {
+                "start": 130,
+                "end": 144,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 156,
+                "end": 171,
+                "label": "end_date"
+            },
+            {
+                "start": 194,
+                "end": 216,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 241,
+                "end": 245,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 259,
+                "end": 274,
+                "label": "start_date"
+            },
+            {
+                "start": 295,
+                "end": 339,
+                "label": "previous_time_off"
+            }
+        ]
+    },
+    {
+        "content": "contact availability: limited availability by email only. work handover details: John. start date: June 1st, 2023. type of time off: vacation. end date: June 15th, 2023. emergency contact info: email. reason for time off: family vacation. total days off: 15. additional notes: No other notes. previous time off: No other notes.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 56,
+                "label": "contact_availability"
+            },
+            {
+                "start": 81,
+                "end": 85,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 99,
+                "end": 113,
+                "label": "start_date"
+            },
+            {
+                "start": 133,
+                "end": 141,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 153,
+                "end": 168,
+                "label": "end_date"
+            },
+            {
+                "start": 46,
+                "end": 51,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 222,
+                "end": 237,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 158,
+                "end": 160,
+                "label": "total_days_off"
+            },
+            {
+                "start": 277,
+                "end": 291,
+                "label": "additional_notes"
+            },
+            {
+                "start": 277,
+                "end": 291,
+                "label": "previous_time_off"
+            }
+        ]
+    },
+    {
+        "content": "work handover details: John. start date: June 1st, 2023. reason for time off: family trip. previous time off: No. end date: June 15th, 2023. total days off: 15. additional notes: no other notes. contact availability: limited. type of time off: vacation leave. emergency contact info: [email protected.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 27,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 41,
+                "end": 55,
+                "label": "start_date"
+            },
+            {
+                "start": 78,
+                "end": 89,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 110,
+                "end": 112,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 124,
+                "end": 139,
+                "label": "end_date"
+            },
+            {
+                "start": 129,
+                "end": 131,
+                "label": "total_days_off"
+            },
+            {
+                "start": 179,
+                "end": 193,
+                "label": "additional_notes"
+            },
+            {
+                "start": 217,
+                "end": 224,
+                "label": "contact_availability"
+            },
+            {
+                "start": 244,
+                "end": 258,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 284,
+                "end": 300,
+                "label": "emergency_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "total days off: 10. emergency contact info: email. additional notes: no other information I need to include. start date: 2023-06-01. type of time off: vacation. end date: 2023-06-10. previous time off: I haven't taken any other time off recently. During my vacation. contact availability: limited availability by email. reason for time off: vacation. work handover details: John agreed to cover any of my responsibilities while I'm out.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 18,
+                "label": "total_days_off"
+            },
+            {
+                "start": 44,
+                "end": 49,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 69,
+                "end": 107,
+                "label": "additional_notes"
+            },
+            {
+                "start": 121,
+                "end": 131,
+                "label": "start_date"
+            },
+            {
+                "start": 151,
+                "end": 159,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 171,
+                "end": 181,
+                "label": "end_date"
+            },
+            {
+                "start": 202,
+                "end": 265,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 289,
+                "end": 318,
+                "label": "contact_availability"
+            },
+            {
+                "start": 151,
+                "end": 159,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 374,
+                "end": 435,
+                "label": "work_handover_details"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: No additional details needed. reason for time off: family trip. previous time off: 15 days off. total days off: 15. type of time off: vacation. emergency contact info: email. start date: 2023-06-01. contact availability: limited. end date: 2023-06-15. work handover details: My partners.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 46,
+                "label": "additional_notes"
+            },
+            {
+                "start": 69,
+                "end": 80,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 101,
+                "end": 112,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 101,
+                "end": 103,
+                "label": "total_days_off"
+            },
+            {
+                "start": 152,
+                "end": 160,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 186,
+                "end": 191,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 205,
+                "end": 215,
+                "label": "start_date"
+            },
+            {
+                "start": 239,
+                "end": 246,
+                "label": "contact_availability"
+            },
+            {
+                "start": 258,
+                "end": 268,
+                "label": "end_date"
+            },
+            {
+                "start": 293,
+                "end": 304,
+                "label": "work_handover_details"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: family trip. contact availability: limited. end date: June 30th, 2023. work handover details: John will be covering my classes. type of time off: vacation. additional notes: There's nothing else to note. previous time off: 15 days. total days off: 15. emergency contact info: email. start date: June 15th, 2023.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 32,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 56,
+                "end": 63,
+                "label": "contact_availability"
+            },
+            {
+                "start": 75,
+                "end": 90,
+                "label": "end_date"
+            },
+            {
+                "start": 115,
+                "end": 147,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 167,
+                "end": 175,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 195,
+                "end": 223,
+                "label": "additional_notes"
+            },
+            {
+                "start": 244,
+                "end": 251,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 244,
+                "end": 246,
+                "label": "total_days_off"
+            },
+            {
+                "start": 297,
+                "end": 302,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 316,
+                "end": 331,
+                "label": "start_date"
+            }
+        ]
+    },
+    {
+        "content": "work handover details: John. type of time off: vacation. contact availability: limited. total days off: 15. emergency contact info: email. reason for time off: family trip. previous time off: June 1st, 2023. start date: June 1st, 2023. additional notes: No other notes. end date: June 15th, 2023.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 27,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 47,
+                "end": 55,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 79,
+                "end": 86,
+                "label": "contact_availability"
+            },
+            {
+                "start": 104,
+                "end": 106,
+                "label": "total_days_off"
+            },
+            {
+                "start": 132,
+                "end": 137,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 160,
+                "end": 171,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 192,
+                "end": 206,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 192,
+                "end": 206,
+                "label": "start_date"
+            },
+            {
+                "start": 254,
+                "end": 268,
+                "label": "additional_notes"
+            },
+            {
+                "start": 280,
+                "end": 295,
+                "label": "end_date"
+            }
+        ]
+    },
+    {
+        "content": "previous time off: No, I haven't taken any leave. contact availability: limited. type of time off: vacation. reason for time off: It's for a family trip. additional notes: no other information needed. end date: 2023-06-15. emergency contact info: 2023-06-15. work handover details: John will be covering for me, and it's for 15 days. total days off: 15. start date: 2023-06-01.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 48,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 72,
+                "end": 79,
+                "label": "contact_availability"
+            },
+            {
+                "start": 99,
+                "end": 107,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 130,
+                "end": 152,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 172,
+                "end": 199,
+                "label": "additional_notes"
+            },
+            {
+                "start": 211,
+                "end": 221,
+                "label": "end_date"
+            },
+            {
+                "start": 211,
+                "end": 221,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 282,
+                "end": 332,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 219,
+                "end": 221,
+                "label": "total_days_off"
+            },
+            {
+                "start": 366,
+                "end": 376,
+                "label": "start_date"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: I'm taking the family on a trip. additional notes: No. total days off: 15. emergency contact info: email. end date: June 15th, 2023. contact availability: limited availability by email. previous time off: No, I have not taken any other time off recently. start date: June 1st, 2023. type of time off: vacation leave. work handover details: John.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 52,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 72,
+                "end": 74,
+                "label": "additional_notes"
+            },
+            {
+                "start": 92,
+                "end": 94,
+                "label": "total_days_off"
+            },
+            {
+                "start": 120,
+                "end": 125,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 137,
+                "end": 152,
+                "label": "end_date"
+            },
+            {
+                "start": 176,
+                "end": 205,
+                "label": "contact_availability"
+            },
+            {
+                "start": 226,
+                "end": 274,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 288,
+                "end": 302,
+                "label": "start_date"
+            },
+            {
+                "start": 322,
+                "end": 336,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 361,
+                "end": 365,
+                "label": "work_handover_details"
+            }
+        ]
+    },
+    {
+        "content": "type of time off: vacation. emergency contact info: Email. additional notes: No other notes needed. end date: June 15th, 2023. contact availability: limited availability. total days off: 15. work handover details: my partners. previous time off: family trip. reason for time off: family trip. start date: June 1st, 2023.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 26,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 52,
+                "end": 57,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 77,
+                "end": 98,
+                "label": "additional_notes"
+            },
+            {
+                "start": 110,
+                "end": 125,
+                "label": "end_date"
+            },
+            {
+                "start": 149,
+                "end": 169,
+                "label": "contact_availability"
+            },
+            {
+                "start": 115,
+                "end": 117,
+                "label": "total_days_off"
+            },
+            {
+                "start": 214,
+                "end": 225,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 246,
+                "end": 257,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 246,
+                "end": 257,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 305,
+                "end": 319,
+                "label": "start_date"
+            }
+        ]
+    },
+    {
+        "content": "emergency contact info: Email. end date: June 7th, 2023. work handover details: John will be covering for me. additional notes: John will be covering for me. previous time off: No, I haven't needed any other time off lately. type of time off: vacation. total days off: 7. start date: June 1st, 2023. contact availability: yes, I'll have limited availability. reason for time off: family trip.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 29,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 41,
+                "end": 55,
+                "label": "end_date"
+            },
+            {
+                "start": 80,
+                "end": 108,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 80,
+                "end": 108,
+                "label": "additional_notes"
+            },
+            {
+                "start": 177,
+                "end": 223,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 243,
+                "end": 251,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 46,
+                "end": 47,
+                "label": "total_days_off"
+            },
+            {
+                "start": 284,
+                "end": 298,
+                "label": "start_date"
+            },
+            {
+                "start": 322,
+                "end": 357,
+                "label": "contact_availability"
+            },
+            {
+                "start": 380,
+                "end": 391,
+                "label": "reason_for_time_off"
+            }
+        ]
+    },
+    {
+        "content": "emergency contact info: priya.dev@techcorp.com. additional notes: no other information needed. reason for time off: a planned holiday. contact availability: limited. work handover details: John. total days off: 15. end date: June 15, 2023. type of time off: vacation. start date: June 1, 2023. previous time off: No, I have not had any other recent time off.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 46,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 66,
+                "end": 93,
+                "label": "additional_notes"
+            },
+            {
+                "start": 116,
+                "end": 133,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 157,
+                "end": 164,
+                "label": "contact_availability"
+            },
+            {
+                "start": 189,
+                "end": 193,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 211,
+                "end": 213,
+                "label": "total_days_off"
+            },
+            {
+                "start": 225,
+                "end": 238,
+                "label": "end_date"
+            },
+            {
+                "start": 258,
+                "end": 266,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 280,
+                "end": 292,
+                "label": "start_date"
+            },
+            {
+                "start": 313,
+                "end": 357,
+                "label": "previous_time_off"
+            }
+        ]
+    },
+    {
+        "content": "end date: June 15th, 2023. contact availability: limited. previous time off: I haven't taken any other time off recently. work handover details: John. total days off: 15. emergency contact info: email. start date: June 1st, 2023. reason for time off: family trip. type of time off: vacation. additional notes: No, there are no additional notes.",
+        "entities": [
+            {
+                "start": 10,
+                "end": 25,
+                "label": "end_date"
+            },
+            {
+                "start": 49,
+                "end": 56,
+                "label": "contact_availability"
+            },
+            {
+                "start": 77,
+                "end": 120,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 145,
+                "end": 149,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 15,
+                "end": 17,
+                "label": "total_days_off"
+            },
+            {
+                "start": 195,
+                "end": 200,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 214,
+                "end": 228,
+                "label": "start_date"
+            },
+            {
+                "start": 251,
+                "end": 262,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 282,
+                "end": 290,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 310,
+                "end": 343,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "total days off: 15. start date: June 1st, 2023. previous time off: vacation days. type of time off: vacation. additional notes: No, I don't have any other notes. work handover details: John. end date: June 15th, 2023. emergency contact info: Email. reason for time off: travel plans. contact availability: limited.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 18,
+                "label": "total_days_off"
+            },
+            {
+                "start": 32,
+                "end": 46,
+                "label": "start_date"
+            },
+            {
+                "start": 67,
+                "end": 80,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 67,
+                "end": 75,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 128,
+                "end": 160,
+                "label": "additional_notes"
+            },
+            {
+                "start": 185,
+                "end": 189,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 201,
+                "end": 216,
+                "label": "end_date"
+            },
+            {
+                "start": 242,
+                "end": 247,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 270,
+                "end": 282,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 306,
+                "end": 313,
+                "label": "contact_availability"
+            }
+        ]
+    },
+    {
+        "content": "previous time off: I haven't taken any other time off recently. start date: 2023-06-01. reason for time off: vacation. total days off: 15. end date: 2023-06-15. contact availability: limited. emergency contact info: email. work handover details: My coworkers. additional notes: no other notes. type of time off: vacation.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 62,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 76,
+                "end": 86,
+                "label": "start_date"
+            },
+            {
+                "start": 109,
+                "end": 117,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 135,
+                "end": 137,
+                "label": "total_days_off"
+            },
+            {
+                "start": 149,
+                "end": 159,
+                "label": "end_date"
+            },
+            {
+                "start": 183,
+                "end": 190,
+                "label": "contact_availability"
+            },
+            {
+                "start": 216,
+                "end": 221,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 246,
+                "end": 258,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 278,
+                "end": 292,
+                "label": "additional_notes"
+            },
+            {
+                "start": 109,
+                "end": 117,
+                "label": "type_of_time_off"
+            }
+        ]
+    },
+    {
+        "content": "previous time off: No, I have not taken any recent leave. end date: 2023-06-15. reason for time off: a family trip. additional notes: no additional notes. start date: 2023-06-01. total days off: 15. work handover details: John. contact availability: limited availability by email only. emergency contact info: name@email.com. type of time off: vacation leave.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 56,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 68,
+                "end": 78,
+                "label": "end_date"
+            },
+            {
+                "start": 101,
+                "end": 114,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 134,
+                "end": 153,
+                "label": "additional_notes"
+            },
+            {
+                "start": 167,
+                "end": 177,
+                "label": "start_date"
+            },
+            {
+                "start": 76,
+                "end": 78,
+                "label": "total_days_off"
+            },
+            {
+                "start": 222,
+                "end": 226,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 250,
+                "end": 284,
+                "label": "contact_availability"
+            },
+            {
+                "start": 310,
+                "end": 324,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 344,
+                "end": 358,
+                "label": "type_of_time_off"
+            }
+        ]
+    },
+    {
+        "content": "start date: June 1st, 2023. end date: June 15th, 2023. type of time off: vacation. total days off: 15. emergency contact info: email. previous time off: I have not taken any other time off recently. work handover details: John. reason for time off: a family trip. contact availability: limited. additional notes: no additional information needed.",
+        "entities": [
+            {
+                "start": 12,
+                "end": 26,
+                "label": "start_date"
+            },
+            {
+                "start": 38,
+                "end": 53,
+                "label": "end_date"
+            },
+            {
+                "start": 73,
+                "end": 81,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 43,
+                "end": 45,
+                "label": "total_days_off"
+            },
+            {
+                "start": 127,
+                "end": 132,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 153,
+                "end": 197,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 222,
+                "end": 226,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 249,
+                "end": 262,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 286,
+                "end": 293,
+                "label": "contact_availability"
+            },
+            {
+                "start": 313,
+                "end": 345,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "emergency contact info: john@company.com. reason for time off: a family trip. previous time off: a family trip. type of time off: vacation. work handover details: John will be covering any of my classes. total days off: 15. start date: 2023-06-15. end date: 2023-06-30. additional notes: no other information needed. contact availability: limited.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 40,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 63,
+                "end": 76,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 63,
+                "end": 76,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 130,
+                "end": 138,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 163,
+                "end": 202,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 220,
+                "end": 222,
+                "label": "total_days_off"
+            },
+            {
+                "start": 236,
+                "end": 246,
+                "label": "start_date"
+            },
+            {
+                "start": 258,
+                "end": 268,
+                "label": "end_date"
+            },
+            {
+                "start": 288,
+                "end": 315,
+                "label": "additional_notes"
+            },
+            {
+                "start": 339,
+                "end": 346,
+                "label": "contact_availability"
+            }
+        ]
+    },
+    {
+        "content": "end date: June 15th, 2023. total days off: 15. reason for time off: family vacation. emergency contact info: email. previous time off: I have not taken any other time off recently. work handover details: Yes, John. additional notes: No, there are no other notes. type of time off: vacation leave. contact availability: limited. start date: June 1st, 2023.",
+        "entities": [
+            {
+                "start": 10,
+                "end": 25,
+                "label": "end_date"
+            },
+            {
+                "start": 15,
+                "end": 17,
+                "label": "total_days_off"
+            },
+            {
+                "start": 68,
+                "end": 83,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 109,
+                "end": 114,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 135,
+                "end": 179,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 204,
+                "end": 213,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 233,
+                "end": 261,
+                "label": "additional_notes"
+            },
+            {
+                "start": 281,
+                "end": 295,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 319,
+                "end": 326,
+                "label": "contact_availability"
+            },
+            {
+                "start": 340,
+                "end": 354,
+                "label": "start_date"
+            }
+        ]
+    },
+    {
+        "content": "start date: June 1st, 2023. work handover details: John. contact availability: limited. type of time off: vacation. total days off: 15. emergency contact info: email. previous time off: I have not had any other time off recently. additional notes: No other notes. end date: June 15th, 2023. reason for time off: to relax and travel.",
+        "entities": [
+            {
+                "start": 12,
+                "end": 26,
+                "label": "start_date"
+            },
+            {
+                "start": 51,
+                "end": 55,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 79,
+                "end": 86,
+                "label": "contact_availability"
+            },
+            {
+                "start": 106,
+                "end": 114,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 132,
+                "end": 134,
+                "label": "total_days_off"
+            },
+            {
+                "start": 160,
+                "end": 165,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 186,
+                "end": 228,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 248,
+                "end": 262,
+                "label": "additional_notes"
+            },
+            {
+                "start": 274,
+                "end": 289,
+                "label": "end_date"
+            },
+            {
+                "start": 312,
+                "end": 331,
+                "label": "reason_for_time_off"
+            }
+        ]
+    },
+    {
+        "content": "total days off: 15. emergency contact info: email. type of time off: vacation. end date: June 15th, 2023. reason for time off: My family and I are taking a trip. additional notes: no other notes. contact availability: Yes, I will have limited availability. work handover details: My colleague Jane. start date: June 1st, 2023. previous time off: No, I have not taken any other time off recently.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 18,
+                "label": "total_days_off"
+            },
+            {
+                "start": 44,
+                "end": 49,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 69,
+                "end": 77,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 89,
+                "end": 104,
+                "label": "end_date"
+            },
+            {
+                "start": 127,
+                "end": 160,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 180,
+                "end": 194,
+                "label": "additional_notes"
+            },
+            {
+                "start": 218,
+                "end": 255,
+                "label": "contact_availability"
+            },
+            {
+                "start": 280,
+                "end": 297,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 311,
+                "end": 325,
+                "label": "start_date"
+            },
+            {
+                "start": 346,
+                "end": 394,
+                "label": "previous_time_off"
+            }
+        ]
+    },
+    {
+        "content": "contact availability: limited. end date: 2023-06-07. additional notes: no additional information. total days off: 7. work handover details: No coverage is needed. emergency contact info: email. reason for time off: to relax and recharge. start date: 2023-06-01. previous time off: vacation time. type of time off: vacation.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 29,
+                "label": "contact_availability"
+            },
+            {
+                "start": 41,
+                "end": 51,
+                "label": "end_date"
+            },
+            {
+                "start": 71,
+                "end": 96,
+                "label": "additional_notes"
+            },
+            {
+                "start": 50,
+                "end": 51,
+                "label": "total_days_off"
+            },
+            {
+                "start": 140,
+                "end": 161,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 187,
+                "end": 192,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 215,
+                "end": 236,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 250,
+                "end": 260,
+                "label": "start_date"
+            },
+            {
+                "start": 281,
+                "end": 294,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 281,
+                "end": 289,
+                "label": "type_of_time_off"
+            }
+        ]
+    },
+    {
+        "content": "previous time off: I haven't taken any time off recently. reason for time off: personal vacation. total days off: seven. type of time off: vacation. contact availability: limited availability. additional notes: no other information needed. start date: 2023-06-01. end date: 2023-06-07. work handover details: John. emergency contact info: John will be covering my responsibilities and my email is name@email.com.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 56,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 79,
+                "end": 96,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 114,
+                "end": 119,
+                "label": "total_days_off"
+            },
+            {
+                "start": 88,
+                "end": 96,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 171,
+                "end": 191,
+                "label": "contact_availability"
+            },
+            {
+                "start": 211,
+                "end": 238,
+                "label": "additional_notes"
+            },
+            {
+                "start": 252,
+                "end": 262,
+                "label": "start_date"
+            },
+            {
+                "start": 274,
+                "end": 284,
+                "label": "end_date"
+            },
+            {
+                "start": 309,
+                "end": 313,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 339,
+                "end": 411,
+                "label": "emergency_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "start date: June 1st, 2023. type of time off: June 1st, 2023. end date: June 15th, 2023. additional notes: no additional information needed. work handover details: John. previous time off: I have not taken any other time off in recent months. reason for time off: I have a family trip planned. total days off: 15. contact availability: limited. emergency contact info: email.",
+        "entities": [
+            {
+                "start": 12,
+                "end": 26,
+                "label": "start_date"
+            },
+            {
+                "start": 12,
+                "end": 26,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 72,
+                "end": 87,
+                "label": "end_date"
+            },
+            {
+                "start": 107,
+                "end": 139,
+                "label": "additional_notes"
+            },
+            {
+                "start": 164,
+                "end": 168,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 189,
+                "end": 241,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 264,
+                "end": 292,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 77,
+                "end": 79,
+                "label": "total_days_off"
+            },
+            {
+                "start": 336,
+                "end": 343,
+                "label": "contact_availability"
+            },
+            {
+                "start": 369,
+                "end": 374,
+                "label": "emergency_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "emergency contact info: Email. end date: 2023-06-15. additional notes: No, there are no additional notes. contact availability: limited. previous time off: a family trip. reason for time off: a family trip. work handover details: John. total days off: 15. start date: 2023-06-01. type of time off: vacation.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 29,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 41,
+                "end": 51,
+                "label": "end_date"
+            },
+            {
+                "start": 71,
+                "end": 104,
+                "label": "additional_notes"
+            },
+            {
+                "start": 128,
+                "end": 135,
+                "label": "contact_availability"
+            },
+            {
+                "start": 156,
+                "end": 169,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 156,
+                "end": 169,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 230,
+                "end": 234,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 49,
+                "end": 51,
+                "label": "total_days_off"
+            },
+            {
+                "start": 268,
+                "end": 278,
+                "label": "start_date"
+            },
+            {
+                "start": 298,
+                "end": 306,
+                "label": "type_of_time_off"
+            }
+        ]
+    },
+    {
+        "content": "previous time off: No, I haven't taken any time off recently. contact availability: limited. type of time off: vacation. total days off: 15. emergency contact info: June 1st, 2023. start date: June 1st, 2023. end date: June 15th, 2023. additional notes: no additional information needed. work handover details: John. reason for time off: to relax and do some traveling during my vacation.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 60,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 84,
+                "end": 91,
+                "label": "contact_availability"
+            },
+            {
+                "start": 111,
+                "end": 119,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 137,
+                "end": 139,
+                "label": "total_days_off"
+            },
+            {
+                "start": 165,
+                "end": 179,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 165,
+                "end": 179,
+                "label": "start_date"
+            },
+            {
+                "start": 219,
+                "end": 234,
+                "label": "end_date"
+            },
+            {
+                "start": 254,
+                "end": 286,
+                "label": "additional_notes"
+            },
+            {
+                "start": 311,
+                "end": 315,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 338,
+                "end": 387,
+                "label": "reason_for_time_off"
+            }
+        ]
+    },
+    {
+        "content": "end date: June 15th, 2023. previous time off: I haven't had to take any other time off lately. contact availability: limited availability. reason for time off: My family is taking a trip. total days off: 15. start date: June 1st, 2023. work handover details: John. emergency contact info: Email is best, and no there's no other information needed. additional notes: no there's no other information needed. type of time off: vacation.",
+        "entities": [
+            {
+                "start": 10,
+                "end": 25,
+                "label": "end_date"
+            },
+            {
+                "start": 46,
+                "end": 93,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 117,
+                "end": 137,
+                "label": "contact_availability"
+            },
+            {
+                "start": 160,
+                "end": 186,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 15,
+                "end": 17,
+                "label": "total_days_off"
+            },
+            {
+                "start": 220,
+                "end": 234,
+                "label": "start_date"
+            },
+            {
+                "start": 259,
+                "end": 263,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 289,
+                "end": 346,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 308,
+                "end": 346,
+                "label": "additional_notes"
+            },
+            {
+                "start": 424,
+                "end": 432,
+                "label": "type_of_time_off"
+            }
+        ]
+    },
+    {
+        "content": "emergency contact info: email. additional notes: I don't have any other notes. start date: June 1st, 2023. type of time off: vacation. contact availability: limited. total days off: 15. reason for time off: I have planned a vacation. previous time off: No, I have not taken any other recent time off. work handover details: John. end date: June 15th, 2023.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 29,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 49,
+                "end": 77,
+                "label": "additional_notes"
+            },
+            {
+                "start": 91,
+                "end": 105,
+                "label": "start_date"
+            },
+            {
+                "start": 125,
+                "end": 133,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 157,
+                "end": 164,
+                "label": "contact_availability"
+            },
+            {
+                "start": 182,
+                "end": 184,
+                "label": "total_days_off"
+            },
+            {
+                "start": 207,
+                "end": 232,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 253,
+                "end": 299,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 324,
+                "end": 328,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 340,
+                "end": 355,
+                "label": "end_date"
+            }
+        ]
+    },
+    {
+        "content": "contact availability: limited. type of time off: vacation. previous time off: No, I have not taken any other time off recently. start date: June 1st, 2023. additional notes: no additional notes. reason for time off: family trip. total days off: 15. emergency contact info: email. end date: June 15th, 2023. work handover details: My work partners.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 29,
+                "label": "contact_availability"
+            },
+            {
+                "start": 49,
+                "end": 57,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 78,
+                "end": 126,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 140,
+                "end": 154,
+                "label": "start_date"
+            },
+            {
+                "start": 174,
+                "end": 193,
+                "label": "additional_notes"
+            },
+            {
+                "start": 216,
+                "end": 227,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 245,
+                "end": 247,
+                "label": "total_days_off"
+            },
+            {
+                "start": 273,
+                "end": 278,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 290,
+                "end": 305,
+                "label": "end_date"
+            },
+            {
+                "start": 330,
+                "end": 346,
+                "label": "work_handover_details"
+            }
+        ]
+    },
+    {
+        "content": "previous time off: No, I haven't taken any time off recently. reason for time off: family trip. work handover details: John will be covering my responsibilities. end date: June 7th, 2023. additional notes: no other notes. contact availability: limited. type of time off: vacation. emergency contact info: email. start date: June 1st, 2023. total days off: Seven.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 60,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 83,
+                "end": 94,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 119,
+                "end": 160,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 172,
+                "end": 186,
+                "label": "end_date"
+            },
+            {
+                "start": 206,
+                "end": 220,
+                "label": "additional_notes"
+            },
+            {
+                "start": 244,
+                "end": 251,
+                "label": "contact_availability"
+            },
+            {
+                "start": 271,
+                "end": 279,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 305,
+                "end": 310,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 324,
+                "end": 338,
+                "label": "start_date"
+            },
+            {
+                "start": 356,
+                "end": 361,
+                "label": "total_days_off"
+            }
+        ]
+    },
+    {
+        "content": "end date: June 15th, 2023. contact availability: limited availability. start date: June 1st, 2023. additional notes: No, I don't have any other notes to add. emergency contact info: You can use my email. reason for time off: a planned holiday. previous time off: holiday. type of time off: vacation. work handover details: John. total days off: 15.",
+        "entities": [
+            {
+                "start": 10,
+                "end": 25,
+                "label": "end_date"
+            },
+            {
+                "start": 49,
+                "end": 69,
+                "label": "contact_availability"
+            },
+            {
+                "start": 83,
+                "end": 97,
+                "label": "start_date"
+            },
+            {
+                "start": 117,
+                "end": 156,
+                "label": "additional_notes"
+            },
+            {
+                "start": 182,
+                "end": 202,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 225,
+                "end": 242,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 235,
+                "end": 242,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 290,
+                "end": 298,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 323,
+                "end": 327,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 15,
+                "end": 17,
+                "label": "total_days_off"
+            }
+        ]
+    },
+    {
+        "content": "work handover details: My partners. additional notes: No. type of time off: vacation. total days off: Fifteen. start date: June 1st, 2023. emergency contact info: Email. contact availability: limited. reason for time off: family vacation. previous time off: My vacation will end on June 15th, 2023. end date: June 15th, 2023.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 34,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 54,
+                "end": 56,
+                "label": "additional_notes"
+            },
+            {
+                "start": 76,
+                "end": 84,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 102,
+                "end": 109,
+                "label": "total_days_off"
+            },
+            {
+                "start": 123,
+                "end": 137,
+                "label": "start_date"
+            },
+            {
+                "start": 163,
+                "end": 168,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 192,
+                "end": 199,
+                "label": "contact_availability"
+            },
+            {
+                "start": 222,
+                "end": 237,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 258,
+                "end": 297,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 282,
+                "end": 297,
+                "label": "end_date"
+            }
+        ]
+    },
+    {
+        "content": "emergency contact info: Email. start date: June 1st, 2023. additional notes: No additional notes are needed. work handover details: John. end date: June 15th, 2023. reason for time off: family trip. previous time off: I haven't had to take any other recent leave. type of time off: vacation leave. total days off: 15. contact availability: limited.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 29,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 43,
+                "end": 57,
+                "label": "start_date"
+            },
+            {
+                "start": 77,
+                "end": 107,
+                "label": "additional_notes"
+            },
+            {
+                "start": 132,
+                "end": 136,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 148,
+                "end": 163,
+                "label": "end_date"
+            },
+            {
+                "start": 186,
+                "end": 197,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 218,
+                "end": 262,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 282,
+                "end": 296,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 153,
+                "end": 155,
+                "label": "total_days_off"
+            },
+            {
+                "start": 340,
+                "end": 347,
+                "label": "contact_availability"
+            }
+        ]
+    },
+    {
+        "content": "work handover details: John will be covering for me. I'll be out for 15 days. total days off: 15. contact availability: limited availability by email only. additional notes: no other notes. end date: June 15th, 2023. emergency contact info: email. reason for time off: family trip. previous time off: I have not taken any other leave recently. start date: June 1st, 2023. type of time off: vacation leave.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 76,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 69,
+                "end": 71,
+                "label": "total_days_off"
+            },
+            {
+                "start": 120,
+                "end": 154,
+                "label": "contact_availability"
+            },
+            {
+                "start": 174,
+                "end": 188,
+                "label": "additional_notes"
+            },
+            {
+                "start": 200,
+                "end": 215,
+                "label": "end_date"
+            },
+            {
+                "start": 144,
+                "end": 149,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 269,
+                "end": 280,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 301,
+                "end": 342,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 356,
+                "end": 370,
+                "label": "start_date"
+            },
+            {
+                "start": 390,
+                "end": 404,
+                "label": "type_of_time_off"
+            }
+        ]
+    },
+    {
+        "content": "type of time off: vacation. contact availability: limited. end date: June 15th, 2023. additional notes: No additional notes are needed. total days off: 15. start date: June 1st, 2023. emergency contact info: email. work handover details: My partners. previous time off: My partners will be covering for me. reason for time off: family trip.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 26,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 50,
+                "end": 57,
+                "label": "contact_availability"
+            },
+            {
+                "start": 69,
+                "end": 84,
+                "label": "end_date"
+            },
+            {
+                "start": 104,
+                "end": 134,
+                "label": "additional_notes"
+            },
+            {
+                "start": 74,
+                "end": 76,
+                "label": "total_days_off"
+            },
+            {
+                "start": 168,
+                "end": 182,
+                "label": "start_date"
+            },
+            {
+                "start": 208,
+                "end": 213,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 238,
+                "end": 249,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 270,
+                "end": 305,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 328,
+                "end": 339,
+                "label": "reason_for_time_off"
+            }
+        ]
+    },
+    {
+        "content": "contact availability: limited availability by email only. total days off: 15. emergency contact info: name@email.com. start date: June 1st, 2023. reason for time off: to relax and work on writing some new music. end date: June 15th, 2023. previous time off: June 15th, 2023. type of time off: vacation leave. work handover details: No coverage is needed. additional notes: No, there are no additional notes.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 56,
+                "label": "contact_availability"
+            },
+            {
+                "start": 74,
+                "end": 76,
+                "label": "total_days_off"
+            },
+            {
+                "start": 102,
+                "end": 116,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 130,
+                "end": 144,
+                "label": "start_date"
+            },
+            {
+                "start": 167,
+                "end": 210,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 222,
+                "end": 237,
+                "label": "end_date"
+            },
+            {
+                "start": 222,
+                "end": 237,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 293,
+                "end": 307,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 332,
+                "end": 353,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 373,
+                "end": 406,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "contact availability: should be reachable by email. emergency contact info: email. total days off: 15. additional notes: no other information needed. end date: June 15th, 2023. type of time off: vacation. previous time off: I have not taken any other time off recently. reason for time off: family trip. work handover details: John will be covering my responsibilities during that time. start date: June 1st, 2023.",
+        "entities": [
+            {
+                "start": 22,
+                "end": 50,
+                "label": "contact_availability"
+            },
+            {
+                "start": 45,
+                "end": 50,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 99,
+                "end": 101,
+                "label": "total_days_off"
+            },
+            {
+                "start": 121,
+                "end": 148,
+                "label": "additional_notes"
+            },
+            {
+                "start": 160,
+                "end": 175,
+                "label": "end_date"
+            },
+            {
+                "start": 195,
+                "end": 203,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 224,
+                "end": 268,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 291,
+                "end": 302,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 327,
+                "end": 385,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 399,
+                "end": 413,
+                "label": "start_date"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: family trip. end date: June 15th, 2023. type of time off: vacation. additional notes: no other details. previous time off: I haven't taken any other time recently. emergency contact info: Email. work handover details: John. start date: June 1st, 2023. total days off: 15. contact availability: limited availability.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 32,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 44,
+                "end": 59,
+                "label": "end_date"
+            },
+            {
+                "start": 79,
+                "end": 87,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 107,
+                "end": 123,
+                "label": "additional_notes"
+            },
+            {
+                "start": 144,
+                "end": 183,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 209,
+                "end": 214,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 239,
+                "end": 243,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 257,
+                "end": 271,
+                "label": "start_date"
+            },
+            {
+                "start": 49,
+                "end": 51,
+                "label": "total_days_off"
+            },
+            {
+                "start": 315,
+                "end": 335,
+                "label": "contact_availability"
+            }
+        ]
+    },
+    {
+        "content": "end date: June 15th, 2023. work handover details: John. reason for time off: a family trip. previous time off: family trip. I haven't taken any other time off recently. additional notes: There's no other additional notes. total days off: 15. contact availability: limited. type of time off: vacation leave. start date: June 1st, 2023. emergency contact info: email.",
+        "entities": [
+            {
+                "start": 10,
+                "end": 25,
+                "label": "end_date"
+            },
+            {
+                "start": 50,
+                "end": 54,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 77,
+                "end": 90,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 111,
+                "end": 167,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 187,
+                "end": 220,
+                "label": "additional_notes"
+            },
+            {
+                "start": 15,
+                "end": 17,
+                "label": "total_days_off"
+            },
+            {
+                "start": 264,
+                "end": 271,
+                "label": "contact_availability"
+            },
+            {
+                "start": 291,
+                "end": 305,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 319,
+                "end": 333,
+                "label": "start_date"
+            },
+            {
+                "start": 359,
+                "end": 364,
+                "label": "emergency_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: No, I don't have any additional notes. total days off: 15. reason for time off: I have a planned holiday. previous time off: June 15th, 2023. end date: June 15th, 2023. contact availability: limited. start date: June 1st, 2023. work handover details: John. type of time off: vacation leave. emergency contact info: email.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 55,
+                "label": "additional_notes"
+            },
+            {
+                "start": 73,
+                "end": 75,
+                "label": "total_days_off"
+            },
+            {
+                "start": 98,
+                "end": 122,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 143,
+                "end": 158,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 143,
+                "end": 158,
+                "label": "end_date"
+            },
+            {
+                "start": 209,
+                "end": 216,
+                "label": "contact_availability"
+            },
+            {
+                "start": 230,
+                "end": 244,
+                "label": "start_date"
+            },
+            {
+                "start": 269,
+                "end": 273,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 293,
+                "end": 307,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 333,
+                "end": 338,
+                "label": "emergency_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "additional notes: I'm looking to take a vacation. type of time off: vacation. reason for time off: a family trip. previous time off: family trip. I have not had to take any other days off recently. start date: June 15, 2023. emergency contact info: email. contact availability: limited. end date: June 30, 2023. total days off: 15. work handover details: John will be covering my classes.",
+        "entities": [
+            {
+                "start": 18,
+                "end": 48,
+                "label": "additional_notes"
+            },
+            {
+                "start": 40,
+                "end": 48,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 99,
+                "end": 112,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 133,
+                "end": 196,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 210,
+                "end": 223,
+                "label": "start_date"
+            },
+            {
+                "start": 249,
+                "end": 254,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 278,
+                "end": 285,
+                "label": "contact_availability"
+            },
+            {
+                "start": 297,
+                "end": 310,
+                "label": "end_date"
+            },
+            {
+                "start": 215,
+                "end": 217,
+                "label": "total_days_off"
+            },
+            {
+                "start": 355,
+                "end": 387,
+                "label": "work_handover_details"
+            }
+        ]
+    },
+    {
+        "content": "emergency contact info: You can email me at my work email. total days off: 15. reason for time off: family vacation. work handover details: John. type of time off: vacation. start date: June 1st, 2023. end date: June 15th, 2023. contact availability: limited. previous time off: No other notes. additional notes: No other notes.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 57,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 75,
+                "end": 77,
+                "label": "total_days_off"
+            },
+            {
+                "start": 100,
+                "end": 115,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 140,
+                "end": 144,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 107,
+                "end": 115,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 186,
+                "end": 200,
+                "label": "start_date"
+            },
+            {
+                "start": 212,
+                "end": 227,
+                "label": "end_date"
+            },
+            {
+                "start": 251,
+                "end": 258,
+                "label": "contact_availability"
+            },
+            {
+                "start": 279,
+                "end": 293,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 279,
+                "end": 293,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: family trip. emergency contact info: email. contact availability: limited. work handover details: John. start date: June 1st, 2023. type of time off: vacation. additional notes: no other information needed. end date: June 15th, 2023. total days off: 15 days. previous time off: I have not taken any other leave recently.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 32,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 58,
+                "end": 63,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 87,
+                "end": 94,
+                "label": "contact_availability"
+            },
+            {
+                "start": 119,
+                "end": 123,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 137,
+                "end": 151,
+                "label": "start_date"
+            },
+            {
+                "start": 171,
+                "end": 179,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 199,
+                "end": 226,
+                "label": "additional_notes"
+            },
+            {
+                "start": 238,
+                "end": 253,
+                "label": "end_date"
+            },
+            {
+                "start": 271,
+                "end": 278,
+                "label": "total_days_off"
+            },
+            {
+                "start": 299,
+                "end": 340,
+                "label": "previous_time_off"
+            }
+        ]
+    },
+    {
+        "content": "work handover details: Yes, I've asked some coworkers. reason for time off: personal trip. emergency contact info: You can email me at my work email address. additional notes: No, I don't have any other notes to add. start date: June 1st, 2023. previous time off: June 1st, 2023. end date: June 15th, 2023. total days off: 15. contact availability: limited. type of time off: vacation.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 53,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 76,
+                "end": 89,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 115,
+                "end": 156,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 176,
+                "end": 215,
+                "label": "additional_notes"
+            },
+            {
+                "start": 229,
+                "end": 243,
+                "label": "start_date"
+            },
+            {
+                "start": 229,
+                "end": 243,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 290,
+                "end": 305,
+                "label": "end_date"
+            },
+            {
+                "start": 295,
+                "end": 297,
+                "label": "total_days_off"
+            },
+            {
+                "start": 349,
+                "end": 356,
+                "label": "contact_availability"
+            },
+            {
+                "start": 376,
+                "end": 384,
+                "label": "type_of_time_off"
+            }
+        ]
+    },
+    {
+        "content": "previous time off: June 15th, 2023. end date: June 15th, 2023. start date: June 1st, 2023. type of time off: vacation. work handover details: coworkers. reason for time off: a planned vacation. total days off: 15. emergency contact info: Email. contact availability: No. additional notes: No.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 34,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 19,
+                "end": 34,
+                "label": "end_date"
+            },
+            {
+                "start": 75,
+                "end": 89,
+                "label": "start_date"
+            },
+            {
+                "start": 109,
+                "end": 117,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 142,
+                "end": 151,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 174,
+                "end": 192,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 24,
+                "end": 26,
+                "label": "total_days_off"
+            },
+            {
+                "start": 238,
+                "end": 243,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 267,
+                "end": 269,
+                "label": "contact_availability"
+            },
+            {
+                "start": 267,
+                "end": 269,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "work handover details: John will be covering my classes. reason for time off: a family trip. additional notes: no other information needed. emergency contact info: email. type of time off: vacation leave. previous time off: June 30th, 2023. end date: June 30th, 2023. start date: June 15th, 2023. contact availability: limited. total days off: 15.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 55,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 78,
+                "end": 91,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 111,
+                "end": 138,
+                "label": "additional_notes"
+            },
+            {
+                "start": 164,
+                "end": 169,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 189,
+                "end": 203,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 224,
+                "end": 239,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 224,
+                "end": 239,
+                "label": "end_date"
+            },
+            {
+                "start": 280,
+                "end": 295,
+                "label": "start_date"
+            },
+            {
+                "start": 319,
+                "end": 326,
+                "label": "contact_availability"
+            },
+            {
+                "start": 285,
+                "end": 287,
+                "label": "total_days_off"
+            }
+        ]
+    },
+    {
+        "content": "total days off: 15. emergency contact info: email. reason for time off: personal travel. start date: June 1st, 2023. type of time off: vacation. previous time off: I have not had to take any other time off recently. end date: June 15th, 2023. work handover details: John. additional notes: no additional information needed. contact availability: limited.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 18,
+                "label": "total_days_off"
+            },
+            {
+                "start": 44,
+                "end": 49,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 72,
+                "end": 87,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 101,
+                "end": 115,
+                "label": "start_date"
+            },
+            {
+                "start": 135,
+                "end": 143,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 164,
+                "end": 214,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 226,
+                "end": 241,
+                "label": "end_date"
+            },
+            {
+                "start": 266,
+                "end": 270,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 290,
+                "end": 322,
+                "label": "additional_notes"
+            },
+            {
+                "start": 346,
+                "end": 353,
+                "label": "contact_availability"
+            }
+        ]
+    },
+    {
+        "content": "work handover details: John. end date: June 15th, 2023. previous time off: I will have limited availability during my time away. contact availability: limited. type of time off: vacation. total days off: 15. start date: June 1st, 2023. reason for time off: to take a much needed break. additional notes: no other information needed regarding my request. emergency contact info: email.",
+        "entities": [
+            {
+                "start": 23,
+                "end": 27,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 39,
+                "end": 54,
+                "label": "end_date"
+            },
+            {
+                "start": 75,
+                "end": 127,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 87,
+                "end": 94,
+                "label": "contact_availability"
+            },
+            {
+                "start": 178,
+                "end": 186,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 44,
+                "end": 46,
+                "label": "total_days_off"
+            },
+            {
+                "start": 220,
+                "end": 234,
+                "label": "start_date"
+            },
+            {
+                "start": 257,
+                "end": 284,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 304,
+                "end": 352,
+                "label": "additional_notes"
+            },
+            {
+                "start": 378,
+                "end": 383,
+                "label": "emergency_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "emergency contact info: email. start date: June 1st, 2023. end date: June 15th, 2023. previous time off: John said he will cover my responsibilities while I'm gone. work handover details: John said he will cover my responsibilities while I'm gone. reason for time off: family trip. contact availability: limited availability. total days off: 15. type of time off: vacation. additional notes: No.",
+        "entities": [
+            {
+                "start": 24,
+                "end": 29,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 43,
+                "end": 57,
+                "label": "start_date"
+            },
+            {
+                "start": 69,
+                "end": 84,
+                "label": "end_date"
+            },
+            {
+                "start": 105,
+                "end": 163,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 105,
+                "end": 163,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 269,
+                "end": 280,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 304,
+                "end": 324,
+                "label": "contact_availability"
+            },
+            {
+                "start": 74,
+                "end": 76,
+                "label": "total_days_off"
+            },
+            {
+                "start": 364,
+                "end": 372,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 392,
+                "end": 394,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "start date: June 1st, 2023. reason for time off: family trip. previous time off: It'll just be for a family trip. additional notes: No other details needed. emergency contact info: email. type of time off: vacation. work handover details: My partners. end date: June 15th. total days off: 15. contact availability: limited.",
+        "entities": [
+            {
+                "start": 12,
+                "end": 26,
+                "label": "start_date"
+            },
+            {
+                "start": 49,
+                "end": 60,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 81,
+                "end": 112,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 132,
+                "end": 155,
+                "label": "additional_notes"
+            },
+            {
+                "start": 181,
+                "end": 186,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 206,
+                "end": 214,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 239,
+                "end": 250,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 262,
+                "end": 271,
+                "label": "end_date"
+            },
+            {
+                "start": 267,
+                "end": 269,
+                "label": "total_days_off"
+            },
+            {
+                "start": 315,
+                "end": 322,
+                "label": "contact_availability"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: family trip. additional notes: no additional details needed. type of time off: vacation. work handover details: John will cover my classes. contact availability: limited availability. previous time off: I have not taken any other time off recently. total days off: 15. end date: 2023-06-30. start date: 2023-06-15. emergency contact info: email.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 32,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 52,
+                "end": 80,
+                "label": "additional_notes"
+            },
+            {
+                "start": 100,
+                "end": 108,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 133,
+                "end": 159,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 183,
+                "end": 203,
+                "label": "contact_availability"
+            },
+            {
+                "start": 224,
+                "end": 268,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 286,
+                "end": 288,
+                "label": "total_days_off"
+            },
+            {
+                "start": 300,
+                "end": 310,
+                "label": "end_date"
+            },
+            {
+                "start": 324,
+                "end": 334,
+                "label": "start_date"
+            },
+            {
+                "start": 360,
+                "end": 365,
+                "label": "emergency_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: My family is planning a trip. emergency contact info: You can contact me by email. start date: June 1st, 2023. total days off: 15. type of time off: vacation leave. end date: June 15th, 2023. work handover details: John. contact availability: limited. previous time off: no additional information I need to provide. additional notes: no additional information I need to provide.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 49,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 75,
+                "end": 102,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 116,
+                "end": 130,
+                "label": "start_date"
+            },
+            {
+                "start": 148,
+                "end": 150,
+                "label": "total_days_off"
+            },
+            {
+                "start": 170,
+                "end": 184,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 196,
+                "end": 211,
+                "label": "end_date"
+            },
+            {
+                "start": 236,
+                "end": 240,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 264,
+                "end": 271,
+                "label": "contact_availability"
+            },
+            {
+                "start": 292,
+                "end": 335,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 292,
+                "end": 335,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "end date: June 15th, 2023. contact availability: June 15th, 2023. total days off: 15. additional notes: No, there are no additional notes. previous time off: John will be covering for me. work handover details: John will be covering for me. reason for time off: family trip. emergency contact info: email. type of time off: vacation leave. start date: June 1st, 2023.",
+        "entities": [
+            {
+                "start": 10,
+                "end": 25,
+                "label": "end_date"
+            },
+            {
+                "start": 10,
+                "end": 25,
+                "label": "contact_availability"
+            },
+            {
+                "start": 15,
+                "end": 17,
+                "label": "total_days_off"
+            },
+            {
+                "start": 104,
+                "end": 137,
+                "label": "additional_notes"
+            },
+            {
+                "start": 158,
+                "end": 186,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 158,
+                "end": 186,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 262,
+                "end": 273,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 299,
+                "end": 304,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 324,
+                "end": 338,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 352,
+                "end": 366,
+                "label": "start_date"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: personal trip. start date: June 1st, 2023. type of time off: vacation leave. contact availability: limited. previous time off: June 15th, 2023. end date: June 15th, 2023. total days off: 15. additional notes: No other notes. work handover details: John will be covering my responsibilities while I'm gone. emergency contact info: Email.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 34,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 48,
+                "end": 62,
+                "label": "start_date"
+            },
+            {
+                "start": 82,
+                "end": 96,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 120,
+                "end": 127,
+                "label": "contact_availability"
+            },
+            {
+                "start": 148,
+                "end": 163,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 148,
+                "end": 163,
+                "label": "end_date"
+            },
+            {
+                "start": 153,
+                "end": 155,
+                "label": "total_days_off"
+            },
+            {
+                "start": 230,
+                "end": 244,
+                "label": "additional_notes"
+            },
+            {
+                "start": 269,
+                "end": 325,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 351,
+                "end": 356,
+                "label": "emergency_contact_info"
+            }
+        ]
+    },
+    {
+        "content": "previous time off: No, I haven't taken any recent leave. work handover details: No. contact availability: limited. additional notes: no other notes. type of time off: Vacation. start date: 2023-06-01. emergency contact info: 2023-06-01, my email is name@email.com. end date: 2023-06-15. total days off: 15. reason for time off: It's for a planned holiday.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 55,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 19,
+                "end": 21,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 106,
+                "end": 113,
+                "label": "contact_availability"
+            },
+            {
+                "start": 133,
+                "end": 147,
+                "label": "additional_notes"
+            },
+            {
+                "start": 167,
+                "end": 175,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 189,
+                "end": 199,
+                "label": "start_date"
+            },
+            {
+                "start": 225,
+                "end": 263,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 275,
+                "end": 285,
+                "label": "end_date"
+            },
+            {
+                "start": 283,
+                "end": 285,
+                "label": "total_days_off"
+            },
+            {
+                "start": 328,
+                "end": 354,
+                "label": "reason_for_time_off"
+            }
+        ]
+    },
+    {
+        "content": "total days off: 15. emergency contact info: email. reason for time off: family trip. contact availability: limited. work handover details: John. start date: June 1st, 2023. end date: June 15th, 2023. additional notes: No additional notes. previous time off: No additional notes. type of time off: vacation.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 18,
+                "label": "total_days_off"
+            },
+            {
+                "start": 44,
+                "end": 49,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 72,
+                "end": 83,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 107,
+                "end": 114,
+                "label": "contact_availability"
+            },
+            {
+                "start": 139,
+                "end": 143,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 157,
+                "end": 171,
+                "label": "start_date"
+            },
+            {
+                "start": 183,
+                "end": 198,
+                "label": "end_date"
+            },
+            {
+                "start": 218,
+                "end": 237,
+                "label": "additional_notes"
+            },
+            {
+                "start": 218,
+                "end": 237,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 297,
+                "end": 305,
+                "label": "type_of_time_off"
+            }
+        ]
+    },
+    {
+        "content": "total days off: 7. reason for time off: a family trip. emergency contact info: name@email.com. start date: 2023-06-01. type of time off: vacation. previous time off: I have not taken any other time off recently. contact availability: limited. end date: 2023-06-07. work handover details: John will be covering my responsibilities. There is nothing else to note. additional notes: nothing else to note.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 17,
+                "label": "total_days_off"
+            },
+            {
+                "start": 40,
+                "end": 53,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 79,
+                "end": 93,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 107,
+                "end": 117,
+                "label": "start_date"
+            },
+            {
+                "start": 137,
+                "end": 145,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 166,
+                "end": 210,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 234,
+                "end": 241,
+                "label": "contact_availability"
+            },
+            {
+                "start": 253,
+                "end": 263,
+                "label": "end_date"
+            },
+            {
+                "start": 288,
+                "end": 360,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 340,
+                "end": 360,
+                "label": "additional_notes"
+            }
+        ]
+    },
+    {
+        "content": "previous time off: I'll have limited availability during my vacation. contact availability: limited. end date: 2023-06-15. reason for time off: family vacation. start date: 2023-06-01. work handover details: My partners. emergency contact info: email. type of time off: vacation. additional notes: no other information needed. total days off: 15.",
+        "entities": [
+            {
+                "start": 19,
+                "end": 68,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 29,
+                "end": 36,
+                "label": "contact_availability"
+            },
+            {
+                "start": 111,
+                "end": 121,
+                "label": "end_date"
+            },
+            {
+                "start": 144,
+                "end": 159,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 173,
+                "end": 183,
+                "label": "start_date"
+            },
+            {
+                "start": 208,
+                "end": 219,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 245,
+                "end": 250,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 60,
+                "end": 68,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 298,
+                "end": 325,
+                "label": "additional_notes"
+            },
+            {
+                "start": 119,
+                "end": 121,
+                "label": "total_days_off"
+            }
+        ]
+    },
+    {
+        "content": "total days off: 15. type of time off: vacation. end date: June 15th, 2023. emergency contact info: email. start date: June 1st, 2023. contact availability: limited. additional notes: no other notes. work handover details: John. reason for time off: personal travel. previous time off: personal travel.",
+        "entities": [
+            {
+                "start": 16,
+                "end": 18,
+                "label": "total_days_off"
+            },
+            {
+                "start": 38,
+                "end": 46,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 58,
+                "end": 73,
+                "label": "end_date"
+            },
+            {
+                "start": 99,
+                "end": 104,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 118,
+                "end": 132,
+                "label": "start_date"
+            },
+            {
+                "start": 156,
+                "end": 163,
+                "label": "contact_availability"
+            },
+            {
+                "start": 183,
+                "end": 197,
+                "label": "additional_notes"
+            },
+            {
+                "start": 222,
+                "end": 226,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 249,
+                "end": 264,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 249,
+                "end": 264,
+                "label": "previous_time_off"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: I'm just taking a break to relax. additional notes: There's nothing else to add. end date: June 15th, 2023. contact availability: limited. start date: June 1st, 2023. emergency contact info: email. total days off: 15. work handover details: My coworkers. previous time off: I have not had any other time off lately. type of time off: vacation.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 53,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 73,
+                "end": 100,
+                "label": "additional_notes"
+            },
+            {
+                "start": 112,
+                "end": 127,
+                "label": "end_date"
+            },
+            {
+                "start": 151,
+                "end": 158,
+                "label": "contact_availability"
+            },
+            {
+                "start": 172,
+                "end": 186,
+                "label": "start_date"
+            },
+            {
+                "start": 212,
+                "end": 217,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 117,
+                "end": 119,
+                "label": "total_days_off"
+            },
+            {
+                "start": 262,
+                "end": 274,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 295,
+                "end": 335,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 355,
+                "end": 363,
+                "label": "type_of_time_off"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: planning a holiday. total days off: 15. type of time off: vacation. additional notes: no other information needed. contact availability: limited. end date: June 15, 2023. previous time off: June 15, 2023. start date: June 1, 2023. emergency contact info: email. work handover details: assigned my responsibilities to my coworker.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 39,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 57,
+                "end": 59,
+                "label": "total_days_off"
+            },
+            {
+                "start": 79,
+                "end": 87,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 107,
+                "end": 134,
+                "label": "additional_notes"
+            },
+            {
+                "start": 158,
+                "end": 165,
+                "label": "contact_availability"
+            },
+            {
+                "start": 177,
+                "end": 190,
+                "label": "end_date"
+            },
+            {
+                "start": 177,
+                "end": 190,
+                "label": "previous_time_off"
+            },
+            {
+                "start": 238,
+                "end": 250,
+                "label": "start_date"
+            },
+            {
+                "start": 276,
+                "end": 281,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 306,
+                "end": 349,
+                "label": "work_handover_details"
+            }
+        ]
+    },
+    {
+        "content": "reason for time off: family trip. additional notes: There's no other information I need to provide. emergency contact info: email. total days off: 15. contact availability: limited availability. start date: 2023-06-01. type of time off: vacation. end date: 2023-06-15. work handover details: John will be covering my responsibilities. previous time off: I have not taken any other time off recently.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 32,
+                "label": "reason_for_time_off"
+            },
+            {
+                "start": 52,
+                "end": 98,
+                "label": "additional_notes"
+            },
+            {
+                "start": 124,
+                "end": 129,
+                "label": "emergency_contact_info"
+            },
+            {
+                "start": 147,
+                "end": 149,
+                "label": "total_days_off"
+            },
+            {
+                "start": 173,
+                "end": 193,
+                "label": "contact_availability"
+            },
+            {
+                "start": 207,
+                "end": 217,
+                "label": "start_date"
+            },
+            {
+                "start": 237,
+                "end": 245,
+                "label": "type_of_time_off"
+            },
+            {
+                "start": 257,
+                "end": 267,
+                "label": "end_date"
+            },
+            {
+                "start": 292,
+                "end": 333,
+                "label": "work_handover_details"
+            },
+            {
+                "start": 354,
+                "end": 398,
+                "label": "previous_time_off"
+            }
+        ]
+    }
+]
