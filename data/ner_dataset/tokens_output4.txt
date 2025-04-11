@@ -1,429 +1,446 @@
-machine learning
+machine learning	TOPIC
 no special accommodations are needed
-Three
-two days
-$5000
-better research skills
-June 15th, 2023
-online seminars
-intermediate
-hkim@researchlab.com or 555-1234
-Three
-2023-06-15
-machine learning research
-$10,000
-hkim@researchlab.com, 555-1234
+Three	NUMER
+two days	DURATION
+$5000	BUDGET
+better research skills	
+June 15th, 2023	DATE
+online seminars	TRAIN_TYPE
+intermediate	SKILL_LEVEL
+hkim@researchlab.com	CONTACT
+or 
+555-1234	CONTACT
+Three	NUMBER
+2023-06-15	DATA
+machine learning research	TOPIC
+$10,000	BUDGET
+hkim@researchlab.com	CONTACT
+,
+555-1234	CONTACT
 no
 to improve research skills
-intermediate
-2 days
-online seminars
+intermediate	SKILL_LEVEL
+2 days	DURATION
+online seminars	TRAIN_TYPE
 No special needs
-photography
-2023-05-15
-2 day
-intermediate
-one
+photography	TOPIC
+2023-05-15	DATE
+2 day	DURATION
+intermediate	SKILL_LEVEL
+one	NUMBER
 get better at portrait photography
-Jordan Casey
-65000
-online
-Priya Singh
-April 15th, 2023
+Jordan Casey	PERSON
+65000	BUDGET
+online	TRAIN_TYPE
+Priya Singh	PERSON
+April 15th, 2023	DATE
 improve my coding efficiency
-$1000
-Online videos
-intermediate
+$1000	BUDGET
+Online videos	TRAIN_TYPE
+intermediate	SKILL_LEVEL
 We shouldn't need any special accommodations
 Just me
-2 days
-software development best practices
+2 days	DURATION
+software development best practices	TOPIC
 I want to learn how to produce music
 I don't think I'll need any special accommodations
-7000
-June 15th, 2023
-40 hours
+7000	BUDGET
+June 15th, 2023	DATE
+40 hours	DURATION
 it will just be me
-beginner
+beginner	SKILL_LEVEL
 teaching me how to produce music
-@elijahmusic
-online
-Jordan Casey
-June 15, 2023
-65,000
-one
-intermediate
+@elijahmusic	CONTACT
+online	TRAIN_TYPE
+Jordan Casey	PERSON
+June 15, 2023	DATE
+65,000	BUDGET
+one	NUMBER
+intermediate	SKILL_LEVEL
 no special requirements
-two weeks
+two weeks	DURATION
 to improve photography skills
 to get better at taking portrait photographs
-online
-online
-65,000
+online	TRAIN_TYPE
+online	TRAIN_TYPE
+65,000	BUDGET
 no special arrangements are needed
 get better at taking portrait photographs
 photography skills
-Jordan Casey
-intermediate
-2 day
-2023-05-15
+Jordan Casey	PERSON
+intermediate	SKILL_LEVEL
+2 day	DURATION
+2023-05-15	DATE
 just be myself
 medical education
-Dr. Li Wei
-online
+Dr. Li Wei	PERSON
+online	TRAIN_TYPE
 improve my medical knowledge
-15,000
-June 15th, 2023
-two
-intermediate
-two days
+15,000	BUDGET
+June 15th, 2023	DATE
+two	NUMBER
+intermediate	SKILL_LEVEL
+two days	DURATION
 No, there are no special requirements needed
 No
-June 15th, 2023
-intermediate
-twelve thousand
-engineering best practices
+June 15th, 2023	DATE
+intermediate	SKILL_LEVEL
+twelve thousand	BUDGET
+engineering best practices	TOPIC
 improve my engineering skills
-online seminar
-two day
-one
-cmendez@email.com, +1-555-0102
+online seminar	TRAIN_TYPE
+two day	DURATION
+one	NUMBER
+cmendez@email.com	CON
+, 
++1-555-0102	CON
 
-intermediate
+intermediate	SKL
 Just myself
-Priya Singh
-1000
-two full days
+Priya Singh	PER
+1000	BUD
+two full days	DUR
 no, I don't anticipate any special needs
-online seminar
-April 15th, 2023
-software development best practices
-in-person workshop
-two days
-Angela Thomas
-intermediate
+online seminar	TT
+April 15th, 2023	DATE
+software development best practices TOPIC
+in-person workshop	TT
+two days	DUR
+Angela Thomas	PER
+intermediate	SKL
 teaching skills improvement
-three
+three	NUM
 no special requirements
-6000
+6000	BUD
 to better engage students
-2023-06-15
-around 5000
-in-person workshop
-2
-Amir Khaled
-June 15, 2023
-3 days
+2023-06-15	DATE
+around 5000	BUD
+in-person workshop	TT
+2	NUM
+Amir Khaled	PER
+June 15, 2023	DATE
+3 days	DUR
 better cooking techniques
-intermediate
+intermediate	SKL
 cooking skills improvement
 kitchen tools
 No
-medical education
-two days
-June 15, 2023
-intermediate
-online seminar
-15,000
-2
+medical education	TOPIC
+two days	DUR
+June 15, 2023	DATE
+intermediate	SKL
+online seminar	TT
+15,000	BUD
+2	NUM
 to improve diagnostic skills
-liwei@medicalemail.com
-3
-online seminar
+liwei@medicalemail.com	CON
+3	NUM
+online seminar	TT
 no special requirements
-Henry Kim
-machine learning research
+Henry Kim	PER
+machine learning research TOPIC
 to improve research skills
-2023-06-15 for 2 days
-2 days
-$5000
-intermediate
+2023-06-15	DATE
+for 
+2 days	DUR
+2 days	DUR
+$5000	BUD
+intermediate	SKL
 It will just be me
 No, I don't need any special accommodations
-online workshop
+online workshop	TT
 art skills improvement
-Alex Jordan
-8,000
-intermediate
-around 2 weeks
-2023-06-15
+Alex Jordan	PER
+8,000	BUD
+intermediate	SKL
+around 2 weeks	DUR
+2023-06-15	DATE
 to become a master at my art skills
-10 hours
+10 hours	DUR
 Just me
-8000
-2023-06-15
+8000	BUD
+2023-06-15	DATE
 No
 to better my art skills
-alex@email.com or 555-1234
+alex@email.com	CON
+or
+555-1234	CON
 improving my art skills
-intermediate
-online video
-intermediate
-employment law
-Two days
-Sofia Alvarez
+intermediate	SKL
+online video	TT
+intermediate	SKL
+employment law	TOPIC
+Two days	DUR
+Sofia Alvarez	PER
 improve knowledge of employment law
-online seminar
-around 2
-June 15th, 2023
-$2000
+online seminar	TT
+around 2	DUR
+June 15th, 2023	DATE
+$2000	BUD
 No special requirements
 to better engage with students through new techniques
-Angela Thomas
-Two full days
-three
+Angela Thomas	PER
+Two full days	DUR
+three	NUM
 None of us have any accommodations needed
-in-person workshop
-6000
-intermediate
-June 15th, 2023
+in-person workshop	TT
+6000	BUD
+intermediate	SKL
+June 15th, 2023	DATE
 teaching skills improvement
-online
-fifteen thousand dollars
-2023-06-15
+online	TT
+fifteen thousand dollars	BUD
+2023-06-15	DATE
 medical education
-two
-two days
-Dr. Li Wei, their email is liwei@medicalemail.com
+two	NUM
+two days	DUR
+Dr. Li Wei	PER
+, 
+their email is 
+liwei@medicalemail.com	CON
 to improve medical knowledge
 no special requirements
-intermediate
+intermediate	SKL
 improve my cooking skills and techniques
-Amir Khaled
-intermediate
-two
-in-person workshop
-May 15th, 2023
+Amir Khaled	PER
+intermediate	SKL
+two	NUM
+in-person workshop	TT
+May 15th, 2023	DATE
 improving our cooking skills
-5000
-Three days
+5000	BUD
+Three days	DUR
 access to a kitchen with basic tools
-one
-five thousand dollars
-online
-two days
-Carlos Mendez and his number is +1-555-0102
+one	NUM
+five thousand dollars	BUD
+online	TT
+two days	DUR
+Carlos Mendez	PER
+and his number is 
++1-555-0102	CON
 no
-software engineering best practices
-2023-06-15
-intermediate
+software engineering best practices	TOPIC
+2023-06-15	DATE
+intermediate	SKL
 to improve their coding skills
-2023-04-15
-Priya Singh
-one
-intermediate
-software development best practices
-10,000
-2 days
+2023-04-15	DATE
+Priya Singh	PER
+one	NUM
+intermediate	SKL
+software development best practices	TOPIC
+10,000	BUD
+2 days	DUR
 improve coding efficiency
 no special requirements
-online workshop
-around $5,000
-two days
-Sofia Alvarez
-online seminar
+online workshop	TT
+around $5,000	BUD
+two days	DUR
+Sofia Alvarez	PER
+online seminar	TT
 to improve legal ethics
-Fifteen
-legal ethics
-2023-06-15
+Fifteen	NUM
+legal ethics	TOPIC
+2023-06-15	DATE
 no special requirements
-intermediate
+intermediate	SKL
 Just myself
-intermediate
-April 15th, 2023
-2 weeks
+intermediate	SKL
+April 15th, 2023	DATE
+2 weeks	DUR
 improving my coding fundamentals
 No, I don't think so
-software development fundamentals
-10,000
-online
-priya.dev@techcorp.com
-online workshop
+software development fundamentals	TOPIC
+10,000	BUD
+online	TT
+priya.dev@techcorp.com	CON
+online workshop	TT
 I don't need any special arrangements
-June 15th, 2023
-artistry
-Alex Jordan
-1
-$1000
-intermediate
-Two days
+June 15th, 2023	DATE
+artistry	TOPIC
+Alex Jordan	PER
+1	NUM
+$1000	BUD
+intermediate	SKL
+Two days	DUR
 improve my art skills
 No special needs
-intermediate
+intermediate	SKL
 help them get better at portrait photography
-One
-June 15th, 2023
-online
-two weeks
+One	NUM
+June 15th, 2023	DATE
+online	TT
+two weeks	DUR
 photography skills
-Jordan Casey
-$65000
-in-person workshop
-6000
-June 15th, 2023
-Angela Thomas
-two days
+Jordan Casey	PER
+$65000	BUD
+in-person workshop	TT
+6000	BUD
+June 15th, 2023	DATE
+Angela Thomas	PER
+two days	DUR
 no
 to better engage the students we work with
-around 3
+around 3	NUM
 improving teaching skills
-intermediate
-around 6000
+intermediate	SKL
+around 6000	BUD
 it will help strengthen our teaching methods
-2 days
-athomas@school.edu
-June 15-16, 2023
+2 days	DUR
+athomas@school.edu	CON
+June 15-16, 2023	DATE
 There aren't any special requirements that I'm aware of
 improving teaching methods
-intermediate
-3
-in-person workshop
-Jordan Casey
-May 15th, 2023
-1
+intermediate	SKL
+3	NUM
+in-person workshop	TT
+Jordan Casey	PER
+May 15th, 2023	DATE
+1	NUM
 photography skills improvement
-2 days
-intermediate
-65,000
+2 days	DUR
+intermediate	SKL
+65,000	BUD
 no
-online
+online	TT
 to become better at portrait photography
-June 15th, 2023
-in-person workshop
+June 15th, 2023	DATE
+in-person workshop	PER
 just be me
 improve my leadership skills
-intermediate
+intermediate	SKL
 I do not require any special accommodations
-2 days
-Carlos Mendez
-$12,000
-leadership training
-seven thousand dollars
+2 days	DUR
+Carlos Mendez	PER
+$12,000	BUD
+leadership training	TOPIC
+seven thousand dollars	BUD
 to learn music production skills
-June 15, 2023
-beginner
-Elijah Barnes
+June 15, 2023	DATE
+beginner	SKL
+Elijah Barnes	PER
 music production
-online course
-40 hours
-one
+online course	TT
+40 hours	DUR
+one	NUM
 no
-150,000
-liwei@medicalemail.com and 555-1234
-two day
+150,000	BUD
+liwei@medicalemail.com	CON
+and
+555-1234	CON
+two day	DUR
 no, there aren't any special requirements
-advanced
+advanced	SKL
 improve everyone's skills
-in-person workshop
-around 2
+in-person workshop	TT
+around 2	NUM
 medical training
-2023-03-15
-three
-online seminar
-June 15th, 2023
+2023-03-15	DATE
+three	NUM
+online seminar	TT
+June 15th, 2023	DATE
 No
-five days
-Henry Kim
-intermediate
-$5000
-machine learning research methods
+five days	DUR
+Henry Kim	PER
+intermediate	SKL
+$5000	BUD
+machine learning research methods	TOPIC
 improved research skills
-3 full days
-in-person workshop
+3 full days	DUR
+in-person workshop	TT
 access to kitchen tools
-Amir Khaled
-2023-06-15
+Amir Khaled	PER
+2023-06-15	DATE
 to learn better cooking techniques
-2
+2	NUM
 cooking skills improvement
-5000
-intermediate
-eighty-five thousand dollars
-Alex Jordan
-March 15th, 2023
-intermediate
-online course
-two weeks
-one
+5000	BUD
+intermediate	SKL
+eighty-five thousand dollars	BUD
+Alex Jordan	PER
+March 15th, 2023	DATE
+intermediate	SKL
+online course	TT
+two weeks	DUR
+one	NUM
 no special requirements
 art skills improvement
 to gain better art skills
 
-Elijah Barnes
-40 hours
+Elijah Barnes	PER
+40 hours	DUR
 It will just be me
-June 15th, 2023
+June 15th, 2023	DATE
 I don't have any special requirements
-online
-beginner
-$10,000
+online	TT
+beginner	SKL
+$10,000	BUD
 music production
-Around 150
-online seminar
-June 15th, 2023
-two full days
-$50,000
+Around 150	BUD
+online seminar	TT
+June 15th, 2023	DATE
+two full days	DUR
+$50,000	BUD
 No special requirements
 medical procedures
 improve the quality of care provided to our patients
-intermediate
-liwei@medicalemail.com
-online
-intermediate
+intermediate	SKL
+liwei@medicalemail.com	CON
+online	TT
+intermediate	SKL
 Photography skills improvement
-Two days
+Two days	DUR
 No
-One
-May 15th, 2023
-65,000
-+1-555-0234
+One	NUM
+May 15th, 2023	DATE
+65,000	BUD
++1-555-0234	CON
 to get better at portrait photography
 one
 two days
 June 15th, 2023
 to improve my coding skills and learn best practices for software development
-software development
-Carlos Mendez
+software development	TOPIC
+Carlos Mendez	PER
 online
 no
-$1000
+$1000	BUD
 intermediate
 $12,000
 There aren't any special requirements
-Carlos Mendez
+Carlos Mendez	PER
 two days
 intermediate
 improve leadership skills
 in-person workshop
 one
-2023-06-15
+2023-06-15	DATE
 leadership training
 intermediate
 Just myself
 online
 2023-03-15
-555123456
-85,000
+555123456	CON
+85,000	BUD
 No, I do not need any special accommodations
 improving my art skills
-2 weeks
+2 weeks	DUR
 improve my art skills
-In-person
+In-person	TT
 2 days
 medical training
-Dr. Li Wei
-2023-06-15
+Dr. Li Wei	PER
+2023-06-15	DATE
 improve our skills
-advanced
-150000
+advanced	SKL
+150000	BUD
 2
 No, there are no special requirements
 Three
 intermediate
-Henry Kim
-June 15th, 2023
+Henry Kim	PER
+June 15th, 2023	DATE
 no special requirements needed
-five days
+five days	DUR
 machine learning research methods
 online seminars
 
@@ -433,13 +450,14 @@ just be myself
 online
 produce music
 music production
-beginner
+beginner	SKL
 10000
 40 hours
-Elijah Barnes, @elijahmusic
+Elijah Barnes	PER
+@elijahmusic	CON
 I do not need any special accommodations
 2 days
-June 15th, 2023
+June 15th, 2023	DATE
 $2000
 Henry Kim
 online seminars
@@ -451,15 +469,15 @@ intermediate
 beginner
 music production
 two days
-Elijah Barnes
+Elijah Barnes	PER
 $7000
-online as a workshop
+online as a workshop	TT
 improve my music production skills
-June 15th, 2023
+June 15th, 2023	DATE
 There will just be me attending
 I don't require any special accommodations
 online workshop
-Alex Jordan
+Alex Jordan	PER
 two weeks
 improving my art skills
 just be me participating
@@ -477,34 +495,40 @@ get better at taking portrait photographs
 it would just be me
 65,000
 I don't need any special accommodations
-+1-555-0234
++1-555-0234	CON
 two
-Amir Khaled and you can reach him at +1-555-0345
+Amir Khaled	PER
+and you can reach him at 
++1-555-0345	CON
 improving cooking skills and techniques
 better cooking techniques to be learned
-$3000
+$3000	BUD
 intermediate
 The training will provide any needed kitchen tools
-June 15-17, 2023
+June 15-17, 2023	DATE
 3 days
 in-person workshop
 I'm looking to learn the basics of music production
 My goal is to learn the fundamentals of music production
 I do not require any special accommodations
-Elijah Barnes
+Elijah Barnes	PER
 online
 music production
-June 15th, 2023 to June 29th, 2023
+June 15th, 2023	DATE
+to
+June 29th, 2023	DATE
 40 hours
-7,000
+7,000	BUD
 one
 gain a better understanding of machine learning
 $5,000
 intermediate
 June 15th, 2023
 online
-hkim@researchlab.com and 555-1234
-machine learning research
+hkim@researchlab.com	CON
+and
+555-1234	CON
+machine learning research	TOPIC
 I don't anticipate needing any special accommodations
 3
 2 days
@@ -516,28 +540,26 @@ $2000
 We'll need some kitchen tools and equipment provided as well
 three full days
 enhance our techniques
-enhance our techniques
-Amir Khaled
 Amir Khaled
 cooking skills improvement
-June 15th, 2023
+June 15th, 2023	DATE
 3 days
 5000
 intermediate
 We may need some basic kitchen tools
 to learn how to make better dishes
-in-person
+in-person	TT
 around 2
-April 15th, 2023
+April 15th, 2023	DATE
 Just me
 improve my coding skills
-Priya Singh
+Priya Singh	PER
 10000
 online videos
 intermediate
-software development fundamentals
+software development fundamentals	TOPIC
 There aren't any special requirements needed
-Two weeks
+Two weeks	DUR
 online workshop
 intermediate
 Priya Singh
@@ -552,15 +574,15 @@ improve my art skills
 online workshop
 intermediate
 two days
-Alex Jordan
+Alex Jordan	PER
 June 15, 2023
 one
 $1000
 artistry
 no
-software development fundamentals
-Online videos
-April 15th, 2023
+software development fundamentals	TOPIC
+Online videos	TT
+April 15th, 2023	DATE
 No
 Just myself
 10,000
@@ -569,27 +591,32 @@ improve my coding skills
 intermediate
 two weeks
 the past year
-4
-time management
-Amir Khaled
-4
+4	NUM
+time management	TOPIC
+Amir Khaled	PER
+4	NUM
 pastry skills
-I mentor junior chefs
-chef
+I mentor 
+junior chefs	POS
+chef	POS
 Learning new cuisines
-5
+5	NUM
 I have improved my cooking skills
 any additional training is needed
-4
-Priya Singh
-I've helped mentor some of the junior developers
+4	NUM
+Priya Singh	PER
+I've helped mentor some of the 
+junior developers	POS
 4
 5
-January 2023 to December 2023
+January 2023	DATE
+to
+December 2023	DATE
 time management skills
-Software Developer
+Software Developer	POS
 I've learned some new programming languages
-to complete my certification by December 2023
+to complete my certification by 
+December 2023	DATE
 publishing two papers and further developing my research skills
 research skills
 exceeded expectations
