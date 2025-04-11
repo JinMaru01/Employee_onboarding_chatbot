@@ -11,7 +11,7 @@ __conn = RedisConn()
 __encoder = Encoder()
 
 # Read dataset
-file_path = "../data/combine_df.csv"
+file_path = "./data/combine_df.csv"
 label_encoder = __encoder.fit_transform(__encoder.load_data(file_path), LabelEncoder())
 
 # Load Label encoder from Redis
