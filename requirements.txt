@@ -44,3 +44,5 @@ wcwidth==0.2.13
 torch
 scikit-learn
 transformers
+spacy
+datasets
