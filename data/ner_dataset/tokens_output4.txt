@@ -621,72 +621,83 @@ publishing two papers and further developing my research skills
 research skills
 exceeded expectations
 grants and publications
-Henry Kim
+Henry Kim	PER
 most
 I try to mentor some of the junior scientists
 very collaborative
-Scientist
-Time management
+Scientist	POS
+Time management	TOPIC
 the past year
-January 2023 to December 2023
-cloud architecture
+January 2023	DATE
+to 
+December 2023	DATE
+cloud architecture	TOPIC
 I learned new frameworks
-Priya Singh
-She guided junior developers
+Priya Singh	PER
+She guided 
+junior developers	POS
 Time management skills
 4
 4
 to complete cloud architecture certification
-Software Developer
+Software Developer	POS
 5
-He mentors the junior scientists
+He mentors the 
+junior scientists	POS
 leadership
 very collaborative
 He has learned a few new techniques that have expanded his abilities
-Henry Kim
+Henry Kim	PER
 he exceeds expectations
-time management
-scientist
+time management	TOPIC
+scientist	POS
 fully
 publishing research papers
-2020-01-01 to 2021-01-01
-musician
+2020-01-01	DATE
+to 
+2021-01-01	DATE
+musician	POS
 releasing my first album and doing a tour to promote it
 improved significantly
 5
 4
 4
-January 2023 to December 2023
+January 2023	DATE
+to 
+December 2023	DATE
 time management and leadership skills
-Elijah Barnes
+Elijah Barnes	PER
 music production
 help motivate those around me
-four
+four	NUM
 very well
 artist
-Alex Jordan
-Alex doesn't
+Alex Jordan	PER
+Alex	PER
+doesn't
 increasing their output
 five
 very creative and innovative
 time management
-January 1st, 2023 to December 31st, 2023
+January 1st, 2023	DATE
+to 
+December 31st, 2023	DATE
 improved their digital art skills over the past year
 4
 5
 4
-Teacher
+Teacher	POS
 time management
 Angela Thomas
-January 2023 to December 2023
+January 2023 to December 2023	DUR
 classroom management
 improved in classroom management over this time
 Angela mentored some new teachers
 to publish a research paper
 Jordan Casey
-January 2023 to December 2023
+January 2023 to December 2023	DUR
 Photographer
-Time management
+Time management	TOP
 improved their lighting techniques and achieved their goals
 4
 5
@@ -700,16 +711,17 @@ Time management
 excellent
 fully
 maintaining this high level of performance
-Dr. Li Wei is a good leader
-2021-01-01 to 2022-01-01
+Dr. Li Wei	PER
+is a good leader
+2021-01-01 to 2022-01-01	DUR
 very helpful
-doctor
-Dr. Li Wei
+doctor	POS
+Dr. Li Wei	PER
 4
-scientist
+scientist	POS
 leadership
-excellent
-Henry Kim
+excellent	SKL
+Henry Kim	PER
 time management
 learned some new skills
 4
@@ -731,8 +743,8 @@ increasing my output and productivity
 4
 I try to be creative and come up with innovative ideas
 Not
-Alex Jordan
-January 1st, 2023 to December 31st, 2023
+Alex Jordan	PER
+January 1st, 2023 to December 31st, 2023	DUR
 artist
 improved my digital art skills
 Time management
@@ -741,7 +753,7 @@ Time management
 Alex Jordan's
 4
 artist
-2022-01-01 to 2022-12-31
+2022-01-01 to 2022-12-31	DUR
 3
 time management
 creative influencer
@@ -753,10 +765,10 @@ No
 photographer
 expanding her client base
 4
-Jordan Casey
+Jordan Casey	PER
 lighting techniques
 business management
-January 2023 to December 2023
+January 2023 to December 2023	DUR
 time management
 5
 Jordan shows a lot of creativity and independence
@@ -764,7 +776,7 @@ release my first album and do a tour to promote it
 4
 4 for achieving my goals and also about a 4
 music production skills
-January 2023 to December 2023
+January 2023 to December 2023	DUR
 musician
 creativity and drive
 5
@@ -773,7 +785,7 @@ Elijah Barnes
 managing my time more efficiently
 I've mentored some of the younger teachers
 4
-January 2023 to December 2023
+January 2023 to December 2023	DUR
 improved my skills with technology
 5
 I don't think any additional training is needed at this time
@@ -781,18 +793,18 @@ teacher
 teacher. One goal I have is to publish a research paper
 time management
 4 or 5
-Angela Thomas
+Angela Thomas	PER
 time management skills
 music production skills
 5
 4
 musician
-Elijah Barnes
+Elijah Barnes	PER
 creativity and passion
 release his album
 He improved his guitar skills
 5
-January 2023 to December 2023
+January 2023 to December 2023	DUR
 5
 leadership skills
 excellent
