@@ -1,37 +1,12 @@
-import torch
+from intent_classifier import *
 
-from connection.redis_conn import RedisConn
-from preprocess.label_encoder import Encoder
-
-from transformers import AutoTokenizer
-from sklearn.preprocessing import LabelEncoder
-
-
-__conn = RedisConn()
-__encoder = Encoder()
-
-# Read dataset
-file_path = "./data/combine_df.csv"
-label_encoder = __encoder.fit_transform(__encoder.load_data(file_path), LabelEncoder())
-
-# Load Label encoder from Redis
-label_encoder = __conn.save_label_encoder(label_encoder, "label-encoder")
-
-# Load model from local and store in the redis
-# model = torch.load("../model/model_distilbert_25epochs.pth", weights_only=False)
-# _conn.model_save(model, "distilbert_state")
-
-# Load model and encoder from redis
-model = __conn.model_load("distilbert_state")
-label_encoder = __conn.load_label_encoder("label-encoder")
-
-
-# Initial tokenizer
-tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
-max_length = 64
+# Load saved model
+print("\nLoading model...")
+model = torch.load("../artifact/model/model_distilbert_25epochs.pth", weights_only=False)
+print("\nModel Load Completed")
 
 # Function to predict intent using the BERT model
-def predict_intent(text):
+def predict_intent_bert(text):
     model.eval()
     encoding = tokenizer(
         text,
@@ -76,7 +51,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print("\nTesting model with sample messages:")
 print("-" * 50)
 for message in test_messages:
-    intent, confidence = predict_intent(message)
+    intent, confidence = predict_intent_bert(message)
     print(f"Message: {message}")
     print(f"Predicted Intent: {intent}")
     print(f"Confidence: {confidence:.2f}")
