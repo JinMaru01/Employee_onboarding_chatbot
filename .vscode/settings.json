@@ -2,5 +2,6 @@
     "files.autoSaveWhenNoErrors": true,
     "files.autoSaveDelay": 10,
     "files.autoSaveWorkspaceFilesOnly": true,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.port": 5501
 }
