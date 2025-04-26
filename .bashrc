@@ -1,2 +1,6 @@
-alias activate='source ./env/Scripts/activate'
-alias exec='python ./python/app.py'
+run(){
+    source ./env/Scripts/activate
+    python "$@"
+    deactivate
+    clear
+}

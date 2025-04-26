@@ -27,16 +27,33 @@ document.addEventListener("DOMContentLoaded", function () {
         userMessage.textContent = message;
         chatHistory.appendChild(userMessage);
 
-        // Simulate bot response
-        setTimeout(() => {
+        fetch("/api/predict", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ text: message })
+        })
+        .then(response => response.json())
+        .then(data => {
             const botResponse = document.createElement("div");
             botResponse.classList.add("chat-bubble", "bot-message");
-            botResponse.textContent = "This is a bot response!";
+        
+            const intent = data.predicted_intent;
+            const response_time = data.prediction_time;
+            const confidence = (data.confidence * 100).toFixed(2);
+        
+            botResponse.textContent = `Intent: ${intent} (Confidence: ${confidence}%), with ${response_time}s`;
             chatHistory.appendChild(botResponse);
-
-            // Scroll to latest message
             chatHistory.scrollTop = chatHistory.scrollHeight;
-        }, 1000);
+        })
+        .catch(error => {
+            const errorMsg = document.createElement("div");
+            errorMsg.classList.add("chat-bubble", "bot-message", "error");
+            errorMsg.textContent = "Error: Unable to fetch response.";
+            chatHistory.appendChild(errorMsg);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        });
 
         // Scroll to latest message
         chatHistory.scrollTop = chatHistory.scrollHeight;
@@ -65,4 +82,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Hide chat history initially
     chatHistory.style.display = "none";
+    
+    const clearBtn = document.getElementById("clear-btn");
+    
+    clearBtn.addEventListener("click", function () {
+        chatHistory.innerHTML = "";
+        chatHistory.style.display = "none";
+    });
 });
+
