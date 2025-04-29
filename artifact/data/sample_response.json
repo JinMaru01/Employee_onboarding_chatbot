@@ -1,0 +1,558 @@
+[
+  {
+    "intent":   "ask_for_vision",
+    "question": "What is the company's vision?",
+    "answer":   {
+        "message":"The vision of company is",
+        "response": "To provide every Cambodian with convenient access to relevant digital solutions for the improvement of their daily lives."
+    }
+  },
+  {  
+    "intent":   "ask_for_mission",
+    "question": "What is the company's mission?",
+    "answer":   {
+        "message": "The mission of company is ",
+        "response": {
+            "Customer at the heart": "To engage and understand customer need, provide best-in-class product and Services, be respective and quick in resolving-resulting in true customer delight.",
+            "Community as the cause": "To deliver robust and cost-effective mobile money service that promote financial inclusion, catalyze growth, and reduce social inequality.",
+            "Employee as the pillar": "To provide an enabling work culture, where career aspirations can be realized through consistent performance and demonstration of WING's core values.",
+            "Deliver shareholder value": "To demonstrate strong corporate governance standards that protects and balance shareholder interests in the journey to achieving short and long-term business goals and staying relevant by being the first bank to offer innovate mobile financial service, accessible to all."
+        }
+    }
+  },
+  {
+    "intent":   "ask_for_core_value",
+    "question": "What are the company's core values?",
+    "answer":   {
+        "message": "Core Values are the guiding principles for our decision making. They allow us to work towards the same objectives and focus on how to succeed by providing a common language and reference point for everyone at WING.",
+        "response":{
+            "Winning": "Winger always demonstrate 'I can' attitude to make the impossible possible for positive changes.",
+            "Innovation": "Winger always make things easy and lives better.",
+            "Nurturing": "Winger always develop, learn and coach each other.",
+            "Growth": "Winger always strive to be better than yesterday and to grow together.",
+            "Excellence": "Winger always do best in everything we do to 'bring a smile'.",
+            "Respect": "Winger always act fairly, ethically and openly in all we do with respect."
+        }
+    }
+  },
+  {
+    "intent":   "ask_about_nine_principles",
+    "question": "What are nine principles of the company?",
+    "answer":   {
+        "message": "The WING Code of Conduct sets ethical standards for WING and our staff to embrace and promote WING's value. The principles contained in this Code of Conduct govern our behavior and guide us in the way we do our jobs, wherever WING operates. The Code is supported by a number of more detailed policies that form part of the WING Conduct and Ethics Policy.",
+        "response":{
+            "Principle 1": {
+                "Wing's Best Interests and Value WING's Reputation.": "WING's reputation as a trusted and respected organization is one of our greatest assets. Each of us has the ability to build and maintain WING's reputation, or to protect that reputation and undermine WING's performance. We undertake our duties with care and diligence and deal fairly and honestly. We also help to protect WING against Money Laundering, Terrorist Financing. We are responsible for understanding the authority exercises. We behave in a way that takes into account our impact on the broader community",
+                "do":   [
+                    "Undertake your duties with care and diligence. Remember, you are accountable for the decisions you make and the actions you take", 
+                    "Deal fairly and honestly with all WING's customers, suppliers, competitors and any other third parties or business partners.", 
+                    "Only provide advice to customers that you are authorized to provide in the course of your work.", 
+                    "Help protect WING and its customers against potential theft or fraud.", 
+                    "Help protect WING from being associated with money laundering or terrorist financing, or from transacting with countries, entities or individuals who are subject to economic sanctions. This includes being alert to suspicious customer behavior and reporting suspicious activity.", 
+                    "Behave in a way that takes into account our impact on the broader community and the environment in both the short and long term.", 
+                    "Use all of WING's systems and equipment appropriately and for proper purposes. This includes email, messaging, internet access, and technology and WING systems.", 
+                    "Use Wing resources responsibly", 
+                    "Responsible use of technology and all resources provided by Wing.", 
+                    "Turn off the lights, air-cons, and electrical equipment after working hours.", 
+                    "Openness when communicating with customers.", 
+                    "Encourage customers to raise concerns and complaints to improve the bank's product/services/customer support services and other areas.", 
+                    "Ensure customers are well informed and/or make informed decisions when choosing wing bank's products and services."
+                ],
+                "don't":    [
+                    "Never entertain customers or clients or participate in WING activities or functions in a way that may damage WING's reputation, for example by consuming excessive alcohol or attending an inappropriate adult venue."
+                ]
+            },
+            "Principle 2": {
+                "Privacy and Confidentiality Information Management.": "As you work at WING, you may come across privacy and confidential information relating to WING, colleagues, customers, suppliers, or other third parties. WING is committed to maintaining the confidentiality and security of this information and you are expected to do your part to help honor this commitment.",
+                "do":   [
+                  "Comply and always integrity to keep information secure, this includes not sharing private or confidential information of customers, colleagues, or other third parties with other unless they need it to perform their work at WING.", 
+                  "Know and apply the WING Information classifications: Public, Internal, Confidential and Customer Confidential.", 
+                  "Access only the information you need to do your job.", 
+                  "Follow procedures and requirements to protect information whenever you provide details over the phone, by email or fax, or any other communication channel", 
+                  "Follow all protocols and procedures relating to the maintenance of passwords and user profile setup. Never allow someone else to log on using your individual details.", 
+                  "Collect, use, store, handle, update and destroy information, particularly personal information, in line with applicable policies and processes at all times.", 
+                  "Protection of confidential information of the customers, partners, colleagues or other third parties."
+            ],
+                "don't":    [
+                  "Never release information about customers or colleagues to third parties outside of WING unless the owner of information has agreed or if WING is required to release the information under the law. This includes not giving any information to family members, friends or others about an account to which they are not a signatory.", 
+                  "Never disclose any information about WING or any other company or individual (including a former employer) that is not already in the public domain without the proper authority to do so.", 
+                  "Never share your username and passwords with anyone."
+            ]
+            },
+            "Principle 3": {
+                "Identify Conflict of Interests and Manage Them Responsibly.": "Acting honestly and with integrity also means managing conflicts of interest and never putting yourself in a situation that puts, or appears to put, your own personal interests before those WING or our customers.",
+                "do":   [
+                  "Be alert to actual or potential conflicts of interest and disclose them to your line manager, human resources business partner or your risk and compliance representative", 
+                  "Seek approval for any outside business interest including non-WING work (paid or unpaid), business ventures, directorships, partnerships or a direct or indirect financial interest which has the potential to be in conflict with your employment, the interests of WING or WING's partners, customers, or Suppliers.", 
+                  "Disclose to your line manager any personal associations with a third party that you are Involved in evaluating or negotiating with for WING, whether for employment, as a customer or supplier or any other reason. Personal Transactions and Gain.", 
+                  "Disclose to your line manager, department head and HR if any of your relatives or family members [brother, sister, parent, grandparent, child, grandchild, or great grandchild (by whole or half-blood) of you or your spouse, in-laws] are working in Wing.", 
+                  "Always be balanced, fair, clear and accurate when communicating with your customers.", 
+                  "Only accept gifts or entertainment in line with applicable policies and processes. Obtain proper approval for and property record any donations, sponsorships, charitable contributions, gifts, and entertainment you accept from, or give to, a third party on behalf of WING."
+                ],
+                "don't":    [
+                  "Never trade in securities if you have information that may affect the price of the security and this information is not publicly known or generally available.", 
+                  "Never provide or maintain products or services for, or complete or approve transactions on behalf of, immediate family members or relatives in the course of your work.", 
+                  "Never accept any gift, reward, or entertainment, including discounted products, free travel, or accommodation, if it could create any obligation or expectation that could conflict with your work at WING.", 
+                  "Never try to improperly influence the outcome of an official decision, for example by offering a payment or benefit that is not legitimately. These payments or benefits are unacceptable.", 
+                  "Never make any donation or other financial contribution from WING to a political party or candidate unless it has been approved by the WING CEO and the WING Board."
+                ]
+            },
+            "Principle 4": {
+                "Other Additional Employment or Work.": "While you are employed by WING, you cannot hold any other paid or unpaid role, position, office, directorship, partnership, consultancy, advisory role or similar arrangement without prior approval from the Department Head and Chief Human Resources Officer.",
+                "do":   [
+                  "Ask for approval for any additional employment and this approval should be sought before you commence any external position, or immediately after accepting your employment contract with WING.", 
+                  "Before commencing your role with WING, you must resign from all other positions unless the Department Head and Chief Human Resources Officer, given written approval for you to continue to hold that external position. Approval will be given to take up or continue an external position only where the interests of WING will not be prejudiced or harmed in any way, and the external position does not directly or indirectly conflict with your WING duties.", 
+                  "Whenever there are changes in the nature of any external position that was previously approved the staff member must notified Line Manager, the Department Head and Chief. Human Resources Officer soon as possible."
+                ],
+                "don't":    [
+                  "You may not take a second job that competes with any of our business activities, interferes with your job performance or work schedule, has a negative impact on company, violates your confidentiality obligations to WING, and its customers."
+                ]
+            },
+            "Principle 5": {
+                "Restricted Transactions.": "You, your family, and friends, are all warmly invited to be customers of WING and can all use WING's services and facilities as a customer. While you on duties of job, you must not provide services or perform any transactions or maintenance whatsoever on your own account or any account of any relative or friend. You must disclose any relationship (*) you have with a customer (**) of WING to your Manager. To avoid any situation where your private or personal interests may conflict with Your duties in Wing Bank. 'Private or personal interests' means any potential benefit or advantage for yourselves, your spouse or partner, a member of your family, a relative or friend, immediately report to line manager if your customer is your family member for request change to other team member to serve the customer instead of you. ",
+                "do":   "",
+                "don't":    ""
+            },
+            "Principle 6": {
+                "Secret Commissions, Bribery, Theft and Personal Gain (Honestly and Integrity).": "Honesty and integrity are essential to everything we do at WING. Our success depends on the trust of our customers. Being WING employees, you must always act with honesty and integrity. You must not make statements, promises or commitments which you do not believe to be true or which you or WING do not intend, or are unable, to honor.",
+                "do":   [
+                  "Immediately report any suspicions of fraud, tax evasion, theft, or other dishonest behavior by others (including colleagues or customers).",
+                  "Integrity-driven behavior.", "Honest communication with other employees",
+                  "Consider the interests and needs of the customer when providing advice, products, or services to them.",
+                  "Be honest and forthright in all your communications and dealings with your line manager, colleagues, customers, auditors, and regulators. This includes communications and dealings as a customer, as well as someone who works with WING. Ensure all dealings (such as transactions or commitments) with customers, suppliers or third parties are properly recorded and transparent.",
+                  "Use WING assets and budget for proper purposes and keep accurate and transparent records of all payments or receipts for transactions using WING budget.", "Always be balanced, fair, clear, and accurate when communicating with your customers. Only accept gifts or entertainment in line with applicable policies and processes.", 
+                  "Obtain proper approval for and properly record any donations, sponsorships, charitable contributions, gifts, and entertainment you accept from, or give to, a third party on behalf of WING.", 
+                  "Employees are not allowed to accept gifts in cash in any amount and you can only accept any non-cash gifts under the condition below: \n1.For gifts value up 100$ needs to acknowledge by Department Head and Chief Human Resources Officer.\n2. For gifts value more than 100$ need to acknowledge by Department Head, Chief Human Resources Officer, and CEO."],
+                "don't":    [
+                  "Never improperly use your position with WING, or any information you receive through your work at WING, to further your own personal interests, or help others to do so.",
+                  "Never help a customer or anyone else to break or evade the law.",
+                  "Never structure or amend any transaction to disguise, conceal or misrepresent the involvement of any party or the true nature of the transaction (for example, to conceal money laundering or the involvement of sanctioned countries, entities, or individuals).",
+                  "Never accept any gift, reward, or entertainment, including discounted products, free travel, or accommodation, if it could create any obligation or expectation that could conflict with your work at WING.",
+                  "Never try to improperly influence the outcome of an official decision, for example by offering a payment or benefit that is not legitimately due. These payments or benefits are unacceptable.",
+                  "Never make any donation or other financial contribution from WING to a political party or candidate unless it has been approved by the WING CEO and the WING Board."
+                ]
+            },
+            "Principle 7": {
+                "Treat Others with Respect, Value Difference and A Safe workplace.": "WING gives value of difference and commits to achieve a truly diverse workforce that remains inclusive and respectful of each other's differences. Working at WING is to be with dignity and respect without any discrimination We treat all people with dignity and respect, and we contribute promoting a safe working environment for health and safety.",
+                "do":   [
+                  "Treat all people you deal with through your work at WING with dignity and respect.", 
+                  "Make employment decisions based on merit, and not on attributes that are irrelevant to employment or performance.",
+                  "Contribute to promoting a safe working environment by taking responsibility for health. and safety and reporting any issues as soon as possible. Respecting diversity among people within the company and those outside who use its products and services.",
+                  "Fairness when making decisions. Respectful behavior towards colleagues.",
+                  "Ensure transparency of information sharing towards colleagues.",
+                  "Accountability and Responsibilities for actions taken on behalf of Wing Bank",
+                  "Respecting diversity among people within Wing and those outside who use its products and services. ",
+                  "Customers/ Clients need to know their rights in order to recognize and react when they are not treated with fairness and respect. In order for them to know their rights, the client facing staff must inform them of the main aspects of the Code of Conduct, including what is not expected behavior and unacceptable behavior by staff.",
+                  "The clients should also know their rights when it comes to collateral seizure, loan rescheduling procedures, data privacy, making a complaint, and receiving account information.",
+                  "Communication to the clients about their rights may be verbal (at different points during the product process) or written (posters displayed in branches, inside client passbooks, on the contract, in a key facts summary, customer charter, brochures, or other documentation)."
+                ],
+                "don't":    [
+                  "Never unlawfully discriminate (Age; Sex; Race/ethnicity/national extraction/social origin /caste; Religion; Health status, including HIV status; Disability; Political. affiliation/opinion; Civil/marital status; Participation in a trade union), harass, or bully your colleagues, customers, WING visitors or anyone else in the workplace. This includes being aware that some behaviors may be acceptable to you but not to others and acting appropriately.",
+                  "Never treat somebody less favorably because they have brought or propose to bring a genuine complaint of unacceptable behavior. Comply with the Code, Law, and Policy."
+                ]
+            },
+            "Principle 8": {
+                "Investments and Insider Trading.": "As a WING employee, you must conduct your per personal investment activities with our interests in mind. When you're trading in your personal accounts, you may not use WING information for your personal benefit.",
+                "do":   [
+                  "Make responsible and lawful transaction and investment decisions.",
+                  "Conduct your personal investment activities prudently and lawfully and with our interests in mind.",
+                  "When you are in possession of inside information, you may not trade in any confidential information of the company, such as: project pipelines, total loan and deposit portfolio (prior to issuance of annual report), policies and procedures, user credentials and passwords, other highly sensitive information.",
+                  "If you work in a private or inside area of the company and possess material and non-public information, you're prohibited from communicating this information to anyone in a public area of the company."
+                
+                ],
+                "don't":    [
+                  "Never engage in insider trading.",
+                  "You may not pass along inside information to anyone who might use it to trade in securities, and you may not share the information with anyone else.",
+                  "Do not use inside information about WING for personal financial gain or improperty share this information with others."
+                ]
+            },
+            "Principle 9": {
+                "Compliance and Report Any Breaches.": "All employees are required to comply with the Nine (9) Principles of Wing Code of Conduct and Ethics as well as Cambodia laws, regulations, internal policies and procedures, and other relevant rules. All staff who witness all actual or suspected breaches of this Code, the law or WING policies and procedures must report immediately through member of disciplinary committee or via the whistleblowing channel. All Wing employees are compulsory required to attend or refresh the Wing Internal Rule and The Code of Conduct & Ethics Training. Failure to attend or refresh these two compulsory courses will result in non-compliance and will impact their year-end performance.",
+                "do":   [
+                  "Be conscious of what others around you are d you are doing."
+                ],
+                "don't":    [
+                  "Honestly report all actual or suspected breaches of this Code, the law or WING policies and procedures immediately to your line manager, human resources business partner or your risk and compliance representative. How to report, please refer to below reporting structure"
+                ]
+            }
+        }
+    }
+  },
+  {
+    "intent":   "ask_about_unacceptable_behaviors",
+    "question": "What are unacceptable action in the company?",
+    "answer":    {
+        "message":  "The following behaviors outlined in this section are considered behaviors that Wing Bank will not tolerate. Wing Staff and third parties, partnered in wing business, is/are prohibited from any acts considered abusing customer/partner/ wing agents (referred to as 'customer below) rights:",
+        "response": [
+          "Damage or destruction of customers properties, equipment, devices or assets.",
+          "Mistreating/Discrimination against all internationally recognized Protected Categories.",
+          "Not transparent to the customer about bank fees, terms/ conditions, and other applicable bank rules and charges.",
+          "Force customer to use bank services, taking loans, making deposits and/or others against the customer's will.",
+          "Force customers to sell their asset/ collateral to himself, or other staff, or the staff relatives",
+          "Using abusive language",
+          "Using physical force",
+          "Limiting physical freedom of the customers",
+          "Shouting at the client",
+          "Entering the client's home un-invited",
+          "Publicly humiliating the client",
+          "Violating the client's rights to privacy",
+          "Using intimidation or threats Sexual or moral harassment",
+          "Fraud",
+          "Soliciting or accepting bribes and kickbacks",
+          "Other inappropriate behaviors that put customers in the disadvantages/ vulnerable position "
+      ]
+    }
+  },
+  {
+    "intent":"ask_about_contract",
+    "question":"What types of employment contracts are there?",
+    "answer":{
+      "message": "In accordance with the Law on Labor and regulations in force, the employment contract can be entered into in form of a fixed or indefinite term.",
+      "response": {
+          "A Fixed Duration contract (FDC)": "Specifies both the commencement date and the end date. The fixed-term employment contract shall end upon the expiration, date and WING shall give a prior notice to the employees before the expiration of the employment contract, in accordance with the Law on Labor and regulations in force.",
+          "An Undetermined Duration Contract (UDC)": "is an employment contract that does not anticipate a termination date and can be made in writing or verbally. Upon the termination of the indefinite-term employment contract, the employer and the employees shall fulfill their obligations to give prior written notice of such termination."
+      }
+    }
+  },
+  {
+    "intent":"ask_about_procedure",
+    "question":"What procedures must employees follow?",
+    "answer":{
+        "message":"",
+        "response": {
+            "All employees shall follow the following procedure":   [
+                "Be punctual and follow the working hours.",
+                "Dress appropriately.",
+                "Put their best efforts into their roles and duties.",
+                "Always wear ID badge during working hours."
+            ],
+            "All employees shall be prohibited from the following": [
+                "Disclosing any confidential information of WING.",
+                "Defaming WING.",
+                "Performing personal tasks or duties other than the duties assigned by WING during their working hours without authorization.",
+                "Greeting their personal visitors during their working hours without authorization.",
+                "Recording attendance on behalf of others.",
+                "Abusing one's roles and responsibilities.",
+                "Theft, exploitation, and embezzlement.",
+                "Falsifying documents during the execution of the contract 'presenting Falsified documents during the execution of the contract'.",
+                "Violating disciplinary, security, and sanitation measures.",
+                "Threatening, insulting, and beating the employer and other employees. ",
+                "Inciting other employees to commit violations or launching political campaigns in WING.",
+                "Intentionally damaging or destroying company property. This includes but is not limited to equipment, facilities, vehicles, and digital assets. ",
+                "Unauthorized sharing of own user or password access credentials with any other individual."
+            ]
+        }
+    }
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements for employment application?",
+    "answer":   {
+        "message": "Applicants must be at least 18 years old, healthy, and possess appropriate skills required by WING.",
+        "response": [
+            "Application for employment: 01 copy",
+            "Curriculum Vitae/Resume: 01 copy", 
+            "Copy of National identity card or equivalent document: 01 copy", 
+            "Diploma or certificate (if any): 01 copy"
+        ]
+    }
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours?",
+    "answer":{
+        "message":"The official working hours are 8 hours per day or 48 hours per week",
+        "response":[
+            "Morning session: 08:00 to 12:00",
+            "Afternoon session: 13:00 to 17:00"
+        ]
+    }
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's leave and holiday policies?",
+    "answer": {
+      "message": "The company provides the following leave and holiday entitlements",
+      "response": {
+        "Weekly day off": "1 day per week or more, in accordance with the Bank's internal policy.",
+        "Public holidays": "Follow the announcement of the ministry in charge of labor.",
+        "Annual leave": "18 days per year.",
+        "Special leave": "Follow the announcement of the ministry in charge of labor.",
+        "Maternity leave": "90 days for female employees before and after delivery, in accordance with Articles 182 and 183 of the Labor Law. If the employee has worked at least 6 months, the bank must pay 100% salary.",
+        "Sick leave": {
+          "Month 1": "Full payment with a valid doctor’s certificate.",
+          "Months 2-3": "60% of the salary.",
+          "Months 4-6": "No wages but the same framework is maintained.",
+          "Over 6 months": "WING will consider dismissal or contract termination in accordance with the Labor Law."
+        },
+        "Occupational Injury leave": "Follow the announcement of the ministry in charge of labor."
+      }
+    }
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's wage and overtime compensation policy?",
+    "answer": {
+      "message": "The company compensates employees based on their performance and offers specific rates for overtime work.",
+      "response": {
+        "Wage": "WING pays wages based on the actual capacity and performance of each employee. Salary reviews are conducted at the end of each year, considering individual performance, compliance with regulations, achievements, and the bank’s capacity.",
+        "Overtime Compensation": {
+          "Normal working day": "150% (one and a half times) of the normal wage.",
+          "Nighttime or weekly day off": "200% (two times) of the normal wage."
+        }
+      }
+    }
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy on authorized and unauthorized leave?",
+    "answer": {
+      "message": "The company outlines clear policies regarding authorized and unauthorized leave for employees.",
+      "response": {
+        "Authorized Leave": [
+          "Employees must submit a leave request through the internal WING system at least one week before the intended leave date.",
+          "In cases of serious illness or emergencies, employees can notify their absence via a representative or phone call and submit the leave request within two days of the absence.",
+          "Sick leave requests must include an official medical certificate."
+        ],
+        "Unauthorized Leave": [
+          "Less than 2 days of unauthorized leave per month is considered minor misconduct.",
+          "2 to less than 3 days is considered serious misconduct.",
+          "3 or more days is treated as abandonment of employment.",
+          "WING does not pay wages during periods of unauthorized leave."
+        ]
+      }
+    }
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy on the use of equipment and materials?",
+    "answer": {
+      "message": "The company has outlined policies regarding the proper use of WING's equipment and materials.",
+      "response": {
+        "Usage Rules": [
+          "Employees are entitled to use WING's equipment and materials as work tools.",
+          "All equipment and materials must be cleaned and returned to their original places after use.",
+          "Employees are strictly prohibited from removing any equipment or materials from WING without authorization."
+        ],
+        "Damage or Misuse": [
+          "Intentional damage to bank assets will result in reimbursement of the actual cost by the employee.",
+          "If the employee fails to pay, WING will deduct the amount gradually from the employee’s salary according to the Labor Law."
+        ]
+      }
+    }
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on the usage of WING property?",
+    "answer": {
+      "message": "The company has set guidelines regarding the use and maintenance of WING property.",
+      "response": {
+        "Cleanliness and Hygiene": [
+          "All employees must help keep the buildings of WING clean and hygienic.",
+          "Employees are prohibited from drawing on or causing damage to the walls or any components of the building.",
+          "Employees must not engage in unsanitary acts, such as defecation or littering garbage, cigarette butts, or other waste outside the designated areas."
+        ],
+        "Restrictions on Property": [
+          "Employees and their family members are prohibited from staying, even temporarily, in any WING building or property under construction."
+        ]
+      }
+    }
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to WING premises and buildings?",
+    "answer": {
+      "message": "The company has set policies regarding access to WING premises and buildings.",
+      "response": {
+        "Access Rules": [
+          "Employees must access WING premises through the gates designated by WING.",
+          "Employees are prohibited from bringing any weapons and explosives into WING."
+        ],
+        "Leaving Premises During Working Hours": [
+          "Employees who wish to leave WING premises during their working hours must obtain prior authorization from their manager."
+        ],
+        "Check-in Procedure": [
+          "Upon entering to work, employees must regularly check in using the bank's management system.",
+          "Failure to check in will be considered an absence."
+        ],
+        "Substitution Prohibition": [
+          "Substitution is strictly prohibited."
+        ]
+      }
+    }
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the company's disciplinary management policy?",
+    "answer": {
+      "message": "The company has a structured disciplinary management policy for handling misconduct.",
+      "response": {
+        "Minor Misconduct": {
+          "description": "Minor misconduct is addressed through the following actions:",
+          "steps": [
+            "First offense: Verbal warning recorded in personal files.",
+            "Second offense: Written warning.",
+            "Third offense: Dismissal."
+          ]
+        },
+        "Moderate Misconduct": {
+          "description": "Moderate misconduct is addressed as follows:",
+          "steps": [
+            "First offense: Written warning recorded in personal files.",
+            "Second offense: Suspension without pay for a period not exceeding 7 days.",
+            "Third offense: Dismissal."
+          ]
+        },
+        "Serious Misconduct": {
+          "description": "Serious misconduct can lead to immediate dismissal, including violations as defined in the Cambodia Labor Law or Article 14.",
+          "steps": [
+            "Immediate dismissal for repeated or any serious misconduct.",
+            "Approval from labor inspector required for disciplinary action."
+          ]
+        },
+        "Note": "Minor and moderate misconduct committed within the past 12 months shall not be accumulated with the misconduct committed thereafter."
+      }
+    }
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's serious misconduct policy?",
+    "answer": {
+      "message": "The company has a clear policy regarding serious misconduct that may lead to termination or dissolution of the employment contract.",
+      "response": {
+        "Serious Misconduct": {
+          "description": "Serious misconduct includes substantial breaches of the company's code of conduct, reputation, operations, or trust, as well as actions conflicting with WING's Core Values. This can lead to termination, suspension, or legal action.",
+          "actions": [
+            "Non-compliance with WING policies or Employment Book.",
+            "Absence for 3 consecutive days or more without permission.",
+            "Poor performance or failure to achieve in Performance Improvement Program.",
+            "Causing damage to WING's business, operations, or reputation.",
+            "Political engagement or demonstrations on WING premises.",
+            "Disclosure of WING's information without consent.",
+            "Exploitation of job position for personal gain.",
+            "Failure to report or concealment of conflicts of interest.",
+            "Falsification or destruction of records, data, or documents.",
+            "Forgery of documents, refusal to perform contract duties, or disclosing confidential information.",
+            "Use of alcohol, drugs, or bringing weapons or explosives to WING premises during working hours.",
+            "Encouraging harmful activities or violations of Cambodian laws.",
+            "Committing or being involved in activities against Cambodian criminal laws.",
+            "Acts of racial or other discrimination.",
+            "Use of inappropriate language, gestures, or threats of violence.",
+            "Negligence causing harm to employees or WING assets.",
+            "Theft or unauthorized possession of WING property.",
+            "Serious violations of WING's security regulations."
+          ]
+        },
+        "Investigation and Termination": {
+          "description": "In cases requiring investigation, employees may be suspended without pay until the investigation is concluded. If cleared of misconduct, withheld wages will be paid and the employee can resume work. If serious misconduct is confirmed, employment may be terminated immediately, in line with Cambodian Labor Law.",
+          "steps": [
+            "Investigation within 7 days of gathering sufficient evidence.",
+            "Suspension without pay during the investigation (if necessary).",
+            "Termination if misconduct is substantiated, with no compensation or notice."
+          ]
+        },
+        "Prohibition of Personal Financial Transactions": {
+          "description": "Employees are prohibited from engaging in personal financial transactions within the organization to avoid conflicts of interest and maintain professional integrity.",
+          "exceptions": [
+            "Borrowing small amounts from colleagues for nominal expenses (e.g., meal or purchase).",
+            "Borrowing on non-preferential terms from a customer, partner, or supplier in financial services.",
+            "Making consumer credit purchases on non-preferential terms in the normal course of business."
+          ],
+          "violations": "Violations may lead to serious misconduct charges and possible termination of employment."
+        }
+      }
+    }
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure at WING?",
+    "answer": {
+      "message": "WING has a formal disciplinary procedure to address complaints, incident reports, or suspected violations of company policies.",
+      "response": {
+        "Disciplinary Procedure": {
+          "description": "The procedure is initiated upon receiving a complaint, incident report, or when there is reasonable doubt about a violation of WING policies by an employee.",
+          "process": [
+            "The complaint or report may be received directly or indirectly.",
+            "An internal review is initiated to determine whether disciplinary action is necessary.",
+            "Disciplinary action is taken in accordance with WING's established policies and procedures.",
+            "The aim is to guide, promote, and enhance employee behavior and performance."
+          ],
+          "principles": {
+            "Supportive Action": "The disciplinary process is intended to correct behavior and build capacity, not just to penalize.",
+            "Exception": "If the misconduct is severe and has serious consequences, the employment contract may be terminated immediately in accordance with applicable labor law."
+          }
+        }
+      }
+    }
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employees at WING?",
+    "answer": {
+      "message": "Employees at WING have the right to appeal any disciplinary action they believe is unfair.",
+      "response": {
+        "Rights of Appeal": {
+          "description": "Employees can challenge disciplinary decisions through an internal and external appeals process.",
+          "steps": [
+            "The employee may seek support from the shop steward.",
+            "The employee can formally appeal to the Chief Executive Officer (CEO) of WING.",
+            "If the issue remains unresolved, the employee may escalate the matter by filing a complaint with the Ministry of Labor and Vocational Training.",
+            "As a final step, the employee may take the case to court for further resolution."
+          ]
+        }
+      }
+    }
+  },
+  {
+  "intent": "ask_contract_termination_and_dispute_resolution",
+  "question": "What are the contract termination and dispute resolution procedures at WING?",
+  "answer": {
+    "message": "WING follows defined procedures for contract termination and resolving disputes, aligned with the Cambodian Labor Law.",
+    "response": {
+      "Contract Termination": {
+        "description": "All contract terminations, remunerations, and benefits are handled according to Cambodian labor laws and applicable regulations.",
+        "unspecified_duration_contract": {
+          "notice_requirements": [
+            {
+              "employment_duration": "Less than 6 months",
+              "prior_notice_period": "15 days"
+            },
+            {
+              "employment_duration": "From 6 months to 5 years",
+              "prior_notice_period": "1 month"
+            },
+            {
+              "employment_duration": "Over 5 years to 10 years",
+              "prior_notice_period": "2 months"
+            },
+            {
+              "employment_duration": "Over 10 years",
+              "prior_notice_period": "3 months"
+            }
+          ]
+        },
+        "specific_duration_contract": {
+          "notice_requirements": [
+            {
+              "contract_duration": "Over 6 months to 1 year",
+              "prior_notice_period": "10 days"
+            },
+            {
+              "contract_duration": "Over 1 year",
+              "prior_notice_period": "15 days"
+            }
+          ]
+        }
+      },
+      "Dispute Resolution Procedures": {
+        "description": "These procedures aim to resolve conflicts early and efficiently to avoid operational disruption or strikes.",
+        "steps": [
+          "Employees may raise complaints or suggestions to WING leadership following internal procedures.",
+          "If internal resolution fails, employees can escalate the matter to the labor inspector.",
+          "Employees are prohibited from illegal strikes and must follow legal procedures before any work stoppage."
+          ]
+        }
+      }
+    }
+  }
+]
