@@ -23,7 +23,7 @@ class RedisConn:
             raise ValueError("❌ Model not found in Redis!")
         
         buffer = io.BytesIO(model_bytes)
-        model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased", num_labels=10)
+        model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased", num_labels=20)
         model.load_state_dict(torch.load(buffer, map_location=torch.device('cpu')))
         model.eval()
         print("✅ Model successfully loaded from Redis and ready for inference!")

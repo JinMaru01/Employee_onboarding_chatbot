@@ -1,0 +1,2402 @@
+[
+  {
+    "intent": "ask_for_vision",
+    "question": "What is the vision of a company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is the vision of the company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is the company's vision?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is the company vision?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is company vision?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is a vision of a company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What's the vision of a company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is company's vision?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is a vision for a company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is vision of a company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is the Vision of a company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is the vision of your company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is your vision for a company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is a company's vision?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What's the company's vision?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What's the vision of the company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is the vision for a company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is your vision of a company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is a vision of the company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What does a company's vision mean?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is your vision for the company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is a company vision?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What does the company's vision look like?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is vision of the company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is a vision for the company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What's your vision for a company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is your company's vision?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is your vision for your company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What is the vision for the company?"
+  },
+  {
+    "intent": "ask_for_vision",
+    "question": "What's your vision of a company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the mission of a company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the company's mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is company's mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is a company's mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the mission of the company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What's the company's mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is your company's mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is company mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the mission of your company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the company mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the purpose of a company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the Mission of a company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What's the mission of the company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What's company's mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What's your company's mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What are the company's mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the mission of a business?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the company’s mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is a company mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the mission of any company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What's the mission of your company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the mission of company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is a company’s mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is mission of a company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What are the mission of a company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What does the company's mission mean?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the mission of a firm?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the purpose of the company?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the Company's mission?"
+  },
+  {
+    "intent": "ask_for_mission",
+    "question": "What is the mission of a startup?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the core values of a company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are company's core values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the company's core values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are company core values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is the core value of a company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is the company's core values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are core values of a company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is a company's core values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is a company's core value?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are company values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the core values of the company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is the company's core value?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are your company's core values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the company core values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is the core values of a company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is your company's core values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is company's core values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the core values in a company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the values of a company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is your company's core value?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the core values of any company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the core values of your company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What's the company's core values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the company's values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is the core value of the company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are company's values?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the core values of a business?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are the core values for a company?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What is company's core value?"
+  },
+  {
+    "intent": "ask_for_core_value",
+    "question": "What are core values in a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principles of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the 9 principles of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the principles of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principles of the company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are nine principles of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principles of company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the basic principles of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the 9 principles of the company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the principles of the company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principles of a business?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principle of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are 9 principles of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principles in a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principles of companies?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are nine principles of the company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What is the nine principles of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principles of any company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the fundamental principles of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the 9 principles of company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principles of a firm?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the principle of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the core principles of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are nine principles in a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What is the principle of a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principles for a company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the 9 principles of a business?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the basic principles of the company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the principles of a good company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are the nine principle of the company?"
+  },
+  {
+    "intent": "ask_about_nine_principles",
+    "question": "What are nine principles of company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are unacceptable actions in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are unacceptable actions in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What is an unacceptable action in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are the unacceptable actions in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are the unacceptable actions in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What is an unacceptable action in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are acceptable actions in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are acceptable actions in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are unacceptable actions in company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are the most unacceptable actions in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What is unacceptable action in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are some unacceptable actions in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What is unacceptable action in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are some unacceptable actions in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What is the most unacceptable action in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are unacceptable actions in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are the most unacceptable actions in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are the unacceptable actions of a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are unacceptable action in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are unacceptable actions in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are the unacceptable actions in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What is the most unacceptable action in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are the acceptable actions in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What is a unacceptable action in a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are the acceptable actions in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are some of the unacceptable actions in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are the inacceptable actions in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What are unacceptable actions taken by a company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What is the unacceptable action in the company?"
+  },
+  {
+    "intent": "ask_about_unacceptable_behaviors",
+    "question": "What is the unacceptable action in a company?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are the types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are the different types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What types of employment contracts are there?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are the various types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are different types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are the different types of employment contract?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some of the types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are the types of employment contract?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some of the different types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some examples of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some different types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What is an employment contract?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are employment contracts? What are some examples?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some types of employment contract?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are the different kinds of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are various types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What is an employment contract? What are some examples?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What types of employment contract are there?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are the kinds of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What is the type of employment contract?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are the most common types of employment contracts?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some of the different types of employment contract?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some employment contracts? What are some examples?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are the various types of employment contract?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some different types of employment contract?"
+  },
+  {
+    "intent": "ask_about_contract",
+    "question": "What are some of the employment contracts?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What procedures must employees follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What procedures do employees follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What procedures must an employee follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures employees must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures an employee must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures that employees must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures that an employee must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What procedures should employees follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What procedures should an employee follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures that employees follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures an employee should follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures employees follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What procedures do employees have to follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What is the procedure an employee must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures employees should follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures for an employee to follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures that all employees must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are some procedures that employees must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are some of the procedures an employee must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What procedures are required by law for employees to follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures that an employee should follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What procedures are required for employees to follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What procedures are required for an employee to follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures all employees must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are some procedures an employee must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are some of the procedures that employees must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are some of the procedures that an employee must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures that every employee must follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures that all employees follow?"
+  },
+  {
+    "intent": "ask_about_procedure",
+    "question": "What are the procedures every employee must follow?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements for an employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements to apply for employment?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements for employment?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements of employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements for employment applications?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements to apply for an employment?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements of an employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements for a job application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the eligibility requirements for employment?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the basic requirements for an employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the basic requirements for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requisites for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are some of the requirements for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the eligibility criteria for employment?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What is the requirement for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the eligibility requirements for an employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What is the requirements for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements for employment in India?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the minimum requirements for an employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the eligibility criteria for an employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the minimum requirements for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements for job application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the basic requirements to apply for employment?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements for applying for employment?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the eligibility criteria for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are some requirements for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the eligibility requirements for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the prerequisites for employment application?"
+  },
+  {
+    "intent": "ask_employment_requirements",
+    "question": "What are the requirements to make an employment application?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is the official working hours?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours of a company?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is the official working hours of a company?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours in India?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are official working hours?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours of the government?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is the official working hours in India?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is official working hours?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is the official working hours of the government?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official work hours?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is the official work hours?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official hours of work?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours of a business?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours of government?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is the official working hours of a business?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is the official working time?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours in the UK?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is the official working hours of the company?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours of a person?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are official working hours in India?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours in the US?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is the official working hours for a company?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours in a country?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours of the company?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What is the official working hours of a person?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours for a company?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours in the United States?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are the official working hours of a city?"
+  },
+  {
+    "intent": "ask_about_working_hours",
+    "question": "What are some of the official working hours?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's leave and holiday policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What is the company's leave policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are company's leave and holiday policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's leave policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What is the company's holiday policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's holiday policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's leave and holiday policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What is a company's leave policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's leave and holidays policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What is the company's leave and holiday policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's holiday and leave policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's leave and vacation policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's vacation and leave policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are company's leave policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are company leave and holiday policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are company's leave and holiday policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's holidays and leave policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's leave policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company's leave and holidays policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What is company's leave policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are the company’s leave and holiday policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are your company's leave and holiday policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What is the company's vacation policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What is your company's leave policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are company's holiday policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are company's leave and holidays policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What is a company's holiday policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What's the company's leave policy?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are company's leave and vacation policies?"
+  },
+  {
+    "intent": "ask_leave_policy",
+    "question": "What are company's holiday and leave policies?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's wage and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What are the company's wage and overtime compensation policies?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the wage and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is company's wage and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company’s wage and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the employer's wage and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's wage and overtime compensation policies?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the wage and overtime compensation policy of the company?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is a wage and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's pay and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's wage and overtime compensation?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the Company's wage and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's overtime and wage compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's wage and overtime policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the wage and overtime policy of a company?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's wage compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is your company's wage and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the wage and overtime compensation of a company?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's pay and overtime policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's wages and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the company's salary and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What are the company's wages and overtime compensation policies?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the employee's wage and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the firm's wage and overtime compensation policy?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the wage and overtime compensation for a company?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the wage and overtime compensation?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the pay and overtime policy of a company?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What are company's wage and overtime compensation policies?"
+  },
+  {
+    "intent": "ask_wage_overtime_policy",
+    "question": "What is the wage and overtime compensation policy of your company?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy on authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy on unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy on unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy on authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy regarding unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is company's policy on unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is company's policy on authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy regarding authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy for unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy on authorized and unauthorised leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy about authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What's the company's policy on unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What's the company's policy on authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy for authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy about unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is a company's policy on unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy on authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company’s policy on authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is your company's policy on unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What are the company's policies on unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is a company's policy on authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy of authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company’s policy on unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy on authorized & unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy regarding unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is your company's policy on authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy for unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company policy on unauthorized and authorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What is the company's policy on authorization and unauthorized leave?"
+  },
+  {
+    "intent": "ask_authorized_unauthorized_leave_policy",
+    "question": "What are the company's policies on authorized and unauthorized leave?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company's policy on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy regarding the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy about the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy on the use of equipment?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy on the use of equipment and material?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy for the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy on the use of materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is your company's policy on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy on the use of materials and equipment?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What are the company's policies on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy on use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company's policy on use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the Company's policy on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company policy on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company policy on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What's company's policy on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy on equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What are company's policies on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policies on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company's policy regarding the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company's policy about the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company's policy for the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "How is the company's policy on the use of equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company's policy on the use of equipment and material?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company's policy on the use of equipment?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company's policy on equipment and materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company's policy on the use of materials?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is company's policy on the use of materials and equipment?"
+  },
+  {
+    "intent": "ask_equipment_usage_policy",
+    "question": "What is the company's policy on the usage of equipment and materials?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on the use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on the usage of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is company's policy on the use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on the use of wing property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is company's policy on the usage of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy regarding the use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on the usage of wing property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on the use of Wing property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy about the use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy for the use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on the use of WING Property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company policy on the use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on usage of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is company's policy on use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What are the company's policies on the use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy regarding the usage of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on the usage of Wing property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on the usage of WING Property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is your company's policy on the use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy about the usage of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company policy on the usage of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on the use of Wand property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is company's policy on the use of wing property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What are the company's policies on the usage of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is company policy on the use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the Company's policy on the use of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is your company's policy on the usage of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is company's policy on usage of WING property?"
+  },
+  {
+    "intent": "ask_property_usage_policy",
+    "question": "What is the company's policy on using WING property?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is company's policy on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to WING premises?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy regarding access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to wing premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to WING premises and building?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company’s policy on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to its premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is company's policy on access to premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to building?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What are the company's policies on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy about access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the Company's policy on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy of access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on accessing WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to the premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is your company's policy on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policies on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is company's policy on access to WING premises?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is company policy on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to buildings and premises?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is the company's policy on access to the WING premises?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "How is the company's policy on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is company's policy on access to the WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What's company's policy on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is company's policy on access to wing premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What are company's policies on access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_access_policy",
+    "question": "What is company's policy regarding access to WING premises and buildings?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the company's disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is company's disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the company's discipline management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What are the company's disciplinary management policies?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What are company's disciplinary management policies?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the company's disciplinary policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is disciplinary management policy of a company?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the company’s disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is company's discipline management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is your company's disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the Company's disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the company disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the disciplinary management policy of the company?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the discipline management policy of a company?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What's company's disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the company's discipline policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is disciplinary management policy in a company?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is company disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is disciplinary management policy for a company?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is Company's disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the company's disciplinary management policies?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is a company's discipline management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is company's disciplinary policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is company’s disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What's the company's discipline management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is disciplinary management in a company?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is disciplinary management policy of the company?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the disciplinary management policy?"
+  },
+  {
+    "intent": "ask_disciplinary_policy",
+    "question": "What is the disciplinary policy of a company?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's serious misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is company's serious misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is a company's serious misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What's the company's serious misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What are the company's serious misconduct policies?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is company's misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's policy on serious misconduct?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What are company's serious misconduct policies?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company’s serious misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the serious misconduct policy of a company?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What's company's serious misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the Company's serious misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is Company's serious misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is your company's serious misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's grave misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's policy for serious misconduct?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's policy regarding serious misconduct?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's serious misconduct policies?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is serious misconduct policy of a company?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is company’s serious misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is company's policy on serious misconduct?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What's the company's misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the serious misconduct policy of the company?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is a company's misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's sexual misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's severe misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's strict misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is company misconduct policy?"
+  },
+  {
+    "intent": "ask_serious_misconduct_policy",
+    "question": "What is the company's policy about serious misconduct?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure at WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure at the WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is disciplinary procedure at WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure of WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the WING disciplinary procedure?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure in WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure for WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure of the WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary process at WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure in the WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is a disciplinary procedure at WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What are the disciplinary procedures at WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure of a WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is disciplinary procedure at the WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is a disciplinary procedure at the WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary process at the WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What are the disciplinary procedures at the WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the discipline procedure at WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure in a WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What's the disciplinary procedure at WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is disciplinary procedure in WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure for a WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure at a WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure for the WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the discipline procedure at the WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary process of WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What's the disciplinary procedure at the WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is disciplinary procedure of WING?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure at Wing?"
+  },
+  {
+    "intent": "ask_disciplinary_procedure",
+    "question": "What is the disciplinary procedure at wing?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employees at WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employees of WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal of employees at WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employees at the WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employees of the WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employees in WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal of employees of WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal in WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for an employee at WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What is the right of appeal for employees of WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What is the right of appeal for employees at WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employees in the WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for WING employees?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal at WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for an employee of WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal of employees at the WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employee at WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employees at Wing?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeals for employees at WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employees of Wing?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeals for employees of WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for the employees of WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal of employees in WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal for employees at wing?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal in the WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal of an employee at WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What is the right of appeal for an employee at WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are employees' rights of appeal at WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the rights of appeal by employees of WING?"
+  },
+  {
+    "intent": "ask_for_rights_of_appeal",
+    "question": "What are the right of appeal for employees of WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contract termination and dispute resolution procedures at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the contract termination and dispute resolution procedure at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contract termination and dispute resolution procedures in WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the dispute resolution and contract termination procedures at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are contract termination and dispute resolution procedures at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the dispute resolution procedure at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contracts termination and dispute resolution procedures at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contractual termination and dispute resolution procedures at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contract termination and dispute resolution procedures of WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the contract termination procedure at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the dispute resolution procedures at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contract termination and dispute resolution procedures?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contract termination and dispute resolution processes at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the contract termination and dispute resolution procedures at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contract termination and dispute resolution procedure at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the contract termination and dispute resolution process at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contract termination procedures at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the dispute resolution process at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the contract termination process at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contract termination and dispute resolution procedures at Wing?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the Contract termination and dispute resolution procedures at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the WING contract termination and dispute resolution procedures?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the contract termination and dispute resolution procedure in WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the contract termination and dispute resolution procedure of WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is contract termination and dispute resolution procedure at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the dispute resolution and contract termination procedure at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contract termination and disputes resolution procedures at WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the dispute resolution and contract termination procedures in WING?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What are the contract termination and dispute resolution procedures at wing?"
+  },
+  {
+    "intent": "ask_contract_termination_and_dispute_resolution",
+    "question": "What is the dispute resolution procedure for contract termination at WING?"
+  }
+]

@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 
 class Encoder:
@@ -5,10 +6,15 @@ class Encoder:
         # self.redis = RedisConn()
         pass
 
-    def load_data(self, file_path):
-        df = pd.read_csv(file_path)
+    def load_data(self, filepath):
+        df = pd.read_csv(filepath)
         label = df['service']
         return label
+    
+    def load_json(self, filepath):
+        with open(filepath, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+        return  data
     
     def fit_transform(self, data, encoder):
         # Prepare the data with correct column names
