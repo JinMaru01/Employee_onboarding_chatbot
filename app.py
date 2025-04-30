@@ -1,5 +1,6 @@
 import time
 import torch
+import pandas as pd
 from transformers import AutoTokenizer
 from sklearn.preprocessing import LabelEncoder
 
@@ -13,22 +14,28 @@ __encoder = Encoder()
 # Read dataset
 file_path = "artifact/data/combine_df.csv"
 label_encoder = __encoder.fit_transform(__encoder.load_data(file_path), LabelEncoder())
+file_path = './artifact/data/augmented_30.json'
+data = __encoder.load_json(file_path)
+df = pd.DataFrame(data)
+label_encoder = __encoder.fit_transform(df['intent'], LabelEncoder())
 
 # Load Label encoder from Redis
-label_encoder = __conn.save_label_encoder(label_encoder, "label-encoder")
+label_encoder = __conn.save_label_encoder(label_encoder, "label-encoder-new")
 
 # Load model from local and store in the redis
-model = torch.load("artifact/model/model_distilbert_25epochs.pth", weights_only=False)
-__conn.model_save(model, "distilbert_state")
+model = torch.load("./artifact/model/model_500epochs_21_stop.pth", weights_only=False, map_location=torch.device('cpu'))
+__conn.model_save(model, "distilbert_state_21")
 
 # Load model and encoder from redis
 start_time = time.time()
-model = __conn.model_load("distilbert_state")
+# model = __conn.model_load("distilbert_state")
+model = __conn.model_load("distilbert_state_21")
 end_time = time.time()
 elapsed_time_load_model = end_time - start_time
 
 start_time = time.time()
-label_encoder = __conn.load_label_encoder("label-encoder")
+# label_encoder = __conn.load_label_encoder("label-encoder")
+label_encoder = __conn.load_label_encoder("label-encoder-new")
 end_time = time.time()
 elapsed_time_load_encoder = end_time - start_time
 
