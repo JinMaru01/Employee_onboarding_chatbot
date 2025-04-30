@@ -46,3 +46,6 @@ scikit-learn
 transformers
 spacy
 datasets
+flask
+flask-cors
+redis

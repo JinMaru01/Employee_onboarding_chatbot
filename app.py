@@ -11,15 +11,15 @@ __conn = RedisConn()
 __encoder = Encoder()
 
 # Read dataset
-# file_path = "./artifact/data/combine_df.csv"
-# label_encoder = __encoder.fit_transform(__encoder.load_data(file_path), LabelEncoder())
+file_path = "artifact/data/combine_df.csv"
+label_encoder = __encoder.fit_transform(__encoder.load_data(file_path), LabelEncoder())
 
 # Load Label encoder from Redis
-# label_encoder = __conn.save_label_encoder(label_encoder, "label-encoder")
+label_encoder = __conn.save_label_encoder(label_encoder, "label-encoder")
 
 # Load model from local and store in the redis
-# model = torch.load("./artifact/model/model_distilbert_25epochs.pth", weights_only=False)
-# __conn.model_save(model, "distilbert_state")
+model = torch.load("artifact/model/model_distilbert_25epochs.pth", weights_only=False)
+__conn.model_save(model, "distilbert_state")
 
 # Load model and encoder from redis
 start_time = time.time()
