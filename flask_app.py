@@ -3,6 +3,7 @@ import torch
 from flask_cors import CORS
 from transformers import AutoTokenizer
 from flask import Flask, render_template, request, jsonify
+from _lib.response.mission import mission_data, respond_to_mission_question
 
 from _lib.database.redis_conn import RedisConn
 from _lib.preprocess.label_encoder import Encoder
@@ -13,8 +14,8 @@ CORS(app)
 # Load model, tokenizer, and label encoder
 __conn = RedisConn()
 __encoder = Encoder()
-model = __conn.model_load("distilbert_state")
-label_encoder = __conn.load_label_encoder("label-encoder")
+model = __conn.model_load("distilbert_state_21")
+label_encoder = __conn.load_label_encoder("label-encoder-new")
 
 tokenizer = AutoTokenizer.from_pretrained("distilbert/distilbert-base-uncased")
 max_length = 64
@@ -65,12 +66,18 @@ def predict():
     label, confidence = predict_intent(text)
     end_time = time.time()
 
-    return jsonify({
+    response_data = {
         "text": text,
         "predicted_intent": label,
         "confidence": round(confidence, 4),
         "prediction_time": round(end_time - start_time, 4)
-    })
+    }
+
+    # If the intent is about company mission, generate a mission response
+    if label == "ask_for_mission":
+        mission_response = respond_to_mission_question(label, text, mission_data)
+        response_data["generated_response"] = mission_response
+    return jsonify(response_data)
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -7,7 +7,7 @@
         "response": "To provide every Cambodian with convenient access to relevant digital solutions for the improvement of their daily lives."
     }
   },
-  {  
+  {
     "intent":   "ask_for_mission",
     "question": "What is the company's mission?",
     "answer":   {
