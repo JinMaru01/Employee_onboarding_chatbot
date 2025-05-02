@@ -12,6 +12,8 @@ __conn = RedisConn()
 __encoder = Encoder()
 
 # Read dataset
+file_path = "artifact/data/combine_df.csv"
+label_encoder = __encoder.fit_transform(__encoder.load_data(file_path), LabelEncoder())
 file_path = './artifact/data/augmented_30.json'
 data = __encoder.load_json(file_path)
 df = pd.DataFrame(data)
