@@ -12,19 +12,19 @@ __conn = RedisConn()
 __encoder = Encoder()
 
 # Read dataset
-file_path = "artifact/data/combine_df.csv"
-label_encoder = __encoder.fit_transform(__encoder.load_data(file_path), LabelEncoder())
-file_path = './artifact/data/augmented_30.json'
-data = __encoder.load_json(file_path)
-df = pd.DataFrame(data)
-label_encoder = __encoder.fit_transform(df['intent'], LabelEncoder())
+# file_path = "artifact/data/combine_df.csv"
+# label_encoder = __encoder.fit_transform(__encoder.load_data(file_path), LabelEncoder())
+# file_path = './artifact/data/augmented_30.json'
+# data = __encoder.load_json(file_path)
+# df = pd.DataFrame(data)
+# label_encoder = __encoder.fit_transform(df['intent'], LabelEncoder())
 
 # Load Label encoder from Redis
-label_encoder = __conn.save_label_encoder(label_encoder, "label-encoder-new")
+# label_encoder = __conn.save_label_encoder(label_encoder, "label-encoder-new")
 
 # Load model from local and store in the redis
-model = torch.load("./artifact/model/model_500epochs_21_stop.pth", weights_only=False, map_location=torch.device('cpu'))
-__conn.model_save(model, "distilbert_state_21")
+# model = torch.load("./artifact/model/model_500epochs_21_stop.pth", weights_only=False, map_location=torch.device('cpu'))
+# __conn.model_save(model, "distilbert_state_21")
 
 # Load model and encoder from redis
 start_time = time.time()

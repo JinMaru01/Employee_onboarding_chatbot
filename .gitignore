@@ -1,3 +1,5 @@
 env
 model
 notebook
+
+__pycache__/
