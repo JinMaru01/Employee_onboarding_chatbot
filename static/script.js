@@ -38,12 +38,14 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => {
             const botResponse = document.createElement("div");
             botResponse.classList.add("chat-bubble", "bot-message");
-        
+
             const intent = data.predicted_intent;
             const response_time = data.prediction_time;
+            const generated_response = data.generated_response;
             const confidence = (data.confidence * 100).toFixed(2);
-        
-            botResponse.textContent = `Intent: ${intent} (Confidence: ${confidence}%), with ${response_time}s`;
+
+            // botResponse.textContent = `Intent: ${intent} (Confidence: ${confidence}%), with ${response_time}s, \n ${generated_response}`;
+            botResponse.textContent = `${generated_response}`;
             chatHistory.appendChild(botResponse);
             chatHistory.scrollTop = chatHistory.scrollHeight;
         })
