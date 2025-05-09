@@ -44,8 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const generated_response = data.generated_response;
             const confidence = (data.confidence * 100).toFixed(2);
 
-            // botResponse.textContent = `Intent: ${intent} (Confidence: ${confidence}%), with ${response_time}s, \n ${generated_response}`;
-            botResponse.textContent = `${generated_response}`;
+            botResponse.textContent = `Intent: ${intent} (Confidence: ${confidence}%), with ${response_time}s, \n ${generated_response}`;
+            // botResponse.textContent = `${generated_response}`;
             chatHistory.appendChild(botResponse);
             chatHistory.scrollTop = chatHistory.scrollHeight;
         })
