@@ -1,0 +1,2582 @@
+[
+  {
+    "tokens": [
+      "What",
+      "is",
+      "Wing's",
+      "vision?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_vision"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "Wing",
+      "Bank's",
+      "vision?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_vision"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "Bank's",
+      "vision?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_vision"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "Company's",
+      "vision?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_vision"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "Organization's",
+      "vision?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_vision"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "Wing's",
+      "mission?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "Wing",
+      "Bank's",
+      "mission?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "Bank's",
+      "mission?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "Company's",
+      "mission?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "Organization's",
+      "mission?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "company's",
+      "vision?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_vision"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "company's",
+      "mission?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "B-VALUE_TYPE"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "customer",
+      "at",
+      "the",
+      "heart?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-MISSION_VALUE",
+      "I-MISSION_VALUE",
+      "I-MISSION_VALUE",
+      "I-MISSION_VALUE"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "custmer",
+      "at",
+      "the",
+      "heart",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "community",
+      "as",
+      "the",
+      "cause",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-MISSION_VALUE",
+      "I-MISSION_VALUE",
+      "I-MISSION_VALUE",
+      "I-MISSION_VALUE",
+      "O"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "employee",
+      "as",
+      "the",
+      "pillar",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-MISSION_VALUE",
+      "I-MISSION_VALUE",
+      "I-MISSION_VALUE",
+      "I-MISSION_VALUE",
+      "O"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "deliver",
+      "shareholder",
+      "value",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-MISSION_VALUE",
+      "I-MISSION_VALUE",
+      "I-MISSION_VALUE",
+      "O"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "mission",
+      "1",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-MISSION_NUMBER",
+      "I-MISSION_NUMBER",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "mission",
+      "2",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-MISSION_NUMBER",
+      "I-MISSION_NUMBER",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "mission",
+      "3",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-MISSION_NUMBER",
+      "I-MISSION_NUMBER",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "mission",
+      "4",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-MISSION_NUMBER",
+      "I-MISSION_NUMBER",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_for_mission"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "company's",
+      "core",
+      "values?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O"
+    ],
+    "intent": "ask_for_core_value"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "WINGER",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-CORE_VALUE",
+      "O"
+    ],
+    "intent": "ask_for_core_value"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "winning?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-CORE_VALUE"
+    ],
+    "intent": "ask_for_core_value"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "innovation?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-CORE_VALUE"
+    ],
+    "intent": "ask_for_core_value"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "nurturing?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-CORE_VALUE"
+    ],
+    "intent": "ask_for_core_value"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "growth?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-CORE_VALUE"
+    ],
+    "intent": "ask_for_core_value"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "excellence?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-CORE_VALUE"
+    ],
+    "intent": "ask_for_core_value"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "respect?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-CORE_VALUE"
+    ],
+    "intent": "ask_for_core_value"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "company's",
+      "core",
+      "values?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O"
+    ],
+    "intent": "ask_for_core_value"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "nine",
+      "principles",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "nine",
+      "principles",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "nine",
+      "principles",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "nine",
+      "principles",
+      "of",
+      "wing",
+      "bank",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Tell",
+      "me",
+      "about",
+      "principle",
+      "1."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "principle",
+      "1?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "principle",
+      "2?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Privacy",
+      "and",
+      "Confidentiality",
+      "Information",
+      "Management'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "principle",
+      "3?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Identify",
+      "Conflict",
+      "of",
+      "Interests",
+      "and",
+      "Manage",
+      "Them",
+      "Responsibly'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Tell",
+      "me",
+      "about",
+      "principle",
+      "4."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Other",
+      "Additional",
+      "Employment",
+      "or",
+      "Work'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Restricted",
+      "Transactions'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Tell",
+      "me",
+      "about",
+      "principle",
+      "5."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Honestly",
+      "and",
+      "Integrity'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Tell",
+      "me",
+      "about",
+      "principle",
+      "6."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Treat",
+      "Others",
+      "with",
+      "Respect,",
+      "Value",
+      "Difference",
+      "and",
+      "A",
+      "Safe",
+      "workplace'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CORE_VALUE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Explain",
+      "the",
+      "seventh",
+      "principle."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "principle",
+      "8?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Investments",
+      "and",
+      "Insider",
+      "Trading'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Explain",
+      "the",
+      "ninth",
+      "principle."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "the",
+      "principle",
+      "'Compliance",
+      "and",
+      "Report",
+      "Any",
+      "Breaches'",
+      "refer",
+      "to?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Wing's",
+      "Best",
+      "Interests",
+      "and",
+      "Value",
+      "WING's",
+      "Reputation'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Wing",
+      "Bank's",
+      "Best",
+      "Interests",
+      "and",
+      "Value",
+      "WING's",
+      "Reputation'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Bank's",
+      "Best",
+      "Interests",
+      "and",
+      "Value",
+      "WING's",
+      "Reputation'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Company's",
+      "Best",
+      "Interests",
+      "and",
+      "Value",
+      "WING's",
+      "Reputation'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Organization's",
+      "Best",
+      "Interests",
+      "and",
+      "Value",
+      "WING's",
+      "Reputation'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Wing's",
+      "Best",
+      "Interests",
+      "and",
+      "Value",
+      "WING's",
+      "Reputation'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Wing",
+      "Bank's",
+      "Best",
+      "Interests",
+      "and",
+      "Value",
+      "WING's",
+      "Reputation'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Bank's",
+      "Best",
+      "Interests",
+      "and",
+      "Value",
+      "WING's",
+      "Reputation'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Company's",
+      "Best",
+      "Interests",
+      "and",
+      "Value",
+      "WING's",
+      "Reputation'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Organization's",
+      "Best",
+      "Interests",
+      "and",
+      "Value",
+      "WING's",
+      "Reputation'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Privacy",
+      "and",
+      "Confidentiality",
+      "Information",
+      "Management'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Tell",
+      "me",
+      "about",
+      "principle",
+      "3."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Identify",
+      "Conflict",
+      "of",
+      "Interests",
+      "and",
+      "Manage",
+      "Them",
+      "Responsibly'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Explain",
+      "the",
+      "fourth",
+      "principle."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "principle",
+      "4?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "principle",
+      "about",
+      "'Restricted",
+      "Transactions'?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Honestly",
+      "and",
+      "Integrity'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "principle",
+      "6?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Tell",
+      "me",
+      "about",
+      "principle",
+      "7."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Treat",
+      "Others",
+      "with",
+      "Respect,",
+      "Value",
+      "Difference",
+      "and",
+      "A",
+      "Safe",
+      "workplace'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CORE_VALUE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "the",
+      "principle",
+      "'Investments",
+      "and",
+      "Insider",
+      "Trading'",
+      "refer",
+      "to?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "Explain",
+      "the",
+      "eighth",
+      "principle."
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "principle",
+      "9?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "does",
+      "'Compliance",
+      "and",
+      "Report",
+      "Any",
+      "Breaches'",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_nine_principles"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "unacceptable",
+      "action",
+      "in",
+      "the",
+      "company?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME"
+    ],
+    "intent": "ask_about_unacceptable_action"
+  },
+  {
+    "tokens": [
+      "What",
+      "types",
+      "of",
+      "employment",
+      "contracts",
+      "are",
+      "there?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_contract"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "employment",
+      "contract",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O"
+    ],
+    "intent": "ask_about_contract"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "employment",
+      "contract",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_about_contract"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "employment",
+      "contract",
+      "of",
+      "wing",
+      "bank",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME",
+      "O"
+    ],
+    "intent": "ask_about_contract"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "types",
+      "of",
+      "employment",
+      "contracts?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE"
+    ],
+    "intent": "ask_about_contract"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "types",
+      "of",
+      "employment",
+      "contracts",
+      "mean?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O"
+    ],
+    "intent": "ask_about_contract"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "fixed",
+      "duration",
+      "contracts?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-CONTRACT_TYPE",
+      "I-CONTRACT_TYPE",
+      "I-CONTRACT_TYPE"
+    ],
+    "intent": "ask_about_contract"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "undetermined",
+      "duration",
+      "contracts?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-CONTRACT_TYPE",
+      "I-CONTRACT_TYPE",
+      "I-CONTRACT_TYPE"
+    ],
+    "intent": "ask_about_contract"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "procedures",
+      "must",
+      "employees",
+      "follow?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_procedure"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "procedures",
+      "must",
+      "employees",
+      "follow?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_procedure"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "procedures",
+      "must",
+      "employees",
+      "follow?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_procedure"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "procedures",
+      "must",
+      "employees",
+      "avoid?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_procedure"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "prohibited",
+      "procedures",
+      "to",
+      "employees?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_about_procedure"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "requirements",
+      "for",
+      "employment?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "employment_requirement"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "requirements",
+      "for",
+      "employment?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "employment_requirement"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "requirements",
+      "for",
+      "employment",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "employment_requirement"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "requirements",
+      "for",
+      "employment",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "employment_requirement"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "official",
+      "working",
+      "hours?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "working_hours"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "company's",
+      "leave",
+      "and",
+      "holiday",
+      "policies?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE"
+    ],
+    "intent": "ask_leave_policy"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "leave",
+      "policy",
+      "in",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_leave_policy"
+  },
+  {
+    "tokens": [
+      "How",
+      "many",
+      "days",
+      "company",
+      "give",
+      "to",
+      "employee",
+      "for",
+      "leave?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_leave_policy"
+  },
+  {
+    "tokens": [
+      "How",
+      "the",
+      "employee",
+      "get",
+      "paid?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_for_wage"
+  },
+  {
+    "tokens": [
+      "How",
+      "the",
+      "employee",
+      "get",
+      "salary?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_for_wage"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "policy",
+      "of",
+      "OT?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_for_overtime"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "overtime",
+      "policy?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE"
+    ],
+    "intent": "ask_for_overtime"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "overtime",
+      "policy",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_for_overtime"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "overtime",
+      "policy",
+      "at",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_for_overtime"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "overtime",
+      "policy",
+      "in",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_for_overtime"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "company's",
+      "disciplinary",
+      "policy?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE"
+    ],
+    "intent": "ask_disciplinary_policy"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "disciplinary",
+      "policy?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE"
+    ],
+    "intent": "ask_disciplinary_policy"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "disciplinary",
+      "policy",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_disciplinary_policy"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "disciplinary",
+      "policy",
+      "at",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_disciplinary_policy"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "disciplinary",
+      "policy",
+      "in",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-POLICY_TYPE",
+      "I-POLICY_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_disciplinary_policy"
+  },
+  {
+    "tokens": [
+      "How",
+      "many",
+      "disciplinary",
+      "actions",
+      "are",
+      "there?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-PROCEDURE_TYPE",
+      "I-PROCEDURE_TYPE",
+      "O",
+      "O"
+    ],
+    "intent": "ask_disciplinary_policy"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "disciplinary",
+      "actions?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-PROCEDURE_TYPE",
+      "I-PROCEDURE_TYPE"
+    ],
+    "intent": "ask_disciplinary_policy"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "disciplinary",
+      "actions",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-PROCEDURE_TYPE",
+      "I-PROCEDURE_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_disciplinary_policy"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "disciplinary",
+      "actions",
+      "at",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-PROCEDURE_TYPE",
+      "I-PROCEDURE_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_disciplinary_policy"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "disciplinary",
+      "procedure",
+      "at",
+      "wing?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-PROCEDURE_TYPE",
+      "I-PROCEDURE_TYPE",
+      "O",
+      "B-COMPANY_NAME"
+    ],
+    "intent": "ask_disciplinary_procedure"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "disciplinary",
+      "procedure",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-PROCEDURE_TYPE",
+      "I-PROCEDURE_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_disciplinary_procedure"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "disciplinary",
+      "procedure",
+      "at",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-PROCEDURE_TYPE",
+      "I-PROCEDURE_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_disciplinary_procedure"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "disciplinary",
+      "procedure",
+      "in",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "B-PROCEDURE_TYPE",
+      "I-PROCEDURE_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_disciplinary_procedure"
+  },
+  {
+    "tokens": [
+      "How",
+      "the",
+      "company",
+      "terminate",
+      "the",
+      "contract?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "B-COMPANY_NAME",
+      "B-TERMINATION_TYPE",
+      "O",
+      "O"
+    ],
+    "intent": "ask_contract_termination"
+  },
+  {
+    "tokens": [
+      "If",
+      "I",
+      "want",
+      "to",
+      "resign",
+      "what",
+      "I",
+      "need",
+      "to",
+      "know?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TERMINATION_TYPE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "intent": "ask_contract_termination"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "contract",
+      "termination?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TERMINATION_TYPE"
+    ],
+    "intent": "ask_contract_termination"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "contract",
+      "termination",
+      "of",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TERMINATION_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_contract_termination"
+  },
+  {
+    "tokens": [
+      "What",
+      "is",
+      "the",
+      "contract",
+      "termination",
+      "at",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TERMINATION_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_contract_termination"
+  },
+  {
+    "tokens": [
+      "What",
+      "are",
+      "the",
+      "contract",
+      "termination",
+      "in",
+      "wing",
+      "bank?"
+    ],
+    "tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TERMINATION_TYPE",
+      "O",
+      "B-COMPANY_NAME",
+      "I-COMPANY_NAME"
+    ],
+    "intent": "ask_contract_termination"
+  }
+]
