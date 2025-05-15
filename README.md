@@ -47,6 +47,21 @@ Employee Onboarding Chatbot is built to:
 - **Deployment:** Flask for API integration (optional)
 
 ---
+## Project Initialize
+
+1. **Directory Creation**
+   ```bash
+   mkdir chatbot_project
+   cd chatbot_project
+2. **Environment Creation**
+   ```bash
+   conda create -n chatbot_env python=3.10
+3. **Activate Environment**
+   ```bash
+   conda activate chatbot_env
+4. **Install Dependencies and Package**
+   ```bash
+   pip install ...
 
 ## Installation
 
@@ -62,6 +77,7 @@ Employee Onboarding Chatbot is built to:
     source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 This template is fully formatted in Markdown and ready to be saved as your repository's `README.md`. Adjust any section as needed to match your project's specifics.
+
 
 
 
