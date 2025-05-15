@@ -81,7 +81,28 @@ Employee Onboarding Chatbot is built to:
     source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 This template is fully formatted in Markdown and ready to be saved as your repository's `README.md`. Adjust any section as needed to match your project's specifics.
+## The Data Format
 
+1. **Intent Dataset**
 
+   ```bash
+   {
+   "intent": "ask_about_nine_principles",
+   "question": "What is Principle 6?"
+   }
 
-
+2. **Entity Dataset**
+   
+   ```bash
+    {
+       "text": "If I want to resign what I need to know?",
+       "intent": "ask_contract_termination",
+       "entities": [
+         {
+           "start": 13,
+           "end": 19,
+           "label": "TERMINATION_TYPE",
+           "value": "resign"
+         }
+       ]
+     }
