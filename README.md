@@ -50,16 +50,20 @@ Employee Onboarding Chatbot is built to:
 ## Project Initialize
 
 1. **Directory Creation**
+   
    ```bash
    mkdir chatbot_project
    cd chatbot_project
 2. **Environment Creation**
+
    ```bash
    conda create -n chatbot_env python=3.10
 3. **Activate Environment**
+   
    ```bash
    conda activate chatbot_env
 4. **Install Dependencies and Package**
+   
    ```bash
    pip install ...
 
