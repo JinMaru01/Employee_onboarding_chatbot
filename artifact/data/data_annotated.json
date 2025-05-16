@@ -10,12 +10,6 @@
         "value": "Wing's"
       },
       {
-        "start": 8,
-        "end": 14,
-        "label": "COMPANY_NAME",
-        "value": "Wing's"
-      },
-      {
         "start": 15,
         "end": 21,
         "label": "VALUE_TYPE",
@@ -27,18 +21,6 @@
     "text": "What is Wing Bank's vision?",
     "intent": "ask_for_vision",
     "entities": [
-      {
-        "start": 8,
-        "end": 12,
-        "label": "COMPANY_NAME",
-        "value": "Wing"
-      },
-      {
-        "start": 8,
-        "end": 19,
-        "label": "COMPANY_NAME",
-        "value": "Wing Bank's"
-      },
       {
         "start": 8,
         "end": 12,
@@ -112,12 +94,6 @@
         "value": "Wing's"
       },
       {
-        "start": 9,
-        "end": 15,
-        "label": "COMPANY_NAME",
-        "value": "Wing's"
-      },
-      {
         "start": 16,
         "end": 23,
         "label": "VALUE_TYPE",
@@ -129,18 +105,6 @@
     "text": "What are Wing Bank's mission?",
     "intent": "ask_for_mission",
     "entities": [
-      {
-        "start": 9,
-        "end": 13,
-        "label": "COMPANY_NAME",
-        "value": "Wing"
-      },
-      {
-        "start": 9,
-        "end": 20,
-        "label": "COMPANY_NAME",
-        "value": "Wing Bank's"
-      },
       {
         "start": 9,
         "end": 13,
@@ -319,18 +283,6 @@
         "end": 30,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 21,
-        "end": 25,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 21,
-        "end": 30,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -349,18 +301,6 @@
         "end": 17,
         "label": "MISSION_NUMBER",
         "value": "mission 2"
-      },
-      {
-        "start": 21,
-        "end": 25,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 21,
-        "end": 30,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       },
       {
         "start": 21,
@@ -403,18 +343,6 @@
         "end": 30,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 21,
-        "end": 25,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 21,
-        "end": 30,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -433,18 +361,6 @@
         "end": 17,
         "label": "MISSION_NUMBER",
         "value": "mission 4"
-      },
-      {
-        "start": 21,
-        "end": 25,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 21,
-        "end": 30,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       },
       {
         "start": 21,
@@ -570,7 +486,7 @@
   },
   {
     "text": "What is nine principles mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 8,
@@ -582,7 +498,7 @@
   },
   {
     "text": "What is the nine principles mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 12,
@@ -594,25 +510,13 @@
   },
   {
     "text": "What is the nine principles of wing bank?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 12,
         "end": 27,
         "label": "POLICY_TYPE",
         "value": "nine principles"
-      },
-      {
-        "start": 31,
-        "end": 35,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 31,
-        "end": 40,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       },
       {
         "start": 31,
@@ -630,7 +534,7 @@
   },
   {
     "text": "What is the nine principles of wing bank mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 12,
@@ -649,84 +553,72 @@
         "end": 40,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 31,
-        "end": 35,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 31,
-        "end": 40,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
   {
     "text": "Tell me about principle 1.",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What is principle 1?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What is principle 2?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What does 'Privacy and Confidentiality Information Management' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What is principle 3?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Can you explain the principle about 'Identify Conflict of Interests and Manage Them Responsibly'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Tell me about principle 4.",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What does 'Other Additional Employment or Work' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What does 'Restricted Transactions' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Tell me about principle 5.",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Can you explain the principle about 'Honestly and Integrity'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Tell me about principle 6.",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Can you explain the principle about 'Treat Others with Respect, Value Difference and A Safe workplace'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 55,
@@ -738,50 +630,38 @@
   },
   {
     "text": "Explain the seventh principle.",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What is principle 8?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Can you explain the principle about 'Investments and Insider Trading'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Explain the ninth principle.",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What does the principle 'Compliance and Report Any Breaches' refer to?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What does 'Wing's Best Interests and Value WING's Reputation' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 11,
         "end": 17,
         "label": "COMPANY_NAME",
         "value": "Wing's"
-      },
-      {
-        "start": 11,
-        "end": 17,
-        "label": "COMPANY_NAME",
-        "value": "Wing's"
-      },
-      {
-        "start": 43,
-        "end": 49,
-        "label": "COMPANY_NAME",
-        "value": "WING's"
       },
       {
         "start": 43,
@@ -793,7 +673,7 @@
   },
   {
     "text": "What does 'Wing Bank's Best Interests and Value WING's Reputation' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 11,
@@ -806,24 +686,6 @@
         "end": 22,
         "label": "COMPANY_NAME",
         "value": "Wing Bank's"
-      },
-      {
-        "start": 11,
-        "end": 15,
-        "label": "COMPANY_NAME",
-        "value": "Wing"
-      },
-      {
-        "start": 11,
-        "end": 22,
-        "label": "COMPANY_NAME",
-        "value": "Wing Bank's"
-      },
-      {
-        "start": 48,
-        "end": 54,
-        "label": "COMPANY_NAME",
-        "value": "WING's"
       },
       {
         "start": 48,
@@ -835,14 +697,8 @@
   },
   {
     "text": "What does 'Bank's Best Interests and Value WING's Reputation' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
-      {
-        "start": 43,
-        "end": 49,
-        "label": "COMPANY_NAME",
-        "value": "WING's"
-      },
       {
         "start": 43,
         "end": 49,
@@ -853,7 +709,7 @@
   },
   {
     "text": "What does 'Company's Best Interests and Value WING's Reputation' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 11,
@@ -866,25 +722,13 @@
         "end": 52,
         "label": "COMPANY_NAME",
         "value": "WING's"
-      },
-      {
-        "start": 46,
-        "end": 52,
-        "label": "COMPANY_NAME",
-        "value": "WING's"
       }
     ]
   },
   {
     "text": "What does 'Organization's Best Interests and Value WING's Reputation' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
-      {
-        "start": 51,
-        "end": 57,
-        "label": "COMPANY_NAME",
-        "value": "WING's"
-      },
       {
         "start": 51,
         "end": 57,
@@ -895,25 +739,13 @@
   },
   {
     "text": "Can you explain the principle about 'Wing's Best Interests and Value WING's Reputation'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 37,
         "end": 43,
         "label": "COMPANY_NAME",
         "value": "Wing's"
-      },
-      {
-        "start": 37,
-        "end": 43,
-        "label": "COMPANY_NAME",
-        "value": "Wing's"
-      },
-      {
-        "start": 69,
-        "end": 75,
-        "label": "COMPANY_NAME",
-        "value": "WING's"
       },
       {
         "start": 69,
@@ -925,7 +757,7 @@
   },
   {
     "text": "Can you explain the principle about 'Wing Bank's Best Interests and Value WING's Reputation'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 37,
@@ -938,24 +770,6 @@
         "end": 48,
         "label": "COMPANY_NAME",
         "value": "Wing Bank's"
-      },
-      {
-        "start": 37,
-        "end": 41,
-        "label": "COMPANY_NAME",
-        "value": "Wing"
-      },
-      {
-        "start": 37,
-        "end": 48,
-        "label": "COMPANY_NAME",
-        "value": "Wing Bank's"
-      },
-      {
-        "start": 74,
-        "end": 80,
-        "label": "COMPANY_NAME",
-        "value": "WING's"
       },
       {
         "start": 74,
@@ -967,14 +781,8 @@
   },
   {
     "text": "Can you explain the principle about 'Bank's Best Interests and Value WING's Reputation'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
-      {
-        "start": 69,
-        "end": 75,
-        "label": "COMPANY_NAME",
-        "value": "WING's"
-      },
       {
         "start": 69,
         "end": 75,
@@ -985,7 +793,7 @@
   },
   {
     "text": "Can you explain the principle about 'Company's Best Interests and Value WING's Reputation'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 37,
@@ -998,25 +806,13 @@
         "end": 78,
         "label": "COMPANY_NAME",
         "value": "WING's"
-      },
-      {
-        "start": 72,
-        "end": 78,
-        "label": "COMPANY_NAME",
-        "value": "WING's"
       }
     ]
   },
   {
     "text": "Can you explain the principle about 'Organization's Best Interests and Value WING's Reputation'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
-      {
-        "start": 77,
-        "end": 83,
-        "label": "COMPANY_NAME",
-        "value": "WING's"
-      },
       {
         "start": 77,
         "end": 83,
@@ -1027,52 +823,52 @@
   },
   {
     "text": "Can you explain the principle about 'Privacy and Confidentiality Information Management'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Tell me about principle 3.",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What does 'Identify Conflict of Interests and Manage Them Responsibly' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Explain the fourth principle.",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What is principle 4?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Can you explain the principle about 'Restricted Transactions'?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What does 'Honestly and Integrity' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What is principle 6?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Tell me about principle 7.",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What does 'Treat Others with Respect, Value Difference and A Safe workplace' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": [
       {
         "start": 29,
@@ -1084,22 +880,22 @@
   },
   {
     "text": "What does the principle 'Investments and Insider Trading' refer to?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "Explain the eighth principle.",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What is principle 9?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
     "text": "What does 'Compliance and Report Any Breaches' mean?",
-    "intent": "ask_about_nine_principles",
+    "intent": "ask_for_principle",
     "entities": []
   },
   {
@@ -1159,18 +955,6 @@
         "end": 44,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 35,
-        "end": 39,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 35,
-        "end": 44,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -1183,18 +967,6 @@
         "end": 31,
         "label": "POLICY_TYPE",
         "value": "employment contract"
-      },
-      {
-        "start": 35,
-        "end": 39,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 35,
-        "end": 44,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       },
       {
         "start": 35,
@@ -1308,18 +1080,6 @@
         "end": 53,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 44,
-        "end": 48,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 44,
-        "end": 53,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -1327,18 +1087,6 @@
     "text": "What is the requirements for employment of wing bank?",
     "intent": "employment_requirement",
     "entities": [
-      {
-        "start": 43,
-        "end": 47,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 43,
-        "end": 52,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
-      },
       {
         "start": 43,
         "end": 47,
@@ -1360,7 +1108,7 @@
   },
   {
     "text": "What are the company's leave and holiday policies?",
-    "intent": "ask_leave_policy",
+    "intent": "ask_for_leave",
     "entities": [
       {
         "start": 13,
@@ -1378,7 +1126,7 @@
   },
   {
     "text": "What are the leave policy in wing bank?",
-    "intent": "ask_leave_policy",
+    "intent": "ask_for_leave",
     "entities": [
       {
         "start": 13,
@@ -1397,24 +1145,12 @@
         "end": 38,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 29,
-        "end": 33,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 29,
-        "end": 38,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
   {
     "text": "How many days company give to employee for leave?",
-    "intent": "ask_leave_policy",
+    "intent": "ask_for_leave",
     "entities": [
       {
         "start": 14,
@@ -1423,6 +1159,22 @@
         "value": "company"
       }
     ]
+  },
+  {
+    "text": "Tell me about annual leave policy",
+    "intent": "ask_for_leave"
+  },
+  {
+      "text": "How many days of maternity leave do female employees get?",
+      "intent": "ask_for_leave"
+  },
+  {
+      "text": "What happens during sick leave in month 1?",
+      "intent": "ask_for_leave"
+  },
+  {
+      "text": "What is principle seven about?",
+      "intent": "ask_for_principle"
   },
   {
     "text": "How the employee get paid?",
@@ -1472,18 +1224,6 @@
         "end": 40,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 31,
-        "end": 35,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 31,
-        "end": 40,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -1508,18 +1248,6 @@
         "end": 40,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 31,
-        "end": 35,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 31,
-        "end": 40,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -1532,18 +1260,6 @@
         "end": 28,
         "label": "POLICY_TYPE",
         "value": "overtime policy"
-      },
-      {
-        "start": 32,
-        "end": 36,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 32,
-        "end": 41,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       },
       {
         "start": 32,
@@ -1610,18 +1326,6 @@
         "end": 44,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 35,
-        "end": 39,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 35,
-        "end": 44,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -1646,18 +1350,6 @@
         "end": 44,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 35,
-        "end": 39,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 35,
-        "end": 44,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -1670,18 +1362,6 @@
         "end": 32,
         "label": "POLICY_TYPE",
         "value": "disciplinary policy"
-      },
-      {
-        "start": 36,
-        "end": 40,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 36,
-        "end": 45,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       },
       {
         "start": 36,
@@ -1742,18 +1422,6 @@
         "end": 45,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 36,
-        "end": 40,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 36,
-        "end": 45,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -1766,18 +1434,6 @@
         "end": 32,
         "label": "PROCEDURE_TYPE",
         "value": "disciplinary actions"
-      },
-      {
-        "start": 36,
-        "end": 40,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 36,
-        "end": 45,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       },
       {
         "start": 36,
@@ -1808,12 +1464,6 @@
         "end": 42,
         "label": "COMPANY_NAME",
         "value": "wing"
-      },
-      {
-        "start": 38,
-        "end": 42,
-        "label": "COMPANY_NAME",
-        "value": "wing"
       }
     ]
   },
@@ -1826,18 +1476,6 @@
         "end": 34,
         "label": "PROCEDURE_TYPE",
         "value": "disciplinary procedure"
-      },
-      {
-        "start": 38,
-        "end": 42,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 38,
-        "end": 47,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       },
       {
         "start": 38,
@@ -1874,18 +1512,6 @@
         "end": 47,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 38,
-        "end": 42,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 38,
-        "end": 47,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -1898,18 +1524,6 @@
         "end": 34,
         "label": "PROCEDURE_TYPE",
         "value": "disciplinary procedure"
-      },
-      {
-        "start": 38,
-        "end": 42,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 38,
-        "end": 47,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       },
       {
         "start": 38,
@@ -1988,18 +1602,6 @@
         "end": 45,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 36,
-        "end": 40,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 36,
-        "end": 45,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -2024,18 +1626,6 @@
         "end": 45,
         "label": "COMPANY_NAME",
         "value": "wing bank"
-      },
-      {
-        "start": 36,
-        "end": 40,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 36,
-        "end": 45,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       }
     ]
   },
@@ -2048,18 +1638,6 @@
         "end": 33,
         "label": "TERMINATION_TYPE",
         "value": "termination"
-      },
-      {
-        "start": 37,
-        "end": 41,
-        "label": "COMPANY_NAME",
-        "value": "wing"
-      },
-      {
-        "start": 37,
-        "end": 46,
-        "label": "COMPANY_NAME",
-        "value": "wing bank"
       },
       {
         "start": 37,
