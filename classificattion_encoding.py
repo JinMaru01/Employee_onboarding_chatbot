@@ -8,19 +8,19 @@ import torch
 __conn = RedisConn()
 
 # Load data
-file_path = './artifact/data/sample_data_v2.json'
+file_path = './artifact/data/annotated_data_final.json'
 load = DataLoader(file_path)
 data = load.data
-messages = data['question']
+messages = data['text']
 
 label_encoder = LabelEncoder()
 labels = label_encoder.fit_transform(data['intent'])
 
 # Save label encoder to Redis
-__conn.label_ecoder_save(labels, "labels")
+__conn.label_ecoder_save(labels, "class-labels")
 
 # Load label encoder from Redis
-labels_encodered = __conn.label_encoder_load("label-encoder")
+labels_encodered = __conn.label_encoder_load("class-labels")
 
 # Get label-to-id and id-to-label maps
 label2id = {label: int(idx) for idx, label in enumerate(label_encoder.classes_)}
@@ -59,10 +59,10 @@ encodings = tokenizer(
 )
 
 # Save encodings to Redis
-# __conn.label_ecoder_save(encodings, "encodings")
+__conn.label_ecoder_save(encodings, "classification_encodings")
 
 # Load encodings from Redis
-# encodings = __conn.label_encoder_load("encodings")
+encodings = __conn.label_encoder_load("classification_encodings")
 input_ids = encodings['input_ids']
 attention_mask = encodings['attention_mask']
 
@@ -77,16 +77,16 @@ test_size = len(dataset) - train_size
 train_dataset, test_dataset = torch.utils.data.random_split(dataset, [train_size, test_size])
 
 # Save train and test datasets to Redis
-# __conn.label_ecoder_save(train_dataset, "train_dataset")
-# __conn.label_ecoder_save(test_dataset, "test_dataset")
+__conn.label_ecoder_save(train_dataset, "classification_train_dataset")
+__conn.label_ecoder_save(test_dataset, "classification_test_dataset")
 
 # Load train and test datasets from Redis
-train_dataset = __conn.label_encoder_load("train_dataset")
-test_dataset = __conn.label_encoder_load("test_dataset")
+train_dataset = __conn.label_encoder_load("classification_train_dataset")
+test_dataset = __conn.label_encoder_load("classification_test_dataset")
 
 print(f"Train dataset size: {len(train_dataset)}")
 print(f"Test dataset size: {len(test_dataset)}")
 
 # Save train and test datasets to disk
-torch.save(train_dataset, './artifact/data/train_dataset.pt')
-torch.save(test_dataset, './artifact/data/test_dataset.pt')
+torch.save(train_dataset, './artifact/data/classification_train_dataset.pt')
+torch.save(test_dataset, './artifact/data/classification_test_dataset.pt')
