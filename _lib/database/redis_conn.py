@@ -33,14 +33,14 @@ class RedisConn:
         self.redis_client.set(file_name, buffer.getvalue())
         print("✅ Model state saved in Redis!")
 
-    def model_load(self, model_name):
+    def model_load(self, model_name, num_labels=15):
         """Load model state_dict from Redis without saving locally"""
         model_bytes = self.redis_client.get(model_name)
         if model_bytes is None:
             raise ValueError("❌ Model not found in Redis!")
         
         buffer = io.BytesIO(model_bytes)
-        model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased", num_labels=20)
+        model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased", num_labels=num_labels)
         model.load_state_dict(torch.load(buffer, map_location=torch.device('cpu')))
         model.eval()
         print("✅ Model successfully loaded from Redis and ready for inference!")

@@ -6,7 +6,7 @@ class DistilBertIntentModel(IntentClassifier):
         tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
         super().__init__(model, tokenizer, label_encoder, max_length=max_length)
 
-    def preprocess(self, text):
+    def encoding(self, text):
         return self.tokenizer(
             text,
             truncation=True,

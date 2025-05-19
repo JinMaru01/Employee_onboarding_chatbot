@@ -8,7 +8,7 @@ import torch
 __conn = RedisConn()
 
 # Load data
-file_path = './artifact/data/annotated_data_final.json'
+file_path = './artifact/data/json/annotated_data_final.json'
 load = DataLoader(file_path)
 data = load.data
 messages = data['text']
@@ -17,9 +17,11 @@ label_encoder = LabelEncoder()
 labels = label_encoder.fit_transform(data['intent'])
 
 # Save label encoder to Redis
+__conn.label_ecoder_save(label_encoder, "label-encoder")
 __conn.label_ecoder_save(labels, "class-labels")
 
 # Load label encoder from Redis
+label_encoder = __conn.label_encoder_load("label-encoder")
 labels_encodered = __conn.label_encoder_load("class-labels")
 
 # Get label-to-id and id-to-label maps
@@ -47,6 +49,9 @@ print(f"labels_tensor: {labels_tensor, labels_tensor.shape}")
 
 # Initialize tokenizer and prepare data
 tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+
+# Save tokenizer
+__conn.label_ecoder_save(tokenizer, "tokenizer")
 
 # Tokenize with smaller max_length
 max_length = 64
@@ -88,5 +93,5 @@ print(f"Train dataset size: {len(train_dataset)}")
 print(f"Test dataset size: {len(test_dataset)}")
 
 # Save train and test datasets to disk
-torch.save(train_dataset, './artifact/data/classification_train_dataset.pt')
-torch.save(test_dataset, './artifact/data/classification_test_dataset.pt')
+torch.save(train_dataset, './artifact/data/train/classification_train_dataset.pt')
+torch.save(test_dataset, './artifact/data/test/classification_test_dataset.pt')

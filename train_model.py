@@ -18,7 +18,7 @@ train_dataset = __conn.label_encoder_load("train_dataset")
 test_dataset = __conn.label_encoder_load("test_dataset")
 
 # Load label encoder from Redis
-label_encoder = __conn.label_encoder_load("label-encoder")
+label_encoder = __conn.label_encoder_load("class-labels")
 
 # Get label-to-id and id-to-label maps
 label2id = __conn.label_encoder_load("label2id")
