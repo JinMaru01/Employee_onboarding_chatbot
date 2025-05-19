@@ -93,5 +93,5 @@ print(f"Train dataset size: {len(train_dataset)}")
 print(f"Test dataset size: {len(test_dataset)}")
 
 # Save train and test datasets to disk
-torch.save(train_dataset, './artifact/data/train/classification_train_dataset.pt')
-torch.save(test_dataset, './artifact/data/test/classification_test_dataset.pt')
+torch.save(train_dataset, './artifact/data/classification_train_dataset.pt')
+torch.save(test_dataset, './artifact/data/classification_test_dataset.pt')
