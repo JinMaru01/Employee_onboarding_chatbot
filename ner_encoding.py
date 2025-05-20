@@ -93,8 +93,8 @@ __conn.label_ecoder_save(train_dataset, "ner_train_dataset")
 __conn.label_ecoder_save(test_dataset, "ner_test_dataset")
 
 # Save datasets to disk
-torch.save(train_dataset, './artifact/data/train/ner_train_dataset.pt')
-torch.save(test_dataset, './artifact/data/test/ner_test_dataset.pt')
+torch.save(train_dataset, './artifact/data/ner_train_dataset.pt')
+torch.save(test_dataset, './artifact/data/ner_test_dataset.pt')
 
 print(f"NER Train dataset size: {len(train_dataset)}")
 print(f"NER Test dataset size: {len(test_dataset)}")
