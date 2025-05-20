@@ -10,6 +10,82 @@ class IntentClassifier():
         self.model.to(self.device)
         self.model.eval()
 
+    def preprocess(self, text):
+        return  self.tokenizer(
+        text,
+        return_tensors='pt',
+        padding=True,
+        truncation=True,
+        max_length=64
+    )
+
+    def train(self, trainset, num_epochs, optimizer):
+        
+        self.model.train()
+
+        # Initial training parameters
+        patience = 2
+        best_loss = float('inf')
+        patience_counter = 0
+        
+        print("Starting training...")
+
+        for epoch in range(num_epochs):
+            epoch_loss = 0
+
+            for i, batch in enumerate(trainset):
+                input_ids = batch[0].to(self.device)
+                attention_mask = batch[1].to(self.device)
+                labels = batch[2].to(self.device).long()
+
+                outputs = self.model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+                loss = outputs.loss
+                epoch_loss += loss.item()
+
+                loss.backward()
+                optimizer.step()
+                optimizer.zero_grad()
+
+                # Print every 10 batches
+                if (i + 1) % 10 == 0:
+                    print(f"Epoch {epoch+1}, Batch {i+1}/{len(trainset)}, Loss: {loss.item():.4f}")
+
+            avg_epoch_loss = epoch_loss / len(trainset)
+            print(f"Epoch {epoch+1} average loss: {avg_epoch_loss:.4f}")
+
+            # Early stopping check
+            if avg_epoch_loss < best_loss:
+                best_loss = avg_epoch_loss
+                patience_counter = 0
+            else:
+                patience_counter += 1
+                if patience_counter >= patience:
+                    print("Early stopping triggered")
+                    break
+
+        print("\nTraining complete.")
+        return  self.model
+    
+    def evaluate(self, testset):
+        # Evaluation
+        print("\nEvaluating model...")
+        self.model.eval()
+        predictions = []
+        true_labels = []
+
+        with torch.no_grad():
+            for batch in testset:
+                input_ids = batch[0].to(self.device)
+                attention_mask = batch[1].to(self.device)
+                labels = batch[2].to(self.device)
+
+                outputs = self.model(input_ids=input_ids, attention_mask=attention_mask)
+                _, predicted = torch.max(outputs.logits, dim=1)
+
+                predictions.extend(predicted.cpu().numpy())
+                true_labels.extend(labels.cpu().numpy())
+        return  predictions, true_labels
+    
     def predict(self, text):
         inputs = self.preprocess(text)
         input_ids = inputs["input_ids"].to(self.device)
@@ -19,6 +95,7 @@ class IntentClassifier():
             outputs = self.model(input_ids=input_ids, attention_mask=attention_mask)
             probs = torch.nn.functional.softmax(outputs.logits, dim=1)
             confidence, predicted = torch.max(probs, dim=1)
-            label = self.label_encoder.inverse_transform([predicted.cpu().item()])[0]
+            label = self.label_encoder.inverse_transform([predicted.cpu().numpy()[0]])[0]
+            confidence_score = confidence.cpu().item()
 
-        return label, confidence.cpu().item()
+        return label, confidence_score*100

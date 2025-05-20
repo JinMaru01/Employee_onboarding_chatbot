@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         userMessage.textContent = message;
         chatHistory.appendChild(userMessage);
 
-        fetch("/api/predict", {
+        fetch("/api/predict_intent", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const intent = data.predicted_intent;
             const response_time = data.prediction_time;
             const generated_response = data.generated_response;
-            const confidence = (data.confidence * 100).toFixed(2);
+            const confidence = (data.confidence).toFixed(2);
 
             botResponse.textContent = `Intent: ${intent} (Confidence: ${confidence}%), with ${response_time}s, \n ${generated_response}`;
             // botResponse.textContent = `${generated_response}`;
