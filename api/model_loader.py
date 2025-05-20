@@ -4,7 +4,7 @@ from _lib.database.redis_conn import RedisConn
 class ModelLoader():
     def __init__(self):
         redis_con = RedisConn()
-        self.model = redis_con.model_load("intent-classifier")
+        self.model = redis_con.model_load("intent_classifier_v2")
         self.tokenizer = redis_con.label_encoder_load("tokenizer")
         self.label_encoder = redis_con.label_encoder_load("label-encoder")
 
