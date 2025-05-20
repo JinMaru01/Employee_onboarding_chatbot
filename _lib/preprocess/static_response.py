@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 from extended_function import *
-from intent_classifier import *
+from experiement.intent_classifier import *
 
 df = pd.read_csv("./artifact/data/combine_df.csv")
 conversation_db = extract_conversation_pairs(df)

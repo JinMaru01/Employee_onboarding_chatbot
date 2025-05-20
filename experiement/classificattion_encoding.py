@@ -1,8 +1,12 @@
+from extend_path import sys
 from _lib.database.redis_conn import RedisConn
 from _lib.preprocess.data_loader import DataLoader
 from sklearn.preprocessing import LabelEncoder
 from transformers import AutoTokenizer
+from sklearn.model_selection import StratifiedShuffleSplit
+from torch.utils.data import TensorDataset, Subset
 
+import numpy as np
 import torch
 
 __conn = RedisConn()
@@ -64,34 +68,39 @@ encodings = tokenizer(
 )
 
 # Save encodings to Redis
-__conn.label_ecoder_save(encodings, "classification_encodings")
+__conn.label_ecoder_save(encodings, "classification_encodings_v2")
 
 # Load encodings from Redis
-encodings = __conn.label_encoder_load("classification_encodings")
+encodings = __conn.label_encoder_load("classification_encodings_v2")
 input_ids = encodings['input_ids']
 attention_mask = encodings['attention_mask']
 
 # Create dataset
-dataset = torch.utils.data.TensorDataset(input_ids, attention_mask, labels_tensor)
+dataset = TensorDataset(input_ids, attention_mask, labels_tensor)
 dataset_size = len(dataset)
 print(f"Dataset size: {dataset_size}")
 
 # Split dataset
-train_size = int(0.8 * len(dataset))
-test_size = len(dataset) - train_size
-train_dataset, test_dataset = torch.utils.data.random_split(dataset, [train_size, test_size])
+# Convert labels to numpy for sklearn
+labels_np = labels_tensor.numpy()
+
+# Stratified splitting
+splitter = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
+for train_idx, test_idx in splitter.split(np.zeros(len(labels_np)), labels_np):
+    train_dataset = Subset(dataset, train_idx)
+    test_dataset = Subset(dataset, test_idx)
 
 # Save train and test datasets to Redis
-__conn.label_ecoder_save(train_dataset, "classification_train_dataset")
-__conn.label_ecoder_save(test_dataset, "classification_test_dataset")
+__conn.label_ecoder_save(train_dataset, "classification_train_dataset_v2")
+__conn.label_ecoder_save(test_dataset, "classification_test_dataset_v2")
 
 # Load train and test datasets from Redis
-train_dataset = __conn.label_encoder_load("classification_train_dataset")
-test_dataset = __conn.label_encoder_load("classification_test_dataset")
+train_dataset = __conn.label_encoder_load("classification_train_dataset_v2")
+test_dataset = __conn.label_encoder_load("classification_test_dataset_v2")
 
 print(f"Train dataset size: {len(train_dataset)}")
 print(f"Test dataset size: {len(test_dataset)}")
 
 # Save train and test datasets to disk
-torch.save(train_dataset, './artifact/data/classification_train_dataset.pt')
-torch.save(test_dataset, './artifact/data/classification_test_dataset.pt')
+torch.save(train_dataset, './artifact/data/train/classification_train_dataset_v2.pt')
+torch.save(test_dataset, './artifact/data/test/classification_test_dataset_v2.pt')

@@ -1,5 +1,6 @@
 from torch.utils.data import DataLoader
 
+from extend_path import sys
 from _lib.database.redis_conn import RedisConn
 from _lib.models.Intent_Classification import IntentClassifier
 from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score
@@ -8,8 +9,8 @@ from sklearn.metrics import classification_report, accuracy_score, precision_sco
 redis_con = RedisConn()
 
 label_encoder = redis_con.label_encoder_load("label-encoder")
-test_dataset = redis_con.label_encoder_load("classification_test_dataset")
-model = redis_con.model_load("intent-classifier")
+test_dataset = redis_con.label_encoder_load("classification_test_dataset_v2")
+model = redis_con.model_load("intent_classifier_v2")
 tokenizer = redis_con.label_encoder_load("tokenizer")
 
 batch_size = 32

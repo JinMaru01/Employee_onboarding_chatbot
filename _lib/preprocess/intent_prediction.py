@@ -1,4 +1,4 @@
-from intent_classifier import *
+from experiement.intent_classifier import *
 
 # Load saved model
 print("\nLoading model...")

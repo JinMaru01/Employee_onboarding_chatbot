@@ -1,4 +1,5 @@
 import torch
+import torch.nn as nn
 
 class IntentClassifier():
     def __init__(self, model, tokenizer, label_encoder, device=None, max_length=64):
@@ -19,15 +20,16 @@ class IntentClassifier():
         max_length=64
     )
 
-    def train(self, trainset, num_epochs, optimizer):
-        
+    def train(self, trainset, num_epochs, optimizer, use_custom_loss=False):
         self.model.train()
 
         # Initial training parameters
+        
         patience = 2
         best_loss = float('inf')
         patience_counter = 0
-        
+        criterion = nn.CrossEntropyLoss()
+
         print("Starting training...")
 
         for epoch in range(num_epochs):
@@ -38,13 +40,19 @@ class IntentClassifier():
                 attention_mask = batch[1].to(self.device)
                 labels = batch[2].to(self.device).long()
 
-                outputs = self.model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
-                loss = outputs.loss
-                epoch_loss += loss.item()
+                optimizer.zero_grad()
+
+                if use_custom_loss:
+                    outputs = self.model(input_ids=input_ids, attention_mask=attention_mask)
+                    logits = outputs.logits
+                    loss = criterion(logits, labels)
+                else:
+                    outputs = self.model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+                    loss = outputs.loss
 
                 loss.backward()
                 optimizer.step()
-                optimizer.zero_grad()
+                epoch_loss += loss.item()
 
                 # Print every 10 batches
                 if (i + 1) % 10 == 0:

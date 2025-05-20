@@ -1,8 +1,10 @@
-from _lib.database.redis_conn import RedisConn
-from _lib.preprocess.data_loader import DataLoader
+import torch
 from sklearn.preprocessing import LabelEncoder
 from transformers import AutoTokenizer
-import torch
+
+from extend_path import sys
+from _lib.database.redis_conn import RedisConn
+from _lib.preprocess.data_loader import DataLoader
 
 __conn = RedisConn()
 
