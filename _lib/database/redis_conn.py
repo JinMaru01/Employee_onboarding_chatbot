@@ -3,7 +3,7 @@ import redis
 import torch
 import joblib
 
-from transformers import DistilBertForSequenceClassification
+from transformers import AutoModelForTokenClassification, AutoModelForSequenceClassification
 
 class RedisConn:
     def __init__(self):
@@ -31,17 +31,36 @@ class RedisConn:
         buffer = io.BytesIO()
         torch.save(model.state_dict(), buffer)
         self.redis_client.set(file_name, buffer.getvalue())
-        print("✅ Model state saved in Redis!")
+        print(f"✅ Model state saved in Redis under key '{file_name}'!")
 
-    def model_load(self, model_name, num_labels=15):
-        """Load model state_dict from Redis without saving locally"""
+    def classifier_load(self, model_name, num_labels=15, model_ckpt="distilbert-base-uncased"):
         model_bytes = self.redis_client.get(model_name)
         if model_bytes is None:
-            raise ValueError("❌ Model not found in Redis!")
+            raise ValueError(f"❌ Model not found in Redis under key '{model_name}'!")
         
+        # Load model architecture
+        model = AutoModelForSequenceClassification.from_pretrained(model_ckpt, num_labels=num_labels)
+        
+        # Load weights from buffer
         buffer = io.BytesIO(model_bytes)
-        model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased", num_labels=num_labels)
         model.load_state_dict(torch.load(buffer, map_location=torch.device('cpu')))
         model.eval()
-        print("✅ Model successfully loaded from Redis and ready for inference!")
+
+        print("✅ Model successfully loaded classifier from Redis and ready for inference!")
+        return model
+    
+    def extractor_load(self, model_name, num_labels=22, model_ckpt="distilbert-base-uncased"):
+        model_bytes = self.redis_client.get(model_name)
+        if model_bytes is None:
+            raise ValueError(f"❌ Model not found in Redis under key '{model_name}'!")
+        
+         # Load model architecture
+        model = AutoModelForTokenClassification.from_pretrained(model_ckpt, num_labels=num_labels)
+
+        # Load weights from buffer
+        buffer = io.BytesIO(model_bytes)
+        model.load_state_dict(torch.load(buffer, map_location=torch.device('cpu')))
+        model.eval()
+
+        print("✅ Model successfully loaded extractor from Redis and ready for inference!")
         return model
