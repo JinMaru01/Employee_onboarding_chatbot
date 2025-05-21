@@ -1,0 +1,2 @@
+artifact/model/ filter=lfs diff=lfs merge=lfs -text
+artifact/model/intent_classifier.pth filter=lfs diff=lfs merge=lfs -text
