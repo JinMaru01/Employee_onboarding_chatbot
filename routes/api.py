@@ -20,7 +20,7 @@ def api_check():
     return jsonify({"message": "Chatbot API is up and running!"})
 
 @api_bp.route("/predict_intent", methods=["POST"])
-def predict_intent():
+def predict_intent_api():
     """
     Predict intent from user text.
     
@@ -52,4 +52,31 @@ def predict_intent():
         "confidence": round(confidence, 4),
         "prediction_time": round(end_time - start_time, 4),
         "generated_response": bot_response if label == "ask_for_mission" else None
+    })
+
+@api_bp.route("/extract_entities", methods=["POST"])
+def extract_entities_api():
+    """
+    Extract entities from user input text using the NER model.
+
+    Returns:
+        JSON response with extracted entities
+    """
+    data = request.get_json()
+    if not data or "text" not in data:
+        return jsonify({"error": "Missing 'text' in request body"}), 400
+
+    text = data["text"]
+
+    start_time = time.time()
+    try:
+        entities = model.extract_entities(text)
+    except Exception as e:
+        return jsonify({"error": f"NER extraction failed: {str(e)}"}), 500
+    end_time = time.time()
+
+    return jsonify({
+        "text": text,
+        "entities": entities,
+        "extraction_time": round(end_time - start_time, 4)
     })

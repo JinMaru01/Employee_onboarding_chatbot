@@ -27,11 +27,10 @@ document.addEventListener("DOMContentLoaded", function () {
         userMessage.textContent = message;
         chatHistory.appendChild(userMessage);
 
+        // First: Predict intent
         fetch("/api/predict_intent", {
             method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ text: message })
         })
         .then(response => response.json())
@@ -44,10 +43,33 @@ document.addEventListener("DOMContentLoaded", function () {
             const generated_response = data.generated_response;
             const confidence = (data.confidence).toFixed(2);
 
-            botResponse.textContent = `Intent: ${intent} (Confidence: ${confidence}%), with ${response_time}s, \n ${generated_response}`;
-            // botResponse.textContent = `${generated_response}`;
+            let textContent = `Intent: ${intent} (Confidence: ${confidence}%), took ${response_time}s`;
+            if (generated_response) {
+                textContent += `\n${generated_response}`;
+            }
+
+            botResponse.textContent = textContent;
             chatHistory.appendChild(botResponse);
             chatHistory.scrollTop = chatHistory.scrollHeight;
+
+            // Then: Extract entities
+            return fetch("/api/extract_entities", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ text: message })
+            });
+        })
+        .then(response => response.json())
+        .then(entityData => {
+            if (entityData.entities && entityData.entities.length > 0) {
+                const entityMsg = document.createElement("div");
+                entityMsg.classList.add("chat-bubble", "bot-message");
+
+                const entitiesList = entityData.entities.map(e => `${e.entity} [${e.type}]`).join(", ");
+                entityMsg.textContent = `Entities: ${entitiesList}`;
+                chatHistory.appendChild(entityMsg);
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+            }
         })
         .catch(error => {
             const errorMsg = document.createElement("div");
@@ -74,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Send message on button click
     sendBtn.addEventListener("click", handleUserInput);
 
-    // Send message on Enter (Shift+Enter for a new line)
+    // Send message on Enter (Shift+Enter for newline)
     textarea.addEventListener("keydown", function (event) {
         if (event.key === "Enter" && !event.shiftKey) {
             event.preventDefault();
@@ -84,12 +106,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Hide chat history initially
     chatHistory.style.display = "none";
-    
+
     const clearBtn = document.getElementById("clear-btn");
-    
     clearBtn.addEventListener("click", function () {
         chatHistory.innerHTML = "";
         chatHistory.style.display = "none";
     });
 });
-
