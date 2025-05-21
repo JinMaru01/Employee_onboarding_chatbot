@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+artifact/
+env/
+venv/
+model/
+notebook/
+experiement/
+*.db
+.DS_Store
+.git
