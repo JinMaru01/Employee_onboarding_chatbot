@@ -24,13 +24,13 @@ encodings = __conn.label_encoder_load("classification_encodings_v2")
 # Create dataloaders with smaller batch size
 batch_size = 32
 
-train_dataloader = DataLoader(
+train_loader = DataLoader(
     train_dataset, 
     batch_size=batch_size, 
     shuffle=True
 )
 
-test_dataloader = DataLoader(
+test_loader = DataLoader(
     test_dataset, 
     batch_size=batch_size
 )
@@ -52,6 +52,6 @@ optimizer = torch.optim.AdamW(
 
 classifier = IntentClassifier(model, tokenizer, label_encoder)
 
-model = classifier.train(train_dataloader, 5, optimizer, True)
+model = classifier.train(train_loader, 5, optimizer, True)
 
 torch.save(model, "./artifact/model/intent_classifier_v2.pth")

@@ -18,7 +18,7 @@ redis_conn.model_save(extractor, "extractor")
 
 # Load model from Redis
 classifier = redis_conn.classifier("intent_classifier_v2")
-extractor = redis_conn.extractor_load("extractor", )
+extractor = redis_conn.extractor_load("extractor")
 
 print(f"Model loaded from Redis: {classifier.eval()}")
 print(f"Model loaded from Redis: {extractor.eval()}")

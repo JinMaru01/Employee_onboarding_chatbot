@@ -5,7 +5,7 @@ from _lib.models.Intent_Classification import IntentClassifier
 # Initial Redis Connection
 redis_con = RedisConn()
 
-model = redis_con.model_load("intent-classifier")
+model = redis_con.classifier_load("intent-classifier")
 tokenizer = redis_con.label_encoder_load("tokenizer")
 label_encoder = redis_con.label_encoder_load("label-encoder")
 

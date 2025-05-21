@@ -10,7 +10,7 @@ redis_con = RedisConn()
 
 label_encoder = redis_con.label_encoder_load("label-encoder")
 test_dataset = redis_con.label_encoder_load("classification_test_dataset_v2")
-model = redis_con.model_load("intent_classifier_v2")
+model = redis_con.classifier_load("intent_classifier_v2")
 tokenizer = redis_con.label_encoder_load("tokenizer")
 
 batch_size = 32

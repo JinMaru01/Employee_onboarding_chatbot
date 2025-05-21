@@ -9,7 +9,6 @@ class IntentClassifier():
         self.max_length = max_length
         self.device = device or torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model.to(self.device)
-        self.model.eval()
 
     def preprocess(self, text):
         return  self.tokenizer(
@@ -20,12 +19,10 @@ class IntentClassifier():
         max_length=64
     )
 
-    def train(self, trainset, num_epochs, optimizer, use_custom_loss=False):
+    def train(self, trainset, optimizer, num_epochs, use_custom_loss=False, early_stopping_patience=2):
         self.model.train()
 
         # Initial training parameters
-        
-        patience = 2
         best_loss = float('inf')
         patience_counter = 0
         criterion = nn.CrossEntropyLoss()
@@ -67,7 +64,7 @@ class IntentClassifier():
                 patience_counter = 0
             else:
                 patience_counter += 1
-                if patience_counter >= patience:
+                if patience_counter >= early_stopping_patience:
                     print("Early stopping triggered")
                     break
 
@@ -101,7 +98,7 @@ class IntentClassifier():
 
         with torch.no_grad():
             outputs = self.model(input_ids=input_ids, attention_mask=attention_mask)
-            probs = torch.nn.functional.softmax(outputs.logits, dim=1)
+            probs = nn.functional.softmax(outputs.logits, dim=1)
             confidence, predicted = torch.max(probs, dim=1)
             label = self.label_encoder.inverse_transform([predicted.cpu().numpy()[0]])[0]
             confidence_score = confidence.cpu().item()
