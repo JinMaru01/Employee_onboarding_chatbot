@@ -52,6 +52,6 @@ optimizer = torch.optim.AdamW(
 
 classifier = IntentClassifier(model, tokenizer, label_encoder)
 
-model = classifier.train(train_loader, 5, optimizer, True)
+model = classifier.train(train_loader, optimizer, 10, True)
 
-torch.save(model, "./artifact/model/intent_classifier_v2.pth")
+torch.save(model, "./artifact/model/intent_classifier.pth")

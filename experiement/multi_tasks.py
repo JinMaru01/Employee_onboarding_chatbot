@@ -78,7 +78,7 @@ id2ner = {i: label for i, label in enumerate(tag_encoder.classes_)}
 train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
 pipeline = ModelPipeline(intent_label_count=len(id2intent), ner_label_count=len(id2ner))
 
-pipeline.train(train_loader, epochs=5)
+pipeline.train(train_loader, epochs=10)
 
 model_path = "./artifact/model/multi_task.pth"
 torch.save(pipeline.model, model_path)

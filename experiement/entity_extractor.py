@@ -43,6 +43,6 @@ optimizer = torch.optim.AdamW(
 
 extractor = NamedEntityRecognizer(model, tokenizer, id2label, device)
 
-model = extractor.train(train_loader, optimizer, 5)
+model = extractor.train(train_loader, optimizer, 10)
 
-torch.save(model, "./artifact/model/entity_extractor_v2.pth")
+torch.save(model, "./artifact/model/entity_extractor.pth")
