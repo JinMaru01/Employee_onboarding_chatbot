@@ -1,0 +1,26 @@
+[
+    {
+        "queitons": "What is our company vision?",
+        "tokens": ["What", "is", "our", "company", "vision"],
+        "tags": ["O", "O", "O", "O", "O"],
+        "intent": "company_vision"
+    },
+    {
+        "queitons": "Tell me about the company vision",
+        "tokens": ["Tell", "me", "about", "the", "company", "vision"],
+        "tags": ["O", "O", "O", "O", "O", "O"],
+        "intent": "company_vision"
+    },
+    {
+        "queitons": "Can you share our vision statement?",
+        "tokens": ["Can", "you", "share", "our", "vision", "statement"],
+        "tags": ["O", "O", "O", "O", "O", "O"],
+        "intent": "company_vision"
+    },
+    {
+        "queitons": "What's the vision of this organization?",
+        "tokens": ["What", "s", "the", "vision", "of", "this", "organization"],
+        "tags": ["O", "O", "O", "O", "O", "O"],
+        "intent": "company_vision"
+    }
+]

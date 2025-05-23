@@ -8,8 +8,8 @@ redis_conn = RedisConn()
 classifier_path = './artifact/model/intent_classifier.pth'
 extractor_path = './artifact/model/entity_extractor.pth'
 
-classifier = torch.load(classifier_path, weights_only=False)
-extractor = torch.load(extractor_path, weights_only=False)
+classifier = torch.load(classifier_path, weights_only=False, map_location=torch.device('cpu'))
+extractor = torch.load(extractor_path, weights_only=False, map_location=torch.device('cpu'))
 
 # Save model to Redis
 redis_conn.model_save(classifier, "intent_classifier")

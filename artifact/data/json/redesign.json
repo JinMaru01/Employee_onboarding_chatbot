@@ -1,0 +1,489 @@
+[
+    {
+        "question": "What is our company vision?",
+        "intent": "company_vision"
+    },
+    {
+        "question": "Tell me about the company vision",
+        "intent": "company_vision"
+    },
+    {
+        "question": "Can you share our vision statement?",
+        "intent": "company_vision"
+    },
+    {
+        "question": "What's the vision of this organization?",
+        "intent": "company_vision"
+    },
+    {
+        "question": "I want comprehensive details about our vision",
+        "intent": "company_vision"
+    },
+    {
+        "question": "Tell me everything about our corporate vision",
+        "intent": "company_vision"
+    },
+    {
+        "question": "Can you elaborate on our vision statement?",
+        "intent": "company_vision"
+    },
+    {
+        "question": "Explain our company vision in detail",
+        "intent": "company_vision"
+    },
+    {
+        "question": "Tell me about the vision",
+        "intent": "company_vision"
+    },
+    {
+        "question": "What is our company vision?",
+        "intent": "company_vision"
+    },
+    {
+        "question": "I need detailed information about our vision",
+        "intent": "company_vision"
+    },
+    {
+        "question": "What's the mission of this organization?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What is our company mission?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me about the company mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Can you share our mission statement?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What is our company mission?",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Tell me about our mission",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "What's our mission statement?",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Can you share the company mission?",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "I want to know our organizational mission",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Give me a brief overview of all our missions",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Briefly tell me about all missions",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "What are all our missions in short?",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Quick summary of all company missions",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "I need comprehensive details about individual missions",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "I want detailed information about each mission",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Explain each mission in detail",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Tell me about every mission separately",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Can you elaborate on each of our missions?",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "List all our missions briefly",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Show me the complete mission statement",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "What's our complete mission?",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Give me the total mission overview",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "Can you provide the entire mission document?",
+        "intent": "company_mission"
+    },
+    {
+        "question":  "I want the full mission statement",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Show me the complete mission statement",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Can you share our organizational mission?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What are our company missions?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me about our mission statement",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What is our company mission?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What are our specific mission areas?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "I want to know about individual missions",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Explain each mission separately",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me about all our mission pillars",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Provide comprehensive details about our mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "I want a complete overview of all our missions",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Can you summarize our company mission?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Give me detailed information about our missions",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me briefly about our company mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me about Customer at the Heart",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What does Customer at the Heart mean?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Explain our customer-focused mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "How do we put customers at the heart?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What is our customer mission?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Give me detailed information about Customer at the Heart",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Briefly explain Customer at the Heart mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me everything about our customer focus",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What is our social impact mission?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "How do we serve the community?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Explain our community mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What does Community as the Cause mean?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me about Community as the Cause",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What's our impact on society?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me about our community programs",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What's our social responsibility?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "How do we help the community?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me about Employees as the Pillar",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What does Employees as the Pillar mean?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Explain our employee mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "How do we support employees?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me about Deliver Shareholder Value",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What does Deliver Shareholder Value mean?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Explain our shareholder mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "How do we create shareholder value?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What's our approach to shareholder returns?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "How do we balance stakeholder interests",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me about the first mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What is the second mission about?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Explain the third mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What's the fourth mission?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Give me detailed information about Customer at the Heart",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Briefly explain Employees as the Pillar",
+        "intent": "company_mission"
+    },
+    {
+        "question": "I want complete overview of Community as the Cause",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What are all community initiatives?",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Explain each part of the employee mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me about all customer-related aspects",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Tell me everything about mission number two",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Briefly explain the third mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "Give me detailed information about the first mission",
+        "intent": "company_mission"
+    },
+    {
+        "question": "What are our core values?",
+        "intent": "core_value"
+    },
+    {
+        "question": "Briefly tell me about all our values",
+        "intent": "core_value"
+    },
+    {
+        "question": "I want detailed information about each value",
+        "intent": "core_value"
+    },
+    {
+        "question": "Explain every value individually",
+        "intent": "core_value"
+    },
+    {
+        "question": "Tell me about each core value in detail",
+        "intent": "core_value"
+    },
+    {
+        "question": "I want to know about our core principles",
+        "intent": "core_value"
+    },
+    {
+        "question": "What values does this company follow?",
+        "intent": "core_value"
+    },
+    {
+        "question": "Can you explain our organizational values?",
+        "intent": "core_value"
+    },
+    {
+        "question": "Tell me about our company values",
+        "intent": "core_value"
+    },
+    {
+        "question": "Give me a brief overview of all values",
+        "intent": "core_value"
+    },
+    {
+        "question": "List all our values briefly",
+        "intent": "core_value"
+    },
+    {
+        "question": "What are all our core values in short?",
+        "intent": "core_value"
+    },
+    {
+        "question": "Explain our values",
+        "intent": "core_value"
+    },
+    {
+        "question": "Tell me about each core value in detail",
+        "intent": "core_value"
+    },
+    {
+        "question": "What does Winning mean as a core value?",
+        "intent": "core_value"
+    },
+    {
+        "question": "Is Growth encouraged as a core value?",
+        "intent": "core_value"
+    },
+    {
+        "question": "What principles are tied to Nurturing?",
+        "intent": "core_value"
+    },
+    {
+        "question": "What behaviors demonstrate Respect?",
+        "intent": "core_value"
+    },
+    {
+        "question": "In what ways do we show Innovation?",
+        "intent": "core_value"
+    },
+    {
+        "question": "Share more about the Growth value",
+        "intent": "core_value"
+    },
+    {
+        "question": "What does the core value Winning stand for?",
+        "intent": "core_value"
+    },
+    {
+        "question": "How does the company promote Excellence?",
+        "intent": "core_value"
+    },
+    {
+        "question": "How do employees embody Winning?",
+        "intent": "core_value"
+    }, 
+    {
+        "question": "How does the company view Respect as a value?",
+        "intent": "core_value"
+    },
+    {
+        "question": "Why is Excellence important to our culture?",
+        "intent": "core_value"
+    },
+    {
+        "question": "Explain what Nurturing means for our company",
+        "intent": "core_value"
+    },
+    {
+        "question": "Give me a detailed explanation of Innovation",
+        "intent": "core_value"
+    },
+    {
+        "question": "Please explain the meaning of Respect in our values",
+        "intent": "core_value"
+    },
+    {
+        "question": "How do we define Excellence in our core values?",
+        "intent": "core_value"
+    },
+    {
+        "question": "Tell me about Growth as a company value",
+        "intent": "core_value"
+    },
+    {
+        "question": "What do we mean by Nurturing in our values?",
+        "intent": "core_value"
+    },
+    {
+        "question": "Can you explain the value of Innovation?",
+        "intent": "core_value"
+    },
+    {
+        
+    }
+]

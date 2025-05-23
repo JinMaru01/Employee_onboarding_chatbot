@@ -1,4 +1,6 @@
 import ast, builtins
+import re
+import string
 
 # Function to convert value as string but represented to list or dict 
 def convert_string_to_list_or_dict(data_item):
@@ -68,3 +70,47 @@ def update_messages_df(df, intent):
     )
     
     return intent_df
+
+def remove_punctuation(text, keep_apostrophes=True):
+    if keep_apostrophes:
+        # Keep apostrophes for contractions like "don't"
+        punctuation = string.punctuation.replace("'", "")
+    else:
+        punctuation = string.punctuation
+        
+    translator = str.maketrans('', '', punctuation)
+    return text.translate(translator)
+
+def tokenize(text, lowercase=True):
+    if lowercase:
+        text = text.lower()
+    
+    # Remove punctuation first (keeping apostrophes for contractions)
+    text = remove_punctuation(text, keep_apostrophes=True)
+    
+    # Split on whitespace
+    tokens = text.split()
+    
+    return tokens
+
+def advanced_tokenize(text, lowercase=True, keep_apostrophes=True):
+    
+    if lowercase:
+        text = text.lower()
+    
+    # Remove punctuation (with option to keep apostrophes)
+    text = remove_punctuation(text, keep_apostrophes=keep_apostrophes)
+    
+    # Handle common contractions as single tokens
+    text = re.sub(r"n't\b", " not", text)
+    text = re.sub(r"'s\b", " is", text)
+    text = re.sub(r"'re\b", " are", text)
+    text = re.sub(r"'ll\b", " will", text)
+    text = re.sub(r"'ve\b", " have", text)
+    text = re.sub(r"'d\b", " would", text)
+    text = re.sub(r"'m\b", " am", text)
+    
+    # Split on whitespace
+    tokens = text.split()
+    
+    return tokens
