@@ -64,79 +64,79 @@
         "intent": "company_mission"
     },
     {
-        "question":  "Tell me about our mission",
+        "question": "Tell me about our mission",
         "intent": "company_mission"
     },
     {
-        "question":  "What's our mission statement?",
+        "question": "What's our mission statement?",
         "intent": "company_mission"
     },
     {
-        "question":  "Can you share the company mission?",
+        "question": "Can you share the company mission?",
         "intent": "company_mission"
     },
     {
-        "question":  "I want to know our organizational mission",
+        "question": "I want to know our organizational mission",
         "intent": "company_mission"
     },
     {
-        "question":  "Give me a brief overview of all our missions",
+        "question": "Give me a brief overview of all our missions",
         "intent": "company_mission"
     },
     {
-        "question":  "Briefly tell me about all missions",
+        "question": "Briefly tell me about all missions",
         "intent": "company_mission"
     },
     {
-        "question":  "What are all our missions in short?",
+        "question": "What are all our missions in short?",
         "intent": "company_mission"
     },
     {
-        "question":  "Quick summary of all company missions",
+        "question": "Quick summary of all company missions",
         "intent": "company_mission"
     },
     {
-        "question":  "I need comprehensive details about individual missions",
+        "question": "I need comprehensive details about individual missions",
         "intent": "company_mission"
     },
     {
-        "question":  "I want detailed information about each mission",
+        "question": "I want detailed information about each mission",
         "intent": "company_mission"
     },
     {
-        "question":  "Explain each mission in detail",
+        "question": "Explain each mission in detail",
         "intent": "company_mission"
     },
     {
-        "question":  "Tell me about every mission separately",
+        "question": "Tell me about every mission separately",
         "intent": "company_mission"
     },
     {
-        "question":  "Can you elaborate on each of our missions?",
+        "question": "Can you elaborate on each of our missions?",
         "intent": "company_mission"
     },
     {
-        "question":  "List all our missions briefly",
+        "question": "List all our missions briefly",
         "intent": "company_mission"
     },
     {
-        "question":  "Show me the complete mission statement",
+        "question": "Show me the complete mission statement",
         "intent": "company_mission"
     },
     {
-        "question":  "What's our complete mission?",
+        "question": "What's our complete mission?",
         "intent": "company_mission"
     },
     {
-        "question":  "Give me the total mission overview",
+        "question": "Give me the total mission overview",
         "intent": "company_mission"
     },
     {
-        "question":  "Can you provide the entire mission document?",
+        "question": "Can you provide the entire mission document?",
         "intent": "company_mission"
     },
     {
-        "question":  "I want the full mission statement",
+        "question": "I want the full mission statement",
         "intent": "company_mission"
     },
     {
@@ -446,7 +446,7 @@
     {
         "question": "How do employees embody Winning?",
         "intent": "core_value"
-    }, 
+    },
     {
         "question": "How does the company view Respect as a value?",
         "intent": "core_value"
@@ -484,6 +484,990 @@
         "intent": "core_value"
     },
     {
-        
+        "question": "What are the nine principles of our Code of Ethics?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Can you list all nine ethical principles?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Explain the company's nine ethics guidelines",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Tell me more about principle 3 of our ethics policy",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What does principle 5 say in the code of ethics?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Explain ethical principle number 7",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Can you elaborate on principle 1?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What are management responsibilities in the Code of Ethics?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "How does ethics apply to managers?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What ethical expectations do we have from leadership?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Can you provide details about the Code of Ethics?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Explain our ethical conduct policy",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Give me the full ethics guideline",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Give me a brief overview of our ethics",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Summarize our Code of Ethics",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What are the ethics highlights?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What does Principle 1 say?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Tell me about the principle related to Wing's best interests",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Can you explain Principle 1 in detail?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Explain the principle about privacy and confidentiality",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What's in Principle 2?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Can you tell me about the second ethical principle?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What is Principle 3 about?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Tell me about the principle on conflict of interest",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Explain how we manage conflicts of interest",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Can you explain Principle 4?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What does the principle about additional work say?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Tell me about other employment rules in our ethics policy",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What does Principle 5 cover?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Explain the restricted transactions rule",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Tell me about the fifth principle",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What is Principle 6 about?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Tell me about bribery and personal gain in our ethics",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Explain the principle on honesty and integrity",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Can you explain Principle 7?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What is our position on workplace respect and safety?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Tell me about valuing differences and treating others well",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What does Principle 8 refer to?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Tell me about insider trading and investments in our ethics policy",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Explain the eighth principle",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Can you explain Principle 9?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What does our ethics policy say about reporting breaches?",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "Tell me about compliance in our code of ethics",
+        "intent": "conduct_ethics"
+    },
+    {
+        "question": "What behaviors are not allowed in our company?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can you list unacceptable actions at work?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What kind of conduct is prohibited here?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What actions can lead to disciplinary action?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Are there things I must avoid doing as an employee?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What are examples of misconduct at the company?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Tell me what is considered unethical behavior here",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I get a list of things I should never do at work?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What are common violations of our company policy?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What happens if someone breaks the code of conduct?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is harassment considered a violation?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What happens if someone steals company property?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is bribery tolerated at work?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What behaviors are not allowed in our company?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can you list unacceptable actions at work?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What kind of conduct is prohibited here?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What actions can lead to disciplinary action?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Are there things I must avoid doing as an employee?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What are examples of misconduct at the company?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Tell me what's considered unethical behavior here",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I get a list of things I should never do at work?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What are common violations of our company policy?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What happens if someone breaks the code of conduct?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is harassment considered a violation?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What happens if someone steals company property?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is bribery tolerated at work?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What behaviors are not allowed in our company?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can you list unacceptable actions at work?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What kind of conduct is prohibited here?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What actions can lead to disciplinary action?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Are there things I must avoid doing as an employee?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What are examples of misconduct at the company?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Tell me what's considered unethical behavior here.",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I get a list of things I should never do at work?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What are common violations of our company policy?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What happens if someone breaks the code of conduct?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is it okay to share confidential information?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Would lying on official documents be considered misconduct?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I be fired for inappropriate behavior?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What happens if someone is caught stealing?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is harassment considered a serious offense?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Are bribes ever acceptable in any situation?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I use company resources for personal use?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What if someone comes to work under the influence?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is it acceptable to disrespect coworkers?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What are the consequences of leaking private company data?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I work another job without informing the company?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Are romantic relationships at work against policy?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is it okay to argue with a manager in front of others?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is bullying tolerated in the workplace?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What counts as a conflict of interest?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Are there rules about social media behavior?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What is considered a breach of ethics?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I accept gifts from clients or partners?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is discrimination a fireable offense?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I get in trouble for being consistently late?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What are the punishable offenses under our HR policy?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is verbal abuse considered misconduct?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What if someone installs unauthorized software on their work device?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Are there restrictions on political speech at work?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I be disciplined for gossiping about colleagues?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What happens if someone falsifies a time sheet?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Are there penalties for ignoring safety rules?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is it acceptable to share client information with outsiders?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I be punished for accessing restricted files?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is sexual harassment a serious violation?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What if someone watches inappropriate content on a work device?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can I be reported for threatening a coworker?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is being rude to customers considered misconduct?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Are physical fights at work ever tolerated?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Can someone get in trouble for posting about work online?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Is using another employee's login credentials a violation?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "Are we allowed to record meetings without permission?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What's considered illegal or unethical in this company?",
+        "intent": "unacceptable_actions"
+    },
+    {
+        "question": "What types of contracts does the company offer?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can you explain the different employment contracts available?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What is an FDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What does UDC stand for in our company?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How does an FDC work here?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What are the key differences between FDC and UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Which contract is more suitable for long-term employment?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Is it possible to switch from FDC to UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can you tell me more about the fixed duration contract?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How long does a fixed duration contract typically last?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Does an undetermined duration contract have an end date?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are FDCs renewed automatically?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Who qualifies for a UDC at our company?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can interns be offered FDCs?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are there benefits differences between FDC and UDC employees?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How do terminations work under an FDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What happens when an FDC expires?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Do UDC employees get more job security?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can I request to change from FDC to UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are there probation periods for both FDC and UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Is it easier to terminate an FDC than a UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Which contract is better for career progression?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What are the legal differences between UDC and FDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are both contracts covered by labor law?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How many times can an FDC be renewed?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can a contractor be hired under UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What contract do permanent staff have?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are consultants hired under FDC or UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What type of contract do new hires usually receive?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Do UDCs include retirement plans?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Is there a limit on how long someone can stay under FDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How do raises work for FDC vs UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Is there an evaluation process before switching contracts?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can an FDC be terminated early?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What rights do employees have under UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Do UDCs require notice for resignation?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Is training provided equally under both contracts?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How does sick leave differ for FDC and UDC employees?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Do both contracts allow for maternity leave?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are vacation policies the same under UDC and FDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Does the company prefer one type of contract over the other?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can management roles be under FDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Is it possible to have a short-term UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Do bonuses apply to both FDC and UDC staff?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How is performance reviewed under each contract type?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can FDC workers receive promotions?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are contract terms explained before signing?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can a UDC be changed into an FDC later?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What factors determine which contract I get?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Who decides whether an employee gets FDC or UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are FDC employees eligible for end-of-contract bonuses?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How is job stability affected by FDC versus UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Do UDC contracts have a trial period?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can FDC be used for project-based work?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How often are FDCs reviewed or renewed?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Does a UDC require more documentation than an FDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Who approves contract type assignments?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What benefits end when an FDC ends?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are there performance reviews before converting an FDC to UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Do UDCs have annual renewal requirements?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can I negotiate the length of an FDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Is there a cooling-off period after an FDC ends?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are there industry standards on how long an FDC can last?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can UDCs be terminated without cause?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What legal protections apply to each contract type?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can contract terms change during the employment period?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What happens if I resign before my FDC ends?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Is there a cap on total FDC renewals before switching to UDC?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can UDCs be converted to FDCs?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What happens if I want to leave before my FDC ends?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Are there any penalties for ending an FDC early?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How does the company handle contract disputes?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What types of contracts do we have?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What kind of emmployment contracts are available?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Can you tell me about different contracts types?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How many contract types does the company offer?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Tell me breifly about our employment contracts",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Give me a quick overview of our employment contracts",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What are all contracts in short?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Brief summary of our employment contracts",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "I need detrailed about permanent contract",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Tell me about temporary contracts terms",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "Explain part-time contracts conditions",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How can a contract be terminated?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What are the termination procedures?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "How does contract termination work?",
+        "intent": "employment_contracts"
+    },
+    {
+        "question": "What documents do I need to submit before joining wing bank?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Are original documents needed or copies are enough?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What documents do I need for employment?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What paperwork is required before starting work?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Can you list the required documents for employment?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What documnets should I submit?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Who is eligible for employment at Wing Bank?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What are the employment qualifications at Wing Bank?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Tell me about the probation period",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "How long is the probation period?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What are probation requirements?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Can you tell me about the pre-employment period?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What is evaluated during probation?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Can I be terminated during probation?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Will I get benefits during probation?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What happens if I fail my probation?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Can I resign while on probation?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Can the probation period be extended?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Is there a performance review during probation?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Who pays for the pre-employment checkup?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What happens if I fail the medical checkup?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Do probationary employees get time off?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Do foreign employees need additional paperwork?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "When do I need to provide the required documents?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What are the basic eligibility requirements?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Can I upload digital versions of my documents?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What happens if I forget to submit a required document?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Is there a deadline to submit all onboarding paperwork?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Should I bring printed documents on my first day?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Are any forms provided by HR during onboarding?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Do new hires need to sign a confidentiality agreement?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Are internships available to university students?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Will my salary change after probation ends?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Can I apply for internal transfers while on probation?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Can I appeal a failed probation decision?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Where should I go for the health check?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Will my health data be kept confidential?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "What medical conditions could delay my start date?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Do I need to notarize my documents before submission?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Are references part of the required documentation?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Who reviews performance during probation?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Am I eligible to work if I’m still in school?",
+        "intent": "employment_procedures"
+    },
+    {
+        "question": "Are bonuses applicable during probation?",
+        "intent": "employment_procedures"
+    },
+    {
+
     }
 ]
