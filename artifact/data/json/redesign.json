@@ -1468,6 +1468,262 @@
         "intent": "employment_procedures"
     },
     {
-
+        "question": "What procedures should I follow?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What practices are prohibited?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What are the work procedures?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What should I avoid at work?",
+        "intent": "work_procedures"
+    },
+        {
+        "question": "What are the standard work procedures I should follow?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Can you explain the daily workflow for my department?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "How should I report my work progress?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What's the correct way to log work hours?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "How do I properly escalate an issue?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What is the protocol for taking breaks during work?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "How should I handle confidential documents at work?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What's the right way to address a work-related complaint?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Who should I notify if I need to leave early?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What's the procedure for using company equipment?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "How can I contribute to a respectful workplace?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What safety procedures should I follow on the job?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "How do I request a shift change?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What should I do if I witness a violation of policy?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Is there a guideline for dress code or appearance?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What are things I must not do while on the job?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What actions can lead to disciplinary measures?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Am I allowed to use my phone during work hours?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What kind of behavior is unacceptable in the office?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What are the rules around gossip or spreading rumors?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Can I take personal calls while at work?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Is eating at the work desk permitted?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What happens if I miss a deadline without notice?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Am I allowed to access restricted areas?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Can I install software on my work computer?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What should I avoid saying to coworkers or managers?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Is it okay to criticize company policy on social media?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Can I leave my workstation without notifying anyone?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What are the consequences of falsifying work reports?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What workplace behaviors could damage team collaboration?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What are the do's and don'ts at work?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Can you explain the proper way to communicate with my supervisor?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What is considered professional behavior in the office?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What procedures should I follow when taking a sick day?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "How should I prepare for a team meeting?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Am I allowed to delegate my tasks to someone else?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What should I do if I make a mistake in my work?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "How should conflicts between coworkers be handled?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What is the correct way to file a workplace grievance?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Are there any restrictions on personal internet use at work?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What should I avoid during customer interactions?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What are the proper channels for giving feedback?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Can I work remotely without prior approval?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Is it acceptable to eat or drink in work areas?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "How should I maintain a clean and organized workspace?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What are the expectations for responding to work emails?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Are there limits to how much personal data I can store on my work device?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What's the rule about sharing passwords at work?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Can I leave early if I finish my work?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "How do I properly request time off?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What actions are considered violations of work ethics?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What's the proper way to clock in and out of work?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What behavior could result in a warning or termination?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What work habits are discouraged in this company?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Can I listen to music while working?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What is the policy on helping coworkers with their tasks?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Should I report a colleague who isn't following procedures?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Is it okay to challenge a manager's instruction?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "What should I do if I'm unsure about a task?",
+        "intent": "work_procedures"
+    },
+    {
+        "question": "Can I access social media during lunch breaks?",
+        "intent": "work_procedures"
+    },
+    {
+        
     }
 ]
