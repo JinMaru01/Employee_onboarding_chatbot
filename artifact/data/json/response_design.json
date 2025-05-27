@@ -1,0 +1,92 @@
+[
+  {
+    "intent": "company_vision",
+    "responses": [
+      "Our company vision is to innovate and lead the industry with integrity and passion.",
+      "The vision of our company is to create sustainable value for customers and stakeholders.",
+      "Our vision statement focuses on delivering excellence and fostering growth in all areas."
+    ]
+  },
+  {
+    "intent": "core_values",
+    "entities": {
+      "VALUE_NAME": {
+        "Winning": "Winning means striving for the best results through teamwork and perseverance.",
+        "Innovation": "Innovation is at the heart of our company, encouraging creative solutions and new ideas.",
+        "Nurturing": "Nurturing reflects our commitment to supporting employee growth and a positive work environment.",
+        "Growth": "Growth involves continuous improvement and seizing opportunities for advancement.",
+        "Excellence": "Excellence is about delivering high-quality work and exceeding expectations.",
+        "Respect": "Respect means valuing diversity, integrity, and open communication."
+      }
+    },
+    "responses": {
+      "default": "Our core values include Winning, Innovation, Nurturing, Growth, Excellence, and Respect. Would you like to know more about a specific value?"
+    }
+  },
+  {
+    "intent": "ethics_principle",
+    "entities": {
+      "PRINCIPLE_NUMBER": {
+        "1": "Principle 1 emphasizes protecting Wing's best interests and upholding its reputation.",
+        "2": "Principle 2 is about maintaining privacy and confidentiality of information.",
+        "3": "Principle 3 requires identifying and responsibly managing conflicts of interest.",
+        "4": "Principle 4 covers policies on additional employment or work outside the company.",
+        "5": "Principle 5 restricts certain transactions to prevent conflicts or misconduct.",
+        "6": "Principle 6 deals with prohibiting secret commissions, bribery, theft, and personal gain, emphasizing honesty and integrity.",
+        "7": "Principle 7 calls for treating others with respect, valuing diversity, and ensuring a safe workplace.",
+        "8": "Principle 8 addresses investments and insider trading regulations.",
+        "9": "Principle 9 requires compliance with rules and reporting any breaches promptly."
+      }
+    },
+    "responses": {
+      "default": "The code of ethics consists of nine principles guiding our behavior and decision-making."
+    }
+  },
+  {
+    "intent": "unacceptable_actions",
+    "entities": {
+      "ACTION_TYPE": {
+        "harassment": "Harassment of any kind is strictly prohibited and will result in disciplinary action.",
+        "theft": "Theft is a serious violation and grounds for immediate termination.",
+        "discrimination": "Discrimination is not tolerated and goes against our core values.",
+        "fraud": "Fraudulent activities are illegal and will be dealt with severely.",
+        "violence": "Any acts of violence are unacceptable and will lead to termination."
+      }
+    },
+    "responses": {
+      "default": "Unacceptable actions include harassment, theft, discrimination, fraud, and violence. Please follow company policies to maintain a safe work environment."
+    }
+  },
+  {
+    "intent": "contract_types",
+    "entities": {
+      "CONTRACT_TYPE": {
+        "FDC": "A Fixed Duration Contract (FDC) is a contract set for a specific period with a predetermined end date.",
+        "UDC": "An Undetermined Duration Contract (UDC) has no fixed end date and continues until terminated by either party."
+      }
+    },
+    "responses": {
+      "default": "Our company offers two main types of contracts: Fixed Duration Contract and Undetermined Duration Contract."
+    }
+  },
+  {
+    "intent": "employment_requirements",
+    "entities": {
+      "DOCUMENT_TYPE": {
+        "passport": "A valid passport is required as proof of identity for employment.",
+        "id_card": "An official ID card must be submitted during the hiring process.",
+        "visa": "A valid work visa is necessary for non-citizen employees.",
+        "work_permit": "A work permit must be provided to ensure legal employment eligibility."
+      },
+      "ELIGIBILITY_TYPE": {
+        "citizen": "Citizens are eligible for employment without additional documentation.",
+        "resident": "Residents need to provide proof of residency and eligibility to work.",
+        "visa_holder": "Visa holders must have valid visas and permits for employment.",
+        "student": "Students may have restrictions based on their visa or school regulations."
+      }
+    },
+    "responses": {
+      "default": "Employment requirements include valid identification, eligibility to work, and completion of probation periods."
+    }
+  }
+]

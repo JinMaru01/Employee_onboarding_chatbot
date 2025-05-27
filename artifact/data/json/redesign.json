@@ -2189,10 +2189,6 @@
     },
     {
         "intent": "benefit_procedures",
-        "question": "Is COVID-19 treatment covered under our insurance?"
-    },
-    {
-        "intent": "benefit_procedures",
         "question": "What happens to my benefits during unpaid leave?"
     },
     {
