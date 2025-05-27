@@ -1,1729 +1,2818 @@
 [
     {
-        "question": "What is our company vision?",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "What is our company vision?"
     },
     {
-        "question": "Tell me about the company vision",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "Tell me about the company vision"
     },
     {
-        "question": "Can you share our vision statement?",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "Can you share our vision statement?"
     },
     {
-        "question": "What's the vision of this organization?",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "What's the vision of this organization?"
     },
     {
-        "question": "I want comprehensive details about our vision",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "I want comprehensive details about our vision"
     },
     {
-        "question": "Tell me everything about our corporate vision",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "Tell me everything about our corporate vision"
     },
     {
-        "question": "Can you elaborate on our vision statement?",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "Can you elaborate on our vision statement?"
     },
     {
-        "question": "Explain our company vision in detail",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "Explain our company vision in detail"
     },
     {
-        "question": "Tell me about the vision",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "Tell me about the vision"
     },
     {
-        "question": "What is our company vision?",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "What is our company vision?"
     },
     {
-        "question": "I need detailed information about our vision",
-        "intent": "company_vision"
+        "intent": "company_vision",
+        "question": "I need detailed information about our vision"
     },
     {
-        "question": "What's the mission of this organization?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What's the mission of this organization?"
     },
     {
-        "question": "What is our company mission?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What is our company mission?"
     },
     {
-        "question": "Tell me about the company mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about the company mission"
     },
     {
-        "question": "Can you share our mission statement?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Can you share our mission statement?"
     },
     {
-        "question": "What is our company mission?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What is our company mission?"
     },
     {
-        "question": "Tell me about our mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about our mission"
     },
     {
-        "question": "What's our mission statement?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What's our mission statement?"
     },
     {
-        "question": "Can you share the company mission?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Can you share the company mission?"
     },
     {
-        "question": "I want to know our organizational mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "I want to know our organizational mission"
     },
     {
-        "question": "Give me a brief overview of all our missions",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Give me a brief overview of all our missions"
     },
     {
-        "question": "Briefly tell me about all missions",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Briefly tell me about all missions"
     },
     {
-        "question": "What are all our missions in short?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What are all our missions in short?"
     },
     {
-        "question": "Quick summary of all company missions",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Quick summary of all company missions"
     },
     {
-        "question": "I need comprehensive details about individual missions",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "I need comprehensive details about individual missions"
     },
     {
-        "question": "I want detailed information about each mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "I want detailed information about each mission"
     },
     {
-        "question": "Explain each mission in detail",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Explain each mission in detail"
     },
     {
-        "question": "Tell me about every mission separately",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about every mission separately"
     },
     {
-        "question": "Can you elaborate on each of our missions?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Can you elaborate on each of our missions?"
     },
     {
-        "question": "List all our missions briefly",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "List all our missions briefly"
     },
     {
-        "question": "Show me the complete mission statement",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Show me the complete mission statement"
     },
     {
-        "question": "What's our complete mission?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What's our complete mission?"
     },
     {
-        "question": "Give me the total mission overview",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Give me the total mission overview"
     },
     {
-        "question": "Can you provide the entire mission document?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Can you provide the entire mission document?"
     },
     {
-        "question": "I want the full mission statement",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "I want the full mission statement"
     },
     {
-        "question": "Show me the complete mission statement",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Show me the complete mission statement"
     },
     {
-        "question": "Can you share our organizational mission?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Can you share our organizational mission?"
     },
     {
-        "question": "What are our company missions?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What are our company missions?"
     },
     {
-        "question": "Tell me about our mission statement",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about our mission statement"
     },
     {
-        "question": "What is our company mission?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What is our company mission?"
     },
     {
-        "question": "What are our specific mission areas?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What are our specific mission areas?"
     },
     {
-        "question": "I want to know about individual missions",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "I want to know about individual missions"
     },
     {
-        "question": "Explain each mission separately",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Explain each mission separately"
     },
     {
-        "question": "Tell me about all our mission pillars",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about all our mission pillars"
     },
     {
-        "question": "Provide comprehensive details about our mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Provide comprehensive details about our mission"
     },
     {
-        "question": "I want a complete overview of all our missions",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "I want a complete overview of all our missions"
     },
     {
-        "question": "Can you summarize our company mission?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Can you summarize our company mission?"
     },
     {
-        "question": "Give me detailed information about our missions",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Give me detailed information about our missions"
     },
     {
-        "question": "Tell me briefly about our company mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me briefly about our company mission"
     },
     {
-        "question": "Tell me about Customer at the Heart",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about Customer at the Heart"
     },
     {
-        "question": "What does Customer at the Heart mean?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What does Customer at the Heart mean?"
     },
     {
-        "question": "Explain our customer-focused mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Explain our customer-focused mission"
     },
     {
-        "question": "How do we put customers at the heart?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "How do we put customers at the heart?"
     },
     {
-        "question": "What is our customer mission?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What is our customer mission?"
     },
     {
-        "question": "Give me detailed information about Customer at the Heart",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Give me detailed information about Customer at the Heart"
     },
     {
-        "question": "Briefly explain Customer at the Heart mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Briefly explain Customer at the Heart mission"
     },
     {
-        "question": "Tell me everything about our customer focus",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me everything about our customer focus"
     },
     {
-        "question": "What is our social impact mission?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What is our social impact mission?"
     },
     {
-        "question": "How do we serve the community?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "How do we serve the community?"
     },
     {
-        "question": "Explain our community mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Explain our community mission"
     },
     {
-        "question": "What does Community as the Cause mean?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What does Community as the Cause mean?"
     },
     {
-        "question": "Tell me about Community as the Cause",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about Community as the Cause"
     },
     {
-        "question": "What's our impact on society?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What's our impact on society?"
     },
     {
-        "question": "Tell me about our community programs",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about our community programs"
     },
     {
-        "question": "What's our social responsibility?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What's our social responsibility?"
     },
     {
-        "question": "How do we help the community?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "How do we help the community?"
     },
     {
-        "question": "Tell me about Employees as the Pillar",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about Employees as the Pillar"
     },
     {
-        "question": "What does Employees as the Pillar mean?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What does Employees as the Pillar mean?"
     },
     {
-        "question": "Explain our employee mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Explain our employee mission"
     },
     {
-        "question": "How do we support employees?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "How do we support employees?"
     },
     {
-        "question": "Tell me about Deliver Shareholder Value",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about Deliver Shareholder Value"
     },
     {
-        "question": "What does Deliver Shareholder Value mean?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What does Deliver Shareholder Value mean?"
     },
     {
-        "question": "Explain our shareholder mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Explain our shareholder mission"
     },
     {
-        "question": "How do we create shareholder value?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "How do we create shareholder value?"
     },
     {
-        "question": "What's our approach to shareholder returns?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What's our approach to shareholder returns?"
     },
     {
-        "question": "How do we balance stakeholder interests",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "How do we balance stakeholder interests"
     },
     {
-        "question": "Tell me about the first mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about the first mission"
     },
     {
-        "question": "What is the second mission about?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What is the second mission about?"
     },
     {
-        "question": "Explain the third mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Explain the third mission"
     },
     {
-        "question": "What's the fourth mission?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What's the fourth mission?"
     },
     {
-        "question": "Give me detailed information about Customer at the Heart",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Give me detailed information about Customer at the Heart"
     },
     {
-        "question": "Briefly explain Employees as the Pillar",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Briefly explain Employees as the Pillar"
     },
     {
-        "question": "I want complete overview of Community as the Cause",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "I want complete overview of Community as the Cause"
     },
     {
-        "question": "What are all community initiatives?",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "What are all community initiatives?"
     },
     {
-        "question": "Explain each part of the employee mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Explain each part of the employee mission"
     },
     {
-        "question": "Tell me about all customer-related aspects",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me about all customer-related aspects"
     },
     {
-        "question": "Tell me everything about mission number two",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Tell me everything about mission number two"
     },
     {
-        "question": "Briefly explain the third mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Briefly explain the third mission"
     },
     {
-        "question": "Give me detailed information about the first mission",
-        "intent": "company_mission"
+        "intent": "company_mission",
+        "question": "Give me detailed information about the first mission"
     },
     {
-        "question": "What are our core values?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "What are our core values?"
     },
     {
-        "question": "Briefly tell me about all our values",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Briefly tell me about all our values"
     },
     {
-        "question": "I want detailed information about each value",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "I want detailed information about each value"
     },
     {
-        "question": "Explain every value individually",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Explain every value individually"
     },
     {
-        "question": "Tell me about each core value in detail",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Tell me about each core value in detail"
     },
     {
-        "question": "I want to know about our core principles",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "I want to know about our core principles"
     },
     {
-        "question": "What values does this company follow?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "What values does this company follow?"
     },
     {
-        "question": "Can you explain our organizational values?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Can you explain our organizational values?"
     },
     {
-        "question": "Tell me about our company values",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Tell me about our company values"
     },
     {
-        "question": "Give me a brief overview of all values",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Give me a brief overview of all values"
     },
     {
-        "question": "List all our values briefly",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "List all our values briefly"
     },
     {
-        "question": "What are all our core values in short?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "What are all our core values in short?"
     },
     {
-        "question": "Explain our values",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Explain our values"
     },
     {
-        "question": "Tell me about each core value in detail",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Tell me about each core value in detail"
     },
     {
-        "question": "What does Winning mean as a core value?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "What does Winning mean as a core value?"
     },
     {
-        "question": "Is Growth encouraged as a core value?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Is Growth encouraged as a core value?"
     },
     {
-        "question": "What principles are tied to Nurturing?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "What principles are tied to Nurturing?"
     },
     {
-        "question": "What behaviors demonstrate Respect?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "What behaviors demonstrate Respect?"
     },
     {
-        "question": "In what ways do we show Innovation?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "In what ways do we show Innovation?"
     },
     {
-        "question": "Share more about the Growth value",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Share more about the Growth value"
     },
     {
-        "question": "What does the core value Winning stand for?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "What does the core value Winning stand for?"
     },
     {
-        "question": "How does the company promote Excellence?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "How does the company promote Excellence?"
     },
     {
-        "question": "How do employees embody Winning?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "How do employees embody Winning?"
     },
     {
-        "question": "How does the company view Respect as a value?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "How does the company view Respect as a value?"
     },
     {
-        "question": "Why is Excellence important to our culture?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Why is Excellence important to our culture?"
     },
     {
-        "question": "Explain what Nurturing means for our company",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Explain what Nurturing means for our company"
     },
     {
-        "question": "Give me a detailed explanation of Innovation",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Give me a detailed explanation of Innovation"
     },
     {
-        "question": "Please explain the meaning of Respect in our values",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Please explain the meaning of Respect in our values"
     },
     {
-        "question": "How do we define Excellence in our core values?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "How do we define Excellence in our core values?"
     },
     {
-        "question": "Tell me about Growth as a company value",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Tell me about Growth as a company value"
     },
     {
-        "question": "What do we mean by Nurturing in our values?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "What do we mean by Nurturing in our values?"
     },
     {
-        "question": "Can you explain the value of Innovation?",
-        "intent": "core_value"
+        "intent": "core_value",
+        "question": "Can you explain the value of Innovation?"
     },
     {
-        "question": "What are the nine principles of our Code of Ethics?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What are the nine principles of our Code of Ethics?"
     },
     {
-        "question": "Can you list all nine ethical principles?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Can you list all nine ethical principles?"
     },
     {
-        "question": "Explain the company's nine ethics guidelines",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Explain the company's nine ethics guidelines"
     },
     {
-        "question": "Tell me more about principle 3 of our ethics policy",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Tell me more about principle 3 of our ethics policy"
     },
     {
-        "question": "What does principle 5 say in the code of ethics?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What does principle 5 say in the code of ethics?"
     },
     {
-        "question": "Explain ethical principle number 7",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Explain ethical principle number 7"
     },
     {
-        "question": "Can you elaborate on principle 1?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Can you elaborate on principle 1?"
     },
     {
-        "question": "What are management responsibilities in the Code of Ethics?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What are management responsibilities in the Code of Ethics?"
     },
     {
-        "question": "How does ethics apply to managers?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "How does ethics apply to managers?"
     },
     {
-        "question": "What ethical expectations do we have from leadership?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What ethical expectations do we have from leadership?"
     },
     {
-        "question": "Can you provide details about the Code of Ethics?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Can you provide details about the Code of Ethics?"
     },
     {
-        "question": "Explain our ethical conduct policy",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Explain our ethical conduct policy"
     },
     {
-        "question": "Give me the full ethics guideline",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Give me the full ethics guideline"
     },
     {
-        "question": "Give me a brief overview of our ethics",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Give me a brief overview of our ethics"
     },
     {
-        "question": "Summarize our Code of Ethics",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Summarize our Code of Ethics"
     },
     {
-        "question": "What are the ethics highlights?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What are the ethics highlights?"
     },
     {
-        "question": "What does Principle 1 say?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What does Principle 1 say?"
     },
     {
-        "question": "Tell me about the principle related to Wing's best interests",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Tell me about the principle related to Wing's best interests"
     },
     {
-        "question": "Can you explain Principle 1 in detail?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Can you explain Principle 1 in detail?"
     },
     {
-        "question": "Explain the principle about privacy and confidentiality",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Explain the principle about privacy and confidentiality"
     },
     {
-        "question": "What's in Principle 2?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What's in Principle 2?"
     },
     {
-        "question": "Can you tell me about the second ethical principle?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Can you tell me about the second ethical principle?"
     },
     {
-        "question": "What is Principle 3 about?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What is Principle 3 about?"
     },
     {
-        "question": "Tell me about the principle on conflict of interest",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Tell me about the principle on conflict of interest"
     },
     {
-        "question": "Explain how we manage conflicts of interest",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Explain how we manage conflicts of interest"
     },
     {
-        "question": "Can you explain Principle 4?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Can you explain Principle 4?"
     },
     {
-        "question": "What does the principle about additional work say?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What does the principle about additional work say?"
     },
     {
-        "question": "Tell me about other employment rules in our ethics policy",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Tell me about other employment rules in our ethics policy"
     },
     {
-        "question": "What does Principle 5 cover?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What does Principle 5 cover?"
     },
     {
-        "question": "Explain the restricted transactions rule",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Explain the restricted transactions rule"
     },
     {
-        "question": "Tell me about the fifth principle",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Tell me about the fifth principle"
     },
     {
-        "question": "What is Principle 6 about?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What is Principle 6 about?"
     },
     {
-        "question": "Tell me about bribery and personal gain in our ethics",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Tell me about bribery and personal gain in our ethics"
     },
     {
-        "question": "Explain the principle on honesty and integrity",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Explain the principle on honesty and integrity"
     },
     {
-        "question": "Can you explain Principle 7?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Can you explain Principle 7?"
     },
     {
-        "question": "What is our position on workplace respect and safety?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What is our position on workplace respect and safety?"
     },
     {
-        "question": "Tell me about valuing differences and treating others well",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Tell me about valuing differences and treating others well"
     },
     {
-        "question": "What does Principle 8 refer to?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What does Principle 8 refer to?"
     },
     {
-        "question": "Tell me about insider trading and investments in our ethics policy",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Tell me about insider trading and investments in our ethics policy"
     },
     {
-        "question": "Explain the eighth principle",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Explain the eighth principle"
     },
     {
-        "question": "Can you explain Principle 9?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Can you explain Principle 9?"
     },
     {
-        "question": "What does our ethics policy say about reporting breaches?",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "What does our ethics policy say about reporting breaches?"
     },
     {
-        "question": "Tell me about compliance in our code of ethics",
-        "intent": "conduct_ethics"
+        "intent": "conduct_ethics",
+        "question": "Tell me about compliance in our code of ethics"
     },
     {
-        "question": "What behaviors are not allowed in our company?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What behaviors are not allowed in our company?"
     },
     {
-        "question": "Can you list unacceptable actions at work?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can you list unacceptable actions at work?"
     },
     {
-        "question": "What kind of conduct is prohibited here?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What kind of conduct is prohibited here?"
     },
     {
-        "question": "What actions can lead to disciplinary action?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What actions can lead to disciplinary action?"
     },
     {
-        "question": "Are there things I must avoid doing as an employee?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Are there things I must avoid doing as an employee?"
     },
     {
-        "question": "What are examples of misconduct at the company?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What are examples of misconduct at the company?"
     },
     {
-        "question": "Tell me what is considered unethical behavior here",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Tell me what is considered unethical behavior here"
     },
     {
-        "question": "Can I get a list of things I should never do at work?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I get a list of things I should never do at work?"
     },
     {
-        "question": "What are common violations of our company policy?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What are common violations of our company policy?"
     },
     {
-        "question": "What happens if someone breaks the code of conduct?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What happens if someone breaks the code of conduct?"
     },
     {
-        "question": "Is harassment considered a violation?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is harassment considered a violation?"
     },
     {
-        "question": "What happens if someone steals company property?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What happens if someone steals company property?"
     },
     {
-        "question": "Is bribery tolerated at work?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is bribery tolerated at work?"
     },
     {
-        "question": "What behaviors are not allowed in our company?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What behaviors are not allowed in our company?"
     },
     {
-        "question": "Can you list unacceptable actions at work?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can you list unacceptable actions at work?"
     },
     {
-        "question": "What kind of conduct is prohibited here?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What kind of conduct is prohibited here?"
     },
     {
-        "question": "What actions can lead to disciplinary action?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What actions can lead to disciplinary action?"
     },
     {
-        "question": "Are there things I must avoid doing as an employee?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Are there things I must avoid doing as an employee?"
     },
     {
-        "question": "What are examples of misconduct at the company?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What are examples of misconduct at the company?"
     },
     {
-        "question": "Tell me what's considered unethical behavior here",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Tell me what's considered unethical behavior here"
     },
     {
-        "question": "Can I get a list of things I should never do at work?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I get a list of things I should never do at work?"
     },
     {
-        "question": "What are common violations of our company policy?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What are common violations of our company policy?"
     },
     {
-        "question": "What happens if someone breaks the code of conduct?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What happens if someone breaks the code of conduct?"
     },
     {
-        "question": "Is harassment considered a violation?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is harassment considered a violation?"
     },
     {
-        "question": "What happens if someone steals company property?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What happens if someone steals company property?"
     },
     {
-        "question": "Is bribery tolerated at work?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is bribery tolerated at work?"
     },
     {
-        "question": "What behaviors are not allowed in our company?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What behaviors are not allowed in our company?"
     },
     {
-        "question": "Can you list unacceptable actions at work?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can you list unacceptable actions at work?"
     },
     {
-        "question": "What kind of conduct is prohibited here?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What kind of conduct is prohibited here?"
     },
     {
-        "question": "What actions can lead to disciplinary action?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What actions can lead to disciplinary action?"
     },
     {
-        "question": "Are there things I must avoid doing as an employee?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Are there things I must avoid doing as an employee?"
     },
     {
-        "question": "What are examples of misconduct at the company?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What are examples of misconduct at the company?"
     },
     {
-        "question": "Tell me what's considered unethical behavior here.",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Tell me what's considered unethical behavior here."
     },
     {
-        "question": "Can I get a list of things I should never do at work?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I get a list of things I should never do at work?"
     },
     {
-        "question": "What are common violations of our company policy?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What are common violations of our company policy?"
     },
     {
-        "question": "What happens if someone breaks the code of conduct?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What happens if someone breaks the code of conduct?"
     },
     {
-        "question": "Is it okay to share confidential information?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is it okay to share confidential information?"
     },
     {
-        "question": "Would lying on official documents be considered misconduct?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Would lying on official documents be considered misconduct?"
     },
     {
-        "question": "Can I be fired for inappropriate behavior?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I be fired for inappropriate behavior?"
     },
     {
-        "question": "What happens if someone is caught stealing?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What happens if someone is caught stealing?"
     },
     {
-        "question": "Is harassment considered a serious offense?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is harassment considered a serious offense?"
     },
     {
-        "question": "Are bribes ever acceptable in any situation?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Are bribes ever acceptable in any situation?"
     },
     {
-        "question": "Can I use company resources for personal use?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I use company resources for personal use?"
     },
     {
-        "question": "What if someone comes to work under the influence?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What if someone comes to work under the influence?"
     },
     {
-        "question": "Is it acceptable to disrespect coworkers?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is it acceptable to disrespect coworkers?"
     },
     {
-        "question": "What are the consequences of leaking private company data?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What are the consequences of leaking private company data?"
     },
     {
-        "question": "Can I work another job without informing the company?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I work another job without informing the company?"
     },
     {
-        "question": "Are romantic relationships at work against policy?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Are romantic relationships at work against policy?"
     },
     {
-        "question": "Is it okay to argue with a manager in front of others?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is it okay to argue with a manager in front of others?"
     },
     {
-        "question": "Is bullying tolerated in the workplace?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is bullying tolerated in the workplace?"
     },
     {
-        "question": "What counts as a conflict of interest?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What counts as a conflict of interest?"
     },
     {
-        "question": "Are there rules about social media behavior?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Are there rules about social media behavior?"
     },
     {
-        "question": "What is considered a breach of ethics?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What is considered a breach of ethics?"
     },
     {
-        "question": "Can I accept gifts from clients or partners?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I accept gifts from clients or partners?"
     },
     {
-        "question": "Is discrimination a fireable offense?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is discrimination a fireable offense?"
     },
     {
-        "question": "Can I get in trouble for being consistently late?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I get in trouble for being consistently late?"
     },
     {
-        "question": "What are the punishable offenses under our HR policy?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What are the punishable offenses under our HR policy?"
     },
     {
-        "question": "Is verbal abuse considered misconduct?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is verbal abuse considered misconduct?"
     },
     {
-        "question": "What if someone installs unauthorized software on their work device?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What if someone installs unauthorized software on their work device?"
     },
     {
-        "question": "Are there restrictions on political speech at work?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Are there restrictions on political speech at work?"
     },
     {
-        "question": "Can I be disciplined for gossiping about colleagues?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I be disciplined for gossiping about colleagues?"
     },
     {
-        "question": "What happens if someone falsifies a time sheet?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What happens if someone falsifies a time sheet?"
     },
     {
-        "question": "Are there penalties for ignoring safety rules?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Are there penalties for ignoring safety rules?"
     },
     {
-        "question": "Is it acceptable to share client information with outsiders?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is it acceptable to share client information with outsiders?"
     },
     {
-        "question": "Can I be punished for accessing restricted files?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I be punished for accessing restricted files?"
     },
     {
-        "question": "Is sexual harassment a serious violation?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is sexual harassment a serious violation?"
     },
     {
-        "question": "What if someone watches inappropriate content on a work device?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What if someone watches inappropriate content on a work device?"
     },
     {
-        "question": "Can I be reported for threatening a coworker?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can I be reported for threatening a coworker?"
     },
     {
-        "question": "Is being rude to customers considered misconduct?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is being rude to customers considered misconduct?"
     },
     {
-        "question": "Are physical fights at work ever tolerated?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Are physical fights at work ever tolerated?"
     },
     {
-        "question": "Can someone get in trouble for posting about work online?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Can someone get in trouble for posting about work online?"
     },
     {
-        "question": "Is using another employee's login credentials a violation?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Is using another employee's login credentials a violation?"
     },
     {
-        "question": "Are we allowed to record meetings without permission?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "Are we allowed to record meetings without permission?"
     },
     {
-        "question": "What's considered illegal or unethical in this company?",
-        "intent": "unacceptable_actions"
+        "intent": "unacceptable_actions",
+        "question": "What's considered illegal or unethical in this company?"
     },
     {
-        "question": "What types of contracts does the company offer?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What types of contracts does the company offer?"
     },
     {
-        "question": "Can you explain the different employment contracts available?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can you explain the different employment contracts available?"
     },
     {
-        "question": "What is an FDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What is an FDC?"
     },
     {
-        "question": "What does UDC stand for in our company?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What does UDC stand for in our company?"
     },
     {
-        "question": "How does an FDC work here?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How does an FDC work here?"
     },
     {
-        "question": "What are the key differences between FDC and UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What are the key differences between FDC and UDC?"
     },
     {
-        "question": "Which contract is more suitable for long-term employment?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Which contract is more suitable for long-term employment?"
     },
     {
-        "question": "Is it possible to switch from FDC to UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Is it possible to switch from FDC to UDC?"
     },
     {
-        "question": "Can you tell me more about the fixed duration contract?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can you tell me more about the fixed duration contract?"
     },
     {
-        "question": "How long does a fixed duration contract typically last?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How long does a fixed duration contract typically last?"
     },
     {
-        "question": "Does an undetermined duration contract have an end date?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Does an undetermined duration contract have an end date?"
     },
     {
-        "question": "Are FDCs renewed automatically?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are FDCs renewed automatically?"
     },
     {
-        "question": "Who qualifies for a UDC at our company?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Who qualifies for a UDC at our company?"
     },
     {
-        "question": "Can interns be offered FDCs?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can interns be offered FDCs?"
     },
     {
-        "question": "Are there benefits differences between FDC and UDC employees?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are there benefits differences between FDC and UDC employees?"
     },
     {
-        "question": "How do terminations work under an FDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How do terminations work under an FDC?"
     },
     {
-        "question": "What happens when an FDC expires?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What happens when an FDC expires?"
     },
     {
-        "question": "Do UDC employees get more job security?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Do UDC employees get more job security?"
     },
     {
-        "question": "Can I request to change from FDC to UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can I request to change from FDC to UDC?"
     },
     {
-        "question": "Are there probation periods for both FDC and UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are there probation periods for both FDC and UDC?"
     },
     {
-        "question": "Is it easier to terminate an FDC than a UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Is it easier to terminate an FDC than a UDC?"
     },
     {
-        "question": "Which contract is better for career progression?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Which contract is better for career progression?"
     },
     {
-        "question": "What are the legal differences between UDC and FDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What are the legal differences between UDC and FDC?"
     },
     {
-        "question": "Are both contracts covered by labor law?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are both contracts covered by labor law?"
     },
     {
-        "question": "How many times can an FDC be renewed?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How many times can an FDC be renewed?"
     },
     {
-        "question": "Can a contractor be hired under UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can a contractor be hired under UDC?"
     },
     {
-        "question": "What contract do permanent staff have?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What contract do permanent staff have?"
     },
     {
-        "question": "Are consultants hired under FDC or UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are consultants hired under FDC or UDC?"
     },
     {
-        "question": "What type of contract do new hires usually receive?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What type of contract do new hires usually receive?"
     },
     {
-        "question": "Do UDCs include retirement plans?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Do UDCs include retirement plans?"
     },
     {
-        "question": "Is there a limit on how long someone can stay under FDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Is there a limit on how long someone can stay under FDC?"
     },
     {
-        "question": "How do raises work for FDC vs UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How do raises work for FDC vs UDC?"
     },
     {
-        "question": "Is there an evaluation process before switching contracts?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Is there an evaluation process before switching contracts?"
     },
     {
-        "question": "Can an FDC be terminated early?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can an FDC be terminated early?"
     },
     {
-        "question": "What rights do employees have under UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What rights do employees have under UDC?"
     },
     {
-        "question": "Do UDCs require notice for resignation?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Do UDCs require notice for resignation?"
     },
     {
-        "question": "Is training provided equally under both contracts?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Is training provided equally under both contracts?"
     },
     {
-        "question": "How does sick leave differ for FDC and UDC employees?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How does sick leave differ for FDC and UDC employees?"
     },
     {
-        "question": "Do both contracts allow for maternity leave?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Do both contracts allow for maternity leave?"
     },
     {
-        "question": "Are vacation policies the same under UDC and FDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are vacation policies the same under UDC and FDC?"
     },
     {
-        "question": "Does the company prefer one type of contract over the other?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Does the company prefer one type of contract over the other?"
     },
     {
-        "question": "Can management roles be under FDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can management roles be under FDC?"
     },
     {
-        "question": "Is it possible to have a short-term UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Is it possible to have a short-term UDC?"
     },
     {
-        "question": "Do bonuses apply to both FDC and UDC staff?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Do bonuses apply to both FDC and UDC staff?"
     },
     {
-        "question": "How is performance reviewed under each contract type?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How is performance reviewed under each contract type?"
     },
     {
-        "question": "Can FDC workers receive promotions?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can FDC workers receive promotions?"
     },
     {
-        "question": "Are contract terms explained before signing?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are contract terms explained before signing?"
     },
     {
-        "question": "Can a UDC be changed into an FDC later?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can a UDC be changed into an FDC later?"
     },
     {
-        "question": "What factors determine which contract I get?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What factors determine which contract I get?"
     },
     {
-        "question": "Who decides whether an employee gets FDC or UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Who decides whether an employee gets FDC or UDC?"
     },
     {
-        "question": "Are FDC employees eligible for end-of-contract bonuses?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are FDC employees eligible for end-of-contract bonuses?"
     },
     {
-        "question": "How is job stability affected by FDC versus UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How is job stability affected by FDC versus UDC?"
     },
     {
-        "question": "Do UDC contracts have a trial period?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Do UDC contracts have a trial period?"
     },
     {
-        "question": "Can FDC be used for project-based work?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can FDC be used for project-based work?"
     },
     {
-        "question": "How often are FDCs reviewed or renewed?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How often are FDCs reviewed or renewed?"
     },
     {
-        "question": "Does a UDC require more documentation than an FDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Does a UDC require more documentation than an FDC?"
     },
     {
-        "question": "Who approves contract type assignments?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Who approves contract type assignments?"
     },
     {
-        "question": "What benefits end when an FDC ends?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What benefits end when an FDC ends?"
     },
     {
-        "question": "Are there performance reviews before converting an FDC to UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are there performance reviews before converting an FDC to UDC?"
     },
     {
-        "question": "Do UDCs have annual renewal requirements?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Do UDCs have annual renewal requirements?"
     },
     {
-        "question": "Can I negotiate the length of an FDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can I negotiate the length of an FDC?"
     },
     {
-        "question": "Is there a cooling-off period after an FDC ends?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Is there a cooling-off period after an FDC ends?"
     },
     {
-        "question": "Are there industry standards on how long an FDC can last?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are there industry standards on how long an FDC can last?"
     },
     {
-        "question": "Can UDCs be terminated without cause?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can UDCs be terminated without cause?"
     },
     {
-        "question": "What legal protections apply to each contract type?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What legal protections apply to each contract type?"
     },
     {
-        "question": "Can contract terms change during the employment period?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can contract terms change during the employment period?"
     },
     {
-        "question": "What happens if I resign before my FDC ends?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What happens if I resign before my FDC ends?"
     },
     {
-        "question": "Is there a cap on total FDC renewals before switching to UDC?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Is there a cap on total FDC renewals before switching to UDC?"
     },
     {
-        "question": "Can UDCs be converted to FDCs?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can UDCs be converted to FDCs?"
     },
     {
-        "question": "What happens if I want to leave before my FDC ends?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What happens if I want to leave before my FDC ends?"
     },
     {
-        "question": "Are there any penalties for ending an FDC early?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Are there any penalties for ending an FDC early?"
     },
     {
-        "question": "How does the company handle contract disputes?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How does the company handle contract disputes?"
     },
     {
-        "question": "What types of contracts do we have?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What types of contracts do we have?"
     },
     {
-        "question": "What kind of emmployment contracts are available?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What kind of emmployment contracts are available?"
     },
     {
-        "question": "Can you tell me about different contracts types?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Can you tell me about different contracts types?"
     },
     {
-        "question": "How many contract types does the company offer?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How many contract types does the company offer?"
     },
     {
-        "question": "Tell me breifly about our employment contracts",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Tell me breifly about our employment contracts"
     },
     {
-        "question": "Give me a quick overview of our employment contracts",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Give me a quick overview of our employment contracts"
     },
     {
-        "question": "What are all contracts in short?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What are all contracts in short?"
     },
     {
-        "question": "Brief summary of our employment contracts",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Brief summary of our employment contracts"
     },
     {
-        "question": "I need detrailed about permanent contract",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "I need detrailed about permanent contract"
     },
     {
-        "question": "Tell me about temporary contracts terms",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Tell me about temporary contracts terms"
     },
     {
-        "question": "Explain part-time contracts conditions",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "Explain part-time contracts conditions"
     },
     {
-        "question": "How can a contract be terminated?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How can a contract be terminated?"
     },
     {
-        "question": "What are the termination procedures?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "What are the termination procedures?"
     },
     {
-        "question": "How does contract termination work?",
-        "intent": "employment_contracts"
+        "intent": "employment_contracts",
+        "question": "How does contract termination work?"
     },
     {
-        "question": "What documents do I need to submit before joining wing bank?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What documents do I need to submit before joining wing bank?"
     },
     {
-        "question": "Are original documents needed or copies are enough?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Are original documents needed or copies are enough?"
     },
     {
-        "question": "What documents do I need for employment?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What documents do I need for employment?"
     },
     {
-        "question": "What paperwork is required before starting work?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What paperwork is required before starting work?"
     },
     {
-        "question": "Can you list the required documents for employment?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Can you list the required documents for employment?"
     },
     {
-        "question": "What documnets should I submit?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What documnets should I submit?"
     },
     {
-        "question": "Who is eligible for employment at Wing Bank?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Who is eligible for employment at Wing Bank?"
     },
     {
-        "question": "What are the employment qualifications at Wing Bank?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What are the employment qualifications at Wing Bank?"
     },
     {
-        "question": "Tell me about the probation period",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Tell me about the probation period"
     },
     {
-        "question": "How long is the probation period?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "How long is the probation period?"
     },
     {
-        "question": "What are probation requirements?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What are probation requirements?"
     },
     {
-        "question": "Can you tell me about the pre-employment period?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Can you tell me about the pre-employment period?"
     },
     {
-        "question": "What is evaluated during probation?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What is evaluated during probation?"
     },
     {
-        "question": "Can I be terminated during probation?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Can I be terminated during probation?"
     },
     {
-        "question": "Will I get benefits during probation?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Will I get benefits during probation?"
     },
     {
-        "question": "What happens if I fail my probation?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What happens if I fail my probation?"
     },
     {
-        "question": "Can I resign while on probation?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Can I resign while on probation?"
     },
     {
-        "question": "Can the probation period be extended?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Can the probation period be extended?"
     },
     {
-        "question": "Is there a performance review during probation?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Is there a performance review during probation?"
     },
     {
-        "question": "Who pays for the pre-employment checkup?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Who pays for the pre-employment checkup?"
     },
     {
-        "question": "What happens if I fail the medical checkup?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What happens if I fail the medical checkup?"
     },
     {
-        "question": "Do probationary employees get time off?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Do probationary employees get time off?"
     },
     {
-        "question": "Do foreign employees need additional paperwork?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Do foreign employees need additional paperwork?"
     },
     {
-        "question": "When do I need to provide the required documents?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "When do I need to provide the required documents?"
     },
     {
-        "question": "What are the basic eligibility requirements?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What are the basic eligibility requirements?"
     },
     {
-        "question": "Can I upload digital versions of my documents?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Can I upload digital versions of my documents?"
     },
     {
-        "question": "What happens if I forget to submit a required document?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What happens if I forget to submit a required document?"
     },
     {
-        "question": "Is there a deadline to submit all onboarding paperwork?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Is there a deadline to submit all onboarding paperwork?"
     },
     {
-        "question": "Should I bring printed documents on my first day?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Should I bring printed documents on my first day?"
     },
     {
-        "question": "Are any forms provided by HR during onboarding?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Are any forms provided by HR during onboarding?"
     },
     {
-        "question": "Do new hires need to sign a confidentiality agreement?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Do new hires need to sign a confidentiality agreement?"
     },
     {
-        "question": "Are internships available to university students?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Are internships available to university students?"
     },
     {
-        "question": "Will my salary change after probation ends?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Will my salary change after probation ends?"
     },
     {
-        "question": "Can I apply for internal transfers while on probation?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Can I apply for internal transfers while on probation?"
     },
     {
-        "question": "Can I appeal a failed probation decision?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Can I appeal a failed probation decision?"
     },
     {
-        "question": "Where should I go for the health check?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Where should I go for the health check?"
     },
     {
-        "question": "Will my health data be kept confidential?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Will my health data be kept confidential?"
     },
     {
-        "question": "What medical conditions could delay my start date?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "What medical conditions could delay my start date?"
     },
     {
-        "question": "Do I need to notarize my documents before submission?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Do I need to notarize my documents before submission?"
     },
     {
-        "question": "Are references part of the required documentation?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Are references part of the required documentation?"
     },
     {
-        "question": "Who reviews performance during probation?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Who reviews performance during probation?"
     },
     {
-        "question": "Am I eligible to work if I’m still in school?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Am I eligible to work if I’m still in school?"
     },
     {
-        "question": "Are bonuses applicable during probation?",
-        "intent": "employment_procedures"
+        "intent": "employment_procedures",
+        "question": "Are bonuses applicable during probation?"
     },
     {
-        "question": "What procedures should I follow?",
-        "intent": "work_procedures"
+        "intent": "work_procedures",
+        "question": "What procedures should I follow?"
     },
     {
-        "question": "What practices are prohibited?",
-        "intent": "work_procedures"
+        "intent": "work_procedures",
+        "question": "What practices are prohibited?"
     },
     {
-        "question": "What are the work procedures?",
-        "intent": "work_procedures"
+        "intent": "work_procedures",
+        "question": "What are the work procedures?"
     },
     {
-        "question": "What should I avoid at work?",
-        "intent": "work_procedures"
+        "intent": "work_procedures",
+        "question": "What should I avoid at work?"
     },
-        {
-        "question": "What are the standard work procedures I should follow?",
-        "intent": "work_procedures"
+    {
+        "intent": "work_procedures",
+        "question": "What are the standard work procedures I should follow?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can you explain the daily workflow for my department?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How should I report my work progress?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What's the correct way to log work hours?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How do I properly escalate an issue?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What is the protocol for taking breaks during work?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How should I handle confidential documents at work?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What's the right way to address a work-related complaint?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Who should I notify if I need to leave early?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What's the procedure for using company equipment?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How can I contribute to a respectful workplace?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What safety procedures should I follow on the job?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How do I request a shift change?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What should I do if I witness a violation of policy?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Is there a guideline for dress code or appearance?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What are things I must not do while on the job?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What actions can lead to disciplinary measures?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Am I allowed to use my phone during work hours?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What kind of behavior is unacceptable in the office?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What are the rules around gossip or spreading rumors?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can I take personal calls while at work?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Is eating at the work desk permitted?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What happens if I miss a deadline without notice?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Am I allowed to access restricted areas?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can I install software on my work computer?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What should I avoid saying to coworkers or managers?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Is it okay to criticize company policy on social media?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can I leave my workstation without notifying anyone?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What are the consequences of falsifying work reports?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What workplace behaviors could damage team collaboration?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What are the do's and don'ts at work?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can you explain the proper way to communicate with my supervisor?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What is considered professional behavior in the office?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What procedures should I follow when taking a sick day?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How should I prepare for a team meeting?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Am I allowed to delegate my tasks to someone else?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What should I do if I make a mistake in my work?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How should conflicts between coworkers be handled?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What is the correct way to file a workplace grievance?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Are there any restrictions on personal internet use at work?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What should I avoid during customer interactions?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What are the proper channels for giving feedback?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can I work remotely without prior approval?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Is it acceptable to eat or drink in work areas?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How should I maintain a clean and organized workspace?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What are the expectations for responding to work emails?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Are there limits to how much personal data I can store on my work device?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What's the rule about sharing passwords at work?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can I leave early if I finish my work?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How do I properly request time off?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What actions are considered violations of work ethics?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What's the proper way to clock in and out of work?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What behavior could result in a warning or termination?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What work habits are discouraged in this company?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can I listen to music while working?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What is the policy on helping coworkers with their tasks?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Should I report a colleague who isn't following procedures?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Is it okay to challenge a manager's instruction?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What should I do if I'm unsure about a task?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can I access social media during lunch breaks?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How is discipline managed?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What happens with serious misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What are my appeal rights?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How can I appeal a disciplinary action?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What is the company's disciplinary policy?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can you explain the steps in the disciplinary process?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How are misconduct cases handled here?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What are the principles behind the disciplinary procedure?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What happens if I commit a policy violation?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How does the company differentiate between minor and serious misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What actions are considered minor misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can you give examples of moderate misconduct at work?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What kind of behavior is classified as serious misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How many warnings are given before disciplinary action is taken?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What's the usual procedure if someone is reported for misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Are there any consequences for being late to work regularly?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Is fighting at work considered serious misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can inappropriate language at work lead to disciplinary action?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What happens if I miss a deadline without notifying my manager?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How is theft handled under the disciplinary policy?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Is gossiping or spreading rumors a disciplinary issue?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What is the escalation process for repeated minor misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Does the company allow for an appeal after disciplinary action?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can I be terminated without a warning for serious misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Are there written rules about employee behavior?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Who should I report to if I witness misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What's the penalty for breaching confidentiality?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can failing a pre-employment check lead to disciplinary action?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Is violating the code of ethics considered misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How are disciplinary actions documented?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Is suspension a part of the disciplinary process?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What support is offered to employees under investigation?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can someone be disciplined for off-duty behavior?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How does HR determine the level of misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Who is responsible for enforcing the disciplinary rules?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What rights do employees have during a disciplinary process?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What should I do if I receive a disciplinary warning?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Does the company follow a three-strike rule for discipline?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Are verbal warnings recorded in my employee file?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How long do disciplinary warnings stay on record?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can I have a representative during a disciplinary meeting?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What role does HR play in a disciplinary case?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What are my options if I feel a disciplinary decision was unfair?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What is considered insubordination in the workplace?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Are all employees treated the same under the disciplinary policy?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What is the procedure for reporting misconduct anonymously?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Does the disciplinary policy apply to managers too?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can a disciplinary issue affect my chances of promotion?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "How do I know if an action is against company conduct rules?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Is misuse of company resources considered misconduct?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Are there different consequences for first-time vs. repeat offenses?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "What is the timeline for resolving a disciplinary issue?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Are there training sessions on company disciplinary rules?"
+    },
+    {
+        "intent": "work_procedures",
+        "question": "Can policy violations lead to legal consequences for employees?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "What are the conditions to apply for overtime?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "What benefits do I get for overtime?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "How is overtime calculated?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "When can I work overtime?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Can I work overtime on weekends?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "What about overtime during holidays?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Is night shift overtime different?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "How does weekday overtime work?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "What is the overtime pay rate?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Do I get meal allowance for overtime?What are the requirements to apply for overtime?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "How do I know if I'm eligible for overtime work?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Can part-time employees apply for overtime?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Do I need approval before working overtime?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Who approves overtime requests in the company?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "What\u2019s the process for submitting an overtime request?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Is overtime allowed during weekends or holidays?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "What are the conditions for working overtime hours?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "How is overtime compensation calculated?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Do I get paid extra for working overtime?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "How much do I earn for working after hours?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Is there a limit to how many overtime hours I can work?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Do I receive time-off instead of pay for overtime?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "What are the benefits of doing overtime work?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Do overtime hours affect my performance review?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Is food or transportation provided during overtime?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "When will I receive payment for overtime work?"
+    },
+    {
+        "intent": "overtime_procedures",
+        "question": "Are all departments eligible for overtime pay?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What benefits are included in my salary package?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Can you explain the insurance coverage I get from the company?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Do we have health insurance provided by the company?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What kind of insurance does the company offer to employees?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Is dental or vision insurance included in our benefits?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "How does the company support employees' medical expenses?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Are family members covered by our health insurance?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What salary benefits do new employees receive?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Is there any performance-based bonus in the salary package?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Do we receive annual salary increments?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Can I get a breakdown of the salary and benefit components?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What is covered under the company's accident insurance?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Are we covered if we get sick or hospitalized?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Do part-time employees receive any insurance benefits?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "When do insurance benefits start after joining?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Is maternity insurance covered in our health plan?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What happens to my insurance if I resign?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Is life insurance part of the employee benefits?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Are insurance premiums deducted from our salary?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Do we get retirement or pension-related benefits?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Does the company provide a 13th-month salary?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Are there any allowances included in the salary?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What types of bonuses are offered to employees?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Is overtime pay part of our salary benefits?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "How are salary increases determined each year?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Is there a salary review policy in place?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Do we get fuel or transport allowance in our salary?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Are there performance bonuses or incentives?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Does the insurance include outpatient treatment?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Do we get private hospital access under company insurance?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What benefits do we receive if we're hospitalized?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Is mental health treatment covered under our insurance?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Are pre-existing conditions covered in the health plan?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Do interns or contract staff get insurance benefits?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What should I do to claim insurance for a medical emergency?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Is COVID-19 treatment covered under our insurance?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What happens to my benefits during unpaid leave?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Does our salary package include mobile or communication allowance?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Do we get any relocation benefits?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What are the key components of our employee compensation package?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "How can I get a salary increase?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "How are taxes paid on salary?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Tell me about bonuses"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "When do I get my bonus?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Tell me about bonus calculation"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "How is overtime pay determined?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "What are allowance policies?"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Explain base salary structure"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Give me detailed information about bonus structure"
+    },
+    {
+        "intent": "benefit_procedures",
+        "question": "Briefly explain overtime calculations"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "How does the promotion process work in our company?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "What are the requirements for getting promoted?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "How often do promotion reviews take place?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "What factors are considered for promotion?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Is there a specific performance rating needed for promotion?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Do I need to apply for a promotion or is it automatic?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Who decides whether an employee should be promoted?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "What role does the manager play in the promotion process?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Can employees appeal if they are not promoted?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are promotions linked to annual performance evaluations?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Is tenure in the company considered for promotion?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Do promotions come with a salary increase?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "How do I know if I\u2019m eligible for a promotion?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are internal job postings part of the promotion process?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Can I be promoted during my probation period?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "What should I do to improve my chances of promotion?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are leadership skills required to move up in the company?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "What is the typical timeline for promotion in my role?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are there different promotion paths for technical vs. managerial tracks?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Does training or certification affect promotion opportunities?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "What criteria are used to evaluate employees for promotion?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Is there a minimum time I must spend in my current role before promotion?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Who can I talk to about promotion opportunities?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are promotions based solely on performance or also on skills?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "How transparent is the promotion process?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are promotions announced publicly or privately?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Can I request feedback if I\u2019m not promoted?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "What documentation is required for promotion consideration?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are promotions affected by company restructuring?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Does the company have a formal promotion policy?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Can part-time employees be promoted?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "What happens if a promotion is delayed?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are there probation periods after being promoted?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are promotions tied to specific projects or achievements?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "How do promotions affect job responsibilities?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Is there a difference between a promotion and a title change?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are there opportunities for fast-track promotions?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Can promotions be reversed or rescinded?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "How does seniority impact promotion decisions?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "What role does peer feedback play in promotions?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are promotions evaluated annually or more frequently?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Can I be promoted if I transfer to a new department?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Do promotions require additional training?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are salary adjustments automatic with promotions?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "What is the appeal process if I disagree with promotion decisions?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Do promotions affect retirement or benefits?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Is there a mentorship program to support promotions?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are there specific goals I should meet to be promoted?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "How are promotions communicated to employees?"
+    },
+    {
+        "intent": "promotion_procedures",
+        "question": "Are temporary promotions possible?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "How do I request a day off?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "What is the procedure to apply for annual leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Can you explain the rules for sick leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "How many days of maternity leave am I entitled to?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "What documents do I need to submit for special leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Are public holidays paid days off?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Can I carry over unused annual leave to next year?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "How far in advance should I request time off?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "What types of leave are available to employees?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Is there a limit on how many days I can take for occupational injury leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "What is the approval process for taking a day off?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Can I take unpaid leave if I run out of annual leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Are there any restrictions on taking leave during busy periods?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "How do I report a sick day?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Is there a difference between paid and unpaid leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Can I split my maternity leave into parts?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "What counts as special leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Can I take leave for family emergencies?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "How is occupational injury leave different from sick leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "What is the policy for taking leave during probation?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Are public holidays included in annual leave calculation?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Who approves my leave requests?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Can I work from home instead of taking leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "What happens if I don't return on the scheduled day after leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Can I cancel or change my leave request?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Are there penalties for taking unauthorized leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "How is annual leave accrued?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "Can I request time off for religious holidays?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "What is the procedure for applying for compassionate leave?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "How is leave tracked in the company system?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "How do I request a day off?"
+    },
+    {
+        "intent": "time_off_procedures",
+        "question": "What is the procedure to apply for annual leave?"
     },
     {
-        "question": "Can you explain the daily workflow for my department?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can you explain the rules for sick leave?"
     },
     {
-        "question": "How should I report my work progress?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "How many days of maternity leave am I entitled to?"
     },
     {
-        "question": "What's the correct way to log work hours?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What documents do I need to submit for special leave?"
     },
     {
-        "question": "How do I properly escalate an issue?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Are public holidays paid days off?"
     },
     {
-        "question": "What is the protocol for taking breaks during work?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I carry over unused annual leave to next year?"
     },
     {
-        "question": "How should I handle confidential documents at work?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "How far in advance should I request time off?"
     },
     {
-        "question": "What's the right way to address a work-related complaint?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What types of leave are available to employees?"
     },
     {
-        "question": "Who should I notify if I need to leave early?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Is there a limit on how many days I can take for occupational injury leave?"
     },
     {
-        "question": "What's the procedure for using company equipment?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What is the approval process for taking a day off?"
     },
     {
-        "question": "How can I contribute to a respectful workplace?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I take unpaid leave if I run out of annual leave?"
     },
     {
-        "question": "What safety procedures should I follow on the job?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Are there any restrictions on taking leave during busy periods?"
     },
     {
-        "question": "How do I request a shift change?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "How do I report a sick day?"
     },
     {
-        "question": "What should I do if I witness a violation of policy?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Is there a difference between paid and unpaid leave?"
     },
     {
-        "question": "Is there a guideline for dress code or appearance?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I split my maternity leave into parts?"
     },
     {
-        "question": "What are things I must not do while on the job?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What counts as special leave?"
     },
     {
-        "question": "What actions can lead to disciplinary measures?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I take leave for family emergencies?"
     },
     {
-        "question": "Am I allowed to use my phone during work hours?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "How is occupational injury leave different from sick leave?"
     },
     {
-        "question": "What kind of behavior is unacceptable in the office?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What is the policy for taking leave during probation?"
     },
     {
-        "question": "What are the rules around gossip or spreading rumors?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Are public holidays included in annual leave calculation?"
     },
     {
-        "question": "Can I take personal calls while at work?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Who approves my leave requests?"
     },
     {
-        "question": "Is eating at the work desk permitted?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I work from home instead of taking leave?"
     },
     {
-        "question": "What happens if I miss a deadline without notice?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What happens if I don't return on the scheduled day after leave?"
     },
     {
-        "question": "Am I allowed to access restricted areas?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I cancel or change my leave request?"
     },
     {
-        "question": "Can I install software on my work computer?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Are there penalties for taking unauthorized leave?"
     },
     {
-        "question": "What should I avoid saying to coworkers or managers?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "How is annual leave accrued?"
     },
     {
-        "question": "Is it okay to criticize company policy on social media?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I request time off for religious holidays?"
     },
     {
-        "question": "Can I leave my workstation without notifying anyone?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What is the procedure for applying for compassionate leave?"
     },
     {
-        "question": "What are the consequences of falsifying work reports?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "How is leave tracked in the company system?"
     },
     {
-        "question": "What workplace behaviors could damage team collaboration?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "How many days off can I take for personal reasons?"
     },
     {
-        "question": "What are the do's and don'ts at work?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Is there a policy for taking leave during probation?"
     },
     {
-        "question": "Can you explain the proper way to communicate with my supervisor?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I extend my maternity leave?"
     },
     {
-        "question": "What is considered professional behavior in the office?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What happens if my leave request is denied?"
     },
     {
-        "question": "What procedures should I follow when taking a sick day?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Are there special rules for public holidays that fall on weekends?"
     },
     {
-        "question": "How should I prepare for a team meeting?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I combine different types of leave for a long break?"
     },
     {
-        "question": "Am I allowed to delegate my tasks to someone else?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Do I need to inform my manager if I'm taking sick leave?"
     },
     {
-        "question": "What should I do if I make a mistake in my work?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What is the maximum amount of annual leave I can accumulate?"
     },
     {
-        "question": "How should conflicts between coworkers be handled?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Is there a waiting period before I can use my leave?"
     },
     {
-        "question": "What is the correct way to file a workplace grievance?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What happens if I resign while on leave?"
     },
     {
-        "question": "Are there any restrictions on personal internet use at work?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I transfer my leave entitlement to another employee?"
     },
     {
-        "question": "What should I avoid during customer interactions?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Do I get paid for unused leave when I leave the company?"
     },
     {
-        "question": "What are the proper channels for giving feedback?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I take leave for jury duty?"
     },
     {
-        "question": "Can I work remotely without prior approval?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Are there any blackout periods where leave is not allowed?"
     },
     {
-        "question": "Is it acceptable to eat or drink in work areas?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "How do I check my leave balance?"
     },
     {
-        "question": "How should I maintain a clean and organized workspace?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Are special leave days paid or unpaid?"
     },
     {
-        "question": "What are the expectations for responding to work emails?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I request leave for attending a funeral?"
     },
     {
-        "question": "Are there limits to how much personal data I can store on my work device?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What is the company's policy on sabbatical leave?"
     },
     {
-        "question": "What's the rule about sharing passwords at work?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "How soon will I get a response after submitting a leave request?"
     },
     {
-        "question": "Can I leave early if I finish my work?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Can I appeal if my leave request is rejected?"
     },
     {
-        "question": "How do I properly request time off?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Tell me about sick leave"
     },
     {
-        "question": "What actions are considered violations of work ethics?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "How does annual leave work?"
     },
     {
-        "question": "What's the proper way to clock in and out of work?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What are maternity leave benefits?"
     },
     {
-        "question": "What behavior could result in a warning or termination?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "I need information about personal time off"
     },
     {
-        "question": "What work habits are discouraged in this company?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Give me detailed information about sick leave"
     },
     {
-        "question": "Can I listen to music while working?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Briefly explain annual leave policy"
     },
     {
-        "question": "What is the policy on helping coworkers with their tasks?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "I want complete overview of vacation days"
     },
     {
-        "question": "Should I report a colleague who isn't following procedures?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Tell me everything about maternity benefits"
     },
     {
-        "question": "Is it okay to challenge a manager's instruction?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Explain all types of leave briefly"
     },
     {
-        "question": "What should I do if I'm unsure about a task?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "Tell me about each leave category in detail"
     },
     {
-        "question": "Can I access social media during lunch breaks?",
-        "intent": "work_procedures"
+        "intent": "time_off_procedures",
+        "question": "What are all available leave options?"
     },
     {
-        
+        "intent": "time_off_procedures",
+        "question": "I want to know about individual leave policies"
     }
 ]
