@@ -1997,7 +1997,7 @@
     },
     {
         "intent": "overtime_procedures",
-        "question": "What\u2019s the process for submitting an overtime request?"
+        "question": "What's the process for submitting an overtime request?"
     },
     {
         "intent": "overtime_procedures",
@@ -2293,7 +2293,7 @@
     },
     {
         "intent": "promotion_procedures",
-        "question": "How do I know if I\u2019m eligible for a promotion?"
+        "question": "How do I know if I'm eligible for a promotion?"
     },
     {
         "intent": "promotion_procedures",
@@ -2349,7 +2349,7 @@
     },
     {
         "intent": "promotion_procedures",
-        "question": "Can I request feedback if I\u2019m not promoted?"
+        "question": "Can I request feedback if I'm not promoted?"
     },
     {
         "intent": "promotion_procedures",

@@ -1,0 +1,425 @@
+[
+  {
+    "intent": "company_vision",
+    "entities": [
+      {
+        "entity": "DETAIL_LEVEL",
+        "values": [
+          "brief",
+          "detailed",
+          "summary"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": " company_mission",
+    "entities": [
+      {
+        "entity": "DETAIL_LEVEL",
+        "values": [
+          "brief",
+          "detailed",
+          "summary"
+        ]
+      },
+      {
+        "entity": "MISSION_TOPIC",
+        "values": [
+          "Customer at the Heart",
+          "Community as the Cause",
+          "Employees as the Pillar",
+          "Deliver Shareholder Value"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "core_value",
+    "entities": [
+      {
+        "entity": "VALUE_NAME",
+        "values": [
+          "Winning",
+          "Innovation",
+          "Nurturing",
+          "Growth",
+          "Excellence",
+          "Respect"
+        ]
+      },
+      {
+        "entity": "DETAIL_LEVEL",
+        "values": [
+          "brief",
+          "detailed",
+          "summary"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "conduct_ethics",
+    "entities": [
+      {
+        "entity": "PRINCIPLE_NUMBER",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ]
+      },
+      {
+        "entity": "ETHICS_TOPIC",
+        "values": [
+          "Wing's Best Interests",
+          "Privacy and Confidentiality",
+          "Conflict of Interests",
+          "Additional Employment",
+          "Restricted Transactions",
+          "Bribery and Integrity",
+          "Respect and Safety",
+          "Insider Trading",
+          "Compliance"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "unacceptable_actions",
+    "entities": [
+      {
+        "entity": "ACTION_TYPE",
+        "values": [
+          "harassment",
+          "bribery",
+          "violence",
+          "discrimination",
+          "theft",
+          "fraud",
+          "conflict of interest",
+          "data breach"
+        ]
+      },
+      {
+        "entity": "SEVERITY_LEVEL",
+        "values": [
+          "minor",
+          "moderate",
+          "serious"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "employment_contracts",
+    "entities": [
+      {
+        "entity": "CONTRACT_TYPE",
+        "values": [
+          "FDC",
+          "UDC",
+          "temporary",
+          "permanent",
+          "part-time",
+          "full-time"
+        ]
+      },
+      {
+        "entity": "CONTRACT_DETAIL",
+        "values": [
+          "renewal",
+          "termination",
+          "probation",
+          "conversion"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "employment_procedures",
+    "entities": [
+      {
+        "entity": "DOCUMENT_TYPE",
+        "values": [
+          "passport",
+          "ID card",
+          "work permit",
+          "medical checkup",
+          "employment contract"
+        ]
+      },
+      {
+        "entity": "EMPLOYMENT_STAGE",
+        "values": [
+          "pre-employment",
+          "probation",
+          "confirmation"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "work_procedures",
+    "entities": [
+      {
+        "entity": "ACTION_CATEGORY",
+        "values": [
+          "required",
+          "prohibited",
+          "avoid",
+          "recommended"
+        ]
+      },
+      {
+        "entity": "PROCEDURE_TYPE",
+        "values": [
+          "safety",
+          "reporting",
+          "escalation",
+          "equipment use",
+          "communication"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "overtime_procedures",
+    "entities": [
+      {
+        "entity": "OT_CONDITION",
+        "values": [
+          "approval",
+          "weekend",
+          "holiday",
+          "night shift"
+        ]
+      },
+      {
+        "entity": "OT_COMPENSATION",
+        "values": [
+          "pay rate",
+          "meal allowance",
+          "time off",
+          "bonus"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "benefit_procedures",
+    "entities": [
+      {
+        "entity": "BENEFIT_TYPE",
+        "values": [
+          "health insurance",
+          "life insurance",
+          "dental",
+          "vision",
+          "bonus",
+          "salary increment",
+          "retirement"
+        ]
+      },
+      {
+        "entity": "INSURANCE_SCOPE",
+        "values": [
+          "individual",
+          "family",
+          "spouse",
+          "children"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "promotion_procedures",
+    "entities": [
+      {
+        "entity": "PROMOTION_CRITERIA",
+        "values": [
+          "performance",
+          "tenure",
+          "skills",
+          "evaluation",
+          "certification"
+        ]
+      },
+      {
+        "entity": "EVALUATION_PERIOD",
+        "values": [
+          "annual",
+          "bi-annual",
+          "project-based"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "time_off_procedures",
+    "entities": [
+      {
+        "entity": "LEAVE_TYPE",
+        "values": [
+          "day off",
+          "public holiday",
+          "annual leave",
+          "special leave",
+          "maternity leave",
+          "sick leave",
+          "occupational injury leave"
+        ]
+      },
+      {
+        "entity": "LEAVE_RULE",
+        "values": [
+          "approval required",
+          "notice period",
+          "document submission",
+          "carry over"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "disciplinary_policy",
+    "entities": [
+      {
+        "entity": "MISCONDUCT_LEVEL",
+        "values": [
+          "minor",
+          "moderate",
+          "serious",
+          "gross"
+        ]
+      },
+      {
+        "entity": "DISCIPLINARY_STAGE",
+        "values": [
+          "verbal warning",
+          "written warning",
+          "suspension",
+          "termination",
+          "appeal"
+        ]
+      },
+      {
+        "entity": "APPEAL_TYPE",
+        "values": [
+          "formal",
+          "informal",
+          "written",
+          "verbal"
+        ]
+      },
+      {
+        "entity": "VIOLATION_TYPE",
+        "values": [
+          "tardiness",
+          "insubordination",
+          "policy breach",
+          "absenteeism",
+          "theft",
+          "harassment"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "performance_review",
+    "entities": [
+      {
+        "entity": "REVIEW_CRITERIA",
+        "values": [
+          "goals",
+          "behavior",
+          "skills",
+          "attendance",
+          "collaboration",
+          "KPIs"
+        ]
+      },
+      {
+        "entity": "REVIEW_FREQUENCY",
+        "values": [
+          "quarterly",
+          "semi-annually",
+          "annually",
+          "end-of-probation"
+        ]
+      },
+      {
+        "entity": "REVIEW_TYPE",
+        "values": [
+          "self-review",
+          "peer review",
+          "manager review",
+          "360 feedback"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "salary_structure",
+    "entities": [
+      {
+        "entity": "SALARY_COMPONENT",
+        "values": [
+          "base pay",
+          "allowances",
+          "bonus",
+          "overtime",
+          "commission"
+        ]
+      },
+      {
+        "entity": "PAYMENT_CYCLE",
+        "values": [
+          "monthly",
+          "bi-weekly",
+          "weekly",
+          "annually"
+        ]
+      },
+      {
+        "entity": "TAX_COMPONENT",
+        "values": [
+          "income tax",
+          "social security",
+          "pension",
+          "healthcare tax"
+        ]
+      }
+    ]
+  },
+  {
+    "intent": "policy_request_document",
+    "entities": [
+      {
+        "entity": "DOCUMENT_TYPE",
+        "values": [
+          "employee handbook",
+          "ethics policy",
+          "leave policy",
+          "insurance policy",
+          "contract copy"
+        ]
+      },
+      {
+        "entity": "DELIVERY_METHOD",
+        "values": [
+          "email",
+          "printed",
+          "PDF",
+          "intranet link"
+        ]
+      }
+    ]
+  }
+]
