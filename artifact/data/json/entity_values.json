@@ -1,0 +1,251 @@
+[
+  {
+    "entity": "DETAIL_LEVEL",
+    "values": [
+      "brief",
+      "briefly",
+      "detailed",
+      "details",
+      "detail",
+      "summary"
+    ]
+  },
+  {
+    "entity": "SCOPE",
+    "values": [
+      "each", 
+      "all", 
+      "individual", 
+      "specific", 
+      "every", 
+      "single"
+    ]
+  },
+  {
+    "entity": "VALUE_NAME",
+    "values": [
+      "Excellence",
+      "Growth",
+      "Innovation",
+      "Nurturing",
+      "Respect",
+      "Winning"
+    ]
+  },
+  {
+    "entity": "PRINCIPLE_NUMBER",
+    "values": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "entity": "ETHICS_TOPIC",
+    "values": [
+      "Additional Employment",
+      "Bribery and Integrity",
+      "Compliance",
+      "Conflict of Interests",
+      "Insider Trading",
+      "Privacy and Confidentiality",
+      "Respect and Safety",
+      "Restricted Transactions",
+      "Wing's Best Interests"
+    ]
+  },
+  {
+    "entity": "ACTION_TYPE",
+    "values": [
+      "bribery",
+      "conflict of interest",
+      "data breach",
+      "discrimination",
+      "fraud",
+      "harassment",
+      "theft",
+      "violence"
+    ]
+  },
+  {
+    "entity": "SEVERITY_LEVEL",
+    "values": [
+      "minor",
+      "moderate",
+      "serious"
+    ]
+  },
+  {
+    "entity": "CONTRACT_TYPE",
+    "values": [
+      "FDC",
+      "UDC",
+      "full-time",
+      "part-time",
+      "permanent",
+      "temporary"
+    ]
+  },
+  {
+    "entity": "CONTRACT_DETAIL",
+    "values": [
+      "conversion",
+      "probation",
+      "renewal",
+      "termination"
+    ]
+  },
+  {
+    "entity": "DOCUMENT_TYPE",
+    "values": [
+      "ID card",
+      "employment contract",
+      "medical checkup",
+      "passport",
+      "work permit"
+    ]
+  },
+  {
+    "entity": "EMPLOYMENT_STAGE",
+    "values": [
+      "confirmation",
+      "pre-employment",
+      "probation"
+    ]
+  },
+  {
+    "entity": "ACTION_CATEGORY",
+    "values": [
+      "avoid",
+      "prohibited",
+      "recommended",
+      "required"
+    ]
+  },
+  {
+    "entity": "PROCEDURE_TYPE",
+    "values": [
+      "communication",
+      "equipment use",
+      "escalation",
+      "reporting",
+      "safety"
+    ]
+  },
+  {
+    "entity": "OT_CONDITION",
+    "values": [
+      "approval",
+      "holiday",
+      "night shift",
+      "weekend"
+    ]
+  },
+  {
+    "entity": "OT_COMPENSATION",
+    "values": [
+      "bonus",
+      "meal allowance",
+      "pay rate",
+      "time off"
+    ]
+  },
+  {
+    "entity": "BENEFIT_TYPE",
+    "values": [
+      "bonus",
+      "dental",
+      "health insurance",
+      "life insurance",
+      "retirement",
+      "salary increment"
+    ]
+  },
+  {
+    "entity": "INSURANCE_SCOPE",
+    "values": [
+      "children",
+      "family",
+      "spouse"
+    ]
+  },
+  {
+    "entity": "PROMOTION_CRITERIA",
+    "values": [
+      "certification",
+      "evaluation",
+      "performance",
+      "skills",
+      "tenure"
+    ]
+  },
+  {
+    "entity": "EVALUATION_PERIOD",
+    "values": [
+      "annual",
+      "bi-annual",
+      "project-based"
+    ]
+  },
+  {
+    "entity": "LEAVE_TYPE",
+    "values": [
+      "annual", 
+      "sick", 
+      "maternity", 
+      "paternity", 
+      "unpaid"
+    ]
+  },
+  {
+    "entity": "TOPIC",
+    "values": [
+      "leave",
+      "policies",
+      "benefits",
+      "promotion",
+      "ethics",
+      "contracts",
+      "attendance"
+    ]
+  },
+  {
+    "entity": "LEAVE_DURATION",
+    "values": [
+      "half-day",
+      "full-day",
+      "multiple days"
+    ]
+  },
+  {
+    "entity": "LEAVE_REASON",
+    "values": [
+      "personal",
+      "sick",
+      "vacation"
+    ]
+  },
+  {
+    "entity": "LEAVE_STATUS",
+    "values": [
+      "approved",
+      "pending",
+      "rejected"
+    ]
+  },
+  {
+    "entity": "LEAVE_RULE",
+    "values": [
+      "approval required",
+      "carry over",
+      "document submission",
+      "notice period"
+    ]
+  }
+]

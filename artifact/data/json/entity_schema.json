@@ -31,6 +31,15 @@
           "Employees as the Pillar",
           "Deliver Shareholder Value"
         ]
+      },
+      {
+        "entity": "MISSION_NUMBER",
+        "values": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
       }
     ]
   },
@@ -53,7 +62,8 @@
         "values": [
           "brief",
           "detailed",
-          "summary"
+          "summary",
+          "briefly"
         ]
       }
     ]
@@ -221,7 +231,6 @@
           "health insurance",
           "life insurance",
           "dental",
-          "vision",
           "bonus",
           "salary increment",
           "retirement"
@@ -230,7 +239,6 @@
       {
         "entity": "INSURANCE_SCOPE",
         "values": [
-          "individual",
           "family",
           "spouse",
           "children"
@@ -327,40 +335,6 @@
           "absenteeism",
           "theft",
           "harassment"
-        ]
-      }
-    ]
-  },
-  {
-    "intent": "performance_review",
-    "entities": [
-      {
-        "entity": "REVIEW_CRITERIA",
-        "values": [
-          "goals",
-          "behavior",
-          "skills",
-          "attendance",
-          "collaboration",
-          "KPIs"
-        ]
-      },
-      {
-        "entity": "REVIEW_FREQUENCY",
-        "values": [
-          "quarterly",
-          "semi-annually",
-          "annually",
-          "end-of-probation"
-        ]
-      },
-      {
-        "entity": "REVIEW_TYPE",
-        "values": [
-          "self-review",
-          "peer review",
-          "manager review",
-          "360 feedback"
         ]
       }
     ]
