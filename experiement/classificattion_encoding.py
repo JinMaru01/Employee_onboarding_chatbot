@@ -12,7 +12,7 @@ import torch
 __conn = RedisConn()
 
 # Load data
-file_path = './artifact/data/json/annotated_data_final.json'
+file_path = './artifact/data/json/annotated_data.json'
 load = DataLoader(file_path)
 data = load.data
 messages = data['text']
@@ -68,10 +68,10 @@ encodings = tokenizer(
 )
 
 # Save encodings to Redis
-__conn.label_ecoder_save(encodings, "classification_encodings_v2")
+__conn.label_ecoder_save(encodings, "classification_encodings_v3")
 
 # Load encodings from Redis
-encodings = __conn.label_encoder_load("classification_encodings_v2")
+encodings = __conn.label_encoder_load("classification_encodings_v3")
 input_ids = encodings['input_ids']
 attention_mask = encodings['attention_mask']
 
@@ -91,16 +91,16 @@ for train_idx, test_idx in splitter.split(np.zeros(len(labels_np)), labels_np):
     test_dataset = Subset(dataset, test_idx)
 
 # Save train and test datasets to Redis
-__conn.label_ecoder_save(train_dataset, "classification_train_dataset_v2")
-__conn.label_ecoder_save(test_dataset, "classification_test_dataset_v2")
+__conn.label_ecoder_save(train_dataset, "classification_train_dataset_v3")
+__conn.label_ecoder_save(test_dataset, "classification_test_dataset_v3")
 
 # Load train and test datasets from Redis
-train_dataset = __conn.label_encoder_load("classification_train_dataset_v2")
-test_dataset = __conn.label_encoder_load("classification_test_dataset_v2")
+train_dataset = __conn.label_encoder_load("classification_train_dataset_v3")
+test_dataset = __conn.label_encoder_load("classification_test_dataset_v3")
 
 print(f"Train dataset size: {len(train_dataset)}")
 print(f"Test dataset size: {len(test_dataset)}")
 
 # Save train and test datasets to disk
-torch.save(train_dataset, './artifact/data/train/classification_train_dataset_v2.pt')
-torch.save(test_dataset, './artifact/data/test/classification_test_dataset_v2.pt')
+torch.save(train_dataset, './artifact/data/train/classification_train_dataset_v3.pt')
+torch.save(test_dataset, './artifact/data/test/classification_test_dataset_v3.pt')
