@@ -5,6 +5,8 @@ artifact/model/multi_task.pth filter=lfs diff=lfs merge=lfs -text
 artifact/model/multi_task_v3.pth filter=lfs diff=lfs merge=lfs -text
 artifact/model/intent_classifier_v3.pth filter=lfs diff=lfs merge=lfs -text
 artifact/model/entity_extractor_v3.pth filter=lfs diff=lfs merge=lfs -text
+*.pth/ filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
 artifact/model/multi_task.pth !text !filter !merge !diff
 artifact/model/entity_extractor.pth !text !filter !merge !diff
 artifact/model/intent_classifier.pth !text !filter !merge !diff
