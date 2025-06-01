@@ -14,8 +14,8 @@ from seqeval.metrics import (
 # Initialize Redis connection
 redis_con = RedisConn()
 
-test_dataset = redis_con.label_encoder_load("ner_test_dataset")
-model = redis_con.extractor_load("extractor")
+test_dataset = redis_con.label_encoder_load("ner_test_dataset_v3")
+model = redis_con.extractor_load("extractor_v3")
 tokenizer = redis_con.label_encoder_load("tokenizer")
 id2label = redis_con.label_encoder_load("ner_id2label")
 

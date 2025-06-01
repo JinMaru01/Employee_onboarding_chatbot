@@ -30,7 +30,7 @@ model = torch.load("./artifact/model/multi_task_v3.pth", weights_only=False, map
 pipeline = ModelPipeline(intent_label_count=len(id2intent), ner_label_count=len(id2ner))
 
 # Run evaluation after training
-intent_preds, intent_labels, ner_preds, ner_labels = pipeline.evaluate(test_loader, model=model)
+intent_preds, intent_labels, ner_preds, ner_labels = pipeline.evaluate(test_loader)
 
 # Decode predictions
 true_intents = intent_encoder.inverse_transform(intent_labels)

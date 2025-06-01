@@ -78,7 +78,7 @@ def safe_tensor(x):
         return torch.tensor(x)
     
 class ModelPipeline:
-    def __init__(self, intent_label_count, ner_label_count, lr=5e-5):
+    def __init__(self, intent_label_count, ner_label_count, lr=1e-5):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-uncased")
         self.model = MultitaskModel(intent_label_count, ner_label_count).to(self.device)
@@ -113,45 +113,8 @@ class ModelPipeline:
 
             print(f"[Epoch {epoch+1}] Loss: {total_loss / len(dataloader):.4f}")
 
-    def evaluate(self, dataloader):
+    def evaluate(self, dataloader):  # line 184
         self.model.eval()
-
-        intent_preds, intent_targets = [], []
-        ner_preds, ner_targets = [], []
-
-        with torch.no_grad():
-            for batch in dataloader:
-                input_ids = batch["input_ids"].to(self.device)
-                attention_mask = batch["attention_mask"].to(self.device)
-                intent_labels = batch["intent_labels"].to(self.device)
-                ner_labels = batch["ner_labels"].to(self.device)
-
-                outputs = self.model(
-                    input_ids=input_ids,
-                    attention_mask=attention_mask,
-                    task="multi"
-                )
-
-                # Intent
-                intent_logits = outputs["intent_logits"]
-                intent_pred = torch.argmax(intent_logits, dim=1)
-                intent_preds.extend(intent_pred.cpu().numpy())
-                intent_targets.extend(intent_labels.cpu().numpy())
-
-                # NER
-                ner_logits = outputs["ner_logits"]
-                ner_pred = torch.argmax(ner_logits, dim=2)
-
-                for i in range(input_ids.size(0)):
-                    active = attention_mask[i] == 1
-                    ner_preds.append(ner_pred[i][active].cpu().tolist())
-                    ner_targets.append(ner_labels[i][active].cpu().tolist())
-
-        return intent_preds, intent_targets, ner_preds, ner_targets
-
-
-    def evaluate(self, dataloader, model):
-        model.eval()
         intent_preds = []
         intent_labels = []
         ner_preds = []
@@ -164,23 +127,24 @@ class ModelPipeline:
                 labels_intent = batch["intent_labels"].to(self.device)
                 labels_ner = batch["ner_labels"].to(self.device)
 
-                outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+                outputs = self.model(input_ids=input_ids, attention_mask=attention_mask, task="multi")
 
-                # Intent
-                logits_intent = outputs["intent_logits"]
-                intent_preds.extend(torch.argmax(logits_intent, dim=1).cpu().numpy())
-                intent_labels.extend(labels_intent.cpu().numpy())
+                # Intent predictions
+                intent_logits = outputs["intent_logits"]
+                intent_preds.extend(torch.argmax(intent_logits, dim=1).cpu().tolist())
+                intent_labels.extend(labels_intent.cpu().tolist())
 
-                # NER
-                logits_ner = outputs["ner_logits"]
-                ner_pred_batch = torch.argmax(logits_ner, dim=2).cpu().numpy()
-                ner_true_batch = labels_ner.cpu().numpy()
+                # NER predictions
+                ner_logits = outputs["ner_logits"]
+                ner_pred_batch = torch.argmax(ner_logits, dim=2)
 
-                ner_preds.extend(ner_pred_batch)
-                ner_labels.extend(ner_true_batch)
+                for i in range(input_ids.size(0)):
+                    active = attention_mask[i] == 1
+                    ner_preds.append(ner_pred_batch[i][active].cpu().tolist())
+                    ner_labels.append(labels_ner[i][active].cpu().tolist())
 
         return intent_preds, intent_labels, ner_preds, ner_labels
-    
+
     def predict(self, text, id2intent, id2ner, filter_O=True):
         self.model.eval()
         encoding = self.tokenizer(text, return_tensors="pt", truncation=True, padding=True).to(self.device)
