@@ -8,15 +8,23 @@
     ]
   },
   {
-    "intent": "core_values",
+    "intent": "company_mission",
+    "responses": [
+      "Our mission statement focuses on delivering excellence and fostering growth in all areas."
+    ]
+  },
+  {
+    "intent": "core_value",
     "entities": {
       "VALUE_NAME": {
-        "Winning": "Winning means striving for the best results through teamwork and perseverance.",
-        "Innovation": "Innovation is at the heart of our company, encouraging creative solutions and new ideas.",
-        "Nurturing": "Nurturing reflects our commitment to supporting employee growth and a positive work environment.",
-        "Growth": "Growth involves continuous improvement and seizing opportunities for advancement.",
-        "Excellence": "Excellence is about delivering high-quality work and exceeding expectations.",
-        "Respect": "Respect means valuing diversity, integrity, and open communication."
+        "Winning": {
+          "brief": "Winning is about achieving results through teamwork.",
+          "detailed": "Winning means striving for the best results through teamwork and perseverance."
+        },
+        "Innovation": {
+          "brief": "Innovation is about encouraging creativity.",
+          "detailed": "Innovation is at the heart of our company, encouraging creative solutions and new ideas."
+        }
       }
     },
     "responses": {

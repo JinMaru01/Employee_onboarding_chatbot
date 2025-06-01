@@ -5,12 +5,12 @@ class Loader():
     def __init__(self, con):
 
         # Load Classifier Model
-        self.classifier = con.classifier_load("intent_classifier_v2")
+        self.classifier = con.classifier_load("intent_classifier_v3")
         self.tokenizer = con.label_encoder_load("tokenizer")
         self.label_encoder = con.label_encoder_load("label-encoder")
-
+    
         # Load Extractor Model
-        self.extractor =  con.extractor_load("extractor")
+        self.extractor =  con.extractor_load("extractor_v3")
         self.id2label = con.label_encoder_load("ner_id2label")
 
         # Initial Model

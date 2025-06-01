@@ -2,7 +2,7 @@ import time
 from flask import Blueprint, request, jsonify
 from api.model_inference import ModelInference
 from _lib.preprocess.log_history import log_user_interaction
-from _lib.response.mission import mission_data, respond_to_mission_question
+from _lib.response.bot_respond import knowledge_base, respond_to_mission_question, get_chatbot_response, normalize_entity
 
 api_bp = Blueprint('api', __name__, url_prefix='/api')
 
@@ -70,7 +70,8 @@ def extract_entities_api():
 
     start_time = time.time()
     try:
-        entities = model.extract_entities(text)
+        entity_list = model.extract_entities(text)
+        entities = normalize_entity(entity_list)
     except Exception as e:
         return jsonify({"error": f"NER extraction failed: {str(e)}"}), 500
     end_time = time.time()
@@ -80,3 +81,47 @@ def extract_entities_api():
         "entities": entities,
         "extraction_time": round(end_time - start_time, 4)
     })
+
+@api_bp.route("/respond", methods=["POST"])
+def chatbot_respond():
+    """
+    Generate chatbot response using predicted intent and extracted entities.
+
+    Returns:
+        JSON response with predicted intent, entities, and chatbot response
+    """
+    data = request.get_json()
+    if not data or "text" not in data:
+        return jsonify({"error": "Missing 'text' in request body"}), 400
+
+    text = data["text"]
+
+    try:
+        start_time = time.time()
+
+        # Predict intent
+        intent_label, confidence = model.predict_intent(text)
+
+        # Extract entities
+        entity_list = model.extract_entities(text)
+        entities = normalize_entity(entity_list)
+
+        # Get chatbot response from KB
+        response = get_chatbot_response(intent_label, entities, knowledge_base)
+
+        end_time = time.time()
+
+        # Log the interaction
+        log_user_interaction(text, intent_label, round(confidence, 4), response)
+
+        return jsonify({
+            "text": text,
+            "predicted_intent": intent_label,
+            "confidence": round(confidence, 4),
+            "entities": entities,
+            "response": response,
+            "response_time": round(end_time - start_time, 4)
+        })
+
+    except Exception as e:
+        return jsonify({"error": f"Failed to respond: {str(e)}"}), 500

@@ -27,55 +27,51 @@ document.addEventListener("DOMContentLoaded", function () {
         userMessage.textContent = message;
         chatHistory.appendChild(userMessage);
 
-        // First: Predict intent
-        fetch("/api/predict_intent", {
+        fetch("/api/respond", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ text: message })
         })
         .then(response => response.json())
         .then(data => {
-            const botResponse = document.createElement("div");
-            botResponse.classList.add("chat-bubble", "bot-message");
+            const { predicted_intent, confidence, response_time, response, entities } = data;
 
-            const intent = data.predicted_intent;
-            const response_time = data.prediction_time;
-            const generated_response = data.generated_response;
-            const confidence = (data.confidence).toFixed(2);
+            // Show intent and confidence
+            const intentBubble = document.createElement("div");
+            intentBubble.classList.add("chat-bubble", "bot-message");
+            // intentBubble.textContent = `Intent: ${predicted_intent} (Confidence: ${(confidence * 100).toFixed(2)}%), took ${response_time}s`;
+            // intentBubble.textContent = `(Confidence: ${(confidence ).toFixed(2)}%) ${response}`
+            // chatHistory.appendChild(intentBubble);
 
-            let textContent = `Intent: ${intent} (Confidence: ${confidence}%), took ${response_time}s`;
-            if (generated_response) {
-                textContent += `\n${generated_response}`;
+            // Show final response
+            if (response) {
+                const responseBubble = document.createElement("div");
+                responseBubble.classList.add("chat-bubble", "bot-message");
+                responseBubble.textContent = response;
+                chatHistory.appendChild(responseBubble);
             }
 
-            botResponse.textContent = textContent;
-            chatHistory.appendChild(botResponse);
+            // Show extracted entities (if any)
+            // if (entities && Object.keys(entities).length > 0) {
+            //     const entityBubble = document.createElement("div");
+            //     entityBubble.classList.add("chat-bubble", "bot-message");
+
+            //     const entityText = Object.entries(entities)
+            //         .map(([type, value]) => `${value} [${type}]`)
+            //         .join(", ");
+
+            //     entityBubble.textContent = `Entities: ${entityText}`;
+            //     chatHistory.appendChild(entityBubble);
+            // }
+
+            // Scroll to latest message
             chatHistory.scrollTop = chatHistory.scrollHeight;
-
-            // Then: Extract entities
-            return fetch("/api/extract_entities", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ text: message })
-            });
-        })
-        .then(response => response.json())
-        .then(entityData => {
-            if (entityData.entities && entityData.entities.length > 0) {
-                const entityMsg = document.createElement("div");
-                entityMsg.classList.add("chat-bubble", "bot-message");
-
-                const entitiesList = entityData.entities.map(e => `${e.entity} [${e.type}]`).join(", ");
-                entityMsg.textContent = `Entities: ${entitiesList}`;
-                chatHistory.appendChild(entityMsg);
-                chatHistory.scrollTop = chatHistory.scrollHeight;
-            }
         })
         .catch(error => {
-            const errorMsg = document.createElement("div");
-            errorMsg.classList.add("chat-bubble", "bot-message", "error");
-            errorMsg.textContent = "Error: Unable to fetch response.";
-            chatHistory.appendChild(errorMsg);
+            const errorBubble = document.createElement("div");
+            errorBubble.classList.add("chat-bubble", "bot-message", "error");
+            errorBubble.textContent = "Error: Unable to get response from chatbot.";
+            chatHistory.appendChild(errorBubble);
             chatHistory.scrollTop = chatHistory.scrollHeight;
         });
 
