@@ -106,3 +106,31 @@ This template is fully formatted in Markdown and ready to be saved as your repos
          }
        ]
      }
+
+3. **Combine both tasks**
+
+   ```bash
+   {
+     "text": "Is maternity insurance covered in our health plan?",
+     "intent": "benefit_procedures",
+     "tokens": [
+       "be",
+       "maternity",
+       "insurance",
+       "cover",
+       "in",
+       "our",
+       "health",
+       "plan"
+     ],
+     "tags": [
+       "O",
+       "B-LEAVE_TYPE",
+       "B-BENEFIT_TYPE",
+       "O",
+       "O",
+       "O",
+       "B-BENEFIT_TYPE",
+       "O"
+     ]
+   }
