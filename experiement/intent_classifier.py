@@ -10,8 +10,8 @@ from _lib.models.Intent_Classification import IntentClassifier
 __conn = RedisConn()
 
 # Load train and test datasets from Redis
-train_dataset = __conn.label_encoder_load("classification_train_dataset_v2")
-test_dataset = __conn.label_encoder_load("classification_train_dataset_v2")
+train_dataset = __conn.label_encoder_load("classification_train_dataset_v3")
+test_dataset = __conn.label_encoder_load("classification_train_dataset_v3")
 
 # Load label encoder from Redis
 label_encoder = __conn.label_encoder_load("label-encoder")
@@ -19,7 +19,7 @@ label_encoder = __conn.label_encoder_load("label-encoder")
 label2id = __conn.label_encoder_load("label2id")
 id2label = __conn.label_encoder_load("id2label")
 
-encodings = __conn.label_encoder_load("classification_encodings_v2")
+encodings = __conn.label_encoder_load("classification_encodings_v3")
 
 # Create dataloaders with smaller batch size
 batch_size = 32
@@ -52,6 +52,6 @@ optimizer = torch.optim.AdamW(
 
 classifier = IntentClassifier(model, tokenizer, label_encoder)
 
-model = classifier.train(train_loader, optimizer, 10, True)
+model = classifier.train(train_loader, optimizer, 50, True)
 
-torch.save(model, "./artifact/model/intent_classifier.pth")
+torch.save(model, "./artifact/model/intent_classifier_v3.pth")

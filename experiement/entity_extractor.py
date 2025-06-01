@@ -11,8 +11,8 @@ from _lib.models.Entity_Recognition import NamedEntityRecognizer
 redis_con = RedisConn()
 
 # Load train and test datasets from Redis
-train_dataset = redis_con.label_encoder_load("ner_train_dataset")
-test_dataset = redis_con.label_encoder_load("ner_test_dataset")
+train_dataset = redis_con.label_encoder_load("ner_train_dataset_v3")
+test_dataset = redis_con.label_encoder_load("ner_test_dataset_v3")
 
 label2id = redis_con.label_encoder_load("ner_label2id")
 id2label = redis_con.label_encoder_load("ner_id2label")
@@ -43,6 +43,6 @@ optimizer = torch.optim.AdamW(
 
 extractor = NamedEntityRecognizer(model, tokenizer, id2label, device)
 
-model = extractor.train(train_loader, optimizer, 10)
+model = extractor.train(train_loader, optimizer, 50)
 
-torch.save(model, "./artifact/model/entity_extractor.pth")
+torch.save(model, "./artifact/model/entity_extractor_v3.pth")

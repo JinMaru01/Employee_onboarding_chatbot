@@ -9,7 +9,7 @@ from _lib.preprocess.data_loader import DataLoader
 __conn = RedisConn()
 
 # Load data
-file_path = './artifact/data/json/annotated_data_final.json'
+file_path = './artifact/data/json/annotated_data.json'
 load = DataLoader(file_path)
 data = load.data
 
@@ -91,12 +91,12 @@ test_size = len(ner_dataset) - train_size
 train_dataset, test_dataset = torch.utils.data.random_split(ner_dataset, [train_size, test_size])
 
 # Save datasets to Redis (optional)
-__conn.label_ecoder_save(train_dataset, "ner_train_dataset")
-__conn.label_ecoder_save(test_dataset, "ner_test_dataset")
+__conn.label_ecoder_save(train_dataset, "ner_train_dataset_v3")
+__conn.label_ecoder_save(test_dataset, "ner_test_dataset_v3")
 
 # Save datasets to disk
-torch.save(train_dataset, './artifact/data/train/ner_train_dataset.pt')
-torch.save(test_dataset, './artifact/data/test/ner_test_dataset.pt')
+torch.save(train_dataset, './artifact/data/train/ner_train_dataset_v3.pt')
+torch.save(test_dataset, './artifact/data/test/ner_test_dataset_v3.pt')
 
 print(f"NER Train dataset size: {len(train_dataset)}")
 print(f"NER Test dataset size: {len(test_dataset)}")

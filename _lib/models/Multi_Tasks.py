@@ -149,6 +149,38 @@ class ModelPipeline:
 
         return intent_preds, intent_targets, ner_preds, ner_targets
 
+
+    def evaluate(self, dataloader, model):
+        model.eval()
+        intent_preds = []
+        intent_labels = []
+        ner_preds = []
+        ner_labels = []
+
+        with torch.no_grad():
+            for batch in dataloader:
+                input_ids = batch["input_ids"].to(self.device)
+                attention_mask = batch["attention_mask"].to(self.device)
+                labels_intent = batch["intent_labels"].to(self.device)
+                labels_ner = batch["ner_labels"].to(self.device)
+
+                outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+
+                # Intent
+                logits_intent = outputs["intent_logits"]
+                intent_preds.extend(torch.argmax(logits_intent, dim=1).cpu().numpy())
+                intent_labels.extend(labels_intent.cpu().numpy())
+
+                # NER
+                logits_ner = outputs["ner_logits"]
+                ner_pred_batch = torch.argmax(logits_ner, dim=2).cpu().numpy()
+                ner_true_batch = labels_ner.cpu().numpy()
+
+                ner_preds.extend(ner_pred_batch)
+                ner_labels.extend(ner_true_batch)
+
+        return intent_preds, intent_labels, ner_preds, ner_labels
+    
     def predict(self, text, id2intent, id2ner, filter_O=True):
         self.model.eval()
         encoding = self.tokenizer(text, return_tensors="pt", truncation=True, padding=True).to(self.device)
