@@ -11,10 +11,35 @@
 </head>
 
 <body>
-    <div class="container">
+    <!-- <div class="container">
+       
+    </div> -->
+    <nav class="sidebar d-flex flex-column flex-shrink-0 position-fixed">
+
+        <div class="p-4">
+            <h4 class="logo-text fw-bold mb-0">Chat History</h4>
+            <!-- <p class="text-muted small hide-on-collapse">Dashboard</p> -->
+        </div>
+
+        <div class="nav flex-column">
+            <a href="#" class="sidebar-link active text-decoration-none p-3">
+                <i class="fas fa-home me-3"></i>
+                <span class="hide-on-collapse">30-May-2025</span>
+            </a>
+        </div>
+
+        <button class="toggle-btn" onclick="toggleSidebar()">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+    </nav>
+
+    <main class="main-content">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="title">Welcome To Employee Chatbot</h1>
+                <div class="d-flex justify-content-center mb-3">
+                    <img src="{{ url_for('static', filename='asset/company-logo.png') }}" alt="company logo" style="max-height: 80px;">
+                </div>
+                <!-- <h1 class="title">Welcome To Employee Chatbot</h1> -->
                 <p class="description">
                     Welcome to our chat! I'm here to help you with your questions on the
                     comapny policy.
@@ -44,7 +69,20 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('collapsed');
+        }
+        function addToSidebar(message) {
+            const li = document.createElement("li");
+            li.className = "list-group-item small";
+            li.textContent = message;
+            document.getElementById("chat-history-sidebar").appendChild(li);
+        }
+    </script>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 
