@@ -1,27 +1,36 @@
 document.addEventListener("DOMContentLoaded", function () {
     const textarea = document.getElementById("chat-input");
-
-    textarea.addEventListener("input", function () {
-        this.style.height = "auto";
-        this.style.height = this.scrollHeight + "px";
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    const textarea = document.getElementById("chat-input");
     const sendBtn = document.getElementById("send-btn");
     const chatHistory = document.getElementById("chat-history");
+    const faqSuggestions = document.getElementById("faq-suggestions");
+    const faqList = document.getElementById("faq-list");
+
+    const mostAskedQuestions = [
+        "What is the company vision?",
+        "Tell me about our core values",
+        "What types of contracts are available?",
+        "How do I apply for leave?",
+        "What are the unacceptable actions?",
+        "Can you explain the disciplinary procedure?"
+    ];
+
+    // Always show on load
+    faqSuggestions.style.display = "block";
+    faqList.innerHTML = ""; // clear old content
+    mostAskedQuestions.forEach(question => {
+        const li = document.createElement("li");
+        li.className = "faq-item";
+        li.innerHTML = `<button class="btn btn-link p-0 text-left faq-btn">${question}</button>`;
+        faqList.appendChild(li);
+    });
 
     function handleUserInput() {
         const message = textarea.value.trim();
         if (message === "") return;
 
-        // Show chat history panel on first message
-        if (chatHistory.children.length === 0) {
-            chatHistory.style.display = "flex";
-        }
+        // Hide FAQ after interaction
+        faqSuggestions.style.display = "none";
 
-        // Create user message
         const userMessage = document.createElement("div");
         userMessage.classList.add("chat-bubble", "user-message");
         userMessage.textContent = message;
@@ -34,65 +43,30 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .then(response => response.json())
         .then(data => {
-            const { predicted_intent, confidence, response_time, response, entities } = data;
-
-            // Show intent and confidence
-            const intentBubble = document.createElement("div");
-            intentBubble.classList.add("chat-bubble", "bot-message");
-            // intentBubble.textContent = `Intent: ${predicted_intent} (Confidence: ${(confidence * 100).toFixed(2)}%), took ${response_time}s`;
-            // intentBubble.textContent = `(Confidence: ${(confidence ).toFixed(2)}%) ${response}`
-            // chatHistory.appendChild(intentBubble);
-
-            // Show final response
+            const { response } = data;
             if (response) {
                 const responseBubble = document.createElement("div");
                 responseBubble.classList.add("chat-bubble", "bot-message");
                 responseBubble.textContent = response;
                 chatHistory.appendChild(responseBubble);
             }
-
-            // Show extracted entities (if any)
-            // if (entities && Object.keys(entities).length > 0) {
-            //     const entityBubble = document.createElement("div");
-            //     entityBubble.classList.add("chat-bubble", "bot-message");
-
-            //     const entityText = Object.entries(entities)
-            //         .map(([type, value]) => `${value} [${type}]`)
-            //         .join(", ");
-
-            //     entityBubble.textContent = `Entities: ${entityText}`;
-            //     chatHistory.appendChild(entityBubble);
-            // }
-
-            // Scroll to latest message
-            chatHistory.scrollTop = chatHistory.scrollHeight;
-        })
-        .catch(error => {
-            const errorBubble = document.createElement("div");
-            errorBubble.classList.add("chat-bubble", "bot-message", "error");
-            errorBubble.textContent = "Error: Unable to get response from chatbot.";
-            chatHistory.appendChild(errorBubble);
             chatHistory.scrollTop = chatHistory.scrollHeight;
         });
 
-        // Scroll to latest message
-        chatHistory.scrollTop = chatHistory.scrollHeight;
-
-        // Clear input field
         textarea.value = "";
         textarea.style.height = "auto";
     }
 
-    // Auto-expand input
-    textarea.addEventListener("input", function () {
-        this.style.height = "auto";
-        this.style.height = this.scrollHeight + "px";
+    // FAQ button click
+    faqList.addEventListener("click", function (e) {
+        if (e.target.classList.contains("faq-btn")) {
+            textarea.value = e.target.textContent;
+            handleUserInput();
+        }
     });
 
-    // Send message on button click
+    // Button and Enter
     sendBtn.addEventListener("click", handleUserInput);
-
-    // Send message on Enter (Shift+Enter for newline)
     textarea.addEventListener("keydown", function (event) {
         if (event.key === "Enter" && !event.shiftKey) {
             event.preventDefault();
@@ -100,12 +74,50 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Hide chat history initially
-    chatHistory.style.display = "none";
+    let historyToDelete = null; // store the item to delete when confirmed
 
-    const clearBtn = document.getElementById("clear-btn");
-    clearBtn.addEventListener("click", function () {
-        chatHistory.innerHTML = "";
-        chatHistory.style.display = "none";
+    // Show modal function
+    function showConfirmModal() {
+        document.getElementById('confirm-modal').style.display = 'flex';
+    }
+
+    // Hide modal function
+    function hideConfirmModal() {
+        document.getElementById('confirm-modal').style.display = 'none';
+    }
+
+      // Attach click listeners to delete buttons
+    document.querySelectorAll('.delete-history-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        historyToDelete = btn.closest('.sidebar-link');
+        if (historyToDelete) {
+            showConfirmModal();
+        }
+        });
+    });
+
+    // Confirm Yes button
+    document.getElementById('confirm-yes').addEventListener('click', () => {
+        if (historyToDelete) {
+        historyToDelete.remove();
+        historyToDelete = null;
+        // TODO: Add your backend delete request here if needed
+        }
+        hideConfirmModal();
+    });
+
+    // Confirm No button
+    document.getElementById('confirm-no').addEventListener('click', () => {
+        historyToDelete = null;
+        hideConfirmModal();
+    });
+
+    // Optional: close modal on clicking outside modal-content
+    document.getElementById('confirm-modal').addEventListener('click', (e) => {
+        if (e.target === e.currentTarget) {
+        hideConfirmModal();
+        historyToDelete = null;
+        }
     });
 });

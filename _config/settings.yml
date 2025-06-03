@@ -1,0 +1,10 @@
+redis:
+  host: localhost
+  port: 6379
+  db: 0
+
+qdrant:
+  host: localhost
+  port: 6333
+  model_collection: models
+  data_collection: chat_data
