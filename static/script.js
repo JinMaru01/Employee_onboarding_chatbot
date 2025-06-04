@@ -121,3 +121,15 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+function toggleSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.classList.toggle('collapsed');
+}
+
+function addToSidebar(message) {
+    const li = document.createElement("li");
+    li.className = "list-group-item small";
+    li.textContent = message;
+    document.getElementById("chat-history-sidebar").appendChild(li);
+}
