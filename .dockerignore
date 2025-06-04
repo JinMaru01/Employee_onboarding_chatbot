@@ -2,12 +2,11 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-artifact/
 env/
-venv/
+artifact/model/
 model/
+venv/
 notebook/
-experiement/
 *.db
 .DS_Store
 .git

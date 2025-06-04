@@ -1,13 +1,22 @@
+import os
 import io
 import redis
 import torch
 import joblib
+from dotenv import load_dotenv
 
 from transformers import AutoModelForTokenClassification, AutoModelForSequenceClassification
 
+# Load .env variables
+load_dotenv()
+
 class RedisConn:
     def __init__(self):
-        self.redis_client = redis.Redis(host='localhost', port=6379, db=0)
+        redis_host = os.getenv("REDIS_HOST", "localhost")
+        redis_port = int(os.getenv("REDIS_PORT", 6379))
+        redis_db = int(os.getenv("REDIS_DB", 0))
+    
+        self.redis_client = redis.Redis(host=redis_host, port=redis_port, db=redis_db)
     
     def label_ecoder_save(self, label_encoder, file_name):
         """Save the fitted LabelEncoder to Redis"""
