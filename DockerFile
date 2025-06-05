@@ -1,6 +1,7 @@
 # Use official Python base image
-FROM python:3.12-slim
+FROM python:3.11-slim
 
+# Set timezone environment variable
 ENV TZ="Asia/Bangkok"
 
 # Install build dependencies
@@ -14,21 +15,21 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /app
 
-# Copy requirements and install them
+# Copy requirements and install dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
+# RUN pip install --no-cache -dir -r requirements.txt
+
+RUN pip install -r requirements.txt
+
+# Copy the rest of the application
 COPY . .
 
+# Ensure entrypoint.sh has Unix line endings and is executable
 RUN chmod +x ./entrypoint.sh
-
-# RUN python ./experiement/save_encoder.py
-# RUN python ./experiement/save_model.py
 
 # Expose the port used by Gunicorn
 EXPOSE 5000
 
 # Start the app using Gunicorn
 ENTRYPOINT ["./entrypoint.sh"]
-# CMD ["gunicorn", "-c", "gunicorn.conf.py", "app:app"]
