@@ -1,5 +1,5 @@
 import io
-import redis
+import _lib.database.redis_conn as redis_conn
 import torch
 import joblib
 import numpy as np
@@ -20,7 +20,7 @@ class RedisConn:
             password: Redis password (if required)
             prefix: Prefix for all keys stored by this instance
         """
-        self.redis_client = redis.Redis(
+        self.redis_client = redis_conn.Redis(
             host=host, 
             port=port, 
             db=db,
@@ -33,7 +33,7 @@ class RedisConn:
         try:
             self.redis_client.ping()
             print(f"✅ Connected to Redis at {host}:{port}")
-        except redis.ConnectionError as e:
+        except redis_conn.ConnectionError as e:
             print(f"❌ Failed to connect to Redis: {e}")
     
     def _get_key(self, key: str) -> str:

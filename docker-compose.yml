@@ -1,19 +1,32 @@
-version: '3.8'
-
 services:
-  app:
+  flask_app:
     build:
       context: .
-      dockerfile: Dockerfile
     container_name: flask-app
     ports:
       - "5000:5000"
-    volumes:
-      - .:/app
-    environment:
-      - REDIS_HOST=${REDIS_HOST_PRODUCTION}
-      - REDIS_PORT=${REDIS_PORT}
-      - REDIS_DB=${REDIS_DB}
-    restart: always
     env_file:
       - .env
+    environment:
+      - REDIS_HOST=${REDIS_HOST}
+      - REDIS_PORT=${REDIS_PORT}
+      - REDIS_DB=${REDIS_DB}
+    networks:
+      - mynet
+    restart: always
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx-proxy
+    ports:
+      - "8080:8080"
+    # depends_on:
+    #   - app
+    networks:
+      - mynet
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+
+networks:
+  mynet:
+    driver: bridge

@@ -5,7 +5,7 @@ import torch
 import joblib
 from dotenv import load_dotenv
 
-from transformers import AutoModelForTokenClassification, AutoModelForSequenceClassification
+from transformers import DistilBertForTokenClassification, DistilBertForSequenceClassification
 
 # Load .env variables
 load_dotenv()
@@ -15,9 +15,11 @@ class RedisConn:
         redis_host = os.getenv("REDIS_HOST", "localhost")
         redis_port = int(os.getenv("REDIS_PORT", 6379))
         redis_db = int(os.getenv("REDIS_DB", 0))
-    
-        self.redis_client = redis.Redis(host=redis_host, port=redis_port, db=redis_db)
-    
+        try:
+            self.redis_client = redis.Redis(host=redis_host, port=redis_port, db=redis_db)
+        except:
+            raise ValueError("Connection Error!!!")
+        
     def label_ecoder_save(self, label_encoder, file_name):
         """Save the fitted LabelEncoder to Redis"""
         buffer = io.BytesIO()
@@ -48,11 +50,11 @@ class RedisConn:
             raise ValueError(f"❌ Model not found in Redis under key '{model_name}'!")
         
         # Load model architecture
-        model = AutoModelForSequenceClassification.from_pretrained(model_ckpt, num_labels=num_labels)
+        # model = DistilBertForSequenceClassification.from_pretrained(model_ckpt, num_labels=num_labels)
         
         # Load weights from buffer
         buffer = io.BytesIO(model_bytes)
-        model.load_state_dict(torch.load(buffer, map_location=torch.device('cpu')))
+        model = (torch.load(buffer, map_location=torch.device('cpu')))
         model.eval()
 
         print("✅ Model successfully loaded classifier from Redis and ready for inference!")
@@ -64,11 +66,11 @@ class RedisConn:
             raise ValueError(f"❌ Model not found in Redis under key '{model_name}'!")
         
          # Load model architecture
-        model = AutoModelForTokenClassification.from_pretrained(model_ckpt, num_labels=num_labels)
+        # model = DistilBertForTokenClassification.from_pretrained(model_ckpt, num_labels=num_labels)
 
         # Load weights from buffer
         buffer = io.BytesIO(model_bytes)
-        model.load_state_dict(torch.load(buffer, map_location=torch.device('cpu')))
+        model = (torch.load(buffer, map_location=torch.device('cpu')))
         model.eval()
 
         print("✅ Model successfully loaded extractor from Redis and ready for inference!")
