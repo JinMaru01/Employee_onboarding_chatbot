@@ -9,7 +9,7 @@ api_bp = Blueprint('api', __name__, url_prefix='/api')
 # Create model instance
 model = ModelInference()
 
-@api_bp.route("", methods=["GET"])
+@api_bp.route("/check", methods=["GET"])
 def api_check():
     """
     Check if API is running.
