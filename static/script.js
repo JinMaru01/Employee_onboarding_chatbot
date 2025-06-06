@@ -44,14 +44,47 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             const { response } = data;
+
             if (response) {
-                const responseBubble = document.createElement("div");
-                responseBubble.classList.add("chat-bubble", "bot-message");
-                responseBubble.textContent = response;
-                chatHistory.appendChild(responseBubble);
+                // Typing animation placeholder
+                const typingBubble = document.createElement("div");
+                typingBubble.classList.add("chat-bubble", "bot-message");
+                typingBubble.textContent = "Typing...";
+                chatHistory.appendChild(typingBubble);
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+
+                // Simulate delay before showing actual message
+                setTimeout(() => {
+                    typingBubble.remove(); // remove "Typing..."
+
+                    const responseBubble = document.createElement("div");
+                    responseBubble.classList.add("chat-bubble", "bot-message");
+                    responseBubble.textContent = response;
+                    chatHistory.appendChild(responseBubble);
+                    chatHistory.scrollTop = chatHistory.scrollHeight;
+                }, 800); // adjust delay in ms
             }
-            chatHistory.scrollTop = chatHistory.scrollHeight;
-        });
+        })
+
+    setTimeout(() => {
+        typingBubble.remove();
+
+        const responseBubble = document.createElement("div");
+        responseBubble.classList.add("chat-bubble", "bot-message");
+        chatHistory.appendChild(responseBubble);
+
+        let i = 0;
+        function typeChar() {
+            if (i < response.length) {
+                responseBubble.textContent += response.charAt(i);
+                i++;
+                setTimeout(typeChar, 20); // adjust typing speed
+            }
+        }
+        typeChar();
+    }, 800);
+
+
 
         textarea.value = "";
         textarea.style.height = "auto";

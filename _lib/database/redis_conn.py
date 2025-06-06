@@ -50,11 +50,11 @@ class RedisConn:
             raise ValueError(f"❌ Model not found in Redis under key '{model_name}'!")
         
         # Load model architecture
-        # model = DistilBertForSequenceClassification.from_pretrained(model_ckpt, num_labels=num_labels)
+        model = DistilBertForSequenceClassification.from_pretrained(model_ckpt, num_labels=num_labels)
         
         # Load weights from buffer
         buffer = io.BytesIO(model_bytes)
-        model = (torch.load(buffer, map_location=torch.device('cpu')))
+        model.load_state_dict(torch.load(buffer, map_location=torch.device('cpu')))
         model.eval()
 
         print("✅ Model successfully loaded classifier from Redis and ready for inference!")
@@ -66,11 +66,11 @@ class RedisConn:
             raise ValueError(f"❌ Model not found in Redis under key '{model_name}'!")
         
          # Load model architecture
-        # model = DistilBertForTokenClassification.from_pretrained(model_ckpt, num_labels=num_labels)
+        model = DistilBertForTokenClassification.from_pretrained(model_ckpt, num_labels=num_labels)
 
         # Load weights from buffer
         buffer = io.BytesIO(model_bytes)
-        model = (torch.load(buffer, map_location=torch.device('cpu')))
+        model.load_state_dict(torch.load(buffer, map_location=torch.device('cpu')))
         model.eval()
 
         print("✅ Model successfully loaded extractor from Redis and ready for inference!")
