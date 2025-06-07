@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Chatbot</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --sidebar-width: 280px;
+            --sidebar-collapsed-width: 60px;
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+        }
+
+        body {
+            overflow-x: hidden;
+            background-color: #f8f9fa;
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            width: var(--sidebar-width);
+            height: 100vh;
+            background-color: var(--primary-color);
+            transition: all 0.3s ease;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            overflow: hidden;
+        }
+
+        .sidebar.collapsed {
+            width: var(--sidebar-collapsed-width);
+        }
+
+        .sidebar-header {
+            background-color: var(--secondary-color);
+            min-height: 60px;
+        }
+
+        .sidebar.collapsed .sidebar-header {
+            justify-content: center !important;
+        }
+
+        .sidebar.collapsed .logo-text {
+            opacity: 0;
+            width: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .toggle-btn {
+            background: none;
+            border: none;
+            color: white;
+            min-width: 40px;
+            height: 40px;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .toggle-btn:hover {
+            background-color: var(--accent-color);
+            color: white;
+            transform: scale(1.1);
+        }
+
+        .sidebar.collapsed .toggle-btn i {
+            transform: rotate(180deg);
+        }
+
+        /* Sidebar Navigation */
+        .sidebar-nav {
+            padding: 0;
+        }
+
+        .nav-item {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-link {
+            color: #bdc3c7 !important;
+            padding: 0.75rem 1rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+        }
+
+        .nav-link:hover {
+            background-color: var(--secondary-color);
+            color: white !important;
+        }
+
+        .nav-link.active {
+            background-color: var(--accent-color);
+            color: white !important;
+        }
+
+        .sidebar.collapsed .nav-link {
+            justify-content: center;
+            padding: 0.75rem 0.5rem;
+        }
+
+        .sidebar.collapsed .nav-text {
+            opacity: 0;
+            width: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .delete-btn {
+            background: none;
+            border: none;
+            color: inherit;
+            opacity: 0.7;
+            padding: 0.25rem;
+            transition: opacity 0.3s ease;
+        }
+
+        .delete-btn:hover {
+            opacity: 1;
+            color: #e74c3c;
+        }
+
+        .sidebar.collapsed .delete-btn {
+            display: none;
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: var(--sidebar-width);
+            transition: margin-left 0.3s ease;
+            min-height: 100vh;
+            background-color: #f8f9fa;
+        }
+
+        .sidebar.collapsed ~ .main-content {
+            margin-left: var(--sidebar-collapsed-width);
+        }
+
+        /* Chat Container */
+        .chat-container {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            left: calc(var(--sidebar-width) + 2rem);
+            transition: left 0.3s ease;
+            z-index: 100;
+        }
+
+        .sidebar.collapsed ~ .main-content .chat-container {
+            left: calc(var(--sidebar-collapsed-width) + 2rem);
+        }
+
+        .input-group {
+            background: white;
+            border-radius: 25px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+        }
+
+        .form-control {
+            border: none;
+            border-radius: 25px 0 0 25px;
+            box-shadow: none;
+            resize: none;
+            padding: 0.75rem 1rem;
+        }
+
+        .form-control:focus {
+            border: none;
+            box-shadow: none;
+        }
+
+        .btn-send {
+            border-radius: 0 25px 25px 0;
+            border: none;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* FAQ Section */
+        .faq-card {
+            background: white;
+            border: none;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            padding: 0.5rem 0;
+            display: block;
+            transition: color 0.3s ease;
+        }
+
+        .faq-link:hover {
+            color: var(--primary-color);
+        }
+
+        /* Chat Bubbles */
+        .chat-bubble {
+            /* margin: 1rem 0; */
+            padding: 0.75rem 1rem;
+            border-radius: 18px;
+            max-width: 70%;
+            word-wrap: break-word;
+        }
+
+        .user-message {
+            background-color: var(--accent-color);
+            color: white;
+            margin-left: auto;
+            text-align: right;
+        }
+
+        .bot-message {
+            background-color: #e9ecef;
+            color: #333;
+            margin-right: auto;
+        }
+
+        .faq-suggestions {
+            display: none;
+        }
+
+        .faq-item {
+            list-style: none;
+            margin: 0.5rem 0;
+        }
+
+        .faq-btn {
+            width: 100%;
+            text-align: left;
+            border: none;
+            background: none;
+            color: var(--accent-color);
+            padding: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .faq-btn:hover {
+            background-color: #f8f9fa;
+            color: var(--primary-color);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .sidebar {
+                transform: translateX(-100%);
+            }
+
+            .sidebar.show {
+                transform: translateX(0);
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+
+            .chat-container {
+                left: 2rem;
+            }
+
+            .mobile-toggle {
+                display: block !important;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .mobile-toggle {
+                display: none !important;
+            }
+        }
+
+        /* Custom Scrollbar */
+        .sidebar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .sidebar::-webkit-scrollbar-track {
+            background: var(--primary-color);
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background: var(--secondary-color);
+            border-radius: 3px;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-color);
+        }
+
+        /* Fix for chat history scrolling */
+        #chat-history {
+            max-height: calc(100vh - 200px);
+            overflow-y: auto;
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Mobile Toggle Button -->
+    <button class="btn btn-primary mobile-toggle position-fixed top-0 start-0 m-3" type="button" onclick="toggleMobileSidebar()" style="z-index: 1050; display: none;">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Sidebar -->
+    <nav class="sidebar d-flex flex-column" id="sidebar">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header d-flex justify-content-between align-items-center p-3">
+            <h5 class="logo-text text-white mb-0 fw-bold">Chat History</h5>
+            <button class="toggle-btn rounded" onclick="toggleSidebar()" type="button">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+        </div>
+
+        <!-- Navigation -->
+        <div class="flex-grow-1 overflow-auto">
+            <ul class="nav nav-pills flex-column sidebar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active d-flex justify-content-between align-items-center" href="#">
+                        <span class="nav-text">30-May-2025</span>
+                        <button class="delete-btn" type="button" data-bs-toggle="modal" data-bs-target="#confirmModal">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex justify-content-between align-items-center" href="#">
+                        <span class="nav-text">29-May-2025</span>
+                        <button class="delete-btn" type="button" data-bs-toggle="modal" data-bs-target="#confirmModal">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex justify-content-between align-items-center" href="#">
+                        <span class="nav-text">28-May-2025</span>
+                        <button class="delete-btn" type="button" data-bs-toggle="modal" data-bs-target="#confirmModal">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex justify-content-between align-items-center" href="#">
+                        <span class="nav-text">27-May-2025</span>
+                        <button class="delete-btn" type="button" data-bs-toggle="modal" data-bs-target="#confirmModal">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Sidebar Footer -->
+        <div class="border-top p-3">
+            <small class="text-muted nav-text">Employee Chatbot v1.0</small>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container-fluid py-4">
+            <!-- Logo Section -->
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <div style="width: 60px; height: 60px; background: linear-gradient(45deg, #28a745, #007bff); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-robot text-white fs-3"></i>
+                    </div>
+                    <h4 class="mt-2 text-muted">Employee Chatbot</h4>
+                </div>
+            </div>
+
+            <!-- Chat History -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-6">
+                    <div id="chat-history">
+                        <!-- FAQ Suggestions -->
+                        <div class="card faq-card mb-4" id="faq-suggestions">
+                            <div class="card-header bg-primary text-white">
+                                <h6 class="mb-0">
+                                    <i class="fas fa-question-circle me-2"></i>
+                                    Popular Questions
+                                </h6>
+                            </div>
+                            <div class="card-body">
+                                <ul id="faq-list" class="list-unstyled mb-0">
+                                    <!-- FAQ items will be populated by JavaScript -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Input Container -->
+        <div class="chat-container">
+            <div class="input-group">
+                <textarea class="form-control" id="chat-input" placeholder="Ask anything..." rows="1" style="max-height: 120px;"></textarea>
+                <button class="btn btn-primary btn-send" type="button" id="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Confirm Delete Modal -->
+    <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmModalLabel">
+                        <i class="fas fa-exclamation-triangle text-warning me-2"></i>
+                        Confirm Delete
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="mb-0">Are you sure you want to delete this chat history? This action cannot be undone.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <i class="fas fa-times me-2"></i>Cancel
+                    </button>
+                    <button type="button" class="btn btn-danger" id="confirmDelete">
+                        <i class="fas fa-trash me-2"></i>Delete
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // DOM Elements
+            const textarea = document.getElementById("chat-input");
+            const sendBtn = document.getElementById("send-btn");
+            const chatHistory = document.getElementById("chat-history");
+            const faqSuggestions = document.getElementById("faq-suggestions");
+            const faqList = document.getElementById("faq-list");
+            const sidebar = document.getElementById("sidebar");
+
+            // FAQ Questions
+            const mostAskedQuestions = [
+                "What is the company vision?",
+                "Tell me about our core values",
+                "What types of contracts are available?",
+                "How do I apply for leave?",
+                "What are the unacceptable actions?",
+                "Can you explain the disciplinary procedure?"
+            ];
+
+            let historyToDelete = null;
+
+            // Initialize FAQ suggestions on load
+            function initializeFAQ() {
+                if (faqSuggestions && faqList) {
+                    faqSuggestions.style.display = "block";
+                    faqList.innerHTML = "";
+                    
+                    mostAskedQuestions.forEach(question => {
+                        const li = document.createElement("li");
+                        li.className = "faq-item";
+                        li.innerHTML = `<button class="faq-btn">${question}</button>`;
+                        faqList.appendChild(li);
+                    });
+                }
+            }
+
+            // Handle user input and send message
+            function handleUserInput() {
+                if (!textarea) return;
+                
+                const message = textarea.value.trim();
+                if (message === "") return;
+
+                // Hide FAQ after interaction
+                if (faqSuggestions) {
+                    faqSuggestions.style.display = "none";
+                }
+
+                // Add user message to chat
+                addMessageToChat('user', message);
+
+                // Simulate bot response
+                simulateBotResponse(message);
+
+                // Clear input and reset height
+                textarea.value = "";
+                textarea.style.height = "auto";
+            }
+
+            // Simulate bot response (replace with actual API call)
+            function simulateBotResponse(userMessage) {
+                if (!chatHistory) return;
+
+                // Add typing indicator
+                const typingBubble = document.createElement("div");
+                typingBubble.classList.add("chat-bubble", "bot-message");
+                typingBubble.textContent = "Typing...";
+                chatHistory.appendChild(typingBubble);
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+
+                // Simulate response after delay
+                setTimeout(() => {
+                    typingBubble.remove();
+                    
+                    // Generate a simple response
+                    let response = `Thanks for your question: "${userMessage}". I'm here to help with company policies and procedures.`;
+                    
+                    // Add specific responses for FAQ questions
+                    if (userMessage.toLowerCase().includes('vision')) {
+                        response = "Our company vision is to be the leading provider of innovative solutions that enhance customer experience and drive sustainable growth.";
+                    } else if (userMessage.toLowerCase().includes('values')) {
+                        response = "Our core values include integrity, innovation, customer focus, teamwork, and continuous improvement.";
+                    } else if (userMessage.toLowerCase().includes('leave')) {
+                        response = "To apply for leave, please submit your request through the HR portal at least 2 weeks in advance. Emergency leave can be requested through your direct supervisor.";
+                    }
+                    
+                    addBotResponseWithTyping(response);
+                }, 1000);
+            }
+
+            // Add bot response with typing animation
+            function addBotResponseWithTyping(response) {
+                if (!chatHistory) return;
+
+                const responseBubble = document.createElement("div");
+                responseBubble.classList.add("chat-bubble", "bot-message");
+                chatHistory.appendChild(responseBubble);
+
+                let i = 0;
+                function typeChar() {
+                    if (i < response.length) {
+                        responseBubble.textContent += response.charAt(i);
+                        i++;
+                        chatHistory.scrollTop = chatHistory.scrollHeight;
+                        setTimeout(typeChar, 20);
+                    }
+                }
+                typeChar();
+            }
+
+            // Add message to chat history
+            function addMessageToChat(sender, message) {
+                if (!chatHistory) return;
+
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `chat-bubble ${sender === 'user' ? 'user-message' : 'bot-message'}`;
+                messageDiv.textContent = message;
+                chatHistory.appendChild(messageDiv);
+
+                // Scroll to bottom
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+            }
+
+            // Auto-resize textarea
+            function setupTextareaResize() {
+                if (!textarea) return;
+
+                textarea.addEventListener('input', function () {
+                    this.style.height = 'auto';
+                    this.style.height = this.scrollHeight + 'px';
+                });
+            }
+
+            // Setup event listeners
+            function setupEventListeners() {
+                // FAQ button clicks
+                if (faqList) {
+                    faqList.addEventListener("click", function (e) {
+                        if (e.target.classList.contains("faq-btn")) {
+                            if (textarea) {
+                                textarea.value = e.target.textContent;
+                                handleUserInput();
+                            }
+                        }
+                    });
+                }
+
+                // Send button click
+                if (sendBtn) {
+                    sendBtn.addEventListener("click", handleUserInput);
+                }
+
+                // Enter key handling
+                if (textarea) {
+                    textarea.addEventListener("keydown", function (event) {
+                        if (event.key === "Enter" && !event.shiftKey) {
+                            event.preventDefault();
+                            handleUserInput();
+                        }
+                    });
+                }
+
+                // Navigation link clicks
+                document.addEventListener('click', function (e) {
+                    if (e.target.closest('.nav-link') && !e.target.closest('.delete-btn')) {
+                        e.preventDefault();
+
+                        // Remove active class from all nav links
+                        document.querySelectorAll('.nav-link').forEach(link => {
+                            link.classList.remove('active');
+                        });
+
+                        // Add active class to clicked link
+                        e.target.closest('.nav-link').classList.add('active');
+
+                        // Load chat history for the selected date
+                        const navText = e.target.closest('.nav-link').querySelector('.nav-text');
+                        if (navText) {
+                            const dateText = navText.textContent;
+                            console.log('Loading chat history for:', dateText);
+                            loadChatHistory(dateText);
+                        }
+                    }
+                });
+
+                // Confirm delete functionality
+                const confirmDelete = document.getElementById('confirmDelete');
+                if (confirmDelete) {
+                    confirmDelete.addEventListener('click', function () {
+                        const activeNavLink = document.querySelector('.nav-link.active');
+                        if (activeNavLink) {
+                            const navItem = activeNavLink.closest('.nav-item');
+                            if (navItem) {
+                                navItem.remove();
+
+                                // If there are remaining items, select the first one
+                                const remainingItems = document.querySelectorAll('.nav-item');
+                                if (remainingItems.length > 0) {
+                                    const firstLink = remainingItems[0].querySelector('.nav-link');
+                                    if (firstLink) {
+                                        firstLink.classList.add('active');
+                                    }
+                                }
+                            }
+                        }
+
+                        // Close Bootstrap modal
+                        const confirmModal = document.getElementById('confirmModal');
+                        if (confirmModal) {
+                            const modal = bootstrap.Modal.getInstance(confirmModal);
+                            if (modal) {
+                                modal.hide();
+                            }
+                        }
+
+                        console.log('Chat history deleted');
+                    });
+                }
+            }
+
+            // Load chat history
+            function loadChatHistory(date) {
+                if (!chatHistory) return;
+
+                // Clear current chat and preserve FAQ if it exists
+                const faqCard = chatHistory.querySelector('.faq-card');
+                chatHistory.innerHTML = '';
+                if (faqCard) {
+                    chatHistory.appendChild(faqCard);
+                }
+
+                console.log(`Loading chat history for ${date}`);
+            }
+
+            // Restore sidebar state
+            function restoreSidebarState() {
+                if (!sidebar) return;
+
+                if (typeof(Storage) !== "undefined") {
+                    const isCollapsed = localStorage.getItem('sidebarCollapsed') === 'true';
+                    if (isCollapsed) {
+                        sidebar.classList.add('collapsed');
+                    }
+                }
+            }
+
+            // Initialize everything
+            function init() {
+                initializeFAQ();
+                setupTextareaResize();
+                setupEventListeners();
+                restoreSidebarState();
+            }
+
+            // Start the application
+            init();
+        });
+
+        // Global functions
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            if (!sidebar) return;
+
+            sidebar.classList.toggle('collapsed');
+
+            if (typeof(Storage) !== "undefined") {
+                const isCollapsed = sidebar.classList.contains('collapsed');
+                localStorage.setItem('sidebarCollapsed', isCollapsed);
+            }
+        }
+
+        function toggleMobileSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            if (!sidebar) return;
+
+            sidebar.classList.toggle('show');
+        }
+    </script>
+</body>
+
+</html>

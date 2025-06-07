@@ -23,7 +23,21 @@ services:
       - 6333:6333
     volumes:
       - qdrant_volume_data:/qdrant/storage
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    ports:
+      - "9000:9000" 
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin123
+    volumes:
+      - minio_data:/data
+    command: server --console-address ":9001" /data
+    restart: unless-stopped
 volumes:
   redis_volume_data:
   redis_insight_volume_data:
   qdrant_volume_data:
+  minio_data:

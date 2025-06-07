@@ -16,8 +16,8 @@ redis_conn.model_save(classifier, "intent_classifier_v3")
 redis_conn.model_save(extractor, "extractor_v3")
 
 # Load model from Redis
-classifier = redis_conn.classifier_load("intent_classifier_v3")
-extractor = redis_conn.extractor_load("extractor_v3")
+# classifier = redis_conn.classifier_load("intent_classifier_v3")
+# extractor = redis_conn.extractor_load("extractor_v3")
 
-print(f"Model loaded from Redis: {classifier.eval()}")
-print(f"Model loaded from Redis: {extractor.eval()}")
+# print(f"Model loaded from Redis: {classifier.eval()}")
+# print(f"Model loaded from Redis: {extractor.eval()}")

@@ -17,7 +17,9 @@ class RedisConn:
         redis_db = int(os.getenv("REDIS_DB", 0))
         try:
             self.redis_client = redis.Redis(host=redis_host, port=redis_port, db=redis_db)
-        except:
+            print("✅ Redis connection established successfully!", f"Host: {redis_host}, Port: {redis_port}, DB: {redis_db}")
+        except redis.ConnectionError:
+            print("❌ Failed to connect to Redis. Please check your connection settings.")
             raise ValueError("Connection Error!!!")
         
     def label_ecoder_save(self, label_encoder, file_name):
@@ -50,11 +52,11 @@ class RedisConn:
             raise ValueError(f"❌ Model not found in Redis under key '{model_name}'!")
         
         # Load model architecture
-        # model = DistilBertForSequenceClassification.from_pretrained(model_ckpt, num_labels=num_labels)
+        model = DistilBertForSequenceClassification.from_pretrained(model_ckpt, num_labels=num_labels)
         
         # Load weights from buffer
         buffer = io.BytesIO(model_bytes)
-        model = (torch.load(buffer, map_location=torch.device('cpu')))
+        model.load_state_dict(torch.load(buffer, map_location=torch.device('cpu')))
         model.eval()
 
         print("✅ Model successfully loaded classifier from Redis and ready for inference!")
@@ -66,11 +68,11 @@ class RedisConn:
             raise ValueError(f"❌ Model not found in Redis under key '{model_name}'!")
         
          # Load model architecture
-        # model = DistilBertForTokenClassification.from_pretrained(model_ckpt, num_labels=num_labels)
+        model = DistilBertForTokenClassification.from_pretrained(model_ckpt, num_labels=num_labels)
 
         # Load weights from buffer
         buffer = io.BytesIO(model_bytes)
-        model = (torch.load(buffer, map_location=torch.device('cpu')))
+        model.load_state_dict(torch.load(buffer, map_location=torch.device('cpu')))
         model.eval()
 
         print("✅ Model successfully loaded extractor from Redis and ready for inference!")
