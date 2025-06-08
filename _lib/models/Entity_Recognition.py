@@ -11,6 +11,12 @@ class NamedEntityRecognizer:
         self.model = model
         self.model.to(self.device)
 
+    @staticmethod
+    def model_class():
+        from transformers import DistilBertForTokenClassification
+        return DistilBertForTokenClassification
+
+
     def train(self, dataloader, optimizer, num_epochs=5, use_custom_loss=False, early_stopping_patience=2):
         self.model.train()
         

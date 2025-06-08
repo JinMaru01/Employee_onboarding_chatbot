@@ -64,3 +64,15 @@ class MinioConn:
         except S3Error as e:
             print(f"❌ Failed to load model: {e}")
             return None
+
+    def label_encoder_load(self, key):
+        """Loads a label encoder from MinIO."""
+        try:
+            response = self.client.get_object(self.bucket, key)
+            le_bytes = response.read()
+            le = joblib.load(io.BytesIO(le_bytes))
+            print(f"✅ Label encoder '{key}' loaded successfully")
+            return le
+        except S3Error as e:
+            print(f"❌ Failed to load label encoder '{key}': {e}")
+            return None

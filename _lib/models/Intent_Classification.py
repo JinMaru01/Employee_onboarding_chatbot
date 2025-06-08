@@ -10,6 +10,11 @@ class IntentClassifier():
         self.device = device or torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model.to(self.device)
 
+    @staticmethod
+    def model_class():
+        from transformers import DistilBertForSequenceClassification
+        return DistilBertForSequenceClassification
+
     def preprocess(self, text):
         return  self.tokenizer(
         text,

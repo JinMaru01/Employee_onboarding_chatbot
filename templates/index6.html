@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>History Date Buttons</title>
+<style>
+  #dateButtons button {
+    margin: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  #historyDisplay {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 600px;
+    font-family: monospace;
+    white-space: pre-wrap;
+  }
+</style>
+</head>
+<body>
+
+<h3>Select a Date to View History:</h3>
+<div id="dateButtons"></div>
+
+<h3>Chat History:</h3>
+<div id="historyDisplay">No history loaded yet.</div>
+
+<script>
+// Simulated API response: list of dates user has history for
+const historyDates = [
+  "2025-06-07",
+  "2025-06-06",
+  "2025-06-05"
+];
+
+// Container for date buttons
+const dateButtonsDiv = document.getElementById('dateButtons');
+const historyDisplay = document.getElementById('historyDisplay');
+
+// Create a button for each date
+historyDates.forEach(date => {
+  const btn = document.createElement('button');
+  btn.textContent = date;
+
+  btn.addEventListener('click', () => {
+    // When button clicked, fetch & show history for that date
+    loadHistory(date);
+  });
+
+  dateButtonsDiv.appendChild(btn);
+});
+
+// Function to simulate fetching chat history from your /api/history/{date} endpoint
+function loadHistory(date) {
+  // Normally you'd do a fetch() call here, but we simulate it:
+  const simulatedApiResponse = {
+    "data": [
+      {
+        "bot_response": "Innovation is at the heart of our company, encouraging creative solutions and new ideas.",
+        "confidence": 81.2963,
+        "predicted_intent": "core_value",
+        "timestamp": date + " 14:33:02.049",
+        "user_input": "detailed on innovation"
+      }
+    ],
+    "status": "success"
+  };
+
+  // Display nicely formatted JSON in the history display div
+  historyDisplay.textContent = `History for ${date}:\n\n` + JSON.stringify(simulatedApiResponse.data, null, 2);
+}
+
+</script>
+
+</body>
+</html>

@@ -392,3 +392,35 @@ body {
     font-style: italic;
     color: #aaa;
 }
+
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    display: none; /* default hidden */
+}
+
+#faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    top: 0 !important;
+    position: relative;
+}
+
+.faq-btn {
+    white-space: nowrap;
+}
+
+
+.loading-spinner {
+    width: 200px; /* adjust as needed */
+    height: 200px;
+}
+

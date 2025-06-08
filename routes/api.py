@@ -1,7 +1,7 @@
 import time
 from flask import Blueprint, request, jsonify
 from api.model_inference import ModelInference
-from _lib.preprocess.log_history import log_user_interaction
+from _lib.preprocess.log_history import log_user_interaction, load_chat_history, get_unique_dates, delete_chat_history_by_date
 from _lib.response.bot_respond import knowledge_base, respond_to_mission_question, get_chatbot_response, normalize_entity
 
 api_bp = Blueprint('api', __name__, url_prefix='/api')
@@ -125,3 +125,32 @@ def chatbot_respond():
 
     except Exception as e:
         return jsonify({"error": f"Failed to respond: {str(e)}"}), 500
+
+@api_bp.route("/history/unique-dates")
+def unique_dates_endpoint():
+    try:
+        dates = get_unique_dates()
+        return jsonify({"status": "success", "dates": dates})
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+@api_bp.route('/history/<date>', methods=['GET'])
+def get_chat_history(date):
+    try:
+        limit = int(request.args.get("limit", 50))
+        limit = max(1, min(limit, 500))
+        print(f"Fetching chat history for date: {date} with limit: {limit}")
+        history = load_chat_history(date_str=date, limit=limit)
+        return jsonify({"status": "success", "data": history})
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+@api_bp.route('/history/<date>', methods=['DELETE'])
+def delete_chat_history(date):
+    try:
+        delete_chat_history_by_date(date)
+        return jsonify({"status": "success", "message": f"Chat history for {date} deleted successfully."})
+    except ValueError as ve:
+        return jsonify({"status": "error", "message": str(ve)}), 400
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)}), 500

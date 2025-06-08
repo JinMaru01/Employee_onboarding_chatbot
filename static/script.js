@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const faqSuggestions = document.getElementById("faq-suggestions");
     const faqList = document.getElementById("faq-list");
     const sidebar = document.getElementById("sidebar");
+    const historyDateList = document.getElementById('historyDateList');
+    const chatHistoryDiv = document.getElementById('chat-history');
 
     const mostAskedQuestions = [
         "What is the company vision?",
@@ -18,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let historyToDelete = null;
     let inputDebounce = false;
+    let datesData = [];
 
     function initializeFAQ() {
         if (faqSuggestions && faqList) {
@@ -25,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
             faqList.innerHTML = "";
             mostAskedQuestions.forEach(question => {
                 const li = document.createElement("li");
-                li.className = "faq-item";
-                li.innerHTML = `<button class="btn btn-link p-0 text-left faq-btn">${question}</button>`;
+                li.className = "faq-item mb-2";
+                li.innerHTML = `<button class="btn btn-outline-primary btn-sm faq-btn">${question}</button>`;
                 faqList.appendChild(li);
             });
         }
@@ -69,21 +72,21 @@ document.addEventListener("DOMContentLoaded", function () {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ text: message })
         })
-        .then(response => {
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            return response.json();
-        })
-        .then(data => {
-            const { response } = data;
-            if (response) {
-                typingBubble.remove();
-                addBotResponseWithTyping(response);
-            }
-        })
-        .catch(error => {
-            console.error('API Error:', error);
-            typingBubble.textContent = "Sorry, there was an error processing your request.";
-        });
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                return response.json();
+            })
+            .then(data => {
+                const { response } = data;
+                if (response) {
+                    typingBubble.remove();
+                    addBotResponseWithTyping(response);
+                }
+            })
+            .catch(error => {
+                console.error('API Error:', error);
+                typingBubble.textContent = "Sorry, there was an error processing your request.";
+            });
     }
 
     function addBotResponseWithTyping(response) {
@@ -106,13 +109,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function addMessageToChat(sender, message) {
-        if (!chatHistory) return;
+        if (!chatHistoryDiv) return;
 
         const messageDiv = document.createElement('div');
         messageDiv.className = `chat-bubble ${sender === 'user' ? 'user-message' : 'bot-message'}`;
         messageDiv.textContent = message;
-        chatHistory.appendChild(messageDiv);
-        chatHistory.scrollTop = chatHistory.scrollHeight;
+        chatHistoryDiv.appendChild(messageDiv);
+        chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
     }
 
     function setupTextareaResize() {
@@ -154,102 +157,112 @@ document.addEventListener("DOMContentLoaded", function () {
                 handleUserInput();
             }
         });
-
-        document.addEventListener('click', function (e) {
-            if (e.target.closest('.nav-link') && !e.target.closest('.delete-btn')) {
-                e.preventDefault();
-                document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
-                e.target.closest('.nav-link').classList.add('active');
-                const navText = e.target.closest('.nav-link').querySelector('.nav-text');
-                if (navText) loadChatHistory(navText.textContent);
-            }
-        });
     }
 
     function showConfirmModal() {
-        const modal = document.getElementById('confirm-modal');
-        if (modal) modal.style.display = 'flex';
+        const modal = document.getElementById('confirmModal');
+        if (modal && typeof bootstrap !== 'undefined') {
+            const bsModal = new bootstrap.Modal(modal);
+            bsModal.show();
+        }
     }
 
     function hideConfirmModal() {
-        const modal = document.getElementById('confirm-modal');
-        if (modal) modal.style.display = 'none';
+        const modal = document.getElementById('confirmModal');
+        if (modal && typeof bootstrap !== 'undefined') {
+            const bsModal = bootstrap.Modal.getInstance(modal);
+            if (bsModal) {
+                bsModal.hide();
+            }
+        }
     }
 
     function setupDeleteConfirmation() {
-        document.querySelectorAll('.delete-history-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
-                historyToDelete = btn.closest('.sidebar-link');
-                if (historyToDelete) showConfirmModal();
-            });
-        });
-
-        const confirmYes = document.getElementById('confirm-yes');
-        if (confirmYes) {
-            confirmYes.addEventListener('click', () => {
-                if (historyToDelete) historyToDelete.remove();
-                historyToDelete = null;
-                hideConfirmModal();
-            });
-        }
-
-        const confirmNo = document.getElementById('confirm-no');
-        if (confirmNo) {
-            confirmNo.addEventListener('click', () => {
-                historyToDelete = null;
-                hideConfirmModal();
-            });
-        }
-
-        const confirmModal = document.getElementById('confirm-modal');
-        if (confirmModal) {
-            confirmModal.addEventListener('click', (e) => {
-                if (e.target === e.currentTarget) {
-                    hideConfirmModal();
-                    historyToDelete = null;
-                }
-            });
-        }
-
         const confirmDelete = document.getElementById('confirmDelete');
         if (confirmDelete) {
             confirmDelete.addEventListener('click', function () {
-                const activeNavLink = document.querySelector('.nav-link.active');
-                if (activeNavLink) {
-                    const navItem = activeNavLink.closest('.nav-item');
-                    if (navItem) navItem.remove();
-                    const remainingItems = document.querySelectorAll('.nav-item');
-                    if (remainingItems.length > 0) {
-                        const firstLink = remainingItems[0].querySelector('.nav-link');
-                        if (firstLink) firstLink.classList.add('active');
+                if (historyToDelete) {
+                    const dateToDelete = historyToDelete.getAttribute('data-date');
+
+                    // Remove from UI
+                    historyToDelete.remove();
+
+                    // Remove from datesData array
+                    datesData = datesData.filter(date => date !== dateToDelete);
+
+                    // Clear chat history if this was the active date
+                    const activeDateElement = document.querySelector('.nav-link.active');
+                    if (!activeDateElement || activeDateElement === historyToDelete) {
+                        chatHistoryDiv.innerHTML = '';
+                        showFAQSuggestions();
+                        addWelcomeMessage();
+
+                        // Set first remaining date as active if any exist
+                        if (datesData.length > 0) {
+                            setActiveDate(datesData[0]);
+                            loadChatHistory(datesData[0]);
+                        }
                     }
+
+                    fetch(`/api/history/${dateToDelete}`, { method: 'DELETE' })
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('Deleted:', data);
+                            if (data.status !== 'success') {
+                                alert('Failed to delete from server: ' + data.message);
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Delete error:', error);
+                            alert('Server error while deleting chat history.');
+                        });
                 }
-                const confirmModal = document.getElementById('confirmModal');
-                if (confirmModal && window.bootstrap) {
-                    const modal = bootstrap.Modal.getInstance(confirmModal);
-                    if (modal) modal.hide();
-                }
+                historyToDelete = null;
+                hideConfirmModal();
+            });
+        }
+
+        // Handle modal cancel/close
+        const confirmModal = document.getElementById('confirmModal');
+        if (confirmModal) {
+            confirmModal.addEventListener('hidden.bs.modal', function () {
+                historyToDelete = null;
             });
         }
     }
 
     function loadChatHistory(date) {
-        if (!chatHistory) return;
-        chatHistory.innerHTML = '';
+        const loader = document.getElementById('chat-loading');
+        const chatHistoryDiv = document.getElementById('chat-history');
+        if (!chatHistoryDiv || !loader) return;
+
+        chatHistoryDiv.innerHTML = '';
+        loader.style.display = 'flex';
+
         fetch(`/api/history/${date}`)
             .then(res => res.json())
             .then(data => {
-                data.messages.forEach(msg => {
-                    addMessageToChat(msg.sender, msg.text);
-                });
+                loader.style.display = 'none';
+
+                if (data.status === 'success' && Array.isArray(data.data)) {
+                    data.data.forEach(item => {
+                        if (item.user_input) addMessageToChat('user', item.user_input);
+                        if (item.bot_response) addMessageToChat('bot', item.bot_response);
+                    });
+                } else {
+                    chatHistoryDiv.innerHTML = '<p><em>Failed to load chat history.</em></p>';
+                }
             })
-            .catch(error => console.error('Error loading history:', error));
+            .catch(error => {
+                loader.style.display = 'none';
+                console.error('Error:', error);
+                chatHistoryDiv.innerHTML = '<p><em>Error loading chat history.</em></p>';
+            });
     }
 
     function restoreSidebarState() {
         if (!sidebar) return;
-        if (typeof(Storage) !== "undefined") {
+        if (typeof (Storage) !== "undefined") {
             const isCollapsed = localStorage.getItem('sidebarCollapsed') === 'true';
             if (isCollapsed) sidebar.classList.add('collapsed');
         }
@@ -268,6 +281,105 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    // Load history dates and render sidebar
+    function loadHistoryDates() {
+        fetch('/api/history/unique-dates')
+            .then(res => res.json())
+            .then(data => {
+                if (data.status === 'success' && Array.isArray(data.dates)) {
+                    datesData = data.dates;
+                    renderDateList();
+                    showFAQSuggestions();
+                    addWelcomeMessage();
+                } else {
+                    console.error('Invalid date list response:', data);
+                    showFAQSuggestions();
+                    addWelcomeMessage();
+                }
+            })
+            .catch(error => {
+                console.error('Failed to load dates:', error);
+                showFAQSuggestions();
+                addWelcomeMessage();
+            });
+    }
+
+    function renderDateList() {
+        if (!historyDateList) return;
+
+        historyDateList.innerHTML = '';
+        datesData.forEach(date => {
+            const li = document.createElement('li');
+            li.className = 'nav-item';
+
+            li.innerHTML = `
+                <a href="#" class="nav-link" data-date="${date}">
+                    <span class="nav-text">${date}</span>
+                    <button class="delete-btn btn btn-link text-danger p-0" title="Delete ${date}" type="button">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </a>
+            `;
+
+            // Click event to load chat history for this date
+            const navLink = li.querySelector('a.nav-link');
+            navLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                if (e.target.closest('.delete-btn')) return; // Don't load history if delete button clicked
+
+                const clickedDate = e.currentTarget.getAttribute('data-date');
+                setActiveDate(clickedDate);
+                loadChatHistory(clickedDate);
+            });
+
+            // Delete button event
+            const deleteBtn = li.querySelector('.delete-btn');
+            deleteBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                historyToDelete = navLink;
+                showConfirmModal();
+            });
+
+            historyDateList.appendChild(li);
+        });
+    }
+
+    function setActiveDate(date) {
+        if (!historyDateList) return;
+        [...historyDateList.querySelectorAll('a.nav-link')].forEach(link => {
+            link.classList.toggle('active', link.getAttribute('data-date') === date);
+        });
+    }
+
+    function showFAQSuggestions() {
+        const faqSuggestions = document.getElementById("faq-suggestions");
+        const faqList = document.getElementById("faq-list");
+
+        if (faqSuggestions && faqList) {
+            faqSuggestions.style.display = "block";
+            faqList.innerHTML = "";
+            mostAskedQuestions.forEach(question => {
+                const li = document.createElement("li");
+                li.className = "faq-item mb-2";
+                li.innerHTML = `<button class="btn btn-outline-primary btn-sm faq-btn">${question}</button>`;
+                faqList.appendChild(li);
+            });
+        }
+    }
+
+    function addWelcomeMessage() {
+        if (!chatHistoryDiv) return;
+        if (chatHistoryDiv.children.length > 0) return;
+
+        const welcomeText = "👋 Welcome! How can I help you today? Here are some popular questions to get started.";
+        const messageDiv = document.createElement('div');
+        messageDiv.className = "chat-bubble bot-message";
+        messageDiv.textContent = welcomeText;
+        chatHistoryDiv.appendChild(messageDiv);
+        chatHistoryDiv.scrollTop = chatHistoryDiv.scrollHeight;
+    }
+
     function init() {
         initializeFAQ();
         setupTextareaResize();
@@ -276,16 +388,18 @@ document.addEventListener("DOMContentLoaded", function () {
         restoreSidebarState();
         initializeTooltips();
         setupResponsiveHandling();
+        loadHistoryDates();
     }
 
     init();
 });
 
+// Sidebar toggle functionality
 function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
     if (!sidebar) return;
     sidebar.classList.toggle('collapsed');
-    if (typeof(Storage) !== "undefined") {
+    if (typeof (Storage) !== "undefined") {
         const isCollapsed = sidebar.classList.contains('collapsed');
         localStorage.setItem('sidebarCollapsed', isCollapsed);
     }
@@ -305,10 +419,21 @@ function addToSidebar(message) {
     sidebarHistory.appendChild(li);
 }
 
+// Initialize sidebar toggle
 const sidebarToggle = document.getElementById("sidebarToggle");
 if (sidebarToggle) {
     sidebarToggle.addEventListener("click", function () {
         toggleSidebar();
         sidebarToggle.classList.toggle("sidebar-open");
     });
+}
+
+function showLoading() {
+    const overlay = document.getElementById('loading-overlay');
+    if (overlay) overlay.style.display = 'flex';
+}
+
+function hideLoading() {
+    const overlay = document.getElementById('loading-overlay');
+    if (overlay) overlay.style.display = 'none';
 }
