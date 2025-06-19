@@ -1,12 +1,21 @@
+# Ignore Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Ignore virtual environments
 env/
-artifact/model/
-model/
 venv/
+
+# Ignore artifacts, models, notebooks
+artifact/
+model/
 notebook/
+
+# Ignore local database files and OS files
 *.db
 .DS_Store
-.git
+
+# Ignore git folder
+.git/
