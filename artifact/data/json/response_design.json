@@ -1,17 +1,36 @@
 [
   {
     "intent": "company_vision",
-    "responses": [
-      "Our company vision is to innovate and lead the industry with integrity and passion.",
-      "The vision of our company is to create sustainable value for customers and stakeholders.",
-      "Our vision statement focuses on delivering excellence and fostering growth in all areas."
-    ]
+    "entities": {},
+    "responses": {
+      "default": "To provide every Cambodian with convenient access to relevant digital solutions for the improvement of their daily lives."
+    }
   },
   {
     "intent": "company_mission",
-    "responses": [
-      "Our mission statement focuses on delivering excellence and fostering growth in all areas."
-    ]
+    "entities": {
+      "VALUE_NAME": {
+        "Customer at the Heart": {
+          "brief": "To engage and understand customer needs, provide best-in-class products and services, and be responsive and quick in resolving",
+          "detailed": "To engage and understand customer needs, provide best-in-class products and services, and be responsive and quick in resolving"
+        },
+        "Community as the Cause": {
+          "brief": "To deliver robust and cost-effective mobile money services that promote financial inclusion, catalyze growth, and reduce social inequalities.",
+          "detailed": "To deliver robust and cost-effective mobile money services that promote financial inclusion, catalyze growth, and reduce social inequalities."
+        },
+        "Employees as the Pillar": {
+          "brief": "To provide a progressive work culture where career aspirations can be realized through consistent performance and demonstration of the bank’s core values.",
+          "detailed": "To provide a progressive work culture where career aspirations can be realized through consistent performance and demonstration of the bank’s core values."
+        },
+        "Deliver Shareholder Value": {
+          "brief": "To demonstrate strong corporate governance standards that protect and balance shareholder interests in the journey to achieving short- and long-term business goals.",
+          "detailed": "To demonstrate strong corporate governance standards that protect and balance shareholder interests in the journey to achieving short- and long-term business goals."
+        }
+      }
+    },
+    "responses": {
+      "default": "Our missions include Customer at the Heart, Community as the Cause, Employees as the Pillar, and Deliver Shareholder Value. Would you like to know more about a specific mission?"
+    }
   },
   {
     "intent": "core_value",
@@ -19,11 +38,27 @@
       "VALUE_NAME": {
         "Winning": {
           "brief": "Winning is about achieving results through teamwork.",
-          "detailed": "Winning means striving for the best results through teamwork and perseverance."
+          "detailed": "Winning is about achieving results through teamwork by combining individual strengths to reach a shared goal. It’s not just about personal success, but about how people collaborate, support one another, and stay aligned to deliver meaningful outcomes. True winning happens when team members communicate openly, trust each other, and work together effectively—especially when facing challenges."
         },
         "Innovation": {
           "brief": "Innovation is about encouraging creativity.",
-          "detailed": "Innovation is at the heart of our company, encouraging creative solutions and new ideas."
+          "detailed": "Innovation is about encouraging creativity by creating an environment where new ideas are welcomed, explored, and tested. It means giving people the freedom to think differently, challenge the status quo, and take calculated risks without fear of failure. When individuals feel empowered to be creative, they are more likely to propose fresh solutions, improve existing processes, and develop new products or approaches that can drive progress."
+        },
+        "Nurturing": {
+          "brief": "Learn, develop, and coach each other.",
+          "detailed": "Nurturing is a culture of continuous improvement and mutual support. It begins with learning—being open to new ideas, seeking out knowledge, and staying curious. This learning can come from formal training, on-the-job experience, or simply observing and listening to others. As individuals gain new insights and skills, they focus on development—actively applying what they’ve learned to grow professionally and personally. This includes setting goals, improving performance, and adapting to new challenges."
+        },
+        "Growth": {
+          "brief": "Be better than we were yesterday.",
+          "detailed": "By focusing on daily improvement, we create a culture where learning, adaptability, and resilience are valued. It promotes accountability, encourages innovation, and helps build confidence over time. When everyone commits to being just a little better each day—whether in skills, attitude, collaboration, or results—the overall impact becomes powerful and lasting."
+        },
+        "Excellence": {
+          "brief": "Do the best in everything we do.",
+          "detailed": "It means putting in genuine effort, paying attention to details, and maintaining high standards—whether the task is big or small. This mindset isn't about perfection, but about showing up with focus, responsibility, and a willingness to give our full effort in every situation."
+        },
+        "Respect": {
+          "brief": "Respect yourself and others.",
+          "detailed": "Respecting others means listening actively, appreciating differences, and treating people with fairness and empathy. It’s about creating a safe and inclusive environment where everyone feels seen, heard, and valued. In any team or community, mutual respect strengthens relationships, reduces conflict, and lays the foundation for collaboration, trust, and long-term success."
         }
       }
     },
@@ -32,7 +67,7 @@
     }
   },
   {
-    "intent": "ethics_principle",
+    "intent": "conduct_ethics",
     "entities": {
       "PRINCIPLE_NUMBER": {
         "1": "Principle 1 emphasizes protecting Wing's best interests and upholding its reputation.",
@@ -47,7 +82,7 @@
       }
     },
     "responses": {
-      "default": "The code of ethics consists of nine principles guiding our behavior and decision-making."
+      "default": "The code of consists of nine principles guiding our behavior and decision-making. For more detail you don't have permission to access these informations."
     }
   },
   {
@@ -62,11 +97,11 @@
       }
     },
     "responses": {
-      "default": "Unacceptable actions include harassment, theft, discrimination, fraud, and violence. Please follow company policies to maintain a safe work environment."
+      "default": "Unacceptable actions include harassment, theft, discrimination, fraud, and violence. Please follow company policies to maintain a safe work environment. For more detail you don't have permission to access these informations."
     }
   },
   {
-    "intent": "contract_types",
+    "intent": "employment_contracts",
     "entities": {
       "CONTRACT_TYPE": {
         "FDC": "A Fixed Duration Contract (FDC) is a contract set for a specific period with a predetermined end date.",
@@ -74,27 +109,7 @@
       }
     },
     "responses": {
-      "default": "Our company offers two main types of contracts: Fixed Duration Contract and Undetermined Duration Contract."
-    }
-  },
-  {
-    "intent": "employment_requirements",
-    "entities": {
-      "DOCUMENT_TYPE": {
-        "passport": "A valid passport is required as proof of identity for employment.",
-        "id_card": "An official ID card must be submitted during the hiring process.",
-        "visa": "A valid work visa is necessary for non-citizen employees.",
-        "work_permit": "A work permit must be provided to ensure legal employment eligibility."
-      },
-      "ELIGIBILITY_TYPE": {
-        "citizen": "Citizens are eligible for employment without additional documentation.",
-        "resident": "Residents need to provide proof of residency and eligibility to work.",
-        "visa_holder": "Visa holders must have valid visas and permits for employment.",
-        "student": "Students may have restrictions based on their visa or school regulations."
-      }
-    },
-    "responses": {
-      "default": "Employment requirements include valid identification, eligibility to work, and completion of probation periods."
+      "default": "Our company offers two main types of contracts: Fixed Duration Contract and Undetermined Duration Contract. For more detail you don't have permission to access these informations."
     }
   }
 ]

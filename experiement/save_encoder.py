@@ -3,7 +3,6 @@ from _lib.database.redis_conn import RedisConn
 from _lib.preprocess.data_loader import DataLoader
 from transformers import AutoTokenizer
 from sklearn.preprocessing import LabelEncoder
-from transformers import AutoTokenizer
 
 import torch
 import numpy as np

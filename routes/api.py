@@ -2,7 +2,7 @@ import time
 from flask import Blueprint, request, jsonify
 from api.model_inference import ModelInference
 from _lib.preprocess.log_history import log_user_interaction, load_chat_history, get_unique_dates, delete_chat_history_by_date
-from _lib.response.bot_respond import knowledge_base, respond_to_mission_question, get_chatbot_response, normalize_entity
+from _lib.response.bot_respond import knowledge_base, get_chatbot_response, normalize_entity
 
 api_bp = Blueprint('api', __name__, url_prefix='/api')
 
@@ -39,9 +39,6 @@ def predict_intent_api():
     
     # Default response
     bot_response = f"Intent: {label}"
-    
-    if label == "ask_for_mission":
-        bot_response = respond_to_mission_question(label, text, mission_data)
     
     # Log interaction
     log_user_interaction(text, label, round(confidence, 4), bot_response)
