@@ -30,13 +30,47 @@ def normalize_detail_level(raw_level):
                 return canonical
         return "detailed"  # default fallback
 
-def get_chatbot_response(intent, entities, knowledge_base):
+def get_chatbot_response(intent, entities, confidence):
     intent = intent.strip().lower()
+    score = confidence/100
 
+    # 🚫 Block response if confidence is too low
+    if score < 0.4:
+        return (
+            "I'm not quite sure I understood your question. "
+            "Would you mind rephrasing it or giving me a bit more detail?"
+        )
+
+    # 🤔 Low-to-mid confidence (hesitant)
+    elif score < 0.6:
+        return (
+            f"I think you might be asking about '{intent}', but I'm not entirely certain. "
+            "Could you please confirm or rephrase just to make sure I respond accurately?"
+        )
+
+    # 😊 Mid-to-high confidence — add friendly preamble
+    elif score < 0.8:
+        preamble = (
+            f"Thank you for your question! Based on what I understood about '{intent}', "
+            "here's what I can share:"
+        )
+        return bot_response(intent, entities, preamble)
+    elif score > 0.8:
+        return bot_response(intent, entities)
+    else:
+        # Final fallback if intent not found at all
+        return (
+            "Thank you for your message. I'm having a little trouble understanding it clearly. "
+            "Could you try rephrasing or providing a bit more context?"
+        )
+    
+def bot_response(intent, entities, preamble=None):
+    # ✅ Now look up the intent
     for item in knowledge_base:
         if item["intent"].strip().lower() != intent:
             continue
 
+        # Check entity-specific responses
         if "entities" in item and entities:
             for ent_type, ent_values in item["entities"].items():
                 if ent_type in entities:
@@ -44,20 +78,26 @@ def get_chatbot_response(intent, entities, knowledge_base):
                     for key, val in ent_values.items():
                         if key.lower() == matched_key:
                             if isinstance(val, dict):
-                                # Normalize the detail level entity value
                                 raw_level = entities.get("DETAIL_LEVEL", "detailed")
                                 level = normalize_detail_level(raw_level)
-                                # Return the matched detail level if exists, else fallback
-                                return val.get(level, val.get("detailed", list(val.values())[0]))
-                            return val
+                                response = val.get(level, val.get("detailed", list(val.values())[0]))
+                            else:
+                                response = val
+                            return f"{preamble} {response}" if preamble else response
 
-        # fallback default
+        # Default/fallback response
         responses = item.get("responses", {})
         if isinstance(responses, dict):
-            return responses.get("default", "I'm sorry, I don't have information on that.")
+            response = responses.get("default", "I'm sorry, I don't have information on that topic just yet.")
         elif isinstance(responses, list):
-            return responses[0] if responses else "I'm sorry, I don't have information on that."
+            response = responses[0] if responses else "I'm sorry, I don't have information on that topic right now."
         else:
-            return "I'm sorry, I don't have permission to show that information."
+            response = "Apologies — I’m not able to provide that information at the moment."
 
-    return "Sorry, I couldn't understand your message. Could you please rephrase it or provide more details?"
+        return f"{preamble} {response}" if preamble else response
+    
+    # ❌ If intent was not found at all
+    fallback = (
+        f"Currently I'm not able to responding to you about {intent}. It's the company policy I can't share to you in this time"
+    )
+    return fallback
