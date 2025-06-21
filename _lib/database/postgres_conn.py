@@ -88,8 +88,8 @@ class PostgresConn:
             for row in rows:
                 knowledge_base.append({
                     "intent": row["intent"],
-                    "entities": (row["entities"]) if row["entities"] else {},
-                    "responses": (row["responses"]) if row["responses"] else {}
+                    "entities": json.loads(row["entities"]) if isinstance(row["entities"], str) else row["entities"] or {},
+                    "responses": json.loads(row["responses"]) if isinstance(row["responses"], str) else row["responses"] or {}
                 })
             print(f"✅ Loaded {len(knowledge_base)} knowledge entries from PostgreSQL.")
             return knowledge_base

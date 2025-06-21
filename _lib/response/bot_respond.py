@@ -8,7 +8,7 @@ knowledge_base = pg_conn.load_knowledge_base()
 
 # Map synonyms to canonical detail levels
 detail_level_synonyms = {
-    "brief": ["brief", "summary", "summarize", "short"],
+    "brief": ["brief", "briefly", "summary", "summarize", "short"],
     "detailed": ["detailed", "detail", "long", "in-depth"]
 }
 

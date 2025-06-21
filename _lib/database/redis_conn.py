@@ -62,7 +62,7 @@ class RedisConn:
         print("✅ Model successfully loaded classifier from Redis and ready for inference!")
         return model
     
-    def extractor_load(self, model_name, num_labels=26, model_ckpt="distilbert-base-uncased"):
+    def extractor_load(self, model_name, num_labels=31, model_ckpt="distilbert-base-uncased"):
         model_bytes = self.redis_client.get(model_name)
         if model_bytes is None:
             raise ValueError(f"❌ Model not found in Redis under key '{model_name}'!")
