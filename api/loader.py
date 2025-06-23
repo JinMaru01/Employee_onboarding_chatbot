@@ -18,7 +18,7 @@ class ModelBootstrapper:
 
         # Load models and artifacts from Redis
         classifier_model = self.redis.classifier_load("intent_classifier_v3")
-        extractor_model = self.redis.extractor_load("extractor_v3")
+        extractor_model = self.redis.extractor_load("extractor_v3", num_labels=26)
         tokenizer = self.redis.label_encoder_load("tokenizer")
         label_encoder = self.redis.label_encoder_load("label-encoder")
         id2label = self.redis.label_encoder_load("ner_id2label")

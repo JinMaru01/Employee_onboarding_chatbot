@@ -13,15 +13,6 @@
 </head>
 
 <body>
-    <!-- Sidebar Toggle Button -->
-    <div class="position-relative">
-        <button id="sidebarToggle" class="btn btn-primary position-fixed top-0 start-0 m-3" type="button"
-            style="z-index: 1050; position: absolute;">
-            <i class="fas fa-bars"></i>
-        </button>
-    </div>
-
-
     <!-- Sidebar -->
     <nav class="sidebar d-flex flex-column justify-content-between" id="sidebar">
         <div>
@@ -29,6 +20,11 @@
             <div class="sidebar-header border-bottom d-flex p-3">
                 <img src="{{ url_for('static', filename='asset/green-blue-logo.png') }}" alt="Company Logo"
                     class="sidebar-logo" />
+
+                <!-- Sidebar Toggle Button -->
+                <button id="sidebarToggle" class="btn btn-primary" type="button" style="z-index: 1200;">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
 
             <!-- Navigation -->
@@ -44,6 +40,9 @@
         </div>
     </nav>
 
+    <!-- Add this right after the sidebar -->
+    <div class="sidebar-overlay"></div>
+
     <!-- Main Content -->
     <main class="main-content">
         <div class="container-fluid">
@@ -55,19 +54,20 @@
                 </div>
             </div>
             <div id="chat-loading" class="loading-overlay">
-                <img src="{{ url_for('static', filename='asset/loading-screen.gif') }}" alt="Loading..." class="loading-spinner">
+                <img src="{{ url_for('static', filename='asset/loading-screen-nobg.gif') }}" alt="Loading..."
+                    class="loading-spinner">
             </div>
             <div id="chat-history" class="chat-box">
-                <div class="">
+                <!-- <div class="">
                     👋 Welcome! How can I help you today? Here are some popular questions to get started.
-                </div>
+                </div> -->
 
-                <div id="faq-suggestions" style="display: none;" class="mb-3 px-3">
-                    <ul id="faq-list" class="list-unstyled mb-0"></ul>
+                <div id="faq-suggestions" class="mb-3">
+                    <h5 class="mb-2">Frequently Asked Questions</h5>
+                    <ul id="faq-list"></ul>
                 </div>
             </div>
         </div>
-
 
         <!-- Chat Input Container -->
         <div class="chat-container">
