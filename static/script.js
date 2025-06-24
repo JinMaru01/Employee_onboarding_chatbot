@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
         div.className = "chat-bubble bot-message typing-indicator";
         div.innerHTML = `
             <span class="spinner-border spinner-border-sm me-2"></span>
-            Bot is typing...
+            Bot is responding ...
         `;
         return div;
     }
@@ -242,8 +242,11 @@ document.addEventListener("DOMContentLoaded", function () {
         if (elements.faqList) {
             elements.faqList.addEventListener("click", function (e) {
                 if (e.target.classList.contains("faq-btn")) {
-                    elements.textarea.value = e.target.textContent;
-                    elements.textarea.focus();
+                    const question = e.target.textContent;
+                    // Add to chat and send immediately
+                    addMessageToChat('user', question);
+                    sendToAPI(question);
+                    toggleFAQVisibility(false);
                 }
             });
         }
