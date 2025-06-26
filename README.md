@@ -9,12 +9,9 @@ A conversational AI solution designed to streamline the onboarding process for n
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Initialize](#project-initialize)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Data Collection & Customization](#data-collection--customization)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Data Sample](#the-data-format)
 
 ---
 
