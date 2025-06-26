@@ -41,10 +41,10 @@ Employee Onboarding Chatbot is built to:
 ## Technologies Used
 
 - **Programming Language:** Python
-- **NLP & Chatbot Framework:** (e.g., Rasa NLU, TensorFlow, or your chosen framework)
-- **Machine Learning Libraries:** TensorFlow/Keras, scikit-learn
+- **NLP & Chatbot Framework:** NLU model (DistilBERT)
+- **Machine Learning Libraries:** Pytorch, scikit-learn
 - **Data Handling:** Pandas, NumPy
-- **Deployment:** Flask for API integration (optional)
+- **Deployment:** Flask for API integration
 
 ---
 ## Project Initialize
